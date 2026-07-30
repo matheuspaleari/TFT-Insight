@@ -2,9 +2,7 @@
 Cliente responsável pela comunicação com a Riot Games API.
 """
 
-from itertools import count
 from typing import Any
-from urllib import response
 from urllib.parse import quote
 
 import requests
