@@ -1,0 +1,2 @@
+class PlayerAnalysisService:
+    pass

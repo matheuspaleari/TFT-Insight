@@ -1,0 +1,82 @@
+/* =========================================================
+   HOME COMERCIAL
+========================================================= */
+
+.home-section-title{
+    margin-top:.3rem;
+    margin-bottom:.7rem;
+    color:#a9b4c7;
+    font-size:.95rem;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+}
+
+.home-score-card{
+    display:flex;
+    align-items:baseline;
+    gap:.35rem;
+    min-height:118px;
+    padding:1.2rem 1.4rem;
+    border:1px solid #274067;
+    border-radius:18px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(20,31,52,.98),
+            rgba(12,22,39,.98)
+        );
+    box-shadow:0 16px 38px rgba(0,0,0,.28);
+}
+
+.home-score-value{
+    color:#f5f7fb;
+    font-size:4.5rem;
+    line-height:1;
+    font-weight:800;
+}
+
+.home-score-total{
+    color:#a9b4c7;
+    font-size:1.7rem;
+    font-weight:700;
+}
+
+.home-status-card{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:.75rem;
+    min-height:118px;
+    padding:1.2rem 1.4rem;
+    border:1px solid rgba(216,173,87,.38);
+    border-radius:18px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(31,38,55,.98),
+            rgba(14,22,37,.98)
+        );
+    box-shadow:0 16px 38px rgba(0,0,0,.24);
+}
+
+.home-status-dot{
+    font-size:1.35rem;
+}
+
+.home-status-label{
+    color:#f2d38a;
+    font-size:2rem;
+    font-weight:800;
+}
+
+@media (max-width: 768px){
+    .home-score-value{
+        font-size:3.3rem;
+    }
+
+    .home-status-label{
+        font-size:1.5rem;
+    }
+}
+\n\n/* =========================================================\n   PAINEL FLUTUANTE — COMPANION APP\n========================================================= */\n\n.st-key-coach_floating_popup{\n    position: fixed;\n    right: 24px;\n    bottom: 24px;\n    z-index: 999999;\n    width: min(430px, calc(100vw - 32px));\n    max-height: calc(100vh - 48px);\n    overflow-y: auto;\n    padding: 1rem 1rem .85rem 1rem;\n    border: 1px solid rgba(216, 173, 87, .46);\n    border-radius: 18px;\n    background: linear-gradient(\n        145deg,\n        rgba(18, 28, 47, .985),\n        rgba(9, 17, 31, .985)\n    );\n    box-shadow:\n        0 24px 70px rgba(0, 0, 0, .58),\n        0 0 0 1px rgba(92, 149, 255, .08);\n    backdrop-filter: blur(18px);\n}\n\n.st-key-coach_floating_popup [data-testid=\"stMetric\"]{\n    background: rgba(255, 255, 255, .035);\n    border: 1px solid rgba(255, 255, 255, .07);\n    border-radius: 12px;\n    padding: .65rem .75rem;\n}\n\n.st-key-coach_floating_popup [data-testid=\"stAlert\"]{\n    margin-top: .35rem;\n}\n\n@media (max-width: 700px){\n    .st-key-coach_floating_popup{\n        right: 12px;\n        bottom: 12px;\n        width: calc(100vw - 24px);\n        max-height: calc(100vh - 24px);\n    }\n}\n

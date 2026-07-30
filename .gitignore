@@ -1,0 +1,22 @@
+# Ambiente
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Dados processados
+data/processed/*.csv
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Banco SQLite gerado pelo pipeline
+database/*.db
