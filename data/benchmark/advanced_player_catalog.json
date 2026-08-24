@@ -1,0 +1,2357 @@
+{
+  "benchmark_id": "advanced",
+  "generated_at": "2026-08-18T12:28:29.511000+00:00",
+  "players_count": 50,
+  "players": [
+    {
+      "benchmark_id": "advanced",
+      "puuid": "3nC4xxG60Qvip5UslEismX-XIN2om1oegXSMYjt7p-1zoJa0is7f0NZzKToc-lbuxap9qjjYDcug-w",
+      "game_name": "Dillinger",
+      "tag_line": "8524",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "EMERALD",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.23,
+          "top4_rate": 60.0,
+          "win_rate": 16.67,
+          "average_level": 8.43
+        },
+        "consistency": {
+          "placement_variance": 5.18,
+          "placement_standard_deviation": 2.28,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 101.27,
+          "average_players_eliminated": 0.7
+        },
+        "economy": {
+          "average_gold_left": 4.07
+        }
+      },
+      "collected_at": "2026-08-18T11:22:04.605022+00:00",
+      "rank_checked_at": "2026-08-18T12:27:11.741376+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:22:04.605022+00:00",
+          "tier": "EMERALD",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "MOwN4NoYQN7Vo2fx11Su3RJ6HtvDlcyiBqMCqtqRLUC-3I4_5B30UtlYocYAljNUIkDvtCoINWE1Nw",
+      "game_name": "Dersin222Kg",
+      "tag_line": "Fat",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "I",
+      "league_points_at_collection": 98,
+      "current_tier": "DIAMOND",
+      "current_division": "I",
+      "current_league_points": 98,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.2,
+          "top4_rate": 53.33,
+          "win_rate": 26.67,
+          "average_level": 8.53
+        },
+        "consistency": {
+          "placement_variance": 7.36,
+          "placement_standard_deviation": 2.71,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 110.93,
+          "average_players_eliminated": 1.33
+        },
+        "economy": {
+          "average_gold_left": 14.63
+        }
+      },
+      "collected_at": "2026-08-18T11:23:00.475753+00:00",
+      "rank_checked_at": "2026-08-18T12:27:13.341606+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:23:00.475753+00:00",
+          "tier": "DIAMOND",
+          "division": "I",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "7Ok5Zj23B4CNZO4uiRnQv3oAQDC7YA-W9TD6k9UjSexdmVLqcrLXEMQaxTkiU5m9MuXWdUQNSrhWtA",
+      "game_name": "GDzin",
+      "tag_line": "BR77",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "EMERALD",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.17,
+          "top4_rate": 53.33,
+          "win_rate": 16.67,
+          "average_level": 7.7
+        },
+        "consistency": {
+          "placement_variance": 4.74,
+          "placement_standard_deviation": 2.18,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 101.27,
+          "average_players_eliminated": 0.93
+        },
+        "economy": {
+          "average_gold_left": 6.3
+        }
+      },
+      "collected_at": "2026-08-18T11:23:54.452429+00:00",
+      "rank_checked_at": "2026-08-18T12:27:14.927107+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:23:54.452429+00:00",
+          "tier": "EMERALD",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "ityB8yK6F13IBF8u_FQNFwss2HPGjO8MyogcGieRabC9md8IDIFt-PobQieeq9RdKSFabTILqdN0YA",
+      "game_name": "im tired Sam",
+      "tag_line": "9530",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "II",
+      "league_points_at_collection": 99,
+      "current_tier": "DIAMOND",
+      "current_division": "II",
+      "current_league_points": 99,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.63,
+          "top4_rate": 46.67,
+          "win_rate": 6.67,
+          "average_level": 8.13
+        },
+        "consistency": {
+          "placement_variance": 4.43,
+          "placement_standard_deviation": 2.11,
+          "bottom4_rate": 53.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 93.13,
+          "average_players_eliminated": 0.5
+        },
+        "economy": {
+          "average_gold_left": 17.07
+        }
+      },
+      "collected_at": "2026-08-18T11:24:48.060397+00:00",
+      "rank_checked_at": "2026-08-18T12:27:16.485553+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:24:48.060397+00:00",
+          "tier": "DIAMOND",
+          "division": "II",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "uEcwYg-FuCkmXqW21HNjLi2j_qZ3AR8TumCIFAU1Pgz79f7nXK4kjjVV-E_ByyOud9e9UWmLMT8d3g",
+      "game_name": "Emerson Vilmo",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "III",
+      "league_points_at_collection": 99,
+      "current_tier": "EMERALD",
+      "current_division": "III",
+      "current_league_points": 99,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.23,
+          "top4_rate": 56.67,
+          "win_rate": 10.0,
+          "average_level": 8.33
+        },
+        "consistency": {
+          "placement_variance": 5.18,
+          "placement_standard_deviation": 2.28,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 102.67,
+          "average_players_eliminated": 0.93
+        },
+        "economy": {
+          "average_gold_left": 15.17
+        }
+      },
+      "collected_at": "2026-08-18T11:25:44.087947+00:00",
+      "rank_checked_at": "2026-08-18T12:27:18.120624+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:25:44.087947+00:00",
+          "tier": "EMERALD",
+          "division": "III",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "9WxpignORzA74dPOWy5FsXRkORqIZEOIvcA5waSW9w_DABNvJA0Xr-ezTfNT78eStNJRB_yeqrKeCQ",
+      "game_name": "Se ela é coroaa",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "III",
+      "league_points_at_collection": 98,
+      "current_tier": "DIAMOND",
+      "current_division": "III",
+      "current_league_points": 98,
+      "matches_used": 29,
+      "metrics": {
+        "general": {
+          "matches_played": 29,
+          "average_placement": 3.9,
+          "top4_rate": 58.62,
+          "win_rate": 20.69,
+          "average_level": 8.48
+        },
+        "consistency": {
+          "placement_variance": 4.64,
+          "placement_standard_deviation": 2.16,
+          "bottom4_rate": 41.38,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 114.31,
+          "average_players_eliminated": 0.93
+        },
+        "economy": {
+          "average_gold_left": 18
+        }
+      },
+      "collected_at": "2026-08-18T11:26:38.442339+00:00",
+      "rank_checked_at": "2026-08-18T12:27:19.706926+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:26:38.442339+00:00",
+          "tier": "DIAMOND",
+          "division": "III",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "CRt9MMbhgLKUEOInvVYg1qKKU1nWf7QPemsUIjF4yy_JPgOs6-pUvtg3TcxhcHeD0YEUX24cY36FHA",
+      "game_name": "meshuggah",
+      "tag_line": "tjfrj",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 93,
+      "current_tier": "EMERALD",
+      "current_division": "IV",
+      "current_league_points": 93,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.97,
+          "top4_rate": 33.33,
+          "win_rate": 20.0,
+          "average_level": 8.9
+        },
+        "consistency": {
+          "placement_variance": 5.63,
+          "placement_standard_deviation": 2.37,
+          "bottom4_rate": 66.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 87.5,
+          "average_players_eliminated": 0.97
+        },
+        "economy": {
+          "average_gold_left": 8.53
+        }
+      },
+      "collected_at": "2026-08-18T11:27:32.242026+00:00",
+      "rank_checked_at": "2026-08-18T12:27:21.309486+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:27:32.242026+00:00",
+          "tier": "EMERALD",
+          "division": "IV",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "9grTOsSHE-FcW35qYV0LNSswn26OGJFqEQlO8lCnvHGBlXDGg1yJy8iZvsvqK7jpn4PnwtE35FWnOQ",
+      "game_name": "Apolinario",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 99,
+      "current_tier": "DIAMOND",
+      "current_division": "IV",
+      "current_league_points": 99,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.33,
+          "top4_rate": 56.67,
+          "win_rate": 13.33,
+          "average_level": 9.13
+        },
+        "consistency": {
+          "placement_variance": 5.22,
+          "placement_standard_deviation": 2.29,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 102.4,
+          "average_players_eliminated": 0.87
+        },
+        "economy": {
+          "average_gold_left": 6.8
+        }
+      },
+      "collected_at": "2026-08-18T11:28:26.530397+00:00",
+      "rank_checked_at": "2026-08-18T12:27:22.883602+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:28:26.530397+00:00",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "0fAZyQYKh3wAZiIRzHvA6iWVZPDS7ljW3O2JHzTzrbZzKboyQZ3uRovtyyv6GmUY0iduJVhg6oxC_g",
+      "game_name": "Arroz",
+      "tag_line": "solto",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "I",
+      "league_points_at_collection": 93,
+      "current_tier": "EMERALD",
+      "current_division": "I",
+      "current_league_points": 93,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.87,
+          "top4_rate": 53.33,
+          "win_rate": 16.67,
+          "average_level": 8.6
+        },
+        "consistency": {
+          "placement_variance": 4.12,
+          "placement_standard_deviation": 2.03,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 122.5,
+          "average_players_eliminated": 1.03
+        },
+        "economy": {
+          "average_gold_left": 5.8
+        }
+      },
+      "collected_at": "2026-08-18T11:29:21.506438+00:00",
+      "rank_checked_at": "2026-08-18T12:27:24.488515+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:29:21.506438+00:00",
+          "tier": "EMERALD",
+          "division": "I",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "8DdVmswLeE_OPY6HLsXYpAq3WMkFnLKUTT6nS7OjRh00ab8S7h-QRB43-1SSKNhXQViYhNW7f6KAhg",
+      "game_name": "Vitão",
+      "tag_line": "5740",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "I",
+      "league_points_at_collection": 94,
+      "current_tier": "DIAMOND",
+      "current_division": "I",
+      "current_league_points": 94,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.47,
+          "top4_rate": 66.67,
+          "win_rate": 30.0,
+          "average_level": 8.17
+        },
+        "consistency": {
+          "placement_variance": 4.98,
+          "placement_standard_deviation": 2.23,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": 124.47,
+          "average_players_eliminated": 1.3
+        },
+        "economy": {
+          "average_gold_left": 9.73
+        }
+      },
+      "collected_at": "2026-08-18T11:30:27.391223+00:00",
+      "rank_checked_at": "2026-08-18T12:27:26.079856+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:30:27.391223+00:00",
+          "tier": "DIAMOND",
+          "division": "I",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "RxtIiZRrCzixy36EtoBjtp1L8TLjXjXs8K_gCuGB5fndlQPEEqDgm-zpnSvuA5Anh50eXaBscYrn0g",
+      "game_name": "Ator 30y",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "EMERALD",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.03,
+          "top4_rate": 60.0,
+          "win_rate": 10.0,
+          "average_level": 8.23
+        },
+        "consistency": {
+          "placement_variance": 4.97,
+          "placement_standard_deviation": 2.23,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 106.5,
+          "average_players_eliminated": 0.73
+        },
+        "economy": {
+          "average_gold_left": 1.63
+        }
+      },
+      "collected_at": "2026-08-18T11:31:21.009006+00:00",
+      "rank_checked_at": "2026-08-18T12:27:27.653207+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:31:21.009006+00:00",
+          "tier": "EMERALD",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "dDJYx90g_o0UN0zBhrr4AdmqBuVSwB5ppxiWoYgh1P6GyL9xo7cwfXPz36glHq-AlrRlms5s_rgU8w",
+      "game_name": "Boonfa",
+      "tag_line": "4y2o",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "II",
+      "league_points_at_collection": 96,
+      "current_tier": "DIAMOND",
+      "current_division": "II",
+      "current_league_points": 96,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.5,
+          "top4_rate": 76.67,
+          "win_rate": 20.0,
+          "average_level": 8.9
+        },
+        "consistency": {
+          "placement_variance": 4.18,
+          "placement_standard_deviation": 2.05,
+          "bottom4_rate": 23.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 115.57,
+          "average_players_eliminated": 1.13
+        },
+        "economy": {
+          "average_gold_left": 3.07
+        }
+      },
+      "collected_at": "2026-08-18T11:32:25.459869+00:00",
+      "rank_checked_at": "2026-08-18T12:27:29.237117+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:32:25.459869+00:00",
+          "tier": "DIAMOND",
+          "division": "II",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "tW8IJLlRfdW3smMUXC845qRmpZODxwzIjpBKpjx7gP7vmrnrdRmfycOIYKFwJnW8NBxq5yTo3Ba3gw",
+      "game_name": "Twtv Flavitchous",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "III",
+      "league_points_at_collection": 98,
+      "current_tier": "EMERALD",
+      "current_division": "III",
+      "current_league_points": 98,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.9,
+          "top4_rate": 60.0,
+          "win_rate": 16.67,
+          "average_level": 8.87
+        },
+        "consistency": {
+          "placement_variance": 4.62,
+          "placement_standard_deviation": 2.15,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 112.53,
+          "average_players_eliminated": 1
+        },
+        "economy": {
+          "average_gold_left": 12.07
+        }
+      },
+      "collected_at": "2026-08-18T11:33:19.807995+00:00",
+      "rank_checked_at": "2026-08-18T12:27:30.799028+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:33:19.807995+00:00",
+          "tier": "EMERALD",
+          "division": "III",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "B7epHl_You03k_En9nYrsC30Hgf9Nbq7VIXSl2b1nAk6vZmJI_FM_H17zhUIbLAARcW3mr9PLBp3jw",
+      "game_name": "TheQuietKnight",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "III",
+      "league_points_at_collection": 96,
+      "current_tier": "DIAMOND",
+      "current_division": "III",
+      "current_league_points": 96,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.17,
+          "top4_rate": 63.33,
+          "win_rate": 13.33,
+          "average_level": 7.8
+        },
+        "consistency": {
+          "placement_variance": 6.27,
+          "placement_standard_deviation": 2.5,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 97.97,
+          "average_players_eliminated": 0.83
+        },
+        "economy": {
+          "average_gold_left": 32.73
+        }
+      },
+      "collected_at": "2026-08-18T11:34:14.119434+00:00",
+      "rank_checked_at": "2026-08-18T12:27:32.415396+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:34:14.119434+00:00",
+          "tier": "DIAMOND",
+          "division": "III",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "IIe8wjKfANYNOxCXXLgfiqXRgFZ2EdjJILJHCLOlCsYDMnOSdm8P4pIR04iJs9wq9VvoKQ20kh5ByQ",
+      "game_name": "Lasanha Manoela",
+      "tag_line": "152KG",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 93,
+      "current_tier": "EMERALD",
+      "current_division": "IV",
+      "current_league_points": 93,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.43,
+          "top4_rate": 43.33,
+          "win_rate": 16.67,
+          "average_level": 8.4
+        },
+        "consistency": {
+          "placement_variance": 5.31,
+          "placement_standard_deviation": 2.3,
+          "bottom4_rate": 56.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 112.03,
+          "average_players_eliminated": 0.77
+        },
+        "economy": {
+          "average_gold_left": 11.43
+        }
+      },
+      "collected_at": "2026-08-18T11:35:08.445908+00:00",
+      "rank_checked_at": "2026-08-18T12:27:34.004668+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:35:08.445908+00:00",
+          "tier": "EMERALD",
+          "division": "IV",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "BFM9kud8pUJnAyCEzbHCT5yUOcJEqHuZJhMi_6GHfJNivTIbnUzLoOEaFS8rzEJI71jKkOUo8MlRnw",
+      "game_name": "Gabnois",
+      "tag_line": "ADAO",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 92,
+      "current_tier": "DIAMOND",
+      "current_division": "IV",
+      "current_league_points": 92,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.5,
+          "top4_rate": 70.0,
+          "win_rate": 20.0,
+          "average_level": 9.2
+        },
+        "consistency": {
+          "placement_variance": 5.05,
+          "placement_standard_deviation": 2.25,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 123.93,
+          "average_players_eliminated": 1.37
+        },
+        "economy": {
+          "average_gold_left": 10.33
+        }
+      },
+      "collected_at": "2026-08-18T11:36:13.652737+00:00",
+      "rank_checked_at": "2026-08-18T12:27:35.587728+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:36:13.652737+00:00",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "a9jLM-LHWAZCVN9CHFy9efuRLJIUHr1cO_PDmYnXM3TEm0jK0y3BgLwbZD_JF3HvBoBydlCSt4n-mA",
+      "game_name": "l Marin l",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "I",
+      "league_points_at_collection": 91,
+      "current_tier": "EMERALD",
+      "current_division": "I",
+      "current_league_points": 91,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.63,
+          "top4_rate": 66.67,
+          "win_rate": 13.33,
+          "average_level": 8.43
+        },
+        "consistency": {
+          "placement_variance": 5.3,
+          "placement_standard_deviation": 2.3,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 119.83,
+          "average_players_eliminated": 1.27
+        },
+        "economy": {
+          "average_gold_left": 10.47
+        }
+      },
+      "collected_at": "2026-08-18T11:37:08.583258+00:00",
+      "rank_checked_at": "2026-08-18T12:27:37.170105+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:37:08.583258+00:00",
+          "tier": "EMERALD",
+          "division": "I",
+          "league_points": 91
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "u9e9G3-t8vTVnx0ZZkeSs4tAELLTyBmRCOutmjs_SyfjVLfccu9I8csw1pwpWeitOtCzqWVeViKkQw",
+      "game_name": "handreysouza",
+      "tag_line": "4150",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "I",
+      "league_points_at_collection": 91,
+      "current_tier": "DIAMOND",
+      "current_division": "I",
+      "current_league_points": 91,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.8,
+          "top4_rate": 63.33,
+          "win_rate": 20.0,
+          "average_level": 7.97
+        },
+        "consistency": {
+          "placement_variance": 6.49,
+          "placement_standard_deviation": 2.55,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 120.77,
+          "average_players_eliminated": 1.17
+        },
+        "economy": {
+          "average_gold_left": 9.4
+        }
+      },
+      "collected_at": "2026-08-18T11:38:05.180134+00:00",
+      "rank_checked_at": "2026-08-18T12:27:38.762879+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:38:05.180134+00:00",
+          "tier": "DIAMOND",
+          "division": "I",
+          "league_points": 91
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "UPjWSOQRWvS_B7p0kgEzObtW5pqLp6eE20POe1bugQENbXNH6-C2tS6qeXrocm3cFUv40hyEaehgMw",
+      "game_name": "ZENOS",
+      "tag_line": "BR17",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "EMERALD",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.87,
+          "top4_rate": 66.67,
+          "win_rate": 23.33,
+          "average_level": 8.4
+        },
+        "consistency": {
+          "placement_variance": 5.58,
+          "placement_standard_deviation": 2.36,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 118.37,
+          "average_players_eliminated": 1.23
+        },
+        "economy": {
+          "average_gold_left": 6.3
+        }
+      },
+      "collected_at": "2026-08-18T11:38:59.920890+00:00",
+      "rank_checked_at": "2026-08-18T12:27:40.340053+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:38:59.920890+00:00",
+          "tier": "EMERALD",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "JnjZIRwzOWHXVIWGp9oJ_8-vindjF2lk4PSrtTQ9t11jcTSG8vplFxJLctOBGtZ1x3PNedOQiNiiXg",
+      "game_name": "Anna Tanaka",
+      "tag_line": "Fire",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "II",
+      "league_points_at_collection": 96,
+      "current_tier": "DIAMOND",
+      "current_division": "II",
+      "current_league_points": 96,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.57,
+          "top4_rate": 70.0,
+          "win_rate": 16.67,
+          "average_level": 9.03
+        },
+        "consistency": {
+          "placement_variance": 4.31,
+          "placement_standard_deviation": 2.08,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 126.33,
+          "average_players_eliminated": 1.03
+        },
+        "economy": {
+          "average_gold_left": 4.27
+        }
+      },
+      "collected_at": "2026-08-18T11:39:53.972310+00:00",
+      "rank_checked_at": "2026-08-18T12:27:41.920656+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:39:53.972310+00:00",
+          "tier": "DIAMOND",
+          "division": "II",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "RzkFc7OJsGjrC9fFGkP03g25sSwAR2dYz_JD8WzVOZG3o2sovhGEdPGa5i7it6eKY24MtIIxSUoYEg",
+      "game_name": "MiNi FLauZ",
+      "tag_line": "2006",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "III",
+      "league_points_at_collection": 97,
+      "current_tier": "EMERALD",
+      "current_division": "III",
+      "current_league_points": 97,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.93,
+          "top4_rate": 60.0,
+          "win_rate": 10.0,
+          "average_level": 8.9
+        },
+        "consistency": {
+          "placement_variance": 4.86,
+          "placement_standard_deviation": 2.21,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 118.7,
+          "average_players_eliminated": 0.77
+        },
+        "economy": {
+          "average_gold_left": 14.7
+        }
+      },
+      "collected_at": "2026-08-18T11:40:49.889305+00:00",
+      "rank_checked_at": "2026-08-18T12:27:43.504764+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:40:49.889305+00:00",
+          "tier": "EMERALD",
+          "division": "III",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "oGBK_YZmLXrLKjApyySliQTIw-ixPiW7VsArOapboIWC6GivrnPkBITBUBv41z6edxdb4q0BuOpd4Q",
+      "game_name": "A CABEÇA",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "III",
+      "league_points_at_collection": 96,
+      "current_tier": "DIAMOND",
+      "current_division": "III",
+      "current_league_points": 96,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.17,
+          "top4_rate": 56.67,
+          "win_rate": 16.67,
+          "average_level": 8.6
+        },
+        "consistency": {
+          "placement_variance": 6.14,
+          "placement_standard_deviation": 2.48,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 106.07,
+          "average_players_eliminated": 1.2
+        },
+        "economy": {
+          "average_gold_left": 13.63
+        }
+      },
+      "collected_at": "2026-08-18T11:41:44.012695+00:00",
+      "rank_checked_at": "2026-08-18T12:27:45.072359+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:41:44.012695+00:00",
+          "tier": "DIAMOND",
+          "division": "III",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "w6bexpb3s1WSp8aSuV6Fg2ZWHzup6sUQsoDRZpmxq-BIo6s0eTgvTPGhNX2D-VHEeIyrpxw6VeaJxg",
+      "game_name": "Delicia de Loic",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 92,
+      "current_tier": "EMERALD",
+      "current_division": "IV",
+      "current_league_points": 92,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.2,
+          "top4_rate": 46.67,
+          "win_rate": 33.33,
+          "average_level": 8.27
+        },
+        "consistency": {
+          "placement_variance": 7.56,
+          "placement_standard_deviation": 2.75,
+          "bottom4_rate": 53.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 113.37,
+          "average_players_eliminated": 1.33
+        },
+        "economy": {
+          "average_gold_left": 25.1
+        }
+      },
+      "collected_at": "2026-08-18T11:42:41.454317+00:00",
+      "rank_checked_at": "2026-08-18T12:27:46.647309+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:42:41.454317+00:00",
+          "tier": "EMERALD",
+          "division": "IV",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "626fFfuQEBsA1Y5ZoSejqnBrNyYVFg1BB6qQwS_PIUxpbEM4NExz5_KE5Ukp45PvYxVRuV6rubvDSQ",
+      "game_name": "Seuauberto",
+      "tag_line": "DRY",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 86,
+      "current_tier": "DIAMOND",
+      "current_division": "IV",
+      "current_league_points": 86,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.2,
+          "top4_rate": 86.67,
+          "win_rate": 10.0,
+          "average_level": 9.03
+        },
+        "consistency": {
+          "placement_variance": 3.16,
+          "placement_standard_deviation": 1.78,
+          "bottom4_rate": 13.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 123.63,
+          "average_players_eliminated": 1.27
+        },
+        "economy": {
+          "average_gold_left": 9.6
+        }
+      },
+      "collected_at": "2026-08-18T11:43:35.745001+00:00",
+      "rank_checked_at": "2026-08-18T12:27:48.250646+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:43:35.745001+00:00",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "league_points": 86
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "Ymfwkt9p3V6OC3VL2RoogCo6-QRWw2E8hKm_WDQEoCCyP4hmsIMixNU4Bo4mTB5X7E2_uXVQegVMhw",
+      "game_name": "Koan Zen",
+      "tag_line": "0212",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "I",
+      "league_points_at_collection": 91,
+      "current_tier": "EMERALD",
+      "current_division": "I",
+      "current_league_points": 91,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.3,
+          "top4_rate": 70.0,
+          "win_rate": 30.0,
+          "average_level": 9.43
+        },
+        "consistency": {
+          "placement_variance": 5.21,
+          "placement_standard_deviation": 2.28,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 132.3,
+          "average_players_eliminated": 1.33
+        },
+        "economy": {
+          "average_gold_left": 6.53
+        }
+      },
+      "collected_at": "2026-08-18T11:44:29.686828+00:00",
+      "rank_checked_at": "2026-08-18T12:27:49.827489+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:44:29.686828+00:00",
+          "tier": "EMERALD",
+          "division": "I",
+          "league_points": 91
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "hfVhedO53Py0wp-eUvIJGFgLYLSTrRLsrqxtqy5GR7ErrK4JVks6tNNOJ0Iz61Tw3WkFNzEUEfWGUg",
+      "game_name": "Hugoleo00",
+      "tag_line": "0001",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "I",
+      "league_points_at_collection": 90,
+      "current_tier": "DIAMOND",
+      "current_division": "I",
+      "current_league_points": 90,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.03,
+          "top4_rate": 60.0,
+          "win_rate": 6.67,
+          "average_level": 8.87
+        },
+        "consistency": {
+          "placement_variance": 3.57,
+          "placement_standard_deviation": 1.89,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 110.07,
+          "average_players_eliminated": 0.67
+        },
+        "economy": {
+          "average_gold_left": 5.23
+        }
+      },
+      "collected_at": "2026-08-18T11:45:25.737446+00:00",
+      "rank_checked_at": "2026-08-18T12:27:51.430397+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:45:25.737446+00:00",
+          "tier": "DIAMOND",
+          "division": "I",
+          "league_points": 90
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "A98atZCUlp6s9eGS5_gZImvhh2H72kVlh5cUj6QIDoRGfQ1BymcFW7Zog9yW_281ZXKyGbS-tCpchA",
+      "game_name": "Muramute",
+      "tag_line": "mural",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "EMERALD",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.13,
+          "top4_rate": 56.67,
+          "win_rate": 20.0,
+          "average_level": 8.37
+        },
+        "consistency": {
+          "placement_variance": 5.85,
+          "placement_standard_deviation": 2.42,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 121.27,
+          "average_players_eliminated": 0.87
+        },
+        "economy": {
+          "average_gold_left": 3.33
+        }
+      },
+      "collected_at": "2026-08-18T11:46:20.172958+00:00",
+      "rank_checked_at": "2026-08-18T12:27:53.030375+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:46:20.172958+00:00",
+          "tier": "EMERALD",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "LfFUzhgq5oZpHyjVn24tS0DQj5Pk9hqedl1FZgRTx8Plaf301UVr8KqycDnL4KIHl99Di9nDRrtWUw",
+      "game_name": "RILEY",
+      "tag_line": "ace",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "II",
+      "league_points_at_collection": 94,
+      "current_tier": "DIAMOND",
+      "current_division": "II",
+      "current_league_points": 94,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.73,
+          "top4_rate": 63.33,
+          "win_rate": 26.67,
+          "average_level": 8.57
+        },
+        "consistency": {
+          "placement_variance": 5.93,
+          "placement_standard_deviation": 2.43,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 117.77,
+          "average_players_eliminated": 1.17
+        },
+        "economy": {
+          "average_gold_left": 9.6
+        }
+      },
+      "collected_at": "2026-08-18T11:47:14.316140+00:00",
+      "rank_checked_at": "2026-08-18T12:27:54.619347+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:47:14.316140+00:00",
+          "tier": "DIAMOND",
+          "division": "II",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "sZgDSUp7qFZSxDxcowJ3PccdFYkbaA8D5gN6_EmrWHdNvCrvNn-DI-lDjziG3D_nWOaFiYeZ4pC2dw",
+      "game_name": "ADS W4L4C3",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "III",
+      "league_points_at_collection": 97,
+      "current_tier": "EMERALD",
+      "current_division": "III",
+      "current_league_points": 97,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.57,
+          "top4_rate": 60.0,
+          "win_rate": 30.0,
+          "average_level": 8.7
+        },
+        "consistency": {
+          "placement_variance": 6.58,
+          "placement_standard_deviation": 2.56,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 131.4,
+          "average_players_eliminated": 1.33
+        },
+        "economy": {
+          "average_gold_left": 4.87
+        }
+      },
+      "collected_at": "2026-08-18T11:48:08.111765+00:00",
+      "rank_checked_at": "2026-08-18T12:27:56.232219+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:48:08.111765+00:00",
+          "tier": "EMERALD",
+          "division": "III",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "F_96-EBieToWbvGqMYlc36F_MuFfSTtV6rJbcSa_TF1xuWnv2gGFYipulSuW88TCnfLLz9SS6hjpbg",
+      "game_name": "vkcardoso",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "III",
+      "league_points_at_collection": 93,
+      "current_tier": "DIAMOND",
+      "current_division": "III",
+      "current_league_points": 93,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.97,
+          "top4_rate": 60.0,
+          "win_rate": 16.67,
+          "average_level": 8.33
+        },
+        "consistency": {
+          "placement_variance": 6.23,
+          "placement_standard_deviation": 2.5,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 110.5,
+          "average_players_eliminated": 0.87
+        },
+        "economy": {
+          "average_gold_left": 11.73
+        }
+      },
+      "collected_at": "2026-08-18T11:49:02.676217+00:00",
+      "rank_checked_at": "2026-08-18T12:27:57.870699+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:49:02.676217+00:00",
+          "tier": "DIAMOND",
+          "division": "III",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "Hdk1yMo_Mul7a2k658tZ6542UkgypuEwd6zZTN9JS6Y8QEOnX6yCvF3g-4Bvlh0K544I6GPaodqGvw",
+      "game_name": "JowN",
+      "tag_line": "BR0",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 88,
+      "current_tier": "EMERALD",
+      "current_division": "IV",
+      "current_league_points": 88,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.3,
+          "top4_rate": 53.33,
+          "win_rate": 13.33,
+          "average_level": 8.6
+        },
+        "consistency": {
+          "placement_variance": 5.28,
+          "placement_standard_deviation": 2.3,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 107.1,
+          "average_players_eliminated": 0.93
+        },
+        "economy": {
+          "average_gold_left": 11.73
+        }
+      },
+      "collected_at": "2026-08-18T11:50:11.462504+00:00",
+      "rank_checked_at": "2026-08-18T12:27:59.455186+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:50:11.462504+00:00",
+          "tier": "EMERALD",
+          "division": "IV",
+          "league_points": 88
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "RfzOYNnWHdAfjQf9DF93QRp6y0fsJOKZc1R5HBa334uJlk5ddN4YCqFFzB5fObFbyeZu67sLJFhjqg",
+      "game_name": "Starz",
+      "tag_line": "6045",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 85,
+      "current_tier": "DIAMOND",
+      "current_division": "IV",
+      "current_league_points": 85,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.7,
+          "top4_rate": 50.0,
+          "win_rate": 10.0,
+          "average_level": 8.47
+        },
+        "consistency": {
+          "placement_variance": 5.41,
+          "placement_standard_deviation": 2.33,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 97.47,
+          "average_players_eliminated": 0.83
+        },
+        "economy": {
+          "average_gold_left": 5.67
+        }
+      },
+      "collected_at": "2026-08-18T11:51:05.634956+00:00",
+      "rank_checked_at": "2026-08-18T12:28:01.051143+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:51:05.634956+00:00",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "league_points": 85
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "gbecQppa-gBgZvl9--5t8ACj-Cx5PfJKud2kQQqoqkpAjlVtBPkjorBzGof-gM6d7b4yq-z0KZdEBw",
+      "game_name": "Naccarato",
+      "tag_line": "Tuga",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "I",
+      "league_points_at_collection": 89,
+      "current_tier": "EMERALD",
+      "current_division": "I",
+      "current_league_points": 89,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.7,
+          "top4_rate": 63.33,
+          "win_rate": 13.33,
+          "average_level": 8.77
+        },
+        "consistency": {
+          "placement_variance": 4.01,
+          "placement_standard_deviation": 2.0,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 110.7,
+          "average_players_eliminated": 1.23
+        },
+        "economy": {
+          "average_gold_left": 15.17
+        }
+      },
+      "collected_at": "2026-08-18T11:52:03.514258+00:00",
+      "rank_checked_at": "2026-08-18T12:28:02.631336+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:52:03.514258+00:00",
+          "tier": "EMERALD",
+          "division": "I",
+          "league_points": 89
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "CloMkYe9mjWNkLAEfGey1oRas1mY3b0fGjJyzxUSM0Asse_idDBJyz4y7Da4xlMFDhL3xeDOu7W8ag",
+      "game_name": "JrMichel4n",
+      "tag_line": "9391",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "I",
+      "league_points_at_collection": 90,
+      "current_tier": "DIAMOND",
+      "current_division": "I",
+      "current_league_points": 90,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.97,
+          "top4_rate": 53.33,
+          "win_rate": 16.67,
+          "average_level": 7.47
+        },
+        "consistency": {
+          "placement_variance": 4.03,
+          "placement_standard_deviation": 2.01,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 102.33,
+          "average_players_eliminated": 0.73
+        },
+        "economy": {
+          "average_gold_left": 14.87
+        }
+      },
+      "collected_at": "2026-08-18T11:52:57.621706+00:00",
+      "rank_checked_at": "2026-08-18T12:28:04.231933+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:52:57.621706+00:00",
+          "tier": "DIAMOND",
+          "division": "I",
+          "league_points": 90
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "iJKdvcY7m4SoyC-GkLYsfrJ7UOLuNWEfZOeoOI7LdlfrdTk7kCVBc11FNSTBDL4oWOw9-H6ZcbbdlQ",
+      "game_name": "GALA SECA",
+      "tag_line": "5960",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "II",
+      "league_points_at_collection": 95,
+      "current_tier": "EMERALD",
+      "current_division": "II",
+      "current_league_points": 95,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3,
+          "top4_rate": 76.67,
+          "win_rate": 33.33,
+          "average_level": 9.43
+        },
+        "consistency": {
+          "placement_variance": 3.93,
+          "placement_standard_deviation": 1.98,
+          "bottom4_rate": 23.33,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": 151.17,
+          "average_players_eliminated": 1.4
+        },
+        "economy": {
+          "average_gold_left": 5.1
+        }
+      },
+      "collected_at": "2026-08-18T11:53:51.739176+00:00",
+      "rank_checked_at": "2026-08-18T12:28:05.811787+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:53:51.739176+00:00",
+          "tier": "EMERALD",
+          "division": "II",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "LXPHe0sU6od33b1D96qaAh1MkFkkfhw2a3lc-pnislpgJcs5n2iHKmggfsWIpsxuZ4nLfqdjWsaesw",
+      "game_name": "Gon",
+      "tag_line": "777",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "II",
+      "league_points_at_collection": 92,
+      "current_tier": "DIAMOND",
+      "current_division": "II",
+      "current_league_points": 92,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.9,
+          "top4_rate": 60.0,
+          "win_rate": 10.0,
+          "average_level": 8.43
+        },
+        "consistency": {
+          "placement_variance": 4.42,
+          "placement_standard_deviation": 2.1,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 113,
+          "average_players_eliminated": 1
+        },
+        "economy": {
+          "average_gold_left": 12.43
+        }
+      },
+      "collected_at": "2026-08-18T11:54:45.865456+00:00",
+      "rank_checked_at": "2026-08-18T12:28:07.400225+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:54:45.865456+00:00",
+          "tier": "DIAMOND",
+          "division": "II",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "c4hOfTu86AvBIGPsifa07j4UssZu6eoiTONOFhdXjZYSPO4SMwqG0UaSbn5NI--zp4GEo0TnyLqoZw",
+      "game_name": "Sr Fabio Tasso",
+      "tag_line": "5002",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "III",
+      "league_points_at_collection": 95,
+      "current_tier": "EMERALD",
+      "current_division": "III",
+      "current_league_points": 95,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.3,
+          "top4_rate": 60.0,
+          "win_rate": 0.0,
+          "average_level": 8.13
+        },
+        "consistency": {
+          "placement_variance": 2.81,
+          "placement_standard_deviation": 1.68,
+          "bottom4_rate": 40.0,
+          "best_placement": 2,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": 110.5,
+          "average_players_eliminated": 0.57
+        },
+        "economy": {
+          "average_gold_left": 5.9
+        }
+      },
+      "collected_at": "2026-08-18T11:55:49.752430+00:00",
+      "rank_checked_at": "2026-08-18T12:28:09.002770+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:55:49.752430+00:00",
+          "tier": "EMERALD",
+          "division": "III",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "BTlCk2muR1PqhK8i1iAknh8v1OmXqfUYJO4JPnSx7WP8BIyFnR6m4u4maaQe-SY5mwirFe3oDo7F-Q",
+      "game_name": "Henridi",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "III",
+      "league_points_at_collection": 91,
+      "current_tier": "DIAMOND",
+      "current_division": "III",
+      "current_league_points": 91,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.43,
+          "top4_rate": 73.33,
+          "win_rate": 20.0,
+          "average_level": 8.93
+        },
+        "consistency": {
+          "placement_variance": 4.25,
+          "placement_standard_deviation": 2.06,
+          "bottom4_rate": 26.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 126.67,
+          "average_players_eliminated": 1.07
+        },
+        "economy": {
+          "average_gold_left": 17.23
+        }
+      },
+      "collected_at": "2026-08-18T11:56:46.319313+00:00",
+      "rank_checked_at": "2026-08-18T12:28:10.593286+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:56:46.319313+00:00",
+          "tier": "DIAMOND",
+          "division": "III",
+          "league_points": 91
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "AZ_PmQPEBeCA3cGSTsASK3IkQxzXkFzly1hrbU2-QbLEWyNi1Tj-1_DiOEXO6Evvf7kKIa1hebbpJw",
+      "game_name": "Maclaude",
+      "tag_line": "047",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 84,
+      "current_tier": "EMERALD",
+      "current_division": "IV",
+      "current_league_points": 84,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.63,
+          "top4_rate": 70.0,
+          "win_rate": 36.67,
+          "average_level": 8.1
+        },
+        "consistency": {
+          "placement_variance": 6.9,
+          "placement_standard_deviation": 2.63,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 116.27,
+          "average_players_eliminated": 1.43
+        },
+        "economy": {
+          "average_gold_left": 20.63
+        }
+      },
+      "collected_at": "2026-08-18T11:57:40.768486+00:00",
+      "rank_checked_at": "2026-08-18T12:28:12.157041+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:57:40.768486+00:00",
+          "tier": "EMERALD",
+          "division": "IV",
+          "league_points": 84
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "NuR485bJeIsTtlOneeO4eBcubW8BeDXuTzXSPQS3DUEVOFlN200eLE76yX_ty89SIDN4HVu8YDjnfQ",
+      "game_name": "Comini2",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 85,
+      "current_tier": "DIAMOND",
+      "current_division": "IV",
+      "current_league_points": 85,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.9,
+          "top4_rate": 63.33,
+          "win_rate": 26.67,
+          "average_level": 8.87
+        },
+        "consistency": {
+          "placement_variance": 6.42,
+          "placement_standard_deviation": 2.53,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 118.8,
+          "average_players_eliminated": 1.27
+        },
+        "economy": {
+          "average_gold_left": 9.6
+        }
+      },
+      "collected_at": "2026-08-18T11:58:35.026771+00:00",
+      "rank_checked_at": "2026-08-18T12:28:13.711950+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:58:35.026771+00:00",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "league_points": 85
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "agGiMz-vfYSljhkJHnQI6hrJacu6sqEsNRZBjw-vrkVBBnI00XcoADc1mO3HpZCqkEh-eGPhA_hqVA",
+      "game_name": "ToySoldier",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "I",
+      "league_points_at_collection": 87,
+      "current_tier": "EMERALD",
+      "current_division": "I",
+      "current_league_points": 87,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.53,
+          "top4_rate": 66.67,
+          "win_rate": 20.0,
+          "average_level": 8.33
+        },
+        "consistency": {
+          "placement_variance": 4.58,
+          "placement_standard_deviation": 2.14,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 93.33,
+          "average_players_eliminated": 1.67
+        },
+        "economy": {
+          "average_gold_left": 8.73
+        }
+      },
+      "collected_at": "2026-08-18T11:59:29.079200+00:00",
+      "rank_checked_at": "2026-08-18T12:28:15.277853+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T11:59:29.079200+00:00",
+          "tier": "EMERALD",
+          "division": "I",
+          "league_points": 87
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "_I83rGG3eG5dvyfslwuNnJ7PL-zaTm3Ig_tVzWtfyRkNQr2LvSR0lCuHaxtGPJzroeKKkWW_6y1COA",
+      "game_name": "Flash Juke",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "I",
+      "league_points_at_collection": 90,
+      "current_tier": "DIAMOND",
+      "current_division": "I",
+      "current_league_points": 90,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.23,
+          "top4_rate": 76.67,
+          "win_rate": 40.0,
+          "average_level": 8.4
+        },
+        "consistency": {
+          "placement_variance": 6.65,
+          "placement_standard_deviation": 2.58,
+          "bottom4_rate": 23.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 135.43,
+          "average_players_eliminated": 1.7
+        },
+        "economy": {
+          "average_gold_left": 14.13
+        }
+      },
+      "collected_at": "2026-08-18T12:00:34.762381+00:00",
+      "rank_checked_at": "2026-08-18T12:28:16.842421+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:00:34.762381+00:00",
+          "tier": "DIAMOND",
+          "division": "I",
+          "league_points": 90
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "aT6-OY52CRr-zT-8aKwCyypkpQM1DrzRgHzivf5v5MuP2WIr4bWbsVh08Wp5sfxGYlX2p9G75XRXfA",
+      "game_name": "IN0MERCY",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "II",
+      "league_points_at_collection": 95,
+      "current_tier": "EMERALD",
+      "current_division": "II",
+      "current_league_points": 95,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.27,
+          "top4_rate": 76.67,
+          "win_rate": 30.0,
+          "average_level": 8.5
+        },
+        "consistency": {
+          "placement_variance": 5.4,
+          "placement_standard_deviation": 2.32,
+          "bottom4_rate": 23.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 131.97,
+          "average_players_eliminated": 1.33
+        },
+        "economy": {
+          "average_gold_left": 5.13
+        }
+      },
+      "collected_at": "2026-08-18T12:01:28.891323+00:00",
+      "rank_checked_at": "2026-08-18T12:28:18.438966+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:01:28.891323+00:00",
+          "tier": "EMERALD",
+          "division": "II",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "YYmD-XgdDM0wGgVAwvBK12mywaadcxnu7mJTkXkzqT3UkVWaB7qrbpkxX2I4sBsGjMEur96t0Q6jsA",
+      "game_name": "5 conto o peel",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "II",
+      "league_points_at_collection": 90,
+      "current_tier": "DIAMOND",
+      "current_division": "II",
+      "current_league_points": 90,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.63,
+          "top4_rate": 60.0,
+          "win_rate": 33.33,
+          "average_level": 8.53
+        },
+        "consistency": {
+          "placement_variance": 5.83,
+          "placement_standard_deviation": 2.41,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 126.87,
+          "average_players_eliminated": 1.47
+        },
+        "economy": {
+          "average_gold_left": 3.6
+        }
+      },
+      "collected_at": "2026-08-18T12:02:22.901135+00:00",
+      "rank_checked_at": "2026-08-18T12:28:20.018418+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:02:22.901135+00:00",
+          "tier": "DIAMOND",
+          "division": "II",
+          "league_points": 90
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "DTnrta4Z1DSz_Yd05te6EPlxIhbzybBhEnBzbKV2vkFga1f2bqXrf7AjsK2qacQS8EbDhx-OMBj4QA",
+      "game_name": "Joaquim Lanches",
+      "tag_line": "XTudo",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "III",
+      "league_points_at_collection": 95,
+      "current_tier": "EMERALD",
+      "current_division": "III",
+      "current_league_points": 95,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.33,
+          "top4_rate": 56.67,
+          "win_rate": 6.67,
+          "average_level": 8.03
+        },
+        "consistency": {
+          "placement_variance": 4.36,
+          "placement_standard_deviation": 2.09,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 94.4,
+          "average_players_eliminated": 0.7
+        },
+        "economy": {
+          "average_gold_left": 11.57
+        }
+      },
+      "collected_at": "2026-08-18T12:03:17.600040+00:00",
+      "rank_checked_at": "2026-08-18T12:28:21.633929+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:03:17.600040+00:00",
+          "tier": "EMERALD",
+          "division": "III",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "byDkd9nbgOKEgNsnLoOmMSi_D7RRiwTbctL2pnRBvQxabdXbBkVsqya6eTzrJQfjXtxAgbYfbcCw2w",
+      "game_name": "RozM",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "III",
+      "league_points_at_collection": 90,
+      "current_tier": "DIAMOND",
+      "current_division": "III",
+      "current_league_points": 90,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.5,
+          "top4_rate": 50.0,
+          "win_rate": 6.67,
+          "average_level": 8.53
+        },
+        "consistency": {
+          "placement_variance": 4.72,
+          "placement_standard_deviation": 2.17,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 98.43,
+          "average_players_eliminated": 0.7
+        },
+        "economy": {
+          "average_gold_left": 7.67
+        }
+      },
+      "collected_at": "2026-08-18T12:04:11.606113+00:00",
+      "rank_checked_at": "2026-08-18T12:28:23.211613+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:04:11.606113+00:00",
+          "tier": "DIAMOND",
+          "division": "III",
+          "league_points": 90
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "GSEedCR_8eGiMOlunCyEKmTDbjFeyuMH5enLkvWjuDnSCopVnLbREfNVEJNWmEITUaMwyv3VdXx20A",
+      "game_name": "Sou Veterinário",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 83,
+      "current_tier": "EMERALD",
+      "current_division": "IV",
+      "current_league_points": 83,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.13,
+          "top4_rate": 53.33,
+          "win_rate": 23.33,
+          "average_level": 8.77
+        },
+        "consistency": {
+          "placement_variance": 5.78,
+          "placement_standard_deviation": 2.4,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 89.93,
+          "average_players_eliminated": 1.4
+        },
+        "economy": {
+          "average_gold_left": 7.87
+        }
+      },
+      "collected_at": "2026-08-18T12:05:13.139710+00:00",
+      "rank_checked_at": "2026-08-18T12:28:24.790181+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:05:13.139710+00:00",
+          "tier": "EMERALD",
+          "division": "IV",
+          "league_points": 83
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "G8Hm_veC4Z5EU39L6xgjOkxs1DbPUzTM4IXESIttqq0ur9d6b3ZMbgYbND-icmBUm6rhXH-I8AyPgg",
+      "game_name": "Darknote",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 83,
+      "current_tier": "DIAMOND",
+      "current_division": "IV",
+      "current_league_points": 83,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.57,
+          "top4_rate": 46.67,
+          "win_rate": 16.67,
+          "average_level": 8.37
+        },
+        "consistency": {
+          "placement_variance": 5.65,
+          "placement_standard_deviation": 2.38,
+          "bottom4_rate": 53.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 104.63,
+          "average_players_eliminated": 0.73
+        },
+        "economy": {
+          "average_gold_left": 8.43
+        }
+      },
+      "collected_at": "2026-08-18T12:06:16.247578+00:00",
+      "rank_checked_at": "2026-08-18T12:28:26.384198+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:06:16.247578+00:00",
+          "tier": "DIAMOND",
+          "division": "IV",
+          "league_points": 83
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "KyHxopJNtPjaH1RiZyp323XzQkj_QrkgX_mYiuHO2jYHq6iciskF6Z4w08j-1gstSAOB0_g0qAyo_Q",
+      "game_name": "SDM Vivas",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "EMERALD",
+      "division_at_collection": "I",
+      "league_points_at_collection": 83,
+      "current_tier": "EMERALD",
+      "current_division": "I",
+      "current_league_points": 83,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.17,
+          "top4_rate": 56.67,
+          "win_rate": 26.67,
+          "average_level": 8.4
+        },
+        "consistency": {
+          "placement_variance": 6.54,
+          "placement_standard_deviation": 2.56,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 103.33,
+          "average_players_eliminated": 1.23
+        },
+        "economy": {
+          "average_gold_left": 18.4
+        }
+      },
+      "collected_at": "2026-08-18T12:07:10.747626+00:00",
+      "rank_checked_at": "2026-08-18T12:28:27.960503+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:07:10.747626+00:00",
+          "tier": "EMERALD",
+          "division": "I",
+          "league_points": 83
+        }
+      ]
+    },
+    {
+      "benchmark_id": "advanced",
+      "puuid": "J-YDN-Va3YqnMDJYyY7I9cWQ_lRekNxffAbEFXhIdXnOVz9Tzdwkm2T9DVIqiqShEIeSTimozeWzdA",
+      "game_name": "é o leozin",
+      "tag_line": "Gsw",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "DIAMOND",
+      "division_at_collection": "I",
+      "league_points_at_collection": 88,
+      "current_tier": "DIAMOND",
+      "current_division": "I",
+      "current_league_points": 88,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.8,
+          "top4_rate": 63.33,
+          "win_rate": 20.0,
+          "average_level": 8.77
+        },
+        "consistency": {
+          "placement_variance": 3.49,
+          "placement_standard_deviation": 1.87,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": 118.4,
+          "average_players_eliminated": 0.97
+        },
+        "economy": {
+          "average_gold_left": 11.53
+        }
+      },
+      "collected_at": "2026-08-18T12:08:05.664832+00:00",
+      "rank_checked_at": "2026-08-18T12:28:29.510491+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-08-18T12:08:05.664832+00:00",
+          "tier": "DIAMOND",
+          "division": "I",
+          "league_points": 88
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Adicione ao src/role_inference/models/__init__.py:
+
+from .role_seed_assessment import RoleSeedAssessment
+from .unit_role_seed import UnitRoleSeed
+
+E inclua no __all__:
+
+"RoleSeedAssessment",
+"UnitRoleSeed",

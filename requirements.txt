@@ -1,4 +1,20 @@
+# TFT Insight - Python dependencies
+
+# Frontend
 streamlit
+plotly
+
+# Data
 pandas
+
+# HTTP / API clients
 requests
+httpx
+
+# Backend API
+fastapi
+uvicorn
+pydantic
+
+# Environment
 python-dotenv

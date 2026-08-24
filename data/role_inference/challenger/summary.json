@@ -1,0 +1,10 @@
+{
+  "players_requested": 50,
+  "matches_per_player": 30,
+  "unique_matches": 1234,
+  "processed_matches": 1229,
+  "failed_matches": 5,
+  "classified_items": 239,
+  "observations_path": "C:\\Users\\user\\Desktop\\TFT Insight — Aprenda a pensar como um Challenger\\data\\role_inference\\challenger\\item_observations.json",
+  "report_csv_path": "C:\\Users\\user\\Desktop\\TFT Insight — Aprenda a pensar como um Challenger\\data\\role_inference\\challenger\\item_classifications.csv"
+}

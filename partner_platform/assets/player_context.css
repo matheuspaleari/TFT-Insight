@@ -1,0 +1,22 @@
+.tft-current-session {
+    margin: .25rem 0 1rem;
+    padding: .85rem;
+    border-radius: 15px;
+    border: 1px solid rgba(107,146,255,.14);
+    background: linear-gradient(145deg, rgba(107,146,255,.07), rgba(255,255,255,.015));
+}
+.tft-current-session-empty { border-style: dashed; }
+.tft-current-session-kicker {
+    color: #76839a; font-size: .62rem; font-weight: 700; letter-spacing: .12em;
+}
+.tft-current-session-title {
+    color: #f4f7fb; font-size: .96rem; font-weight: 720; margin-top: .28rem;
+}
+.tft-current-session-tag { color: #9ba7ba; font-size: .73rem; margin-top: .15rem; }
+.tft-current-session-meta { color: #6f7d92; font-size: .68rem; margin-top: .42rem; }
+.tft-current-session-caption { color: #8f9bad; font-size: .72rem; line-height: 1.45; margin-top: .3rem; }
+.tft-current-session-status { display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.65rem; }
+.tft-current-session-status span {
+    padding:.2rem .4rem; border-radius:999px; font-size:.61rem; color:#aeb9cb;
+    border:1px solid rgba(255,255,255,.065); background:rgba(255,255,255,.025);
+}

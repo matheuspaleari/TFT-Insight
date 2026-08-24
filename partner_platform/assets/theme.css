@@ -1,0 +1,505 @@
+:root {
+    --tft-bg: #090D13;
+    --tft-bg-soft: #0C1119;
+    --tft-surface: rgba(17, 23, 34, .86);
+    --tft-surface-solid: #111722;
+    --tft-surface-alt: #151D2A;
+    --tft-border: rgba(255,255,255,.075);
+    --tft-border-strong: rgba(255,255,255,.12);
+    --tft-text: #F4F7FB;
+    --tft-muted: #94A1B5;
+    --tft-subtle: #677489;
+    --tft-primary: #6B92FF;
+    --tft-primary-soft: rgba(107,146,255,.16);
+    --tft-success: #43D693;
+    --tft-warning: #F7B955;
+    --tft-danger: #FF7070;
+    --tft-info: #6CCBFF;
+    --tft-radius-sm: 10px;
+    --tft-radius-md: 14px;
+    --tft-radius-lg: 18px;
+    --tft-radius-xl: 24px;
+    --tft-shadow-1: 0 8px 24px rgba(0,0,0,.16);
+    --tft-shadow-2: 0 16px 42px rgba(0,0,0,.24);
+    --tft-ease: cubic-bezier(.2,.8,.2,1);
+}
+
+html, body, [class*="css"] {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.stApp {
+    background:
+        radial-gradient(circle at 86% -10%, rgba(107,146,255,.11), transparent 30%),
+        radial-gradient(circle at 10% 18%, rgba(108,203,255,.04), transparent 22%),
+        linear-gradient(180deg, #090D13 0%, #0A0F16 100%);
+    color: var(--tft-text);
+}
+
+.block-container {
+    max-width: 1520px;
+    padding-top: 1rem;
+    padding-bottom: 3.5rem;
+}
+
+[data-testid="stSidebar"] {
+    background:
+        linear-gradient(180deg, rgba(14,20,29,.98), rgba(10,15,22,.98));
+    border-right: 1px solid var(--tft-border);
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    padding-top: .65rem;
+}
+
+[data-testid="stSidebar"] label {
+    color: var(--tft-muted);
+}
+
+div[role="radiogroup"] > label {
+    padding: .1rem .2rem;
+    border-radius: 11px;
+    transition:
+        background 160ms var(--tft-ease),
+        transform 160ms var(--tft-ease);
+}
+
+div[role="radiogroup"] > label:hover {
+    background: rgba(255,255,255,.035);
+    transform: translateX(2px);
+}
+
+/* Topbar */
+.tft-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-height: 56px;
+    padding: .72rem .95rem;
+    border: 1px solid var(--tft-border);
+    background: rgba(13,18,27,.74);
+    backdrop-filter: blur(16px);
+    border-radius: var(--tft-radius-md);
+    box-shadow: var(--tft-shadow-1);
+    margin-bottom: 1rem;
+    animation: tftFadeUp 260ms var(--tft-ease);
+}
+
+.tft-topbar-left,
+.tft-topbar-right {
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+}
+
+.tft-brand {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 760;
+    letter-spacing: -.02em;
+}
+
+.tft-brand-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 9px;
+    background: linear-gradient(145deg, rgba(107,146,255,.28), rgba(108,203,255,.09));
+    border: 1px solid rgba(107,146,255,.32);
+    color: #DDE6FF;
+}
+
+.tft-topbar-meta {
+    color: var(--tft-muted);
+    font-size: .76rem;
+}
+
+/* Health ribbon */
+.tft-health-ribbon {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: .6rem;
+    margin-bottom: 1rem;
+    animation: tftFadeUp 300ms var(--tft-ease);
+}
+
+.tft-health-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .58rem .75rem;
+    border: 1px solid var(--tft-border);
+    border-radius: 12px;
+    background: rgba(255,255,255,.018);
+}
+
+.tft-health-label {
+    color: var(--tft-muted);
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.tft-health-value {
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+    font-size: .76rem;
+    font-weight: 650;
+}
+
+.tft-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    display: inline-block;
+    box-shadow: 0 0 0 3px rgba(67,214,147,.08);
+}
+
+.tft-dot-online { background: var(--tft-success); }
+.tft-dot-warning { background: var(--tft-warning); }
+.tft-dot-offline { background: var(--tft-danger); }
+
+/* Hero */
+.tft-hero {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--tft-border);
+    background:
+        radial-gradient(circle at 78% 18%, rgba(107,146,255,.22), transparent 31%),
+        radial-gradient(circle at 92% 75%, rgba(108,203,255,.08), transparent 27%),
+        linear-gradient(135deg, rgba(255,255,255,.04), rgba(255,255,255,.012));
+    border-radius: var(--tft-radius-xl);
+    padding: 2rem 2rem 1.8rem;
+    margin-bottom: 1.45rem;
+    box-shadow: var(--tft-shadow-2);
+    animation: tftFadeUp 320ms var(--tft-ease);
+}
+
+.tft-hero::after {
+    content: "";
+    position: absolute;
+    inset: auto -50px -80px auto;
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(107,146,255,.12);
+    border-radius: 50%;
+}
+
+.tft-eyebrow {
+    color: var(--tft-muted);
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-weight: 650;
+}
+
+.tft-title {
+    font-size: clamp(2rem, 4vw, 3.15rem);
+    line-height: 1.03;
+    font-weight: 790;
+    letter-spacing: -.045em;
+    margin: .42rem 0 .58rem;
+    max-width: 950px;
+}
+
+.tft-subtitle {
+    color: var(--tft-muted);
+    max-width: 900px;
+    font-size: .96rem;
+    line-height: 1.6;
+}
+
+.tft-hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem;
+    margin-top: 1.05rem;
+}
+
+/* Cards */
+.tft-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--tft-border);
+    background:
+        linear-gradient(180deg, rgba(255,255,255,.026), rgba(255,255,255,.009)),
+        rgba(17,23,34,.86);
+    border-radius: var(--tft-radius-lg);
+    padding: 1rem 1rem .92rem;
+    min-height: 124px;
+    box-shadow: var(--tft-shadow-1);
+    transition:
+        transform 180ms var(--tft-ease),
+        border-color 180ms var(--tft-ease),
+        box-shadow 180ms var(--tft-ease);
+    animation: tftFadeUp 330ms var(--tft-ease);
+}
+
+.tft-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(107,146,255,.18);
+    box-shadow: 0 14px 36px rgba(0,0,0,.22);
+}
+
+.tft-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .8rem;
+}
+
+.tft-card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 31px;
+    height: 31px;
+    border-radius: 9px;
+    color: #DDE6FF;
+    border: 1px solid rgba(107,146,255,.18);
+    background: rgba(107,146,255,.08);
+}
+
+.tft-metric-label {
+    color: var(--tft-muted);
+    font-size: .72rem;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+}
+
+.tft-metric-value {
+    font-size: 1.75rem;
+    line-height: 1;
+    font-weight: 760;
+    margin-top: .7rem;
+    letter-spacing: -.035em;
+}
+
+.tft-metric-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .6rem;
+    margin-top: .65rem;
+}
+
+.tft-metric-caption {
+    color: var(--tft-muted);
+    font-size: .73rem;
+}
+
+.tft-trend {
+    border-radius: 999px;
+    padding: .18rem .42rem;
+    font-size: .68rem;
+    font-weight: 670;
+}
+
+.tft-trend-up {
+    color: var(--tft-success);
+    background: rgba(67,214,147,.085);
+}
+
+.tft-trend-down {
+    color: var(--tft-danger);
+    background: rgba(255,112,112,.085);
+}
+
+.tft-trend-neutral {
+    color: var(--tft-muted);
+    background: rgba(255,255,255,.045);
+}
+
+/* Chips / badges */
+.tft-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: .38rem;
+    padding: .3rem .6rem;
+    border-radius: 999px;
+    border: 1px solid var(--tft-border);
+    background: rgba(255,255,255,.025);
+    font-size: .7rem;
+    color: #D6DDEA;
+}
+
+/* Sections */
+.tft-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 1.75rem 0 .85rem;
+}
+
+.tft-section-title {
+    font-size: 1.14rem;
+    font-weight: 690;
+    letter-spacing: -.015em;
+}
+
+.tft-section-subtitle {
+    color: var(--tft-muted);
+    font-size: .78rem;
+    margin-top: .15rem;
+}
+
+/* Empty */
+.tft-empty {
+    border: 1px dashed rgba(255,255,255,.11);
+    border-radius: var(--tft-radius-lg);
+    padding: 1.6rem;
+    color: var(--tft-muted);
+    background: rgba(255,255,255,.014);
+}
+
+/* Pipeline */
+.tft-pipeline {
+    display: grid;
+    gap: .7rem;
+    padding: .35rem 0;
+}
+
+.tft-pipeline-row {
+    display: grid;
+    grid-template-columns: 130px 1fr 80px;
+    gap: .75rem;
+    align-items: center;
+}
+
+.tft-pipeline-label {
+    font-size: .8rem;
+    font-weight: 620;
+}
+
+.tft-pipeline-bar {
+    height: 8px;
+    background: rgba(255,255,255,.055);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.tft-pipeline-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #6B92FF, #6CCBFF);
+    border-radius: 999px;
+    box-shadow: 0 0 16px rgba(107,146,255,.22);
+    transition: width 280ms var(--tft-ease);
+}
+
+.tft-pipeline-state {
+    color: var(--tft-muted);
+    font-size: .72rem;
+    text-align: right;
+}
+
+/* Sidebar brand */
+.tft-sidebar-brand {
+    padding: .55rem .15rem .6rem;
+}
+
+.tft-sidebar-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 11px;
+    background: linear-gradient(145deg, rgba(107,146,255,.26), rgba(108,203,255,.08));
+    border: 1px solid rgba(107,146,255,.25);
+    margin-bottom: .6rem;
+}
+
+.tft-sidebar-title {
+    font-weight: 760;
+    font-size: 1rem;
+}
+
+.tft-sidebar-caption {
+    color: var(--tft-muted);
+    font-size: .72rem;
+}
+
+.tft-sidebar-group {
+    color: var(--tft-subtle);
+    font-size: .67rem;
+    text-transform: uppercase;
+    letter-spacing: .13em;
+    margin: .9rem 0 .35rem;
+}
+
+/* Footer */
+.tft-footer {
+    border-top: 1px solid var(--tft-border);
+    color: var(--tft-muted);
+    font-size: .72rem;
+    margin-top: 2.6rem;
+    padding-top: 1rem;
+}
+
+/* Micro animation */
+@keyframes tftFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Streamlit button polish */
+.stButton > button,
+.stFormSubmitButton > button {
+    border-radius: 12px !important;
+    border: 1px solid rgba(107,146,255,.28) !important;
+    background: linear-gradient(180deg, rgba(107,146,255,.20), rgba(107,146,255,.12)) !important;
+    color: var(--tft-text) !important;
+    transition: transform 160ms var(--tft-ease), border-color 160ms var(--tft-ease);
+}
+
+.stButton > button:hover,
+.stFormSubmitButton > button:hover {
+    transform: translateY(-1px);
+    border-color: rgba(107,146,255,.48) !important;
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+    .tft-health-ribbon {
+        grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+
+    .tft-hero {
+        padding: 1.55rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .block-container {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+
+    .tft-topbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .tft-health-ribbon {
+        grid-template-columns: 1fr;
+    }
+
+    .tft-pipeline-row {
+        grid-template-columns: 95px 1fr;
+    }
+
+    .tft-pipeline-state {
+        display: none;
+    }
+}

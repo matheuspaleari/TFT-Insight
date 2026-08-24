@@ -1,0 +1,63 @@
+/*
+TFT INSIGHT — ROADMAP 23.7
+HOME — CONFIANÇA E LIMITES
+*/
+.tft-home-trust {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .9rem;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+}
+.tft-home-trust-panel {
+    min-width: 0;
+    padding: 1.05rem;
+    border: 1px solid rgba(255,255,255,.075);
+    border-radius: 14px;
+    background: linear-gradient(145deg, rgba(21,29,42,.9), rgba(15,21,31,.8));
+}
+.tft-home-trust-positive { border-color: rgba(91,140,255,.18); }
+.tft-home-trust-limit { border-color: rgba(255,255,255,.09); }
+.tft-home-trust-kicker,
+.tft-home-trust-footer-kicker {
+    margin-bottom: .48rem;
+    color: #7FA4FF;
+    font-size: .64rem;
+    font-weight: 780;
+    letter-spacing: .105em;
+}
+.tft-home-trust-title {
+    margin-bottom: .85rem;
+    color: #F4F7FB;
+    font-size: 1rem;
+    font-weight: 720;
+}
+.tft-home-trust-item {
+    display: grid;
+    grid-template-columns: 1.4rem minmax(0,1fr);
+    gap: .5rem;
+    padding: .48rem 0;
+    color: #93A0B4;
+    font-size: .78rem;
+    line-height: 1.5;
+    border-bottom: 1px solid rgba(255,255,255,.045);
+}
+.tft-home-trust-item:last-child { border-bottom: 0; }
+.tft-home-trust-mark {
+    color: #9CB7F5;
+    font-weight: 800;
+}
+.tft-home-trust-limit .tft-home-trust-mark { color: #7F8DA3; }
+.tft-home-trust-footer {
+    padding: .82rem 1rem;
+    margin-bottom: 1.1rem;
+    border-left: 2px solid rgba(91,140,255,.58);
+    border-radius: 0 10px 10px 0;
+    background: rgba(91,140,255,.05);
+    color: #8795AA;
+    font-size: .75rem;
+    line-height: 1.55;
+}
+@media (max-width: 760px) {
+    .tft-home-trust { grid-template-columns: 1fr; }
+}

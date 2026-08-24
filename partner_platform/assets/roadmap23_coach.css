@@ -1,0 +1,133 @@
+/*
+===============================================================================
+TFT INSIGHT — ROADMAP 23.6
+HOME — DIFERENCIAL DO COACH
+===============================================================================
+*/
+
+.tft-home-coach {
+    display: grid;
+    grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
+    gap: 1rem;
+    margin-top: .8rem;
+    margin-bottom: 1.15rem;
+}
+
+.tft-home-coach-copy,
+.tft-home-coach-flow {
+    min-width: 0;
+    border: 1px solid rgba(255, 255, 255, .075);
+    border-radius: 14px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(21, 29, 42, .90),
+            rgba(15, 21, 31, .80)
+        );
+}
+
+.tft-home-coach-copy {
+    padding: 1.15rem;
+    border-color: rgba(91, 140, 255, .18);
+}
+
+.tft-home-coach-kicker {
+    margin-bottom: .55rem;
+    color: #7FA4FF;
+    font-size: .66rem;
+    font-weight: 780;
+    letter-spacing: .105em;
+}
+
+.tft-home-coach-title {
+    max-width: 42rem;
+    color: #F4F7FB;
+    font-size: 1.22rem;
+    font-weight: 760;
+    line-height: 1.32;
+    letter-spacing: -.02em;
+}
+
+.tft-home-coach-title span {
+    display: block;
+    margin-top: .2rem;
+    color: #AFC6FF;
+}
+
+.tft-home-coach-text {
+    max-width: 42rem;
+    margin-top: .8rem;
+    color: #93A0B4;
+    font-size: .84rem;
+    line-height: 1.62;
+}
+
+.tft-home-coach-note {
+    margin-top: 1rem;
+    padding: .8rem .9rem;
+    border-left: 2px solid rgba(91, 140, 255, .58);
+    border-radius: 0 10px 10px 0;
+    color: #8290A5;
+    background: rgba(91, 140, 255, .05);
+    font-size: .74rem;
+    line-height: 1.55;
+}
+
+.tft-home-coach-flow {
+    padding: .8rem;
+}
+
+.tft-home-coach-step {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: .7rem;
+    align-items: start;
+    padding: .72rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .055);
+}
+
+.tft-home-coach-step:last-child {
+    border-bottom: 0;
+}
+
+.tft-home-coach-step-number {
+    display: grid;
+    place-items: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    border: 1px solid rgba(91, 140, 255, .23);
+    border-radius: 9px;
+    color: #DCE6F8;
+    background: rgba(91, 140, 255, .09);
+    font-size: .72rem;
+    font-weight: 760;
+}
+
+.tft-home-coach-step-title {
+    margin-bottom: .2rem;
+    color: #EDF2FA;
+    font-size: .82rem;
+    font-weight: 690;
+}
+
+.tft-home-coach-step-text {
+    color: #7F8DA3;
+    font-size: .72rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .tft-home-coach {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 680px) {
+    .tft-home-coach-copy {
+        padding: 1rem;
+    }
+
+    .tft-home-coach-title {
+        font-size: 1.08rem;
+    }
+}

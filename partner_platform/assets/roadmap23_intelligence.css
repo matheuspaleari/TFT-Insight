@@ -1,0 +1,101 @@
+/*
+===============================================================================
+TFT INSIGHT — ROADMAP 23.5
+HOME — INTELIGÊNCIAS DO PRODUTO
+===============================================================================
+*/
+
+.tft-home-intelligence-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: .8rem;
+    margin-top: .8rem;
+    margin-bottom: 1.15rem;
+}
+
+.tft-home-intelligence-card {
+    position: relative;
+    min-width: 0;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, .075);
+    border-radius: 14px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(21, 29, 42, .88),
+            rgba(16, 22, 32, .78)
+        );
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .16);
+    transition:
+        transform 150ms ease,
+        border-color 150ms ease,
+        box-shadow 150ms ease;
+}
+
+.tft-home-intelligence-card:hover {
+    transform: translateY(-1px);
+    border-color: rgba(91, 140, 255, .20);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .14);
+}
+
+.tft-home-intelligence-icon {
+    display: grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-bottom: .8rem;
+    border: 1px solid rgba(91, 140, 255, .24);
+    border-radius: 10px;
+    color: #DCE6F8;
+    background: rgba(91, 140, 255, .09);
+    font-size: .95rem;
+}
+
+.tft-home-intelligence-kicker {
+    margin-bottom: .45rem;
+    color: #7FA4FF;
+    font-size: .64rem;
+    font-weight: 760;
+    letter-spacing: .105em;
+}
+
+.tft-home-intelligence-title {
+    margin-bottom: .55rem;
+    color: #F4F7FB;
+    font-size: 1rem;
+    font-weight: 720;
+    line-height: 1.32;
+    letter-spacing: -.015em;
+}
+
+.tft-home-intelligence-text {
+    min-height: 5.1rem;
+    color: #93A0B4;
+    font-size: .79rem;
+    line-height: 1.58;
+}
+
+.tft-home-intelligence-proof {
+    margin-top: .85rem;
+    padding-top: .75rem;
+    border-top: 1px solid rgba(255, 255, 255, .055);
+    color: #6F829D;
+    font-size: .68rem;
+    line-height: 1.45;
+}
+
+@media (max-width: 1100px) {
+    .tft-home-intelligence-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .tft-home-intelligence-text {
+        min-height: 0;
+    }
+}
+
+@media (max-width: 680px) {
+    .tft-home-intelligence-grid {
+        grid-template-columns: 1fr;
+    }
+}

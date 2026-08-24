@@ -1,0 +1,469 @@
+/*
+===============================================================================
+TFT INSIGHT — ROADMAP 22
+UI/UX PROFESSIONAL — CONSOLIDATED VISUAL LAYER
+===============================================================================
+
+Objetivo:
+- Consolidar a identidade visual sem remover CSS legado.
+- Melhorar hierarquia, legibilidade, espaçamento e feedback visual.
+- Preparar o produto para as etapas 22.3+.
+- Não alterar semântica, dados ou comportamento dos componentes.
+
+Esta folha é carregada por último propositalmente.
+===============================================================================
+*/
+
+:root {
+    --tft22-bg: #0B0F14;
+    --tft22-bg-deep: #080C12;
+    --tft22-surface: #111722;
+    --tft22-surface-alt: #151D2A;
+    --tft22-surface-hover: #1A2433;
+    --tft22-border: #253044;
+    --tft22-border-soft: rgba(255, 255, 255, 0.075);
+    --tft22-border-muted: rgba(255, 255, 255, 0.045);
+    --tft22-text: #F4F7FB;
+    --tft22-text-muted: #93A0B4;
+    --tft22-text-subtle: #6E7B8F;
+    --tft22-primary: #5B8CFF;
+    --tft22-primary-soft: rgba(91, 140, 255, 0.14);
+    --tft22-primary-border: rgba(91, 140, 255, 0.34);
+    --tft22-success: #39D98A;
+    --tft22-warning: #F6C760;
+    --tft22-danger: #FF6B7A;
+    --tft22-radius-xs: 7px;
+    --tft22-radius-sm: 10px;
+    --tft22-radius-md: 14px;
+    --tft22-radius-lg: 18px;
+    --tft22-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.18);
+    --tft22-shadow-md: 0 12px 32px rgba(0, 0, 0, 0.18);
+    --tft22-transition: 150ms ease;
+    --tft22-content-width: 1320px;
+}
+
+html,
+body,
+[class*="css"] {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    background:
+        radial-gradient(circle at 50% -20%, rgba(91, 140, 255, 0.055), transparent 34rem),
+        var(--tft22-bg);
+}
+
+[data-testid="stAppViewContainer"] {
+    background:
+        radial-gradient(circle at 62% -15%, rgba(91, 140, 255, 0.04), transparent 30rem),
+        var(--tft22-bg);
+}
+
+[data-testid="stMain"] {
+    background: transparent;
+}
+
+[data-testid="stMainBlockContainer"] {
+    max-width: var(--tft22-content-width);
+    padding-top: 2.25rem;
+    padding-bottom: 4.5rem;
+}
+
+.block-container {
+    max-width: var(--tft22-content-width);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--tft22-text);
+    letter-spacing: -0.018em;
+}
+
+h1 {
+    font-weight: 760;
+}
+
+h2,
+h3 {
+    font-weight: 700;
+}
+
+p,
+li {
+    line-height: 1.62;
+}
+
+[data-testid="stCaptionContainer"] {
+    color: var(--tft22-text-muted);
+}
+
+small {
+    color: var(--tft22-text-subtle);
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, rgba(17, 23, 34, 0.98) 0%, rgba(10, 15, 23, 0.99) 100%);
+    border-right: 1px solid var(--tft22-border-soft);
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    padding-top: 1.7rem;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: var(--tft22-border-soft);
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
+    color: var(--tft22-text-muted);
+}
+
+[data-testid="stSidebar"] div[role="radiogroup"] {
+    gap: 0.18rem;
+}
+
+[data-testid="stSidebar"] div[role="radiogroup"] label {
+    position: relative;
+    min-height: 2.35rem;
+    padding: 0.42rem 0.58rem;
+    border-radius: var(--tft22-radius-sm);
+    transition: background-color var(--tft22-transition), border-color var(--tft22-transition);
+}
+
+[data-testid="stSidebar"] div[role="radiogroup"] label:hover {
+    background: rgba(255, 255, 255, 0.035);
+}
+
+[data-testid="stTextInput"] input,
+[data-testid="stNumberInput"] input,
+[data-baseweb="select"] > div {
+    min-height: 2.65rem;
+    color: var(--tft22-text) !important;
+    background: rgba(21, 29, 42, 0.92) !important;
+    border-color: var(--tft22-border-soft) !important;
+    border-radius: var(--tft22-radius-sm) !important;
+    box-shadow: none !important;
+    transition: border-color var(--tft22-transition), box-shadow var(--tft22-transition), background-color var(--tft22-transition);
+}
+
+[data-testid="stTextInput"] input:hover,
+[data-testid="stNumberInput"] input:hover,
+[data-baseweb="select"] > div:hover {
+    border-color: rgba(91, 140, 255, 0.28) !important;
+}
+
+[data-testid="stTextInput"] input:focus,
+[data-testid="stNumberInput"] input:focus {
+    border-color: var(--tft22-primary) !important;
+    box-shadow: 0 0 0 3px rgba(91, 140, 255, 0.10) !important;
+}
+
+[data-testid="stWidgetLabel"] p {
+    color: var(--tft22-text);
+    font-weight: 600;
+    font-size: 0.84rem;
+}
+
+[data-testid="stButton"] button,
+[data-testid="stFormSubmitButton"] button {
+    min-height: 2.48rem;
+    border-radius: var(--tft22-radius-sm);
+    font-weight: 650;
+    letter-spacing: -0.006em;
+    transition: transform var(--tft22-transition), border-color var(--tft22-transition), background-color var(--tft22-transition), box-shadow var(--tft22-transition);
+}
+
+[data-testid="stButton"] button:hover,
+[data-testid="stFormSubmitButton"] button:hover {
+    transform: translateY(-1px);
+}
+
+[data-testid="stButton"] button:active,
+[data-testid="stFormSubmitButton"] button:active {
+    transform: translateY(0);
+}
+
+[data-testid="stFormSubmitButton"] button[kind="primary"],
+[data-testid="stButton"] button[kind="primary"] {
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #3157A6, #254583);
+    border-color: rgba(91, 140, 255, 0.52);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+[data-testid="stFormSubmitButton"] button[kind="primary"]:hover,
+[data-testid="stButton"] button[kind="primary"]:hover {
+    border-color: rgba(91, 140, 255, 0.78);
+    box-shadow: 0 8px 24px rgba(33, 76, 161, 0.16);
+}
+
+[data-testid="stVerticalBlockBorderWrapper"] {
+    border-color: var(--tft22-border-soft) !important;
+    border-radius: var(--tft22-radius-md) !important;
+    background: rgba(17, 23, 34, 0.28);
+}
+
+[data-testid="stVerticalBlockBorderWrapper"]:hover {
+    border-color: rgba(255, 255, 255, 0.105) !important;
+}
+
+[data-testid="stExpander"] {
+    border: 1px solid var(--tft22-border-soft) !important;
+    border-radius: var(--tft22-radius-sm) !important;
+    overflow: hidden;
+    background: rgba(17, 23, 34, 0.26);
+}
+
+[data-testid="stExpander"] summary {
+    font-weight: 600;
+    transition: background-color var(--tft22-transition);
+}
+
+[data-testid="stExpander"] summary:hover {
+    background: rgba(255, 255, 255, 0.025);
+}
+
+[data-testid="stAlert"] {
+    border-radius: var(--tft22-radius-sm);
+    border: 1px solid var(--tft22-border-soft);
+    box-shadow: none;
+}
+
+.tft-smart-header {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--tft22-border-soft) !important;
+    border-radius: var(--tft22-radius-md) !important;
+    background: linear-gradient(135deg, rgba(21, 29, 42, 0.90), rgba(14, 20, 30, 0.88)) !important;
+    box-shadow: var(--tft22-shadow-sm);
+    transition: border-color var(--tft22-transition);
+}
+
+.tft-smart-header::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 2px;
+    background: linear-gradient(180deg, transparent, rgba(91, 140, 255, 0.72), transparent);
+    opacity: 0.72;
+}
+
+.tft-smart-header:hover {
+    border-color: rgba(91, 140, 255, 0.20) !important;
+}
+
+.tft-sidebar-brand {
+    margin-bottom: 1.15rem;
+}
+
+.tft-sidebar-title {
+    color: var(--tft22-text);
+}
+
+.tft-sidebar-caption {
+    color: var(--tft22-text-muted);
+}
+
+.tft-current-session {
+    border: 1px solid var(--tft22-border-soft) !important;
+    border-radius: var(--tft22-radius-md) !important;
+    background: linear-gradient(145deg, rgba(21, 29, 42, 0.78), rgba(15, 21, 31, 0.62)) !important;
+    box-shadow: var(--tft22-shadow-sm);
+}
+
+.tft-current-session-title {
+    color: var(--tft22-text);
+}
+
+.tft-current-session-meta,
+.tft-current-session-caption {
+    color: var(--tft22-text-muted);
+}
+
+.tft-health-ribbon,
+.tft-compact-health {
+    border-color: var(--tft22-border-soft) !important;
+    background: rgba(12, 17, 25, 0.58) !important;
+}
+
+.tft-compact-health {
+    border-radius: 0 0 var(--tft22-radius-sm) var(--tft22-radius-sm);
+}
+
+.tft-section-header {
+    margin-top: 1.65rem;
+    margin-bottom: 0.78rem;
+}
+
+.tft-section-title {
+    color: var(--tft22-text);
+    font-size: 1.16rem;
+    font-weight: 710;
+    letter-spacing: -0.018em;
+}
+
+.tft-section-subtitle {
+    max-width: 58rem;
+    color: var(--tft22-text-muted);
+    line-height: 1.55;
+}
+
+.tft-executive-card,
+.tft-premium-kpi,
+.tft-evidence-card,
+.tft-explainable-kpi {
+    position: relative;
+    overflow: hidden;
+    border-color: var(--tft22-border-soft) !important;
+    border-radius: var(--tft22-radius-md) !important;
+    background: linear-gradient(145deg, rgba(21, 29, 42, 0.86), rgba(16, 22, 32, 0.78)) !important;
+    box-shadow: var(--tft22-shadow-sm);
+    transition: transform var(--tft22-transition), border-color var(--tft22-transition), box-shadow var(--tft22-transition);
+}
+
+.tft-executive-card:hover,
+.tft-premium-kpi:hover,
+.tft-evidence-card:hover,
+.tft-explainable-kpi:hover {
+    transform: translateY(-1px);
+    border-color: rgba(91, 140, 255, 0.16) !important;
+    box-shadow: var(--tft22-shadow-md);
+}
+
+.tft-insight-banner {
+    border-radius: var(--tft22-radius-md) !important;
+    border-color: var(--tft22-border-soft) !important;
+    box-shadow: var(--tft22-shadow-sm);
+}
+
+.tft-empty-state {
+    border-radius: var(--tft22-radius-md) !important;
+    border-color: var(--tft22-border-soft) !important;
+    background: linear-gradient(180deg, rgba(17, 23, 34, 0.24), rgba(11, 15, 20, 0.16)) !important;
+}
+
+.tft-skeleton-card {
+    border: 1px solid var(--tft22-border-muted);
+    border-radius: var(--tft22-radius-md);
+    background: rgba(17, 23, 34, 0.56);
+}
+
+.tft-skeleton-line {
+    background: linear-gradient(90deg, rgba(255,255,255,0.035) 20%, rgba(255,255,255,0.075) 50%, rgba(255,255,255,0.035) 80%);
+    background-size: 220% 100%;
+    animation: tft22-skeleton 1.35s ease-in-out infinite;
+}
+
+@keyframes tft22-skeleton {
+    0% { background-position: 210% 0; }
+    100% { background-position: -210% 0; }
+}
+
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--tft22-border-soft);
+    border-radius: var(--tft22-radius-md);
+    overflow: hidden;
+}
+
+[data-baseweb="tab-list"] {
+    gap: 0.3rem;
+    border-bottom: 1px solid var(--tft22-border-soft);
+}
+
+button[data-baseweb="tab"] {
+    border-radius: var(--tft22-radius-xs) var(--tft22-radius-xs) 0 0;
+    font-weight: 600;
+}
+
+hr {
+    border-color: var(--tft22-border-soft) !important;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+    outline: 2px solid rgba(91, 140, 255, 0.78) !important;
+    outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--tft22-bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #283448;
+    border: 2px solid var(--tft22-bg-deep);
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #34445D;
+}
+
+@media (max-width: 1100px) {
+    [data-testid="stMainBlockContainer"] {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+
+    .tft-section-title {
+        font-size: 1.08rem;
+    }
+}
+
+@media (max-width: 760px) {
+    [data-testid="stMainBlockContainer"] {
+        padding-top: 1rem;
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+        padding-bottom: 3rem;
+    }
+
+    .tft-smart-header {
+        border-radius: var(--tft22-radius-sm) !important;
+    }
+
+    .tft-section-header {
+        margin-top: 1.2rem;
+    }
+
+    .tft-section-title {
+        font-size: 1.02rem;
+    }
+
+    .tft-section-subtitle {
+        font-size: 0.82rem;
+    }
+
+    [data-testid="stButton"] button,
+    [data-testid="stFormSubmitButton"] button {
+        min-height: 2.7rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

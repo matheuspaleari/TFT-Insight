@@ -1,10 +1,15 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+
+from .participant_snapshot import ParticipantSnapshot
 
 
 @dataclass(slots=True, frozen=True)
 class Match:
     """
-    Representa os dados observáveis de um jogador em uma partida.
+    Representa uma partida completa e o jogador analisado.
+
+    Os campos tradicionais foram mantidos para preservar compatibilidade
+    com os calculadores atuais do Performance Engine.
     """
 
     match_id: str
@@ -15,6 +20,11 @@ class Match:
     players_eliminated: int
     total_damage_to_players: int
     time_eliminated: float
+
+    analyzed_player_puuid: str = ""
+    participants: tuple[ParticipantSnapshot, ...] = field(
+        default_factory=tuple
+    )
 
     def __post_init__(self) -> None:
         if not self.match_id.strip():
@@ -39,6 +49,49 @@ class Match:
         self._validate_non_negative(
             "time_eliminated",
             self.time_eliminated,
+        )
+
+        if (
+            self.participants
+            and not self.analyzed_player_puuid.strip()
+        ):
+            raise ValueError(
+                "analyzed_player_puuid deve ser informado "
+                "quando participants estiver preenchido."
+            )
+
+        participant_puuids = [
+            participant.puuid
+            for participant in self.participants
+        ]
+
+        if len(participant_puuids) != len(set(participant_puuids)):
+            raise ValueError(
+                "Match.participants não pode conter PUUIDs duplicados."
+            )
+
+        if (
+            self.participants
+            and self.analyzed_player_puuid not in participant_puuids
+        ):
+            raise ValueError(
+                "O jogador analisado não foi encontrado em participants."
+            )
+
+    @property
+    def analyzed_participant(self) -> ParticipantSnapshot | None:
+        for participant in self.participants:
+            if participant.puuid == self.analyzed_player_puuid:
+                return participant
+
+        return None
+
+    @property
+    def opponents(self) -> tuple[ParticipantSnapshot, ...]:
+        return tuple(
+            participant
+            for participant in self.participants
+            if participant.puuid != self.analyzed_player_puuid
         )
 
     @staticmethod

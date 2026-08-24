@@ -1,0 +1,93 @@
+/* v0.5.0-alpha.3 — Explainability Center */
+
+.tft-evidence-card {
+    min-height: 150px;
+    padding: 1rem;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,.07);
+    background: rgba(255,255,255,.018);
+    transition:
+        transform 180ms var(--tft-ease),
+        border-color 180ms var(--tft-ease);
+}
+
+.tft-evidence-card:hover {
+    transform: translateY(-2px);
+}
+
+.tft-evidence-title {
+    color: var(--tft-muted);
+    font-size: .72rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+}
+
+.tft-evidence-value {
+    margin-top: .55rem;
+    font-size: 1.35rem;
+    font-weight: 730;
+    letter-spacing: -.025em;
+}
+
+.tft-evidence-description {
+    margin-top: .45rem;
+    color: var(--tft-muted);
+    font-size: .78rem;
+    line-height: 1.5;
+}
+
+.tft-evidence-positive {
+    border-color: rgba(67,214,147,.16);
+}
+
+.tft-evidence-warning {
+    border-color: rgba(247,185,85,.16);
+}
+
+.tft-evidence-negative {
+    border-color: rgba(255,112,112,.16);
+}
+
+.tft-decision-step {
+    padding: .85rem 1rem;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,.07);
+    background: rgba(255,255,255,.018);
+}
+
+.tft-decision-label {
+    color: var(--tft-muted);
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.tft-decision-value {
+    margin-top: .25rem;
+    font-size: .98rem;
+    font-weight: 680;
+}
+
+.tft-decision-connector {
+    text-align: center;
+    color: var(--tft-subtle);
+    padding: .2rem 0;
+}
+
+.tft-decision-positive {
+    border-color: rgba(67,214,147,.16);
+}
+
+.tft-decision-warning {
+    border-color: rgba(247,185,85,.16);
+}
+
+.tft-decision-negative {
+    border-color: rgba(255,112,112,.16);
+}
+
+.tft-technical-note {
+    color: var(--tft-muted);
+    font-size: .76rem;
+    line-height: 1.5;
+}

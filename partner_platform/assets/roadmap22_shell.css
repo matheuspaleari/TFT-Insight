@@ -1,0 +1,79 @@
+/*
+===============================================================================
+TFT INSIGHT — ROADMAP 22.3 / 22.4 / 22.5
+SHELL + ANALYSIS ENTRY + RESULT HIERARCHY
+===============================================================================
+*/
+
+.st-key-tft_active_player_bar {
+    margin-top: .85rem;
+    margin-bottom: .55rem;
+}
+
+.st-key-tft_active_player_bar [data-testid="stVerticalBlockBorderWrapper"] {
+    background:
+        linear-gradient(
+            135deg,
+            rgba(18, 26, 39, .88),
+            rgba(13, 19, 29, .80)
+        ) !important;
+    border: 1px solid rgba(91, 140, 255, .16) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .10);
+}
+
+.st-key-tft_active_player_bar h3 {
+    margin-top: -.1rem;
+    margin-bottom: 0;
+    font-size: 1.08rem;
+}
+
+.st-key-tft_active_player_bar [data-testid="stCaptionContainer"] {
+    margin-bottom: -.45rem;
+    letter-spacing: .075em;
+    font-size: .68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.st-key-tft_active_player_bar [data-testid="stButton"] button {
+    min-height: 2.25rem;
+}
+
+/* Faz a primeira leitura após análise parecer um bloco de diagnóstico,
+   não apenas continuação do formulário. */
+.tft-section-header + .tft-insight-banner {
+    margin-top: .25rem;
+}
+
+/* Dá mais presença à prioridade sem transformar a UI em dashboard genérico. */
+.tft-insight-banner.tft-tone-warning,
+.tft-insight-banner.warning {
+    border-color: rgba(246, 199, 96, .22) !important;
+}
+
+/* Reduz sensação de página infinita ao separar blocos principais. */
+[data-testid="stExpander"] {
+    margin-top: .35rem;
+}
+
+/* Status de análise mais integrado ao produto. */
+[data-testid="stStatusWidget"] {
+    border-radius: 12px !important;
+    border-color: rgba(91, 140, 255, .16) !important;
+    background: rgba(17, 23, 34, .46) !important;
+}
+
+/* Resultado principal: melhora ritmo entre diagnóstico e inteligências. */
+.st-key-tft_active_player_bar + div {
+    scroll-margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+    .st-key-tft_active_player_bar [data-testid="stHorizontalBlock"] {
+        gap: .45rem;
+    }
+
+    .st-key-tft_active_player_bar h3 {
+        font-size: 1rem;
+    }
+}

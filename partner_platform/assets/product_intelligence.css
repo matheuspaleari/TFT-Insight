@@ -1,0 +1,105 @@
+/* v0.6.0-alpha.1 */
+
+.tft-insight-banner {
+    padding: 1.15rem 1.2rem;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 18px;
+    background: rgba(255,255,255,.018);
+    min-height: 138px;
+    box-sizing: border-box;
+    transition:
+        transform 180ms var(--tft-ease),
+        border-color 180ms var(--tft-ease),
+        background 180ms var(--tft-ease);
+}
+
+.tft-insight-banner:hover {
+    transform: translateY(-2px);
+}
+
+.tft-insight-eyebrow {
+    color: var(--tft-muted);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: .69rem;
+    font-weight: 650;
+}
+
+.tft-insight-title {
+    margin-top: .48rem;
+    color: var(--tft-text);
+    font-size: 1.05rem;
+    line-height: 1.35;
+    font-weight: 720;
+}
+
+.tft-insight-description {
+    margin-top: .48rem;
+    color: var(--tft-muted);
+    font-size: .8rem;
+    line-height: 1.55;
+}
+
+.tft-insight-positive {
+    border-color: rgba(67,214,147,.18);
+    background: linear-gradient(
+        135deg,
+        rgba(67,214,147,.045),
+        rgba(255,255,255,.012)
+    );
+}
+
+.tft-insight-warning {
+    border-color: rgba(247,185,85,.18);
+    background: linear-gradient(
+        135deg,
+        rgba(247,185,85,.045),
+        rgba(255,255,255,.012)
+    );
+}
+
+.tft-insight-negative {
+    border-color: rgba(255,112,112,.18);
+}
+
+.tft-summary-row {
+    display: grid;
+    grid-template-columns: 1fr minmax(260px, 1.3fr);
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 1.1rem;
+    margin-bottom: .65rem;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,.065);
+    background: rgba(255,255,255,.016);
+}
+
+.tft-summary-label {
+    color: var(--tft-text);
+    font-size: .84rem;
+    font-weight: 680;
+}
+
+.tft-summary-description {
+    color: var(--tft-muted);
+    font-size: .72rem;
+    margin-top: .24rem;
+}
+
+.tft-summary-value {
+    text-align: right;
+    color: var(--tft-text);
+    font-size: .86rem;
+    line-height: 1.45;
+    font-weight: 620;
+}
+
+@media (max-width: 760px) {
+    .tft-summary-row {
+        grid-template-columns: 1fr;
+    }
+
+    .tft-summary-value {
+        text-align: left;
+    }
+}

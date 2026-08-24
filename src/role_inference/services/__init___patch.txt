@@ -1,0 +1,13 @@
+Adicione ao src/role_inference/services/__init__.py:
+
+from .item_catalog_classifier import ItemCatalogClassifier
+from .item_learning_cycle import ItemLearningCycle
+from .item_observation_collector import ItemObservationCollector
+from .unit_role_seed_inference import UnitRoleSeedInference
+
+E inclua no __all__:
+
+"ItemCatalogClassifier",
+"ItemLearningCycle",
+"ItemObservationCollector",
+"UnitRoleSeedInference",

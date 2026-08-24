@@ -1,0 +1,215 @@
+/*
+===============================================================================
+TFT INSIGHT — ROADMAP 22.8
+RESPONSIVIDADE + DENSIDADE VISUAL
+===============================================================================
+Camada final. Não altera lógica, dados, engines ou contratos.
+*/
+
+/* Evita estouro causado por conteúdo longo dentro de cards/colunas. */
+[data-testid="stMainBlockContainer"],
+[data-testid="stMainBlockContainer"] * {
+    min-width: 0;
+}
+
+[data-testid="stMarkdownContainer"],
+.tft-executive-card,
+.tft-premium-kpi,
+.tft-evidence-card,
+.tft-explainable-kpi,
+.tft-insight-banner,
+.tft-current-session {
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
+/* Leitura confortável sem transformar textos em linhas excessivamente longas. */
+.tft-section-subtitle,
+.tft-insight-banner p,
+.tft-empty-description {
+    max-width: 68rem;
+}
+
+/* Densidade: mantém os blocos importantes compactos em notebook. */
+.tft-executive-card,
+.tft-premium-kpi,
+.tft-evidence-card,
+.tft-explainable-kpi {
+    height: 100%;
+}
+
+[data-testid="stHorizontalBlock"] {
+    align-items: stretch;
+}
+
+[data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+    min-width: 0;
+}
+
+/* Tabelas/gráficos podem rolar dentro do próprio espaço sem alargar a página. */
+[data-testid="stDataFrame"],
+[data-testid="stTable"],
+[data-testid="stPlotlyChart"],
+[data-testid="stVegaLiteChart"] {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* -------------------------------------------------------------------------
+   Notebook / desktop compacto
+   ------------------------------------------------------------------------- */
+@media (max-width: 1366px) {
+    :root {
+        --tft22-content-width: 1180px;
+    }
+
+    [data-testid="stMainBlockContainer"] {
+        padding-top: 1.45rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-bottom: 3.5rem;
+    }
+
+    .tft-section-header {
+        margin-top: 1.25rem;
+        margin-bottom: .62rem;
+    }
+
+    .tft-section-title {
+        font-size: 1.08rem;
+    }
+
+    .tft-section-subtitle {
+        line-height: 1.48;
+    }
+
+    [data-testid="stVerticalBlock"] {
+        gap: .82rem;
+    }
+
+    [data-testid="stHorizontalBlock"] {
+        gap: .72rem;
+    }
+
+    .tft-executive-card,
+    .tft-premium-kpi,
+    .tft-evidence-card,
+    .tft-explainable-kpi {
+        padding-top: .9rem;
+        padding-bottom: .9rem;
+    }
+}
+
+/* -------------------------------------------------------------------------
+   Tablet / janela estreita
+   Streamlit passa a empilhar colunas naturalmente; esta camada garante que
+   os filhos não preservem larguras mínimas de desktop.
+   ------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+    :root {
+        --tft22-content-width: 100%;
+    }
+
+    [data-testid="stMainBlockContainer"] {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    [data-testid="stHorizontalBlock"] {
+        gap: .6rem;
+    }
+
+    [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+        flex-basis: 0 !important;
+        min-width: 0 !important;
+    }
+
+    .tft-smart-header,
+    .tft-current-session,
+    .tft-insight-banner,
+    .tft-executive-card,
+    .tft-premium-kpi,
+    .tft-evidence-card,
+    .tft-explainable-kpi {
+        max-width: 100%;
+    }
+
+    [data-testid="stExpander"] summary p {
+        white-space: normal;
+    }
+}
+
+/* -------------------------------------------------------------------------
+   Mobile
+   Em telas realmente pequenas, prioriza leitura e toque.
+   ------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+    [data-testid="stMainBlockContainer"] {
+        padding-top: .8rem;
+        padding-left: .72rem;
+        padding-right: .72rem;
+        padding-bottom: 2.5rem;
+    }
+
+    [data-testid="stHorizontalBlock"] {
+        flex-wrap: wrap !important;
+    }
+
+    [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+        flex: 1 1 100% !important;
+        width: 100% !important;
+    }
+
+    .st-key-tft_active_player_bar [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+        flex: 1 1 100% !important;
+    }
+
+    [data-testid="stButton"] button,
+    [data-testid="stFormSubmitButton"] button {
+        width: 100%;
+        min-height: 2.85rem;
+    }
+
+    .tft-section-header {
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .tft-section-title {
+        font-size: 1rem;
+    }
+
+    .tft-section-subtitle,
+    [data-testid="stCaptionContainer"] {
+        font-size: .78rem;
+    }
+
+    .tft-executive-card,
+    .tft-premium-kpi,
+    .tft-evidence-card,
+    .tft-explainable-kpi,
+    .tft-insight-banner {
+        border-radius: 10px !important;
+    }
+
+    [data-testid="stExpander"] summary {
+        min-height: 3rem;
+    }
+}
+
+/* Altura curta, típica de notebook 1366x768: reduz espaço vertical sem
+   comprometer legibilidade. */
+@media (max-height: 800px) and (min-width: 901px) {
+    [data-testid="stMainBlockContainer"] {
+        padding-top: 1rem;
+        padding-bottom: 2.75rem;
+    }
+
+    .tft-section-header {
+        margin-top: 1rem;
+    }
+
+    [data-testid="stVerticalBlock"] {
+        gap: .68rem;
+    }
+}

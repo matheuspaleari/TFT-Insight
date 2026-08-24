@@ -1,0 +1,1202 @@
+{
+  "benchmark_id": "expert",
+  "players_count": 50,
+  "rank_distribution": {
+    "MASTER I": 50
+  },
+  "band_distribution": {
+    "Entrada": 13,
+    "Consolidação": 12,
+    "Avançado": 12,
+    "Transição": 13
+  },
+  "metric_correlations": [
+    {
+      "metric": "average_gold_left",
+      "players": 50,
+      "raw_spearman": 0.3285,
+      "progression_signal": 0.3285,
+      "interpretation": "MODERATE",
+      "lower_is_better": false
+    },
+    {
+      "metric": "average_level",
+      "players": 50,
+      "raw_spearman": -0.2807,
+      "progression_signal": -0.2807,
+      "interpretation": "MODERATE",
+      "lower_is_better": false
+    },
+    {
+      "metric": "average_damage_to_players",
+      "players": 50,
+      "raw_spearman": -0.1433,
+      "progression_signal": -0.1433,
+      "interpretation": "WEAK",
+      "lower_is_better": false
+    },
+    {
+      "metric": "top4_rate",
+      "players": 50,
+      "raw_spearman": 0.1228,
+      "progression_signal": 0.1228,
+      "interpretation": "WEAK",
+      "lower_is_better": false
+    },
+    {
+      "metric": "bottom4_rate",
+      "players": 50,
+      "raw_spearman": -0.1228,
+      "progression_signal": 0.1228,
+      "interpretation": "WEAK",
+      "lower_is_better": true
+    },
+    {
+      "metric": "average_players_eliminated",
+      "players": 50,
+      "raw_spearman": 0.0966,
+      "progression_signal": 0.0966,
+      "interpretation": "VERY_WEAK",
+      "lower_is_better": false
+    },
+    {
+      "metric": "win_rate",
+      "players": 50,
+      "raw_spearman": 0.0772,
+      "progression_signal": 0.0772,
+      "interpretation": "VERY_WEAK",
+      "lower_is_better": false
+    },
+    {
+      "metric": "average_placement",
+      "players": 50,
+      "raw_spearman": -0.0529,
+      "progression_signal": 0.0529,
+      "interpretation": "VERY_WEAK",
+      "lower_is_better": true
+    },
+    {
+      "metric": "placement_standard_deviation",
+      "players": 50,
+      "raw_spearman": 0.0251,
+      "progression_signal": -0.0251,
+      "interpretation": "VERY_WEAK",
+      "lower_is_better": true
+    }
+  ],
+  "band_metric_summary": {
+    "Entrada": {
+      "players": 13,
+      "metrics": {
+        "average_placement": 4.0108,
+        "top4_rate": 58.2423,
+        "win_rate": 17.5092,
+        "average_level": 8.6108,
+        "placement_standard_deviation": 2.2523,
+        "bottom4_rate": 41.7577,
+        "average_damage_to_players": 111.9462,
+        "average_players_eliminated": 0.9685,
+        "average_gold_left": 8.5315
+      }
+    },
+    "Consolidação": {
+      "players": 12,
+      "metrics": {
+        "average_placement": 4.0892,
+        "top4_rate": 61.11,
+        "win_rate": 15.555,
+        "average_level": 8.6333,
+        "placement_standard_deviation": 2.1675,
+        "bottom4_rate": 38.89,
+        "average_damage_to_players": 111.2683,
+        "average_players_eliminated": 0.93,
+        "average_gold_left": 8.8242
+      }
+    },
+    "Avançado": {
+      "players": 12,
+      "metrics": {
+        "average_placement": 3.9492,
+        "top4_rate": 64.4442,
+        "win_rate": 16.6675,
+        "average_level": 8.7008,
+        "placement_standard_deviation": 2.1575,
+        "bottom4_rate": 35.5558,
+        "average_damage_to_players": 112.0367,
+        "average_players_eliminated": 0.9058,
+        "average_gold_left": 8.4342
+      }
+    },
+    "Transição": {
+      "players": 13,
+      "metrics": {
+        "average_placement": 3.9446,
+        "top4_rate": 61.9362,
+        "win_rate": 18.78,
+        "average_level": 8.4238,
+        "placement_standard_deviation": 2.2908,
+        "bottom4_rate": 38.0638,
+        "average_damage_to_players": 107.5554,
+        "average_players_eliminated": 1.0769,
+        "average_gold_left": 10.4169
+      }
+    }
+  },
+  "players": [
+    {
+      "riot_id": "NinjaDerick#6969",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 184,
+      "theoretical_position": 0.184,
+      "empirical_percentile": 0.0,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 4.23,
+        "top4_rate": 50.0,
+        "win_rate": 20.0,
+        "average_level": 8.63,
+        "placement_standard_deviation": 2.4,
+        "bottom4_rate": 50.0,
+        "average_damage_to_players": 114.7,
+        "average_players_eliminated": 1.1,
+        "average_gold_left": 6.5
+      }
+    },
+    {
+      "riot_id": "LiIlou#BR1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 185,
+      "theoretical_position": 0.185,
+      "empirical_percentile": 0.020408,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 4.03,
+        "top4_rate": 56.67,
+        "win_rate": 16.67,
+        "average_level": 8.57,
+        "placement_standard_deviation": 2.41,
+        "bottom4_rate": 43.33,
+        "average_damage_to_players": 112.77,
+        "average_players_eliminated": 0.87,
+        "average_gold_left": 5.53
+      }
+    },
+    {
+      "riot_id": "second best#sybau",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 185,
+      "theoretical_position": 0.185,
+      "empirical_percentile": 0.040816,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 4.04,
+        "top4_rate": 57.14,
+        "win_rate": 14.29,
+        "average_level": 8.5,
+        "placement_standard_deviation": 2.16,
+        "bottom4_rate": 42.86,
+        "average_damage_to_players": 114.57,
+        "average_players_eliminated": 0.96,
+        "average_gold_left": 8.71
+      }
+    },
+    {
+      "riot_id": "Zoi#1904",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 188,
+      "theoretical_position": 0.188,
+      "empirical_percentile": 0.061224,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 3.73,
+        "top4_rate": 66.67,
+        "win_rate": 20.0,
+        "average_level": 8.5,
+        "placement_standard_deviation": 2.31,
+        "bottom4_rate": 33.33,
+        "average_damage_to_players": 107.4,
+        "average_players_eliminated": 1.1,
+        "average_gold_left": 6.4
+      }
+    },
+    {
+      "riot_id": "matheusk#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 189,
+      "theoretical_position": 0.189,
+      "empirical_percentile": 0.081633,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 3.87,
+        "top4_rate": 56.67,
+        "win_rate": 20.0,
+        "average_level": 8.5,
+        "placement_standard_deviation": 2.47,
+        "bottom4_rate": 43.33,
+        "average_damage_to_players": 118.13,
+        "average_players_eliminated": 1.13,
+        "average_gold_left": 12.43
+      }
+    },
+    {
+      "riot_id": "D Chaos#999",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 190,
+      "theoretical_position": 0.19,
+      "empirical_percentile": 0.102041,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 3.1,
+        "top4_rate": 73.33,
+        "win_rate": 23.33,
+        "average_level": 9.1,
+        "placement_standard_deviation": 2.09,
+        "bottom4_rate": 26.67,
+        "average_damage_to_players": 136.3,
+        "average_players_eliminated": 1.23,
+        "average_gold_left": 5.03
+      }
+    },
+    {
+      "riot_id": "Yudi0000#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 190,
+      "theoretical_position": 0.19,
+      "empirical_percentile": 0.122449,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 3.97,
+        "top4_rate": 60.0,
+        "win_rate": 26.67,
+        "average_level": 8.77,
+        "placement_standard_deviation": 2.52,
+        "bottom4_rate": 40.0,
+        "average_damage_to_players": 113.63,
+        "average_players_eliminated": 1.07,
+        "average_gold_left": 2.47
+      }
+    },
+    {
+      "riot_id": "PowerOverYou#4166",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 190,
+      "theoretical_position": 0.19,
+      "empirical_percentile": 0.142857,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 3.9,
+        "top4_rate": 66.67,
+        "win_rate": 6.67,
+        "average_level": 8.57,
+        "placement_standard_deviation": 1.58,
+        "bottom4_rate": 33.33,
+        "average_damage_to_players": 106.73,
+        "average_players_eliminated": 0.7,
+        "average_gold_left": 7.87
+      }
+    },
+    {
+      "riot_id": "Carbamazepina#fuma",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 190,
+      "theoretical_position": 0.19,
+      "empirical_percentile": 0.163265,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 4.27,
+        "top4_rate": 50.0,
+        "win_rate": 13.33,
+        "average_level": 8.47,
+        "placement_standard_deviation": 2.02,
+        "bottom4_rate": 50.0,
+        "average_damage_to_players": 111.97,
+        "average_players_eliminated": 0.87,
+        "average_gold_left": 6.0
+      }
+    },
+    {
+      "riot_id": "facadinhas#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 191,
+      "theoretical_position": 0.191,
+      "empirical_percentile": 0.183673,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 4.6,
+        "top4_rate": 46.67,
+        "win_rate": 13.33,
+        "average_level": 8.4,
+        "placement_standard_deviation": 2.5,
+        "bottom4_rate": 53.33,
+        "average_damage_to_players": 93.87,
+        "average_players_eliminated": 0.7,
+        "average_gold_left": 12.97
+      }
+    },
+    {
+      "riot_id": "Um Amendobobo#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 192,
+      "theoretical_position": 0.192,
+      "empirical_percentile": 0.204082,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 3.6,
+        "top4_rate": 70.0,
+        "win_rate": 30.0,
+        "average_level": 8.8,
+        "placement_standard_deviation": 2.6,
+        "bottom4_rate": 30.0,
+        "average_damage_to_players": 116.73,
+        "average_players_eliminated": 1.33,
+        "average_gold_left": 24.17
+      }
+    },
+    {
+      "riot_id": "INFP Cringe Boy#Sigma",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 193,
+      "theoretical_position": 0.193,
+      "empirical_percentile": 0.22449,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 4.17,
+        "top4_rate": 60.0,
+        "win_rate": 13.33,
+        "average_level": 8.7,
+        "placement_standard_deviation": 2.16,
+        "bottom4_rate": 40.0,
+        "average_damage_to_players": 107.43,
+        "average_players_eliminated": 0.83,
+        "average_gold_left": 7.23
+      }
+    },
+    {
+      "riot_id": "Kvoothe#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 194,
+      "theoretical_position": 0.194,
+      "empirical_percentile": 0.244898,
+      "band_id": "ENTRY",
+      "band_label": "Entrada",
+      "metrics": {
+        "average_placement": 4.63,
+        "top4_rate": 43.33,
+        "win_rate": 10.0,
+        "average_level": 8.43,
+        "placement_standard_deviation": 2.06,
+        "bottom4_rate": 56.67,
+        "average_damage_to_players": 101.07,
+        "average_players_eliminated": 0.7,
+        "average_gold_left": 5.6
+      }
+    },
+    {
+      "riot_id": "Meffis#022",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 196,
+      "theoretical_position": 0.196,
+      "empirical_percentile": 0.265306,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 4.6,
+        "top4_rate": 53.33,
+        "win_rate": 6.67,
+        "average_level": 8.57,
+        "placement_standard_deviation": 2.3,
+        "bottom4_rate": 46.67,
+        "average_damage_to_players": 99.23,
+        "average_players_eliminated": 0.87,
+        "average_gold_left": 5.63
+      }
+    },
+    {
+      "riot_id": "Kbelo Kun#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 197,
+      "theoretical_position": 0.197,
+      "empirical_percentile": 0.285714,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 2.53,
+        "top4_rate": 93.33,
+        "win_rate": 43.33,
+        "average_level": 9.83,
+        "placement_standard_deviation": 1.91,
+        "bottom4_rate": 6.67,
+        "average_damage_to_players": 149.1,
+        "average_players_eliminated": 1.43,
+        "average_gold_left": 5.4
+      }
+    },
+    {
+      "riot_id": "I2C#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 199,
+      "theoretical_position": 0.199,
+      "empirical_percentile": 0.306122,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 3.6,
+        "top4_rate": 70.0,
+        "win_rate": 10.0,
+        "average_level": 8.47,
+        "placement_standard_deviation": 2.17,
+        "bottom4_rate": 30.0,
+        "average_damage_to_players": 113.3,
+        "average_players_eliminated": 0.97,
+        "average_gold_left": 6.13
+      }
+    },
+    {
+      "riot_id": "yKaiaks#BR1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 202,
+      "theoretical_position": 0.202,
+      "empirical_percentile": 0.326531,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 4.07,
+        "top4_rate": 63.33,
+        "win_rate": 23.33,
+        "average_level": 8.47,
+        "placement_standard_deviation": 2.62,
+        "bottom4_rate": 36.67,
+        "average_damage_to_players": 115.17,
+        "average_players_eliminated": 1.2,
+        "average_gold_left": 11.2
+      }
+    },
+    {
+      "riot_id": "ui ui smolderzad#AGB",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 204,
+      "theoretical_position": 0.204,
+      "empirical_percentile": 0.346939,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 3.83,
+        "top4_rate": 63.33,
+        "win_rate": 20.0,
+        "average_level": 8.57,
+        "placement_standard_deviation": 2.07,
+        "bottom4_rate": 36.67,
+        "average_damage_to_players": 119.1,
+        "average_players_eliminated": 1.2,
+        "average_gold_left": 6.07
+      }
+    },
+    {
+      "riot_id": "noriakiemi#94074",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 205,
+      "theoretical_position": 0.205,
+      "empirical_percentile": 0.367347,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 4.5,
+        "top4_rate": 56.67,
+        "win_rate": 10.0,
+        "average_level": 8.43,
+        "placement_standard_deviation": 2.31,
+        "bottom4_rate": 43.33,
+        "average_damage_to_players": 102.33,
+        "average_players_eliminated": 0.67,
+        "average_gold_left": 6.0
+      }
+    },
+    {
+      "riot_id": "Gandaulf#0000",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 206,
+      "theoretical_position": 0.206,
+      "empirical_percentile": 0.387755,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 4.47,
+        "top4_rate": 46.67,
+        "win_rate": 16.67,
+        "average_level": 8.77,
+        "placement_standard_deviation": 2.11,
+        "bottom4_rate": 53.33,
+        "average_damage_to_players": 100.13,
+        "average_players_eliminated": 0.7,
+        "average_gold_left": 11.2
+      }
+    },
+    {
+      "riot_id": "maximus121212#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 208,
+      "theoretical_position": 0.208,
+      "empirical_percentile": 0.408163,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 4.4,
+        "top4_rate": 63.33,
+        "win_rate": 3.33,
+        "average_level": 8.37,
+        "placement_standard_deviation": 2.08,
+        "bottom4_rate": 36.67,
+        "average_damage_to_players": 102.0,
+        "average_players_eliminated": 0.73,
+        "average_gold_left": 12.73
+      }
+    },
+    {
+      "riot_id": "BROCOLAU#klebs",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 208,
+      "theoretical_position": 0.208,
+      "empirical_percentile": 0.428571,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 4.83,
+        "top4_rate": 53.33,
+        "win_rate": 3.33,
+        "average_level": 8.33,
+        "placement_standard_deviation": 1.92,
+        "bottom4_rate": 46.67,
+        "average_damage_to_players": 93.27,
+        "average_players_eliminated": 0.63,
+        "average_gold_left": 21.73
+      }
+    },
+    {
+      "riot_id": "ig Lupaferreira#Lupa",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 208,
+      "theoretical_position": 0.208,
+      "empirical_percentile": 0.44898,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 4.3,
+        "top4_rate": 50.0,
+        "win_rate": 16.67,
+        "average_level": 8.33,
+        "placement_standard_deviation": 2.05,
+        "bottom4_rate": 50.0,
+        "average_damage_to_players": 104.83,
+        "average_players_eliminated": 0.73,
+        "average_gold_left": 5.37
+      }
+    },
+    {
+      "riot_id": "Iorveth#RESET",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 210,
+      "theoretical_position": 0.21,
+      "empirical_percentile": 0.469388,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 3.97,
+        "top4_rate": 66.67,
+        "win_rate": 13.33,
+        "average_level": 8.93,
+        "placement_standard_deviation": 2.23,
+        "bottom4_rate": 33.33,
+        "average_damage_to_players": 125.03,
+        "average_players_eliminated": 0.9,
+        "average_gold_left": 4.43
+      }
+    },
+    {
+      "riot_id": "sprount#nando",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 212,
+      "theoretical_position": 0.212,
+      "empirical_percentile": 0.489796,
+      "band_id": "CONSOLIDATION",
+      "band_label": "Consolidação",
+      "metrics": {
+        "average_placement": 3.97,
+        "top4_rate": 53.33,
+        "win_rate": 20.0,
+        "average_level": 8.53,
+        "placement_standard_deviation": 2.24,
+        "bottom4_rate": 46.67,
+        "average_damage_to_players": 111.73,
+        "average_players_eliminated": 1.13,
+        "average_gold_left": 10.0
+      }
+    },
+    {
+      "riot_id": "Owen#BR0",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 213,
+      "theoretical_position": 0.213,
+      "empirical_percentile": 0.510204,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 4.13,
+        "top4_rate": 63.33,
+        "win_rate": 10.0,
+        "average_level": 8.4,
+        "placement_standard_deviation": 2.06,
+        "bottom4_rate": 36.67,
+        "average_damage_to_players": 114.63,
+        "average_players_eliminated": 0.67,
+        "average_gold_left": 7.77
+      }
+    },
+    {
+      "riot_id": "CNPJ doARAM#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 213,
+      "theoretical_position": 0.213,
+      "empirical_percentile": 0.530612,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 3.97,
+        "top4_rate": 60.0,
+        "win_rate": 20.0,
+        "average_level": 8.87,
+        "placement_standard_deviation": 2.36,
+        "bottom4_rate": 40.0,
+        "average_damage_to_players": 107.13,
+        "average_players_eliminated": 1.0,
+        "average_gold_left": 5.3
+      }
+    },
+    {
+      "riot_id": "MrGamover#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 215,
+      "theoretical_position": 0.215,
+      "empirical_percentile": 0.55102,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 3.87,
+        "top4_rate": 60.0,
+        "win_rate": 20.0,
+        "average_level": 9.03,
+        "placement_standard_deviation": 2.08,
+        "bottom4_rate": 40.0,
+        "average_damage_to_players": 108.6,
+        "average_players_eliminated": 0.87,
+        "average_gold_left": 3.87
+      }
+    },
+    {
+      "riot_id": "MonkeyDLFY#MDLFY",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 217,
+      "theoretical_position": 0.217,
+      "empirical_percentile": 0.571429,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 4.07,
+        "top4_rate": 53.33,
+        "win_rate": 20.0,
+        "average_level": 9.0,
+        "placement_standard_deviation": 2.05,
+        "bottom4_rate": 46.67,
+        "average_damage_to_players": 115.67,
+        "average_players_eliminated": 0.77,
+        "average_gold_left": 6.43
+      }
+    },
+    {
+      "riot_id": "TftVitao1#br1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 217,
+      "theoretical_position": 0.217,
+      "empirical_percentile": 0.591837,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 4.07,
+        "top4_rate": 70.0,
+        "win_rate": 6.67,
+        "average_level": 8.57,
+        "placement_standard_deviation": 1.93,
+        "bottom4_rate": 30.0,
+        "average_damage_to_players": 108.8,
+        "average_players_eliminated": 0.7,
+        "average_gold_left": 6.57
+      }
+    },
+    {
+      "riot_id": "TFT Paçoquito#BR1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 218,
+      "theoretical_position": 0.218,
+      "empirical_percentile": 0.612245,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 4.07,
+        "top4_rate": 56.67,
+        "win_rate": 13.33,
+        "average_level": 8.7,
+        "placement_standard_deviation": 1.98,
+        "bottom4_rate": 43.33,
+        "average_damage_to_players": 112.27,
+        "average_players_eliminated": 0.83,
+        "average_gold_left": 7.67
+      }
+    },
+    {
+      "riot_id": "Golden Wings#BR1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 220,
+      "theoretical_position": 0.22,
+      "empirical_percentile": 0.632653,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 3.87,
+        "top4_rate": 63.33,
+        "win_rate": 16.67,
+        "average_level": 9.0,
+        "placement_standard_deviation": 2.22,
+        "bottom4_rate": 36.67,
+        "average_damage_to_players": 114.07,
+        "average_players_eliminated": 0.9,
+        "average_gold_left": 10.43
+      }
+    },
+    {
+      "riot_id": "odnaN#3659",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 221,
+      "theoretical_position": 0.221,
+      "empirical_percentile": 0.653061,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 3.3,
+        "top4_rate": 76.67,
+        "win_rate": 26.67,
+        "average_level": 8.47,
+        "placement_standard_deviation": 2.18,
+        "bottom4_rate": 23.33,
+        "average_damage_to_players": 121.97,
+        "average_players_eliminated": 1.3,
+        "average_gold_left": 11.43
+      }
+    },
+    {
+      "riot_id": "ogum de honda#RLG",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 224,
+      "theoretical_position": 0.224,
+      "empirical_percentile": 0.673469,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 4.27,
+        "top4_rate": 63.33,
+        "win_rate": 6.67,
+        "average_level": 8.47,
+        "placement_standard_deviation": 1.95,
+        "bottom4_rate": 36.67,
+        "average_damage_to_players": 101.03,
+        "average_players_eliminated": 0.73,
+        "average_gold_left": 9.8
+      }
+    },
+    {
+      "riot_id": "ICHII#BR2",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 225,
+      "theoretical_position": 0.225,
+      "empirical_percentile": 0.693878,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 3.4,
+        "top4_rate": 80.0,
+        "win_rate": 23.33,
+        "average_level": 8.4,
+        "placement_standard_deviation": 1.94,
+        "bottom4_rate": 20.0,
+        "average_damage_to_players": 123.87,
+        "average_players_eliminated": 1.17,
+        "average_gold_left": 8.7
+      }
+    },
+    {
+      "riot_id": "Diehh#R J",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 226,
+      "theoretical_position": 0.226,
+      "empirical_percentile": 0.714286,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 3.87,
+        "top4_rate": 70.0,
+        "win_rate": 26.67,
+        "average_level": 8.77,
+        "placement_standard_deviation": 2.47,
+        "bottom4_rate": 30.0,
+        "average_damage_to_players": 114.87,
+        "average_players_eliminated": 1.0,
+        "average_gold_left": 8.27
+      }
+    },
+    {
+      "riot_id": "lynuizyy#2284",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 226,
+      "theoretical_position": 0.226,
+      "empirical_percentile": 0.734694,
+      "band_id": "ADVANCED",
+      "band_label": "Avançado",
+      "metrics": {
+        "average_placement": 4.5,
+        "top4_rate": 56.67,
+        "win_rate": 10.0,
+        "average_level": 8.73,
+        "placement_standard_deviation": 2.67,
+        "bottom4_rate": 43.33,
+        "average_damage_to_players": 101.53,
+        "average_players_eliminated": 0.93,
+        "average_gold_left": 14.97
+      }
+    },
+    {
+      "riot_id": "Patati Vatapá#Thigo",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 226,
+      "theoretical_position": 0.226,
+      "empirical_percentile": 0.755102,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 3.77,
+        "top4_rate": 66.67,
+        "win_rate": 13.33,
+        "average_level": 8.83,
+        "placement_standard_deviation": 2.22,
+        "bottom4_rate": 33.33,
+        "average_damage_to_players": 107.47,
+        "average_players_eliminated": 0.93,
+        "average_gold_left": 9.53
+      }
+    },
+    {
+      "riot_id": "Fimose o brabo#FIMOS",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 231,
+      "theoretical_position": 0.231,
+      "empirical_percentile": 0.77551,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 4.2,
+        "top4_rate": 60.0,
+        "win_rate": 13.33,
+        "average_level": 8.0,
+        "placement_standard_deviation": 1.99,
+        "bottom4_rate": 40.0,
+        "average_damage_to_players": 111.97,
+        "average_players_eliminated": 0.77,
+        "average_gold_left": 12.0
+      }
+    },
+    {
+      "riot_id": "te cuida coração#TPC",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 231,
+      "theoretical_position": 0.231,
+      "empirical_percentile": 0.795918,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 2.93,
+        "top4_rate": 80.0,
+        "win_rate": 10.0,
+        "average_level": 8.4,
+        "placement_standard_deviation": 1.75,
+        "bottom4_rate": 20.0,
+        "average_damage_to_players": 102.4,
+        "average_players_eliminated": 1.83,
+        "average_gold_left": 9.77
+      }
+    },
+    {
+      "riot_id": "BagateIa#BR1",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 238,
+      "theoretical_position": 0.238,
+      "empirical_percentile": 0.816327,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 3.87,
+        "top4_rate": 60.0,
+        "win_rate": 20.0,
+        "average_level": 8.9,
+        "placement_standard_deviation": 2.25,
+        "bottom4_rate": 40.0,
+        "average_damage_to_players": 105.07,
+        "average_players_eliminated": 1.07,
+        "average_gold_left": 8.03
+      }
+    },
+    {
+      "riot_id": "KYLE9527#6661",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 242,
+      "theoretical_position": 0.242,
+      "empirical_percentile": 0.836735,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 3.8,
+        "top4_rate": 70.0,
+        "win_rate": 30.0,
+        "average_level": 8.3,
+        "placement_standard_deviation": 2.59,
+        "bottom4_rate": 30.0,
+        "average_damage_to_players": 109.5,
+        "average_players_eliminated": 1.1,
+        "average_gold_left": 9.07
+      }
+    },
+    {
+      "riot_id": "GandalfCinzento#Ganda",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 242,
+      "theoretical_position": 0.242,
+      "empirical_percentile": 0.857143,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 3.5,
+        "top4_rate": 73.33,
+        "win_rate": 30.0,
+        "average_level": 8.4,
+        "placement_standard_deviation": 2.23,
+        "bottom4_rate": 26.67,
+        "average_damage_to_players": 108.0,
+        "average_players_eliminated": 1.4,
+        "average_gold_left": 8.13
+      }
+    },
+    {
+      "riot_id": "GrecchiE#FazoL",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 246,
+      "theoretical_position": 0.246,
+      "empirical_percentile": 0.877551,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 4.52,
+        "top4_rate": 55.17,
+        "win_rate": 24.14,
+        "average_level": 8.17,
+        "placement_standard_deviation": 2.93,
+        "bottom4_rate": 44.83,
+        "average_damage_to_players": 105.14,
+        "average_players_eliminated": 1.1,
+        "average_gold_left": 20.86
+      }
+    },
+    {
+      "riot_id": "Ketchup#pao",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 247,
+      "theoretical_position": 0.247,
+      "empirical_percentile": 0.897959,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 4.2,
+        "top4_rate": 53.33,
+        "win_rate": 13.33,
+        "average_level": 8.43,
+        "placement_standard_deviation": 2.02,
+        "bottom4_rate": 46.67,
+        "average_damage_to_players": 103.47,
+        "average_players_eliminated": 0.7,
+        "average_gold_left": 8.5
+      }
+    },
+    {
+      "riot_id": "RYT Vladimin#Lips",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 247,
+      "theoretical_position": 0.247,
+      "empirical_percentile": 0.918367,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 4.2,
+        "top4_rate": 56.67,
+        "win_rate": 6.67,
+        "average_level": 8.67,
+        "placement_standard_deviation": 2.24,
+        "bottom4_rate": 43.33,
+        "average_damage_to_players": 102.9,
+        "average_players_eliminated": 0.9,
+        "average_gold_left": 15.4
+      }
+    },
+    {
+      "riot_id": "amiraki7#9384",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 251,
+      "theoretical_position": 0.251,
+      "empirical_percentile": 0.938776,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 4.23,
+        "top4_rate": 53.33,
+        "win_rate": 16.67,
+        "average_level": 8.67,
+        "placement_standard_deviation": 2.23,
+        "bottom4_rate": 46.67,
+        "average_damage_to_players": 107.7,
+        "average_players_eliminated": 1.0,
+        "average_gold_left": 9.53
+      }
+    },
+    {
+      "riot_id": "FreeNas#TFT",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 253,
+      "theoretical_position": 0.253,
+      "empirical_percentile": 0.959184,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 4.83,
+        "top4_rate": 46.67,
+        "win_rate": 16.67,
+        "average_level": 8.3,
+        "placement_standard_deviation": 2.68,
+        "bottom4_rate": 53.33,
+        "average_damage_to_players": 100.1,
+        "average_players_eliminated": 0.9,
+        "average_gold_left": 5.87
+      }
+    },
+    {
+      "riot_id": "TFT DROGADO#tft",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 298,
+      "theoretical_position": 0.298,
+      "empirical_percentile": 0.979592,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 3.6,
+        "top4_rate": 66.67,
+        "win_rate": 26.67,
+        "average_level": 8.17,
+        "placement_standard_deviation": 2.32,
+        "bottom4_rate": 33.33,
+        "average_damage_to_players": 117.0,
+        "average_players_eliminated": 1.17,
+        "average_gold_left": 8.73
+      }
+    },
+    {
+      "riot_id": "corgi lover#2004",
+      "tier": "MASTER",
+      "division": "I",
+      "league_points": 330,
+      "theoretical_position": 0.33,
+      "empirical_percentile": 1.0,
+      "band_id": "TRANSITION",
+      "band_label": "Transição",
+      "metrics": {
+        "average_placement": 3.63,
+        "top4_rate": 63.33,
+        "win_rate": 23.33,
+        "average_level": 8.27,
+        "placement_standard_deviation": 2.33,
+        "bottom4_rate": 36.67,
+        "average_damage_to_players": 117.5,
+        "average_players_eliminated": 1.13,
+        "average_gold_left": 10.0
+      }
+    }
+  ],
+  "methodology": {
+    "theoretical_position": "Posição contínua calculada a partir de tier, divisão e LP dentro do espectro configurado do benchmark.",
+    "empirical_percentile": "Posição relativa do jogador dentro dos jogadores realmente presentes no catálogo, ordenados por elo/divisão/LP.",
+    "correlation": "Spearman entre percentil empírico e métrica individual. Correlação não implica causalidade e não cria pesos automaticamente."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sample_size": 1234,
+  "top4_rate": 51.86385737439222,
+  "win_rate": 12.80388978930308,
+  "average_placement": 4.423824959481362,
+  "average_level": 8.530794165316046,
+  "level_8_rate": 88.0064829821718,
+  "level_9_rate": 53.970826580226905,
+  "average_damage": 98.58995137763371,
+  "cache_files": 1234,
+  "valid_matches": 1234,
+  "sanitized_files": 5,
+  "skipped_files": 0
+}

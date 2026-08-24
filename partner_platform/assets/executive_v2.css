@@ -1,0 +1,143 @@
+/* Sprint 5.2.2 — Executive Dashboard polish */
+
+.tft-executive-reading {
+    margin: 1.15rem 0 1.45rem;
+    padding: 1.55rem 1.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(107,146,255,.15);
+    background:
+        radial-gradient(
+            circle at 0% 0%,
+            rgba(107,146,255,.10),
+            transparent 35%
+        ),
+        rgba(255,255,255,.016);
+}
+
+.tft-executive-reading-kicker {
+    color: #7d8ba1;
+    font-size: .68rem;
+    font-weight: 720;
+    letter-spacing: .11em;
+}
+
+.tft-executive-reading-title {
+    margin-top: .4rem;
+    color: #f5f7fb;
+    font-size: 1.28rem;
+    font-weight: 760;
+}
+
+.tft-executive-reading-body {
+    margin-top: .62rem;
+    max-width: 1100px;
+    color: #a7b1c2;
+    font-size: .9rem;
+    line-height: 1.7;
+}
+
+.tft-executive-spotlight {
+    min-height: 205px;
+    padding: 1.15rem;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,.07);
+    background: rgba(255,255,255,.016);
+    transition:
+        transform 180ms var(--tft-ease),
+        border-color 180ms var(--tft-ease),
+        background 180ms var(--tft-ease),
+        box-shadow 180ms var(--tft-ease);
+}
+
+.tft-executive-spotlight:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 34px rgba(0,0,0,.18);
+}
+
+.tft-executive-spotlight-symbol {
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-bottom: .75rem;
+}
+
+.tft-executive-spotlight-eyebrow {
+    color: #7f8ca1;
+    font-size: .66rem;
+    font-weight: 720;
+    letter-spacing: .1em;
+}
+
+.tft-executive-spotlight-title {
+    margin-top: .55rem;
+    color: #f2f5fa;
+    font-size: .92rem;
+    font-weight: 700;
+}
+
+.tft-executive-spotlight-value {
+    margin-top: .55rem;
+    color: #ffffff;
+    font-size: 1.08rem;
+    line-height: 1.35;
+    font-weight: 760;
+}
+
+.tft-executive-spotlight-description {
+    margin-top: .6rem;
+    color: #8f9aac;
+    font-size: .76rem;
+    line-height: 1.5;
+}
+
+.tft-spotlight-positive {
+    border-color: rgba(67,214,147,.16);
+}
+
+.tft-spotlight-warning {
+    border-color: rgba(247,185,85,.18);
+}
+
+.tft-spotlight-neutral {
+    border-color: rgba(107,146,255,.16);
+}
+
+/* Explainable KPI visual affordance */
+div[data-testid="stColumn"] .tft-card {
+    cursor: help;
+}
+
+div[data-testid="stColumn"] .tft-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(107,146,255,.32);
+    box-shadow:
+        0 16px 38px rgba(0,0,0,.24),
+        0 0 0 1px rgba(107,146,255,.06);
+}
+
+div[data-testid="stColumn"] .stCaptionContainer {
+    margin-top: -.25rem;
+    opacity: .72;
+    transition: opacity 160ms var(--tft-ease);
+}
+
+div[data-testid="stColumn"]:hover .stCaptionContainer {
+    opacity: 1;
+}
+
+div[data-testid="stPopover"] button {
+    border-radius: 10px !important;
+    min-height: 2rem !important;
+    font-size: .72rem !important;
+    background: rgba(107,146,255,.06) !important;
+    border-color: rgba(107,146,255,.15) !important;
+}
+
+@media (max-width: 760px) {
+    .tft-executive-reading {
+        padding: 1rem;
+    }
+
+    .tft-executive-spotlight {
+        min-height: auto;
+    }
+}

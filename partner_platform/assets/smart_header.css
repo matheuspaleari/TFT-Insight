@@ -1,0 +1,189 @@
+/* Sprint 5.2.2 — Smart Header fix
+   Important: Streamlit's fixed toolbar occupies the top viewport.
+   Do not place the first content block underneath it.
+*/
+
+.block-container {
+    padding-top: 4.35rem !important;
+    padding-bottom: 3.5rem !important;
+}
+
+/* Keep Streamlit toolbar visible, but remove the opaque visual wall. */
+[data-testid="stHeader"] {
+    background: rgba(9,13,19,.94) !important;
+    border-bottom: 1px solid rgba(255,255,255,.045);
+}
+
+.tft-smart-header {
+    border: 1px solid rgba(255,255,255,.075);
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,255,255,.033),
+            rgba(255,255,255,.011)
+        ),
+        rgba(13,18,27,.78);
+    border-radius: 18px 18px 10px 10px;
+    padding: .68rem 1rem .78rem;
+    box-shadow: 0 10px 28px rgba(0,0,0,.18);
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.tft-smart-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .8rem;
+}
+
+.tft-smart-header-brand {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+}
+
+.tft-smart-header-mark {
+    display: inline-flex;
+    width: 26px;
+    height: 26px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid rgba(107,146,255,.25);
+    background: rgba(107,146,255,.08);
+}
+
+.tft-smart-header-brand-name {
+    font-size: .83rem;
+    font-weight: 760;
+}
+
+.tft-smart-header-version {
+    color: #7c899e;
+    font-size: .64rem;
+}
+
+.tft-smart-header-env {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    color: #9ba6b8;
+    font-size: .68rem;
+}
+
+.tft-smart-header-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: #43D693;
+    box-shadow: 0 0 0 3px rgba(67,214,147,.08);
+}
+
+.tft-smart-header-body {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: .62rem;
+}
+
+.tft-smart-header-title {
+    color: #f4f7fb;
+    font-size: clamp(1.35rem, 2.8vw, 2rem);
+    line-height: 1.08;
+    font-weight: 790;
+    letter-spacing: -.035em;
+}
+
+.tft-smart-header-subtitle {
+    color: #94A1B5;
+    font-size: .8rem;
+    line-height: 1.45;
+    margin-top: .28rem;
+    max-width: 900px;
+}
+
+.tft-smart-header-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: .32rem;
+}
+
+.tft-smart-header-chip {
+    padding: .22rem .48rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.07);
+    background: rgba(255,255,255,.022);
+    color: #cbd3df;
+    font-size: .64rem;
+}
+
+/* Health visually belongs to Smart Header */
+.tft-compact-health {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .42rem 1rem;
+    padding: .42rem .78rem .48rem;
+    margin: 0 0 .95rem;
+    border: 1px solid rgba(255,255,255,.065);
+    border-top: 0;
+    border-radius: 0 0 12px 12px;
+    background: rgba(13,18,27,.48);
+}
+
+.tft-compact-health-item {
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+    min-width: 0;
+}
+
+.tft-compact-health-label {
+    color: #7e8ba0;
+    font-size: .64rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.tft-compact-health-value {
+    color: #c6ceda;
+    font-size: .67rem;
+    font-weight: 650;
+}
+
+@media (max-width: 900px) {
+    .block-container {
+        padding-top: 4.1rem !important;
+    }
+
+    .tft-smart-header-body {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .tft-smart-header-badges {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 640px) {
+    .block-container {
+        padding-top: 4rem !important;
+    }
+
+    .tft-smart-header {
+        padding: .7rem .8rem;
+    }
+
+    .tft-smart-header-version {
+        display: none;
+    }
+
+    .tft-compact-health {
+        gap: .35rem .65rem;
+    }
+}

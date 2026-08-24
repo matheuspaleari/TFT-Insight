@@ -1,22 +1,123 @@
-# Ambiente
+# ==============================================================================
+# TFT Insight — contrato público do repositório
+# Roadmap 24.2
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Segredos / configuração local
+# ------------------------------------------------------------------------------
 .env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ------------------------------------------------------------------------------
+# Ambientes virtuais
+# ------------------------------------------------------------------------------
 .venv/
 venv/
+env/
+tft-insight-venv/
 
-# Python
+# ------------------------------------------------------------------------------
+# Python / testes / tooling
+# ------------------------------------------------------------------------------
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.pyre/
+.pytype/
 
-# Logs
+# ------------------------------------------------------------------------------
+# IDE / sistema operacional
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------------------------
+# Logs e arquivos temporários
+# ------------------------------------------------------------------------------
 logs/*.log
 !logs/.gitkeep
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
 
-# Dados processados
-data/processed/*.csv
+# ------------------------------------------------------------------------------
+# Relatórios/listagens locais gerados durante auditorias
+# ------------------------------------------------------------------------------
+estrutura.txt
+estrutura_tft_insight.txt
+roadmap*_current.zip
+roadmap*_home_current.zip
+*_audit_output.txt
+*_diagnostic_output.txt
+
+# ------------------------------------------------------------------------------
+# Runtime local — NÃO publicar
+# ------------------------------------------------------------------------------
+
+# Cache
+data/cache/
+data/debug/
+
+# Diagnósticos gerados por execução
+data/diagnostics/
+
+# Histórico e estado local
+data/history/
+data/players/
+
+# Bancos/runtime do produto
+data/knowledge/*.db
+data/partner/*.db
+database/*.db
+
+# Dados processados gerados localmente
+data/processed/*
 !data/processed/.gitkeep
 
-# Jupyter
+# Dados raw coletados da Riot
+data/raw/*
+!data/raw/.gitkeep
+
+# ------------------------------------------------------------------------------
+# Notebooks
+# ------------------------------------------------------------------------------
 .ipynb_checkpoints/
 
-# Banco SQLite gerado pelo pipeline
-database/*.db
+# ------------------------------------------------------------------------------
+# SDK / builds Python
+# ------------------------------------------------------------------------------
+sdk/python/.pytest_cache/
+sdk/python/build/
+sdk/python/dist/
+sdk/python/*.egg-info/
+sdk/python/src/*.egg-info/
+
+# ------------------------------------------------------------------------------
+# IMPORTANTE — dados que fazem parte do produto
+# ------------------------------------------------------------------------------
+# NÃO ignorar:
+# - data/benchmark/
+# - data/benchmarks/
+# - data/static_data/
+# - assets/
+#
+# Esses diretórios contêm referências/artefatos necessários ao funcionamento
+# atual do TFT Insight e serão tratados explicitamente nas próximas etapas.
+
+# Raw role-inference match dataset
+data/role_inference/**/matches/

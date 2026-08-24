@@ -1,0 +1,43 @@
+/*
+TFT Insight — Roadmap 22.6A
+Inteligências especializadas: hierarquia e densidade.
+*/
+
+.tft-section-header {
+    scroll-margin-top: 1rem;
+}
+
+[data-testid="stExpander"] {
+    background: rgba(17, 23, 34, .22);
+}
+
+[data-testid="stExpander"] summary {
+    min-height: 2.65rem;
+}
+
+[data-testid="stExpander"] summary p {
+    font-size: .82rem;
+    color: var(--tft22-text-muted);
+}
+
+/* Mantém evidências acessíveis sem dar a elas o mesmo peso do diagnóstico. */
+[data-testid="stExpander"] [data-testid="stVerticalBlock"] {
+    gap: .72rem;
+}
+
+/* Mais ritmo entre os quatro módulos. */
+.tft-section-header + [data-testid="stHorizontalBlock"] {
+    margin-top: .15rem;
+}
+
+/* Botões de análise ficam secundários ao Coach principal. */
+[data-testid="stButton"] button[kind="secondary"] {
+    background: rgba(21, 29, 42, .70);
+    border-color: rgba(255, 255, 255, .08);
+}
+
+@media (max-width: 760px) {
+    [data-testid="stExpander"] summary {
+        min-height: 2.9rem;
+    }
+}

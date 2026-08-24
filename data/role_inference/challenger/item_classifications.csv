@@ -1,0 +1,240 @@
+﻿item_id,item_name,category,confidence,offense_score,defense_score,utility_score,total_uses,carry_uses,tank_uses,support_uses,source
+TFT_Item_GargoyleStoneplate,Placa Gargolítica,Defensivo,100.0,0.01,99.99,0.0,8630,2,8628,0,hybrid
+TFT_Item_WarmogsArmor,Armadura de Warmog,Defensivo,100.0,0.08,79.92,0.0,5534,8,5526,0,hybrid
+TFT_Item_JeweledGauntlet,Manopla Adornada,Ofensivo,92.0,68.73,0.8,0.46,5063,4956,68,39,hybrid
+TFT_Item_FrozenHeart,Juramento do Protetor,Defensivo,100.0,0.02,99.96,20.01,4474,2,4471,1,hybrid
+TFT_Item_GuinsoosRageblade,Lâmina da Fúria de Guinsoo,Ofensivo,100.0,78.79,1.14,0.07,4369,4281,83,5,hybrid
+TFT_Item_MadredsBloodrazor,Mata-Gigantes,Ofensivo,92.0,65.79,3.97,0.25,4133,3843,273,17,hybrid
+TFT_Item_Redemption,Semblante Espiritual,Defensivo,82.0,0.09,79.91,20.0,4012,6,4006,0,hybrid
+TFT_Item_Deathblade,Lâmina Mortal,Ofensivo,60.0,57.38,2.26,0.36,3670,3510,138,22,hybrid
+TFT_Item_PowerGauntlet,Mangual do Guerreiro,Ofensivo,100.0,87.99,11.99,0.02,3318,3207,110,1,hybrid
+TFT_Item_SpearOfShojin,Lança de Shojin,Ofensivo,100.0,54.5,2.16,23.34,3198,2905,115,178,hybrid
+TFT_Item_RabadonsDeathcap,Capuz da Morte de Rabadon,Ofensivo,60.0,56.09,2.99,0.92,3130,2926,156,48,hybrid
+TFT_Item_ThiefsGloves,Luvas do Ladrão,Híbrido,82.0,34.92,45.0,0.08,3120,1296,1820,4,hybrid
+TFT_Item_StatikkShiv,Cajado do Vazio,Ofensivo,82.0,76.71,11.09,22.2,2861,2704,52,105,hybrid
+TFT_Item_RapidFireCannon,Efeito Vermelho,Ofensivo,92.0,67.12,12.24,20.64,2836,2700,106,30,hybrid
+TFT_Item_Leviathan,Dente de Na'Shor,Ofensivo,82.0,79.02,10.43,20.55,2759,2714,20,25,hybrid
+TFT_Item_AdaptiveHelm,Elmo Adaptativo,Defensivo,82.0,44.36,75.29,20.35,2415,578,1823,14,hybrid
+TFT_Item_RunaansHurricane,Fúria do Cráquem,Ofensivo,100.0,89.75,10.25,0.0,2402,2392,10,0,hybrid
+TFT_Item_InfinityEdge,Gume do Infinito,Ofensivo,92.0,66.37,3.35,0.28,2397,2252,134,11,hybrid
+TFT_Item_RedBuff,Capa de Fogo Solar,Defensivo,100.0,10.26,89.74,10.0,2333,10,2323,0,hybrid
+TFT_Item_Crownguard,Stemmaguarda,Defensivo,100.0,10.76,99.24,0.0,2198,28,2170,0,hybrid
+TFT_Item_NightHarvester,Coração Inabalável,Defensivo,100.0,10.11,89.89,0.0,2123,4,2119,0,hybrid
+TFT_Item_HextechGunblade,Pistola Laminar Hextec,Ofensivo,100.0,64.63,13.04,42.33,2111,1922,107,82,hybrid
+TFT_Item_LastWhisper,Último Sussurro,Ofensivo,92.0,89.03,20.94,0.03,1985,1953,31,1,hybrid
+TFT_Item_Morellonomicon,Morellonomicon,Ofensivo,92.0,52.61,27.54,39.85,1815,1289,228,298,hybrid
+TFT_Item_DragonsClaw,Garra do Dragão,Defensivo,100.0,0.07,89.93,10.0,1806,2,1804,0,hybrid
+TFT_Item_SteraksGage,Sinal de Sterak,Defensivo,100.0,7.96,82.0,0.04,1688,224,1463,1,hybrid
+TFT_Item_BrambleVest,Colete Espinhoso,Defensivo,92.0,10.29,79.71,0.0,1619,8,1611,0,hybrid
+TFT_Item_Bloodthirster,Sedenta por Sangue,Defensivo,100.0,5.89,94.11,10.0,1590,156,1434,0,hybrid
+TFT_Item_Quicksilver,Mercúrio,Ofensivo,100.0,78.82,21.18,10.0,1497,1218,279,0,hybrid
+TFT_Item_GuardianAngel,Limiar da Noite,Defensivo,100.0,21.02,68.78,10.2,1487,521,961,5,hybrid
+TFT_Item_UnstableConcoction,Mão da Justiça,Ofensivo,92.0,86.72,33.12,30.17,1427,1111,312,4,hybrid
+TFT_Item_BlueBuff,Efeito Azul,Ofensivo,92.0,87.17,2.24,20.59,1314,1252,49,13,hybrid
+TFT_Item_SpectralGauntlet,Proteção Imutável,Defensivo,100.0,0.05,99.95,0.0,1149,1,1148,0,hybrid
+TFT_Item_ArchangelsStaff,Cajado do Arcanjo,Ofensivo,92.0,65.42,2.56,22.03,1125,1039,48,38,hybrid
+TFT17_EkkoOffering_AnomalyItem,Anomalia,Defensivo,100.0,51.76,68.08,20.16,1102,216,883,3,hybrid
+TFT_Item_IonicSpark,Centelha Iônica,Defensivo,92.0,13.52,86.26,20.22,1075,63,1008,4,hybrid
+TFT17_Item_StargazerEmblemItem,Emblema de Astromante,Defensivo,60.0,16.45,42.8,0.75,1043,286,744,13,hybrid
+TFT_Item_TitansResolve,Determinação Titânica,Híbrido,100.0,54.66,45.34,10.0,978,402,576,0,hybrid
+TFT17_Item_SpaceGrooveEmblemItem,Emblema de Embalos no Espaço,Defensivo,92.0,8.09,61.8,0.1,578,78,499,1,hybrid
+TFT_Item_GiantsBelt,Cinto do Gigante,Defensivo,100.0,1.43,78.44,0.13,462,11,450,1,hybrid
+TFT17_Item_DRXEmblemItem,Emblema de N.O.V.A.,Defensivo,100.0,33.59,86.41,10.0,437,99,338,0,hybrid
+TFT17_Item_ASTraitEmblemItem,Emblema de Desafiante,Defensivo,92.0,18.55,60.61,10.85,427,132,289,6,hybrid
+TFT_Item_RecurveBow,Arco Recurvo,Ofensivo,92.0,65.9,3.4,0.71,424,395,24,5,hybrid
+TFT17_Item_FlexTraitEmblemItem,Emblema de Viajante,Defensivo,92.0,35.58,74.27,20.14,412,107,304,1,hybrid
+TFT_Item_NeedlesslyLargeRod,Bastão Desnecessariamente Grande,Ofensivo,92.0,63.55,5.7,0.75,400,357,38,5,hybrid
+TFT_Item_ChainVest,Cota de Malha,Defensivo,100.0,0.47,79.53,0.0,387,3,384,0,hybrid
+TFT_Item_BFSword,Espada G.p.C.,Ofensivo,100.0,77.48,2.36,0.16,381,365,15,1,hybrid
+TFT17_Item_DarkStarEmblemItem,Emblema de Estrela Negra,Ofensivo,60.0,49.36,9.68,0.97,372,306,60,6,hybrid
+TFT_Item_NegatronCloak,Capa Negatron,Defensivo,100.0,0.72,79.28,0.0,332,4,328,0,hybrid
+TFT17_Item_HPTankEmblemItem,Emblema de Lutador,Defensivo,92.0,15.18,74.82,0.0,313,27,286,0,hybrid
+TFT_Item_SparringGloves,Luvas do Pugilista,Ofensivo,100.0,75.36,4.64,0.0,310,286,24,0,hybrid
+TFT_Item_TearOfTheGoddess,Lágrima da Deusa,Utilidade,100.0,8.21,19.35,52.44,307,42,99,166,hybrid
+TFT17_Item_ShieldTankEmblemItem,Emblema de Vanguarda,Defensivo,100.0,19.0,81.0,0.0,280,42,238,0,hybrid
+TFT17_Item_ResistTankEmblemItem,Emblema de Bastião,Defensivo,82.0,27.97,72.03,0.0,256,34,222,0,hybrid
+TFT17_Item_PulsefireEmblemItem,Emblema de Rasga-tempo,Defensivo,92.0,23.0,46.28,0.71,253,97,153,3,hybrid
+TFT17_Item_AstronautEmblemItem,Emblema de Mipo,Defensivo,100.0,16.74,93.26,20.0,249,28,221,0,hybrid
+TFT17_Item_Artifact_SorakaArtifact,Milagre de Soraka,Defensivo,92.0,0.0,80.0,10.0,242,0,242,0,hybrid
+TFT17_Item_AssassinTraitEmblemItem,Emblema de Ladino,Ofensivo,82.0,62.97,26.02,21.0,239,211,24,4,hybrid
+TFT17_Item_SummonTraitEmblemItem,Emblema de Pastor,Utilidade,100.0,18.99,14.59,46.42,218,69,53,96,hybrid
+TFT_Item_Artifact_TheIndomitable,Imbatível,Defensivo,100.0,0.0,100.0,0.0,197,0,197,0,hybrid
+TFT17_Item_MeleeTraitEmblemItem,Emblema de Saqueador,Ofensivo,92.0,47.14,8.88,13.98,196,154,29,13,hybrid
+TFT17_Item_AnimaSquadEmblemItem,Emblema de Anima,Defensivo,92.0,3.38,66.62,0.0,195,11,184,0,hybrid
+TFT17_Item_PsyOpsEmblemItem,Emblema de Psiônico,Defensivo,92.0,17.63,50.52,1.85,194,57,131,6,hybrid
+TFT17_Item_Artifact_ThreshLantern,Lanterna do Thresh,Defensivo,100.0,10.31,89.69,0.0,193,1,192,0,hybrid
+TFT17_Item_PsyOps_DroneMod,Conexão de Drone,Ofensivo,92.0,66.13,3.55,0.32,186,174,11,1,hybrid
+TFT17_Item_PsyOps_SympatheticImplantMod,Implante Solidário,Ofensivo,92.0,53.93,4.59,31.48,183,134,14,35,hybrid
+TFT17_Item_PsyOps_ChemicalCapacitorMod,Matriz de Malware,Defensivo,92.0,33.05,56.95,10.0,177,68,109,0,hybrid
+TFT17_Item_PrimordianEmblemItem,Emblema de Primordiano,Defensivo,92.0,4.77,64.89,0.34,176,14,161,1,hybrid
+TFT17_Item_FavoredEmblemItem,Emblema de Árbitro,Defensivo,100.0,10.74,67.41,1.85,162,29,128,5,hybrid
+TFT7_Item_ShimmerscaleMogulsMail,Carapaça do Manda-Chuva,Defensivo,100.0,10.0,100.0,0.0,158,0,158,0,hybrid
+TFT17_Item_PsyOps_TargetlockMod,Mira Óptica,Ofensivo,100.0,88.01,1.99,0.0,151,146,5,0,hybrid
+TFT_Item_Artifact_LightshieldCrest,Insígnia do Lumescudo,Defensivo,100.0,0.0,100.0,10.0,151,0,151,0,hybrid
+TFT17_Item_RangedTraitEmblemItem,Emblema de Atirador de Elite,Ofensivo,60.0,45.43,12.43,2.14,140,106,29,5,hybrid
+TFT_Item_Artifact_NavoriFlickerblades,Adagas Oscilantes,Ofensivo,100.0,99.56,0.44,0.0,137,136,1,0,hybrid
+TFT17_Item_PsyOps_GrenadeMod,Preservador de Biomatéria,Defensivo,100.0,0.46,79.54,0.0,130,1,129,0,hybrid
+TFT4_Item_OrnnInfinityForce,Força do Infinito,Defensivo,100.0,23.41,66.59,0.0,123,48,75,0,hybrid
+TFT_Item_Artifact_AegisOfDusk,Égide do Crepúsculo,Defensivo,100.0,10.0,90.0,0.0,123,0,123,0,hybrid
+TFT17_Item_Artifact_AhriArtifact,Aura de Ahri,Ofensivo,91.21,65.25,2.0,22.5,118,110,4,4,hybrid
+TFT_Item_Artifact_BlightingJewel,Joia da Ruína,Ofensivo,90.82,57.88,15.87,26.25,117,95,11,11,hybrid
+TFT17_AnimaSquadItem_Tier2_BattleBunnyCrossbow,Besta da Coelha de Batalha,Ofensivo,98.84,88.5,1.0,0.0,116,114,2,0,hybrid
+TFT_Item_Artifact_AegisOfDawn,Égide da Alvorada,Defensivo,98.84,0.0,89.5,10.5,116,0,116,0,hybrid
+TFT7_Item_ShimmerscaleGamblersBlade,Lâmina do Apostador,Ofensivo,98.56,77.25,1.5,0.0,115,112,3,0,hybrid
+TFT9_Item_OrnnHorizonFocus,Concentração de Elite,Ofensivo,89.32,63.88,1.5,23.75,113,106,3,4,hybrid
+TFT_Item_Artifact_Dawncore,Auronúcleo,Ofensivo,97.76,45.0,5.5,27.5,112,90,11,11,hybrid
+TFT_Item_Artifact_SilvermereDawn,Alvorada de Pratânia,Defensivo,77.96,32.5,67.0,11.5,112,21,90,1,hybrid
+TFT_Item_TacticiansRing,Capa do Estrategista,Utilidade,88.25,8.5,5.5,52.25,110,17,11,82,hybrid
+TFT17_Item_Artifact_VarusArtifact,Obsessão de Varus,Ofensivo,96.29,86.25,13.75,11.75,106,102,4,0,hybrid
+TFT_Item_Artifact_TitanicHydra,Hidra Titânica,Ofensivo,86.56,72.12,39.75,0.0,105,73,32,0,hybrid
+TFT_Item_Artifact_VoidGauntlet,Manopla do Vazio,Defensivo,86.24,12.0,76.0,0.0,104,0,104,0,hybrid
+TFT_Item_Artifact_SeekersArmguard,Armaguarda da Caçadora,Defensivo,95.2,28.87,83.5,12.38,101,33,68,0,hybrid
+TFT17_AnimaSquadItem_Tier1_GuidingHex,Feitiço-guia,Ofensivo,95.0,74.0,1.0,0.0,100,98,2,0,hybrid
+TFT17_AnimaSquadItem_Tier1_TentacleSlam,Golpe de Tentáculo,Defensivo,84.41,12.75,74.5,12.75,98,0,98,0,hybrid
+TFT_Item_Artifact_LichBane,Perdição de Lich,Ofensivo,84.41,56.75,3.0,2.0,98,88,6,4,hybrid
+TFT_Item_Artifact_Fishbones,Fishbones,Ofensivo,42.92,46.0,2.0,0.5,97,92,4,1,hybrid
+TFT_Item_Artifact_TalismanOfAscension,Talismã da Ascensão,Defensivo,83.84,23.0,64.0,0.0,96,20,76,0,hybrid
+TFT17_Item_Artifact_EvelynnArtifact,Instinto de Evelynn,Híbrido,69.65,35.88,36.88,13.88,93,45,47,1,hybrid
+TFT_Item_Artifact_StatikkShiv,Faca de Statikk,Ofensivo,93.25,71.5,1.0,0.0,90,88,2,0,hybrid
+TFT_Item_Artifact_WitsEnd,Limite da Razão,Defensivo,82.0,43.88,56.12,27.75,89,60,29,0,hybrid
+TFT4_Item_OrnnTheCollector,Coletor de Ouro,Ofensivo,68.13,54.87,16.87,0.5,89,82,6,1,hybrid
+TFT_Item_Artifact_EternalPact,Pacto Eterno,Ofensivo,67.4,52.63,30.25,31.25,87,77,4,6,hybrid
+TFT4_Item_OrnnDeathsDefiance,Desafio da Morte,Híbrido,67.04,37.75,33.75,14.25,86,47,39,0,hybrid
+TFT_Item_Artifact_LudensTempest,Tormenta de Luden,Ofensivo,80.84,51.0,4.5,1.0,84,73,9,2,hybrid
+TFT9_Item_OrnnHullbreaker,Esmagacascos,Defensivo,80.41,47.25,97.0,14.75,82,6,76,0,hybrid
+TFT_Item_Artifact_ProwlersClaw,Garra do Espreitador,Ofensivo,92.0,78.5,21.5,0.0,80,67,13,0,hybrid
+TFT17_AnimaSquadItem_Tier2_LionessLament,Lamento da Leoa,Defensivo,91.9,15.12,100.0,0.0,79,0,79,0,hybrid
+TFT_Item_Artifact_RapidFirecannon,Canhão Fumegante,Ofensivo,31.4,34.0,5.5,0.0,79,68,11,0,hybrid
+TFT_Item_Artifact_HellfireHatchet,Machadinha Infernal,Híbrido,63.74,45.0,54.5,16.0,76,28,47,1,hybrid
+TFT17_AnimaSquadItem_Tier0_SparkingPrototype,Protótipo Faiscante,Ofensivo,91.56,63.75,5.0,0.0,75,65,10,0,hybrid
+TFT5_Item_RabadonsDeathcapRadiant,Capuz da Morte de Rabadon Radiante,Ofensivo,29.06,35.0,0.5,2.0,75,70,1,4,hybrid
+TFT17_AnimaSquadItem_Tier0_ClunkyPrototype,Protótipo Quebrado,Defensivo,91.49,0.5,83.75,0.0,74,1,73,0,hybrid
+TFT17_AnimaSquadItem_Tier2_RadiantField,Campo Radiante,Defensivo,78.89,16.25,68.0,0.0,74,1,73,0,hybrid
+TFT_Item_ForceOfNature,Coroa do Estrategista,Utilidade,78.72,3.5,3.5,45.37,73,7,7,59,hybrid
+TFT17_AnimaSquadItem_Tier0_LeakyPrototype,Protótipo Vazado,Híbrido,78.72,32.88,7.0,44.25,73,34,14,25,hybrid
+TFT17_AnimaSquadItem_Tier2_Annihilator,A Aniquiladora,Ofensivo,77.82,48.13,1.5,33.75,67,63,3,1,hybrid
+TFT_Item_Artifact_Mittens,Luvinhas,Ofensivo,24.62,24.5,9.0,0.0,67,49,18,0,hybrid
+TFT5_Item_GargoyleStoneplateRadiant,Placa Gargolítica Radiante,Defensivo,91.06,0.0,100.0,0.0,65,0,65,0,hybrid
+TFT4_Item_OrnnZhonyasParadox,Paradoxo de Zhonya,Defensivo,91.01,8.5,91.5,0.0,62,17,45,0,hybrid
+TFT17_AnimaSquadItem_Tier1_RocketSwarm,Enxame de Mísseis,Híbrido,77.21,41.75,3.0,38.0,62,49,6,7,hybrid
+TFT17_Item_Artifact_YasuoArtifact,Esgrima de Yasuo,Ofensivo,21.5,27.0,3.5,0.0,61,54,7,0,hybrid
+TFT17_AnimaSquadItem_Tier2_IceblastArmor,Armadura Crioexplosiva,Defensivo,91.0,0.5,99.5,17.5,60,1,59,0,hybrid
+TFT17_AnimaSquadItem_Tier1_SavageSlicer,Corte Selvagem,Ofensivo,76.9,57.25,7.5,17.62,59,44,15,0,hybrid
+TFT5_Item_WarmogsArmorRadiant,Armadura de Warmog Radiante,Defensivo,91.04,0.0,64.0,0.0,56,0,56,0,hybrid
+TFT5_Item_JeweledGauntletRadiant,Manopla Adornada Radiante,Ofensivo,76.56,44.62,1.0,0.0,55,53,2,0,hybrid
+TFT5_Item_ThiefsGlovesRadiant,Luvas do Ladrão Radiante,Híbrido,58.05,30.88,29.88,2.5,53,25,23,5,hybrid
+TFT17_AnimaSquadItem_Tier2_SearingShortbow,Arco Calcinante,Híbrido,76.36,62.0,18.5,56.5,52,50,0,2,hybrid
+TFT5_Item_GiantSlayerRadiant,Mata-Gigantes Radiante,Ofensivo,76.25,39.75,4.0,0.0,50,42,8,0,hybrid
+TFT5_Item_LeviathanRadiant,Dente de Na'Shor Radiante,Ofensivo,57.5,62.0,19.25,37.5,50,49,1,0,hybrid
+TFT5_Item_RedemptionRadiant,Semblante Espiritual Radiante,Defensivo,57.5,0.0,62.0,38.0,50,0,49,1,hybrid
+TFT17_Item_PsyOps_DroneMod_Radiant,Conexão de Drone,Ofensivo,76.16,41.5,1.5,0.0,48,45,3,0,hybrid
+TFT_Item_ChonccsChalice,Cálice do Choncc,Utilidade,76.09,4.5,5.5,32.25,46,9,11,26,hybrid
+TFT17_Item_PsyOps_SympatheticImplantMod_Radiant,Implante Solidário,Ofensivo,56.84,60.5,0.5,39.0,46,44,1,1,hybrid
+TFT_Item_Artifact_CappaJuice,Suco de Chapéu,Ofensivo,91.64,79.5,1.0,0.0,44,42,2,0,hybrid
+TFT17_AnimaSquadItem_Tier2_CyclonicSlicers,Retalhadores Ciclônicos,Defensivo,76.0,25.38,54.75,0.0,41,11,30,0,hybrid
+TFT17_AnimaSquadItem_Tier2_UwuBlaster,Lança-UwU,Ofensivo,92.1,57.25,2.5,0.0,39,34,5,0,hybrid
+TFT5_Item_GuinsoosRagebladeRadiant,Lâmina da Fúria de Guinsoo Radiante,Ofensivo,92.21,59.5,0.0,0.0,38,38,0,0,hybrid
+TFT17_AnimaSquadItem_Tier2_EchoingBatblades,Lâminas-morcego Ecoantes,Ofensivo,76.02,33.87,5.0,0.0,37,27,10,0,hybrid
+TFT5_Item_TrapClawRadiant,Mangual do Guerreiro Radiante,Ofensivo,92.44,79.5,20.5,0.0,36,36,0,0,hybrid
+TFT5_Item_DeathbladeRadiant,Lâmina Mortal Radiante,Ofensivo,10.06,16.5,1.0,0.0,35,33,2,0,hybrid
+TFT5_Item_RapidFirecannonRadiant,Efeito Vermelho Radiante,Híbrido,76.09,35.75,21.75,42.5,34,30,2,2,hybrid
+TFT17_Item_PsyOps_TargetlockMod_Radiant,Mira Óptica,Ofensivo,76.12,77.13,43.75,20.88,33,29,4,0,hybrid
+TFT5_Item_RunaansHurricaneRadiant,Fúria do Cráquem Radiante,Ofensivo,93.1,78.88,21.12,0.0,31,31,0,0,hybrid
+TFT_Item_ChonccsCrown,Coroa do Choncc,Utilidade,76.2,1.5,2.5,32.62,31,3,5,23,hybrid
+TFT5_Item_HextechGunbladeRadiant,Pistola Laminar Hextec Radiante,Utilidade,93.25,29.25,21.75,91.5,30,16,1,13,hybrid
+TFT9_Item_CrownOfDemacia,Coroa de Demacia,Ofensivo,76.25,76.75,44.5,21.25,30,26,4,0,hybrid
+TFT5_Item_BlueBuffRadiant,Efeito Azul Radiante,Ofensivo,76.3,77.62,0.5,43.25,29,27,1,1,hybrid
+TFT5_Item_StatikkShivRadiant,Cajado do Vazio Radiante,Ofensivo,54.93,55.75,21.88,43.75,29,26,1,2,hybrid
+TFT5_Item_DragonsClawRadiant,Garra do Dragão Radiante,Defensivo,93.56,0.0,78.5,21.5,28,0,28,0,hybrid
+TFT5_Item_InfinityEdgeRadiant,Gume do Infinito Radiante,Ofensivo,76.49,31.25,3.0,0.5,26,19,6,1,hybrid
+TFT5_Item_BrambleVestRadiant,Colete Espinhoso Radiante,Defensivo,76.56,22.88,55.25,0.0,25,2,23,0,hybrid
+TFT5_Item_SpearOfShojinRadiant,Lança de Shojin Radiante,Utilidade,94.24,10.0,0.5,45.5,24,20,1,3,hybrid
+TFT5_Item_FrozenHeartRadiant,Juramento do Protetor Radiante,Defensivo,94.24,0.0,100.0,44.0,24,0,24,0,hybrid
+TFT5_Item_SteraksGageRadiant,Sinal de Sterak Radiante,Defensivo,94.24,3.5,74.5,0.0,24,7,17,0,hybrid
+TFT5_Item_ArchangelsStaffRadiant,Cajado do Arcanjo Radiante,Utilidade,76.72,31.12,2.5,44.25,23,18,5,0,hybrid
+TFT17_Item_PsyOps_ChemicalCapacitorMod_Radiant,Matriz de Malware,Defensivo,76.81,23.25,54.5,22.25,22,2,20,0,hybrid
+TFT5_Item_LastWhisperRadiant,Último Sussurro Radiante,Ofensivo,76.9,76.12,46.25,0.0,21,18,3,0,hybrid
+TFT5_Item_HandOfJusticeRadiant,Mão da Justiça Radiante,Ofensivo,76.9,97.0,47.25,67.62,21,15,5,1,hybrid
+TFT5_Item_SunfireCapeRadiant,Capa de Fogo Solar Radiante,Defensivo,95.0,22.5,77.5,22.5,20,0,20,0,hybrid
+TFT5_Item_BloodthirsterRadiant,Sedenta por Sangue Radiante,Defensivo,100.0,0.0,100.0,25.0,18,1,17,0,communitydragon_metadata
+TFT5_Item_TitansResolveRadiant,Determinação Titânica Radiante,Ofensivo,100.0,75.0,25.0,25.0,18,14,4,0,communitydragon_metadata
+TFT5_Item_MorellonomiconRadiant,Morellonomicon Radiante,Utilidade,80.0,25.0,50.0,75.0,17,10,0,7,communitydragon_metadata
+TFT17_Item_PsyOps_GrenadeMod_Radiant,Preservador de Biomatéria,Híbrido,55.0,0.0,50.0,50.0,17,0,17,0,communitydragon_metadata
+TFT5_Item_QuicksilverRadiant,Mercúrio Radiante,Ofensivo,100.0,75.0,25.0,25.0,16,13,3,0,communitydragon_metadata
+TFT16_Item_BilgewaterEmblemItem,Emblema de Águas de Sentina,Utilidade,100.0,0.0,0.0,50.0,16,3,7,6,communitydragon_metadata
+TFT5_Item_SpectralGauntletRadiant,Proteção Imutável Radiante,Defensivo,100.0,0.0,100.0,0.0,15,0,15,0,communitydragon_metadata
+TFT5_Item_AdaptiveHelmRadiant,Elmo Adaptativo Radiante,Híbrido,55.0,75.0,75.0,50.0,15,7,8,0,communitydragon_metadata
+TFT_Item_ChonccsSpork,Garfolher do Choncc,Utilidade,80.0,0.0,25.0,50.0,14,5,6,3,communitydragon_metadata
+TFT5_Item_CrownguardRadiant,Stemmaguarda Radiante,Defensivo,100.0,25.0,100.0,0.0,13,1,12,0,communitydragon_metadata
+TFT5_Item_GuardianAngelRadiant,Limiar da Noite Radiante,Defensivo,100.0,0.0,75.0,25.0,13,4,9,0,communitydragon_metadata
+TFT16_Item_RapidfireEmblemItem,Emblema de Célere,Híbrido,55.0,0.0,25.0,25.0,13,5,6,2,communitydragon_metadata
+TFT5_Item_NightHarvesterRadiant,Coração Inabalável Radiante,Defensivo,100.0,25.0,75.0,0.0,12,0,12,0,communitydragon_metadata
+TFT5_Item_IonicSparkRadiant,Centelha Iônica Radiante,Defensivo,80.0,25.0,75.0,50.0,12,0,12,0,communitydragon_metadata
+TFT_Item_TacticiansScepter,Escudo do Estrategista,Utilidade,80.0,0.0,0.0,25.0,12,1,2,9,communitydragon_metadata
+TFT16_Item_JuggernautEmblemItem,Emblema de Colosso,Defensivo,100.0,0.0,100.0,0.0,11,1,10,0,communitydragon_metadata
+TFT16_Item_FreljordEmblemItem,Emblema de Freljord,Defensivo,80.0,0.0,25.0,0.0,11,0,11,0,communitydragon_metadata
+TFT16_Item_BrawlerEmblemItem,Emblema de Brutamontes,Defensivo,80.0,25.0,50.0,0.0,11,1,10,0,communitydragon_metadata
+TFT16_Item_DemaciaEmblemItem,Emblema de Demacia,Híbrido,55.0,0.0,50.0,50.0,11,3,8,0,communitydragon_metadata
+TFT16_Item_NoxusEmblemItem,Emblema de Noxus,Desconhecido,0.0,0.0,0.0,0.0,11,4,7,0,communitydragon_metadata
+TFT16_Item_Bilgewater_FreebootersFrock,Socrustáceo,Defensivo,100.0,25.0,100.0,0.0,10,1,9,0,communitydragon_metadata
+TFTEventER_Item_Ohmwrecker,Mergulhadora,Defensivo,100.0,0.0,100.0,25.0,10,0,10,0,communitydragon_metadata
+TFT16_Item_Bilgewater_CaptainsBrew,Bebida do Capitão,Defensivo,80.0,0.0,25.0,0.0,9,9,0,0,communitydragon_metadata
+TFTEventER_Item_AvariceBlade,Espada Avarenta,Ofensivo,80.0,25.0,0.0,0.0,9,7,2,0,communitydragon_metadata
+TFT16_Item_Bilgewater_PileOCitrus,Pilha Cítrica,Híbrido,55.0,0.0,50.0,50.0,9,0,9,0,communitydragon_metadata
+TFT_Item_Spatula,Espátula,Desconhecido,0.0,0.0,0.0,0.0,9,7,0,2,communitydragon_metadata
+TFT16_Item_SorcererEmblemItem,Emblema de Arcanista,Utilidade,100.0,0.0,0.0,50.0,8,2,1,5,communitydragon_metadata
+TFT16_Item_Bilgewater_DeadmansDagger,Adaga do Defunto,Ofensivo,100.0,75.0,25.0,0.0,8,8,0,0,communitydragon_metadata
+TFT16_Item_DefenderEmblemItem,Emblema de Defendente,Defensivo,100.0,0.0,100.0,0.0,8,0,8,0,communitydragon_metadata
+TFT4_Item_OrnnRocketPropelledFist,Punho do Puxão Biônico do Choncc,Utilidade,100.0,0.0,50.0,100.0,8,0,4,4,communitydragon_metadata
+TFT16_Item_Bilgewater_FirstMatesFlintlock,Espingarda do Comandante,Ofensivo,100.0,100.0,0.0,0.0,8,8,0,0,communitydragon_metadata
+TFT16_Item_IoniaEmblemItem,Emblema de Ionia,Desconhecido,0.0,0.0,0.0,0.0,8,3,3,2,communitydragon_metadata
+TFT16_Item_PiltoverEmblemItem,Emblema de Piltover,Defensivo,80.0,0.0,25.0,0.0,7,2,5,0,communitydragon_metadata
+TFT16_Item_Bilgewater_LuckyEyepatch,Dobrão da Sorte,Ofensivo,80.0,25.0,0.0,0.0,7,6,1,0,communitydragon_metadata
+TFT16_Item_VanquisherEmblemItem,Emblema de Aniquilador,Ofensivo,100.0,50.0,0.0,0.0,6,6,0,0,communitydragon_metadata
+TFT16_Item_WardenEmblemItem,Emblema de Vigia,Defensivo,80.0,0.0,50.0,25.0,6,0,6,0,communitydragon_metadata
+TFTEventER_Item_LuckyPick,Adaga da Sorte,Ofensivo,80.0,25.0,0.0,0.0,6,5,1,0,communitydragon_metadata
+TFTEventER_Item_BannerOfCommand,Flâmula de Comando,Defensivo,80.0,0.0,25.0,0.0,6,1,5,0,communitydragon_metadata
+TFT16_Item_ZaunEmblemItem,Emblema de Zaun,Híbrido,55.0,25.0,25.0,0.0,6,1,5,0,communitydragon_metadata
+TFT_Item_FryingPan,Frigideira,Desconhecido,0.0,0.0,0.0,0.0,6,3,2,1,communitydragon_metadata
+TFT16_Item_YordleEmblemItem,Emblema de Yordle,Defensivo,100.0,0.0,50.0,0.0,5,2,3,0,communitydragon_metadata
+TFT16_Item_GunslingerEmblemItem,Emblema de Pistoleiro,Defensivo,100.0,25.0,75.0,0.0,5,4,1,0,communitydragon_metadata
+TFTEventER_Item_RunicBulwark,Baluarte Rúnico,Defensivo,100.0,0.0,75.0,25.0,5,0,5,0,communitydragon_metadata
+TFT16_Item_InvokerEmblemItem,Emblema de Emanador,Utilidade,80.0,25.0,0.0,50.0,5,2,2,1,communitydragon_metadata
+TFTEventER_Item_SpiritOfTheAncientGolem,Espírito do Golem Ancião,Híbrido,55.0,25.0,50.0,50.0,5,0,5,0,communitydragon_metadata
+TFTEventER_Item_HeartOfGold,Coração de Ouro,Híbrido,55.0,25.0,25.0,0.0,5,0,5,0,communitydragon_metadata
+TFT15_Item_SoulFighterEmblemItem,Emblema de Soul Fighter,Desconhecido,0.0,0.0,0.0,0.0,5,3,2,0,communitydragon_metadata
+TFT17_AnimaSquadItem_Tier3_IceblastArmor,Congelamento Profundo,Defensivo,100.0,25.0,100.0,25.0,4,0,4,0,communitydragon_metadata
+TFTEventER_Item_SwordOfTheDivine,Espada do Divino,Ofensivo,100.0,100.0,0.0,0.0,4,2,2,0,communitydragon_metadata
+TFT16_Item_MagusEmblemItem,Emblema de Disruptor,Híbrido,55.0,25.0,25.0,0.0,4,3,1,0,communitydragon_metadata
+TFTEventER_Item_WillOfTheAncients,Vontade dos Anciões,Híbrido,55.0,50.0,25.0,50.0,4,3,1,0,communitydragon_metadata
+TFTEventER_Item_PhilosophersStone,Pedra Filosofal,Utilidade,100.0,0.0,0.0,50.0,3,1,0,2,communitydragon_metadata
+TFTEventER_Item_ChaliceOfHarmony,Cálice da Harmonia,Utilidade,100.0,0.0,50.0,100.0,3,0,2,1,communitydragon_metadata
+TFTEvent5YR_Item_LavenderCrown,Coroa de Lavanda,Defensivo,80.0,25.0,50.0,0.0,3,0,3,0,communitydragon_metadata
+TFT17_AnimaSquadItem_Tier3_CyclonicSlicers,Ciclone Incessante,Defensivo,80.0,25.0,50.0,0.0,3,0,3,0,communitydragon_metadata
+TFTEventER_Item_SpiritOfTheSpectralWraith,Espírito da Aparição Espectral,Utilidade,80.0,50.0,0.0,75.0,3,2,0,1,communitydragon_metadata
+TFT16_Item_SlayerEmblemItem,Emblema de Dizimador,Defensivo,80.0,0.0,75.0,50.0,3,0,3,0,communitydragon_metadata
+TFT15_Item_CrystalRoseEmblemItem,Emblema de Gambito de Cristal,Defensivo,80.0,0.0,25.0,0.0,3,0,3,0,communitydragon_metadata
+TFT15_Item_RingKingsEmblemItem,Emblema de Luchador,Ofensivo,80.0,25.0,0.0,0.0,3,2,1,0,communitydragon_metadata
+TFTEventER_Item_SpiritOfTheElderLizard,Espírito do Lagarto Ancião,Híbrido,55.0,25.0,0.0,25.0,3,3,0,0,communitydragon_metadata
+TFT16_Item_VoidEmblemItem,Emblema do Vazio,Desconhecido,0.0,0.0,0.0,0.0,3,1,2,0,communitydragon_metadata
+TFT17_AnimaSquadItem_Tier4_Omniweapon,Oniarma,Utilidade,80.0,25.0,75.0,100.0,2,0,1,1,communitydragon_metadata
+TFT17_AnimaSquadItem_Tier3_Annihilator,Animapocalipse,Utilidade,80.0,25.0,0.0,50.0,2,2,0,0,communitydragon_metadata
+TFT17_AnimaSquadItem_Tier3_RadiantField,Eclipse Solar,Defensivo,80.0,25.0,50.0,0.0,2,0,2,0,communitydragon_metadata
+TFT17_AnimaSquadItem_Tier3_SearingShortbow,Incendisparo Evoluído,Utilidade,80.0,50.0,25.0,75.0,2,2,0,0,communitydragon_metadata
+TFT16_Item_LongshotEmblemItem,Emblema de Tiro Longo,Defensivo,80.0,0.0,25.0,0.0,2,1,1,0,communitydragon_metadata
+TFT16_Item_Bilgewater_BlackmarketExplosives,Explosivos do Mercado Clandestino,Ofensivo,80.0,25.0,0.0,0.0,2,2,0,0,communitydragon_metadata
+TFTEventER_Item_BlackCleaver,Cutelo Negro,Defensivo,80.0,50.0,75.0,0.0,2,1,1,0,communitydragon_metadata
+TFT15_Item_EdgelordEmblemItem,Emblema de Edgelord,Defensivo,80.0,25.0,50.0,0.0,2,1,1,0,communitydragon_metadata
+TFTEvent5YR_Item_GlacialMallet,Malho Glacial,Híbrido,55.0,25.0,25.0,25.0,2,2,0,0,communitydragon_metadata
+TFTEventER_Item_MikaelsCrucible,Cadinho de Mikael,Híbrido,55.0,50.0,25.0,50.0,2,1,0,1,communitydragon_metadata
+TFTEvent5YR_Item_ShimmerscaleDravensAxe,Machado do Draven,Ofensivo,100.0,75.0,0.0,0.0,1,1,0,0,communitydragon_metadata
+TFT15_Item_DestroyerEmblemItem,Emblema de Carrasco,Ofensivo,100.0,75.0,0.0,0.0,1,1,0,0,communitydragon_metadata
+TFT15_Item_ShotcallerEmblemItem,Emblema de Estratégico,Defensivo,100.0,25.0,75.0,25.0,1,0,1,0,communitydragon_metadata
+TFTEvent5YR_Item_Nitro_ChromeCounter,Cromo,Defensivo,80.0,0.0,25.0,0.0,1,0,1,0,communitydragon_metadata
+TFT17_AnimaSquadItem_Tier3_EchoingBatblades,Lâminas Cromáticas da Vayne,Ofensivo,80.0,25.0,0.0,0.0,1,1,0,0,communitydragon_metadata
+TFT15_Item_StarGuardianEmblemItem,Emblema de Guardiã Estelar,Utilidade,80.0,0.0,0.0,25.0,1,0,1,0,communitydragon_metadata
+TFT15_Item_ProtectorEmblemItem,Emblema de Protetor,Defensivo,80.0,0.0,50.0,25.0,1,0,1,0,communitydragon_metadata
+TFT15_Item_EmpyreanEmblemItem,Emblema de Espectro,Defensivo,80.0,0.0,25.0,0.0,1,0,1,0,communitydragon_metadata
+TFTEvent5YR_Item_SevikasJinxedArm,Braço Jinxificado da Sevika,Híbrido,55.0,75.0,75.0,25.0,1,1,0,0,communitydragon_metadata
+TFTEvent5YR_Item_ShimmerscaleGoldmancersStaff,Cajado do Ouromante,Híbrido,55.0,50.0,0.0,50.0,1,1,0,0,communitydragon_metadata
+TFT16_Item_Bilgewater_BilgeratCutlass,Sabre do Degolador,Híbrido,55.0,25.0,0.0,25.0,1,1,0,0,communitydragon_metadata

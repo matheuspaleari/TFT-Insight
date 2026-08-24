@@ -1,0 +1,229 @@
+/*
+===============================================================================
+TFT INSIGHT — ROADMAP 23.8
+HOME — CTA FINAL + RESPONSIVIDADE + ACABAMENTO
+===============================================================================
+*/
+
+/* -------------------------------------------------------------------------
+   Densidade geral da Landing
+   ------------------------------------------------------------------------- */
+
+.tft-home-hero {
+    margin-bottom: .85rem;
+}
+
+.tft-home-intelligence-grid,
+.tft-home-journey,
+.tft-home-coach,
+.tft-home-trust {
+    margin-top: .7rem;
+    margin-bottom: .95rem;
+}
+
+.tft-home-intelligence-card,
+.tft-home-step,
+.tft-home-coach-copy,
+.tft-home-coach-flow,
+.tft-home-trust-panel {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .14);
+}
+
+/* Evita que textos longos ampliem a página. */
+.tft-home-intelligence-card,
+.tft-home-step,
+.tft-home-coach-copy,
+.tft-home-coach-flow,
+.tft-home-trust-panel,
+.tft-home-final-cta {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+/* -------------------------------------------------------------------------
+   CTA final
+   ------------------------------------------------------------------------- */
+
+.tft-home-final-cta {
+    position: relative;
+    overflow: hidden;
+    margin-top: 1.2rem;
+    margin-bottom: .7rem;
+    padding: 1.15rem 1.2rem;
+    border: 1px solid rgba(91, 140, 255, .22);
+    border-radius: 14px;
+    background:
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(91, 140, 255, .13),
+            transparent 18rem
+        ),
+        linear-gradient(
+            145deg,
+            rgba(24, 35, 54, .92),
+            rgba(14, 20, 30, .88)
+        );
+}
+
+.tft-home-final-cta::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 2px;
+    background:
+        linear-gradient(
+            180deg,
+            transparent,
+            rgba(91, 140, 255, .78),
+            transparent
+        );
+}
+
+.tft-home-final-cta-copy {
+    max-width: 52rem;
+}
+
+.tft-home-final-cta-kicker {
+    margin-bottom: .45rem;
+    color: #7FA4FF;
+    font-size: .64rem;
+    font-weight: 780;
+    letter-spacing: .105em;
+}
+
+.tft-home-final-cta-title {
+    color: #F4F7FB;
+    font-size: 1.25rem;
+    font-weight: 760;
+    line-height: 1.3;
+    letter-spacing: -.02em;
+}
+
+.tft-home-final-cta-text {
+    margin-top: .48rem;
+    color: #93A0B4;
+    font-size: .82rem;
+    line-height: 1.58;
+}
+
+/* Diferencia CTA final do botão inicial sem criar outro padrão visual. */
+.st-key-tft_home_final_cta [data-testid="stButton"] button,
+.st-key-tft_home_final_cta button {
+    min-height: 2.75rem;
+    margin-bottom: .7rem;
+}
+
+/* -------------------------------------------------------------------------
+   Notebook / telas de altura curta
+   ------------------------------------------------------------------------- */
+
+@media (max-width: 1366px) {
+    .tft-home-intelligence-card,
+    .tft-home-step,
+    .tft-home-coach-copy,
+    .tft-home-coach-flow,
+    .tft-home-trust-panel {
+        padding: .9rem;
+    }
+
+    .tft-home-intelligence-text {
+        min-height: 4.3rem;
+    }
+
+    .tft-home-final-cta {
+        padding: 1rem;
+    }
+}
+
+@media (max-height: 800px) and (min-width: 901px) {
+    .tft-home-intelligence-grid,
+    .tft-home-journey,
+    .tft-home-coach,
+    .tft-home-trust {
+        margin-bottom: .75rem;
+    }
+
+    .tft-home-step {
+        min-height: 8.7rem;
+    }
+
+    .tft-home-coach-step {
+        padding-top: .6rem;
+        padding-bottom: .6rem;
+    }
+}
+
+/* -------------------------------------------------------------------------
+   Tablet
+   ------------------------------------------------------------------------- */
+
+@media (max-width: 900px) {
+    .tft-home-final-cta-title {
+        font-size: 1.15rem;
+    }
+
+    .tft-home-final-cta-copy {
+        max-width: none;
+    }
+}
+
+/* -------------------------------------------------------------------------
+   Mobile
+   ------------------------------------------------------------------------- */
+
+@media (max-width: 680px) {
+    .tft-home-hero {
+        margin-bottom: .65rem;
+    }
+
+    .tft-home-intelligence-grid,
+    .tft-home-journey,
+    .tft-home-coach,
+    .tft-home-trust {
+        gap: .65rem;
+        margin-bottom: .8rem;
+    }
+
+    .tft-home-intelligence-card,
+    .tft-home-step,
+    .tft-home-coach-copy,
+    .tft-home-coach-flow,
+    .tft-home-trust-panel,
+    .tft-home-final-cta {
+        border-radius: 11px;
+    }
+
+    .tft-home-final-cta {
+        margin-top: .9rem;
+        padding: .95rem;
+    }
+
+    .tft-home-final-cta-title {
+        font-size: 1.06rem;
+    }
+
+    .tft-home-final-cta-text {
+        font-size: .78rem;
+    }
+
+    .st-key-tft_home_final_cta [data-testid="stButton"] button,
+    .st-key-tft_home_final_cta button {
+        width: 100%;
+        min-height: 2.9rem;
+    }
+}
+
+/* -------------------------------------------------------------------------
+   Movimento reduzido
+   ------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+    .tft-home-intelligence-card,
+    .tft-home-step,
+    .tft-home-coach-copy,
+    .tft-home-coach-flow,
+    .tft-home-trust-panel,
+    .tft-home-final-cta {
+        transition: none !important;
+    }
+}

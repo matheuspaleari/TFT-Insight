@@ -1,0 +1,27 @@
+class Colors:
+    BACKGROUND = "#0B0F14"
+    SURFACE = "#111722"
+    SURFACE_ALT = "#151D2A"
+    SURFACE_HOVER = "#1A2433"
+
+    BORDER = "#253044"
+    BORDER_SOFT = "rgba(255,255,255,0.08)"
+
+    TEXT = "#F4F7FB"
+    TEXT_MUTED = "#93A0B4"
+    TEXT_SUBTLE = "#6E7B8F"
+
+    PRIMARY = "#5B8CFF"
+    PRIMARY_SOFT = "rgba(91,140,255,0.16)"
+
+    SUCCESS = "#39D98A"
+    SUCCESS_SOFT = "rgba(57,217,138,0.14)"
+
+    WARNING = "#FFB547"
+    WARNING_SOFT = "rgba(255,181,71,0.14)"
+
+    DANGER = "#FF6B6B"
+    DANGER_SOFT = "rgba(255,107,107,0.14)"
+
+    INFO = "#63C5FF"
+    INFO_SOFT = "rgba(99,197,255,0.14)"

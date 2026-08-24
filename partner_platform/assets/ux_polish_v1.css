@@ -1,0 +1,295 @@
+/* TFT Insight — UX Polish v1.0 */
+
+/* Compact top hierarchy */
+.tft-smart-header {
+    padding: .58rem .9rem .66rem !important;
+}
+
+.tft-smart-header-body {
+    margin-top: .48rem !important;
+}
+
+.tft-smart-header-title {
+    font-size: clamp(1.25rem, 2.45vw, 1.8rem) !important;
+}
+
+.tft-smart-header-subtitle {
+    font-size: .76rem !important;
+    margin-top: .22rem !important;
+}
+
+.tft-smart-header-chip {
+    padding: .18rem .42rem !important;
+    font-size: .61rem !important;
+}
+
+.tft-compact-health {
+    margin-bottom: .65rem !important;
+    padding: .33rem .68rem .37rem !important;
+}
+
+/* Player identity */
+.tft-player-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .7rem;
+    min-width: 300px;
+    max-width: 100%;
+    padding: .62rem .75rem;
+    margin: .05rem 0 .7rem;
+    border-radius: 15px;
+    border: 1px solid rgba(107,146,255,.13);
+    background:
+        linear-gradient(
+            135deg,
+            rgba(107,146,255,.055),
+            rgba(255,255,255,.012)
+        );
+}
+
+.tft-player-badge-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 11px;
+    background: rgba(107,146,255,.09);
+    border: 1px solid rgba(107,146,255,.15);
+    font-size: 1rem;
+}
+
+.tft-player-badge-main {
+    flex: 1;
+}
+
+.tft-player-badge-name {
+    color: #f2f5fa;
+    font-size: .86rem;
+    font-weight: 720;
+}
+
+.tft-player-badge-meta {
+    color: #8996aa;
+    font-size: .67rem;
+    margin-top: .14rem;
+}
+
+.tft-player-badge-state {
+    color: #6fdbab;
+    font-size: .58rem;
+    font-weight: 720;
+    letter-spacing: .08em;
+}
+
+/* Premium KPI */
+.tft-premium-kpi {
+    position: relative;
+    min-height: 156px;
+    padding: .9rem .9rem .72rem;
+    border-radius: 17px;
+    border: 1px solid rgba(255,255,255,.075);
+    background:
+        radial-gradient(
+            circle at 100% 0%,
+            rgba(107,146,255,.055),
+            transparent 35%
+        ),
+        rgba(17,23,34,.86);
+    box-shadow: 0 8px 24px rgba(0,0,0,.14);
+    transition:
+        transform 170ms cubic-bezier(.2,.8,.2,1),
+        border-color 170ms cubic-bezier(.2,.8,.2,1),
+        box-shadow 170ms cubic-bezier(.2,.8,.2,1),
+        background 170ms cubic-bezier(.2,.8,.2,1);
+}
+
+.tft-premium-kpi:hover {
+    transform: translateY(-4px) scale(1.006);
+    border-color: rgba(107,146,255,.30);
+    box-shadow:
+        0 17px 38px rgba(0,0,0,.22),
+        0 0 28px rgba(107,146,255,.04);
+    background:
+        radial-gradient(
+            circle at 100% 0%,
+            rgba(107,146,255,.085),
+            transparent 38%
+        ),
+        rgba(18,24,36,.92);
+}
+
+.tft-premium-kpi-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tft-premium-kpi-label {
+    color: #8d99ac;
+    font-size: .67rem;
+    font-weight: 650;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+}
+
+.tft-premium-kpi-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    border-radius: 9px;
+    border: 1px solid rgba(107,146,255,.18);
+    background: rgba(107,146,255,.07);
+    color: #dce5ff;
+}
+
+.tft-premium-kpi-value {
+    color: #f7f9fc;
+    font-size: 1.72rem;
+    font-weight: 790;
+    letter-spacing: -.04em;
+    margin-top: .65rem;
+}
+
+.tft-premium-kpi-caption {
+    color: #8b97aa;
+    font-size: .69rem;
+    margin-top: .32rem;
+}
+
+.tft-kpi-trend {
+    margin-top: .55rem;
+    min-height: 18px;
+    font-size: .62rem;
+    font-weight: 650;
+}
+
+.tft-kpi-trend-up {
+    color: #43D693;
+}
+
+.tft-kpi-trend-down {
+    color: #FF7070;
+}
+
+.tft-kpi-trend-neutral {
+    color: #94A1B5;
+}
+
+.tft-kpi-trend-placeholder {
+    color: #5f6d81;
+    opacity: .62;
+}
+
+/* Keep explain action visually attached to the card */
+div[data-testid="stColumn"] div[data-testid="stPopover"] {
+    margin-top: -2.5rem;
+    padding: 0 .65rem .55rem;
+    position: relative;
+    z-index: 4;
+}
+
+div[data-testid="stColumn"] div[data-testid="stPopover"] button {
+    min-height: 1.85rem !important;
+    border: 0 !important;
+    background: transparent !important;
+    color: #9facc0 !important;
+    justify-content: flex-start !important;
+    padding: 0 !important;
+    font-size: .67rem !important;
+    box-shadow: none !important;
+}
+
+div[data-testid="stColumn"] div[data-testid="stPopover"] button:hover {
+    color: #dce5ff !important;
+    transform: none !important;
+}
+
+/* Executive reading identity */
+.tft-executive-reading {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: .8rem 0 1.05rem !important;
+    padding: 1.2rem 1.25rem !important;
+    background:
+        radial-gradient(
+            circle at 3% 25%,
+            rgba(107,146,255,.09),
+            transparent 22%
+        ),
+        rgba(255,255,255,.014) !important;
+}
+
+.tft-executive-reading-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41px;
+    height: 41px;
+    flex: 0 0 41px;
+    border-radius: 12px;
+    background: rgba(107,146,255,.08);
+    border: 1px solid rgba(107,146,255,.15);
+    font-size: 1.1rem;
+}
+
+.tft-executive-reading-content {
+    flex: 1;
+}
+
+.tft-executive-reading-title {
+    font-size: 1.1rem !important;
+}
+
+.tft-executive-reading-body {
+    font-size: .82rem !important;
+    margin-top: .4rem !important;
+}
+
+/* Vertical rhythm */
+.tft-section-header {
+    margin-top: 1.25rem !important;
+}
+
+.tft-executive-spotlight {
+    min-height: 190px !important;
+}
+
+/* Smooth global product microinteractions */
+.tft-player-badge,
+.tft-executive-reading,
+.tft-executive-spotlight {
+    transition:
+        transform 170ms cubic-bezier(.2,.8,.2,1),
+        border-color 170ms cubic-bezier(.2,.8,.2,1),
+        box-shadow 170ms cubic-bezier(.2,.8,.2,1);
+}
+
+.tft-player-badge:hover {
+    border-color: rgba(107,146,255,.22);
+    box-shadow: 0 10px 28px rgba(0,0,0,.12);
+}
+
+@media (max-width: 980px) {
+    .tft-premium-kpi {
+        min-height: 145px;
+    }
+}
+
+@media (max-width: 720px) {
+    .tft-player-badge {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .tft-player-badge-state {
+        display: none;
+    }
+
+    .tft-executive-reading {
+        gap: .7rem;
+    }
+}

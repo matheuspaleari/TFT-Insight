@@ -1,0 +1,13 @@
+class Icons:
+    BRAND = "◈"
+    OVERVIEW = "◫"
+    PLAYGROUND = "⚡"
+    BENCHMARK = "⌁"
+    PREDICTION = "◆"
+    ANALYTICS = "◌"
+    DEVELOPER = "</>"
+    SETTINGS = "⚙"
+    API = "●"
+    SDK = "◇"
+    ENGINE = "✦"
+    CACHE = "↻"

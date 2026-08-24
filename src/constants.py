@@ -3,8 +3,8 @@ Constantes da aplicação.
 """
 
 # API
-REGION = "americas"
 PLATFORM = "br1"
+REGION = "americas"
 
 # Riot API
 DEFAULT_MATCH_COUNT = 100

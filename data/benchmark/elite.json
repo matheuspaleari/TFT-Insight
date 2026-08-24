@@ -1,0 +1,46 @@
+{
+    "name": "Elite BR",
+    "players_analyzed": 50,
+    "matches_analyzed": 1497,
+    "average_placement": 3.56,
+    "top4_rate": 66.65,
+    "win_rate": 22.36,
+    "average_level": {
+        "mean": 8.77,
+        "median": 8.8,
+        "standard_deviation": 0.36,
+        "first_quartile": 8.47,
+        "third_quartile": 9.0,
+        "minimum": 8.03,
+        "maximum": 9.7
+    },
+    "placement_standard_deviation": {
+        "mean": 2.06,
+        "median": 2.04,
+        "standard_deviation": 0.23,
+        "first_quartile": 1.93,
+        "third_quartile": 2.21,
+        "minimum": 1.49,
+        "maximum": 2.53
+    },
+    "bottom4_rate": 33.35,
+    "average_damage_to_players": {
+        "mean": 119.39,
+        "median": 116.8,
+        "standard_deviation": 16.33,
+        "first_quartile": 110.12,
+        "third_quartile": 129.57,
+        "minimum": 76.9,
+        "maximum": 178
+    },
+    "average_players_eliminated": {
+        "mean": 1.17,
+        "median": 1.15,
+        "standard_deviation": 0.36,
+        "first_quartile": 0.93,
+        "third_quartile": 1.27,
+        "minimum": 0.57,
+        "maximum": 2.56
+    },
+    "average_gold_left": 9.41
+}
