@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import ast
+
 import streamlit as st
 
 from partner_platform.components import (
@@ -7,7 +9,6 @@ from partner_platform.components import (
     insight_banner,
     section_header,
 )
-
 
 
 def _render_next_match_plan(report: dict) -> None:
@@ -41,6 +42,7 @@ def _render_next_match_plan(report: dict) -> None:
 
     if focus or mission:
         columns = st.columns(2)
+
         with columns[0]:
             executive_card(
                 title="Foco",
@@ -48,6 +50,7 @@ def _render_next_match_plan(report: dict) -> None:
                 caption="Fundamento em treino",
                 icon="◎",
             )
+
         with columns[1]:
             executive_card(
                 title="Missão",
@@ -70,18 +73,76 @@ def _render_next_match_plan(report: dict) -> None:
     watch_items = plan.get("watch_items", []) or []
     if isinstance(watch_items, list) and watch_items:
         st.markdown("#### Fique de olho")
+
         for item in watch_items[:2]:
             with st.container(border=True):
-                st.write(str(item))
+                if isinstance(item, dict):
+                    title = str(
+                        item.get("title")
+                        or item.get("label")
+                        or ""
+                    ).strip()
 
-    preserve = str(plan.get("preserve", "") or "").strip()
-    if preserve:
+                    text = str(
+                        item.get("text")
+                        or item.get("description")
+                        or item.get("message")
+                        or ""
+                    ).strip()
+
+                    if title:
+                        st.markdown(f"**{title}**")
+
+                    if text:
+                        st.write(text)
+                else:
+                    st.write(str(item))
+
+    preserve_raw = plan.get("preserve")
+
+    # Compatibilidade:
+    # - formato ideal: dict estruturado;
+    # - formato legado: string contendo a representação de um dict.
+    if isinstance(preserve_raw, str):
+        preserve_raw = preserve_raw.strip()
+
+        if preserve_raw.startswith("{") and preserve_raw.endswith("}"):
+            try:
+                parsed_preserve = ast.literal_eval(preserve_raw)
+
+                if isinstance(parsed_preserve, dict):
+                    preserve_raw = parsed_preserve
+
+            except (ValueError, SyntaxError):
+                pass
+
+    if isinstance(preserve_raw, dict):
+        preserve_title = str(
+            preserve_raw.get("skill_label")
+            or preserve_raw.get("title")
+            or "Ponto forte"
+        ).strip()
+
+        preserve_description = str(
+            preserve_raw.get("description")
+            or "Mantenha este ponto forte enquanto treina a prioridade principal."
+        ).strip()
+
+    elif preserve_raw:
+        preserve_title = str(preserve_raw).strip()
+        preserve_description = (
+            "Mantenha este ponto forte enquanto treina a prioridade principal."
+        )
+
+    else:
+        preserve_title = ""
+        preserve_description = ""
+
+    if preserve_title:
         insight_banner(
             eyebrow="Preserve",
-            title=preserve,
-            description=(
-                "Mantenha este ponto forte enquanto treina a prioridade principal."
-            ),
+            title=preserve_title,
+            description=preserve_description,
             tone="neutral",
         )
 
@@ -113,12 +174,34 @@ def render_post_match_report(report: dict | None) -> None:
     )
 
     columns = st.columns(4)
+
     values = (
-        ("Colocação", f"{match.get('placement', '-')}º", "Última partida", "◆"),
-        ("Nível final", str(match.get("level", "-")), "Progressão final", "↗"),
-        ("Ouro restante", str(match.get("gold_left", "-")), "Fim da partida", "◈"),
-        ("Dano ao lobby", str(match.get("total_damage_to_players", "-")), "Pressão observada", "◎"),
+        (
+            "Colocação",
+            f"{match.get('placement', '-')}º",
+            "Última partida",
+            "◆",
+        ),
+        (
+            "Nível final",
+            str(match.get("level", "-")),
+            "Progressão final",
+            "↗",
+        ),
+        (
+            "Ouro restante",
+            str(match.get("gold_left", "-")),
+            "Fim da partida",
+            "◈",
+        ),
+        (
+            "Dano ao lobby",
+            str(match.get("total_damage_to_players", "-")),
+            "Pressão observada",
+            "◎",
+        ),
     )
+
     for column, (title, value, caption, icon) in zip(columns, values):
         with column:
             executive_card(
@@ -140,6 +223,7 @@ def render_post_match_report(report: dict | None) -> None:
     supporting = report.get("supporting_sections", [])
     if isinstance(supporting, list) and supporting:
         st.markdown("#### O que mais vale observar")
+
         for item in supporting:
             if isinstance(item, dict):
                 with st.container(border=True):
@@ -154,21 +238,35 @@ def render_post_match_report(report: dict | None) -> None:
 
     missing = str(report.get("what_we_cannot_measure", "")).strip()
     if missing:
-        with st.expander("O que ainda não conseguimos medir", expanded=False):
+        with st.expander(
+            "O que ainda não conseguimos medir",
+            expanded=False,
+        ):
             st.write(missing)
 
-    with st.expander("Detalhes técnicos da análise", expanded=False):
+    with st.expander(
+        "Detalhes técnicos da análise",
+        expanded=False,
+    ):
         internal = report.get("internal", {}) or {}
         protections = report.get("protections", {}) or {}
+
         st.caption(
             "Esses dados ajudam a auditar a leitura, "
             "mas não são necessários para usar o Coach."
         )
+
         st.json(
             {
                 "verdict": internal.get("verdict"),
-                "evidence_summary": internal.get("evidence_summary", {}),
-                "historical_signals": internal.get("historical_signals", []),
+                "evidence_summary": internal.get(
+                    "evidence_summary",
+                    {},
+                ),
+                "historical_signals": internal.get(
+                    "historical_signals",
+                    [],
+                ),
                 "protections": protections,
             }
         )

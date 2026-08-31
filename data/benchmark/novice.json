@@ -1,0 +1,46 @@
+{
+    "name": "Fundamentos BR",
+    "players_analyzed": 50,
+    "matches_analyzed": 1500,
+    "average_placement": 4.55,
+    "top4_rate": 50.27,
+    "win_rate": 12.13,
+    "average_level": {
+        "mean": 8.09,
+        "median": 8.2,
+        "standard_deviation": 0.52,
+        "first_quartile": 7.73,
+        "third_quartile": 8.42,
+        "minimum": 6.13,
+        "maximum": 9.17
+    },
+    "placement_standard_deviation": {
+        "mean": 2.19,
+        "median": 2.21,
+        "standard_deviation": 0.3,
+        "first_quartile": 2.01,
+        "third_quartile": 2.33,
+        "minimum": 1.48,
+        "maximum": 3.41
+    },
+    "bottom4_rate": 49.73,
+    "average_damage_to_players": {
+        "mean": 92.87,
+        "median": 94.08,
+        "standard_deviation": 18.73,
+        "first_quartile": 86.13,
+        "third_quartile": 103.67,
+        "minimum": 35.77,
+        "maximum": 140.4
+    },
+    "average_players_eliminated": {
+        "mean": 0.76,
+        "median": 0.81,
+        "standard_deviation": 0.29,
+        "first_quartile": 0.54,
+        "third_quartile": 0.92,
+        "minimum": 0.17,
+        "maximum": 1.47
+    },
+    "average_gold_left": 17.03
+}

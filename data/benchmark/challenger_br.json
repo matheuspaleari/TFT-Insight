@@ -1,0 +1,46 @@
+{
+    "name": "Top Challenger BR",
+    "players_analyzed": 10,
+    "matches_analyzed": 100,
+    "average_placement": 3.65,
+    "top4_rate": 67.0,
+    "win_rate": 18.0,
+    "average_level": {
+        "mean": 8.92,
+        "median": 8.95,
+        "standard_deviation": 0.28,
+        "first_quartile": 8.65,
+        "third_quartile": 9.15,
+        "minimum": 8.5,
+        "maximum": 9.3
+    },
+    "placement_standard_deviation": {
+        "mean": 1.94,
+        "median": 1.95,
+        "standard_deviation": 0.4,
+        "first_quartile": 1.81,
+        "third_quartile": 2.2,
+        "minimum": 1.19,
+        "maximum": 2.48
+    },
+    "bottom4_rate": 33.0,
+    "average_damage_to_players": {
+        "mean": 122.7,
+        "median": 120.75,
+        "standard_deviation": 13.67,
+        "first_quartile": 112.43,
+        "third_quartile": 127.1,
+        "minimum": 103.8,
+        "maximum": 146.9
+    },
+    "average_players_eliminated": {
+        "mean": 1.07,
+        "median": 1.05,
+        "standard_deviation": 0.35,
+        "first_quartile": 0.72,
+        "third_quartile": 1.38,
+        "minimum": 0.6,
+        "maximum": 1.6
+    },
+    "average_gold_left": 7.43
+}
