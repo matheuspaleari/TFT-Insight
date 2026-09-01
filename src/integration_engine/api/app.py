@@ -1,11 +1,17 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from src.integration_engine.api.heavy_request_middleware import (
+    HeavyRequestQueueMiddleware,
+)
 from src.integration_engine.api.routes import (
     analysis_router,
     benchmark_router,
     health_router,
     integrated_analysis_router,
+)
+from src.integration_engine.api.routes.queue_status import (
+    router as queue_status_router,
 )
 from src.integration_engine.api.routes.post_match import (
     router as post_match_router,
@@ -63,6 +69,10 @@ def create_app() -> FastAPI:
         PartnerAnalyticsMiddleware
     )
 
+    app.add_middleware(
+        HeavyRequestQueueMiddleware
+    )
+
     @app.get(
         "/",
         tags=["system"],
@@ -80,6 +90,9 @@ def create_app() -> FastAPI:
 
     app.include_router(
         health_router
+    )
+    app.include_router(
+        queue_status_router
     )
     app.include_router(
         analysis_router

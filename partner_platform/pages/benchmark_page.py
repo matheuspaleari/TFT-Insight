@@ -1,5 +1,7 @@
 import base64
 import re
+import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import pandas as pd
@@ -4227,12 +4229,80 @@ def render(
             ) as status:
                 st.write("Identificando jogador e histórico recente.")
 
-                analysis_report = api_client.analyze_player(
-                    game_name=game_name,
-                    tag_line=tag_line,
-                    match_count=match_count,
-                    learn=True,
-                )
+                queue_message = st.empty()
+
+                with ThreadPoolExecutor(
+                    max_workers=1
+                ) as executor:
+                    future = executor.submit(
+                        api_client.analyze_player,
+                        game_name=game_name,
+                        tag_line=tag_line,
+                        match_count=match_count,
+                        learn=True,
+                    )
+
+                    saw_queue = False
+                    analysis_started = False
+
+                    while not future.done():
+                        try:
+                            queue = api_client.queue_status()
+                            active = int(
+                                queue.get("active", 0) or 0
+                            )
+                            waiting = int(
+                                queue.get("waiting", 0) or 0
+                            )
+
+                            if waiting > 0:
+                                saw_queue = True
+
+                                if waiting == 1:
+                                    queue_message.info(
+                                        "Sua análise está na fila. "
+                                        "Há uma análise sendo processada "
+                                        "antes da sua."
+                                    )
+                                else:
+                                    queue_message.info(
+                                        "Sua análise está na fila. "
+                                        f"Há até {waiting} análises "
+                                        "aguardando processamento."
+                                    )
+
+                            elif (
+                                saw_queue
+                                and active > 0
+                                and not analysis_started
+                            ):
+                                analysis_started = True
+                                queue_message.success(
+                                    "Sua análise começou. "
+                                    "Processando o histórico do jogador..."
+                                )
+
+                            elif (
+                                not saw_queue
+                                and active > 0
+                                and not analysis_started
+                            ):
+                                analysis_started = True
+                                queue_message.info(
+                                    "Sua análise começou. "
+                                    "Processando o histórico do jogador..."
+                                )
+
+                        except Exception:
+                            # Falha ao consultar o status da fila não deve
+                            # interromper a análise principal.
+                            pass
+
+                        time.sleep(1.0)
+
+                    analysis_report = future.result()
+
+                queue_message.empty()
 
                 PlayerSessionStore.save_analysis(
                     analysis_report,
@@ -4895,3 +4965,4 @@ def render(
         )
 
     page.end()
+

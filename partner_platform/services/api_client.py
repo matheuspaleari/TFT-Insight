@@ -49,9 +49,14 @@ class DashboardApiClient:
             dict[str, Any]
             | None
         ) = None,
+        timeout: float | None = None,
     ) -> dict[str, Any]:
         with httpx.Client(
-            timeout=self.timeout
+            timeout=(
+                self.timeout
+                if timeout is None
+                else timeout
+            )
         ) as client:
             response = client.request(
                 method,
@@ -97,6 +102,18 @@ class DashboardApiClient:
                 "match_count": match_count,
                 "learn": learn,
             },
+            # A análise pesada pode aguardar na fila antes de começar.
+            # O timeout maior vale somente para este fluxo.
+            timeout=900.0,
+        )
+
+    def queue_status(
+        self,
+    ) -> dict[str, Any]:
+        return self._request(
+            "GET",
+            "/v1/queue/status",
+            timeout=10.0,
         )
 
 
@@ -287,3 +304,4 @@ class DashboardApiClient:
                 "match_count": match_count,
             },
         )
+
