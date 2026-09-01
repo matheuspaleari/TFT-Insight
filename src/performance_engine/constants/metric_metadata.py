@@ -157,6 +157,41 @@ METRIC_METADATA: dict[MetricType, MetricMetadata] = {
             ),
         ),
     ),
+
+    MetricType.CONSISTENCY: MetricMetadata(
+        title="Consistência",
+        description=(
+            "Avalia a estabilidade das colocações do jogador entre "
+            "as partidas. Quanto menor a variação das colocações, "
+            "mais consistente é o desempenho observado."
+        ),
+        category=MetricCategory.CONSISTENCY,
+        drivers=(
+            "estabilidade das decisões entre partidas",
+            "capacidade de adaptação ao contexto da partida",
+            "gestão de risco",
+            "frequência de resultados muito distantes do padrão",
+        ),
+        recommendations=(
+            (
+                "Busque reduzir partidas com resultados muito abaixo "
+                "do seu padrão recente."
+            ),
+            (
+                "Revise decisões recorrentes em partidas nas quais "
+                "sua colocação se distancia do desempenho habitual."
+            ),
+            (
+                "Priorize linhas de jogo mais estáveis quando uma "
+                "decisão de alto risco não for necessária."
+            ),
+            (
+                "Compare partidas com resultados muito diferentes "
+                "para identificar quais decisões aumentam a variação "
+                "do seu desempenho."
+            ),
+        ),
+    ),
 }
 
 
