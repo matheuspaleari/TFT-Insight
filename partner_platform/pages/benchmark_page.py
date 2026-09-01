@@ -4435,11 +4435,29 @@ def render(
         if submitted
         else default_tag
     )
-    active_match_count = (
+    requested_match_count = (
         match_count
         if submitted
         else default_matches
     )
+
+    actual_match_count = requested_match_count
+    analysis_set_number = None
+
+    if isinstance(analysis_report, dict):
+        raw_matches_analyzed = analysis_report.get(
+            "matches_analyzed"
+        )
+
+        if isinstance(raw_matches_analyzed, int):
+            actual_match_count = raw_matches_analyzed
+
+        raw_set_number = analysis_report.get(
+            "set_number"
+        )
+
+        if isinstance(raw_set_number, int):
+            analysis_set_number = raw_set_number
 
     # ------------------------------------------------------------------
     # ROADMAP 22 — RESUMO DO JOGADOR
@@ -4479,11 +4497,35 @@ def render(
         )
 
     with player_cols[3]:
+        history_caption = "partidas analisadas"
+
+        if analysis_set_number is not None:
+            history_caption += (
+                f" · Set {analysis_set_number}"
+            )
+
         executive_card(
             title="Histórico",
-            value=str(active_match_count),
-            caption="partidas analisadas",
+            value=str(actual_match_count),
+            caption=history_caption,
             icon="◉",
+        )
+
+    if (
+        actual_match_count
+        < requested_match_count
+    ):
+        set_label = (
+            f" no Set {analysis_set_number}"
+            if analysis_set_number is not None
+            else ""
+        )
+
+        st.caption(
+            f"Foram encontradas {actual_match_count} das "
+            f"{requested_match_count} partidas solicitadas"
+            f"{set_label}. Partidas de sets anteriores "
+            "não entram na análise."
         )
 
     # ------------------------------------------------------------------

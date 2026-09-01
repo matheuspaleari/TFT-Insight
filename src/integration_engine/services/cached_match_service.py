@@ -10,6 +10,9 @@ from src.coaching_engine import (
     HistoricalFilter,
     HistoricalMatchRepository,
 )
+from src.integration_engine.services.current_tft_set_resolver import (
+    CurrentTftSetResolver,
+)
 from src.performance_engine.models import Match
 from src.riot_client import RiotClient
 from src.transformers.match_transformer import MatchTransformer
@@ -26,6 +29,9 @@ class MatchLoadResult:
     candidate_ids_considered: int = 0
     elapsed_seconds: float = 0.0
     stopped_after_target: bool = False
+    analysis_set_number: int | None = None
+    filtered_other_sets: int = 0
+    filtered_unknown_set: int = 0
 
     @property
     def cache_hit_rate(self) -> float:
@@ -47,17 +53,19 @@ class MatchLoadResult:
 
 class CachedMatchService:
     """
-    Cache persistente + cache curto em memória.
+    Cache persistente + cache curto em memÃ³ria.
 
     Roadmap 21:
     - Riot ID -> PUUID: cache de 10 min.
     - Lista de match IDs: cache de 45 s.
-    - Early-stop ao atingir a quantidade válida solicitada.
-    - O histórico persistente continua em data/history/matches.jsonl.
+    - Early-stop ao atingir a quantidade vÃ¡lida solicitada.
+    - O histÃ³rico persistente continua em data/history/matches.jsonl.
     """
 
     ACCOUNT_CACHE_TTL_SECONDS = 600
     MATCH_IDS_CACHE_TTL_SECONDS = 45
+    MATCH_IDS_PAGE_SIZE = 20
+    MAX_MATCH_SCAN = 100
 
     _account_cache: dict[
         tuple[str, str],
@@ -65,7 +73,7 @@ class CachedMatchService:
     ] = {}
 
     _match_ids_cache: dict[
-        tuple[str, int],
+        tuple[str, int, int],
         tuple[float, tuple[str, ...]],
     ] = {}
 
@@ -76,9 +84,11 @@ class CachedMatchService:
         *,
         project_root: Path,
         riot_client: RiotClient | None = None,
+        set_resolver: CurrentTftSetResolver | None = None,
     ) -> None:
         self.project_root = project_root
         self.riot_client = riot_client or RiotClient()
+        self.set_resolver = set_resolver or CurrentTftSetResolver()
         self.repository = HistoricalMatchRepository(
             project_root
             / "data"
@@ -91,8 +101,8 @@ class CachedMatchService:
         cls,
     ) -> None:
         """
-        Limpa somente caches em memória.
-        Não remove histórico persistido.
+        Limpa somente caches em memÃ³ria.
+        NÃ£o remove histÃ³rico persistido.
         """
         with cls._cache_lock:
             cls._account_cache.clear()
@@ -160,7 +170,7 @@ class CachedMatchService:
 
         if not resolved:
             raise RuntimeError(
-                "A Riot API não retornou um PUUID válido."
+                "A Riot API nÃ£o retornou um PUUID vÃ¡lido."
             )
 
         with self._cache_lock:
@@ -178,9 +188,11 @@ class CachedMatchService:
         *,
         puuid: str,
         count: int,
+        start: int = 0,
     ) -> list[str]:
         cache_key = (
             puuid,
+            start,
             count,
         )
 
@@ -203,6 +215,7 @@ class CachedMatchService:
         match_ids = self.riot_client.get_match_ids(
             puuid=puuid,
             count=count,
+            start=start,
         )
 
         normalized = tuple(
@@ -277,6 +290,31 @@ class CachedMatchService:
             puuid=puuid,
         )
 
+    @staticmethod
+    def _payload_set_number(
+        payload: dict[str, Any],
+    ) -> int | None:
+        info = payload.get("info")
+
+        if not isinstance(info, dict):
+            return None
+
+        raw_set = info.get("tft_set_number")
+
+        if isinstance(raw_set, bool):
+            return None
+
+        if isinstance(raw_set, (int, float)):
+            return int(raw_set)
+
+        if isinstance(raw_set, str):
+            normalized = raw_set.strip()
+
+            if normalized.isdigit():
+                return int(normalized)
+
+        return None
+
     def load_player_matches_target(
         self,
         *,
@@ -285,9 +323,14 @@ class CachedMatchService:
         candidate_count: int | None = None,
     ) -> MatchLoadResult:
         """
-        Percorre candidatos em ordem e para quando encontra target_count
-        partidas válidas. Os candidatos extras só são usados quando uma
-        partida falha no download ou transformação.
+        Carrega somente partidas pertencentes ao set competitivo atual.
+
+        O set atual é resolvido pelo CommunityDragon e mantido em cache.
+        Se essa fonte estiver temporariamente indisponível, a partida TFT
+        válida mais recente vira a referência da análise.
+
+        Os IDs são consultados em páginas. Assim que o histórico cruza a
+        fronteira para um set anterior, a busca é encerrada.
         """
         started = perf_counter()
 
@@ -296,7 +339,7 @@ class CachedMatchService:
                 "target_count deve ser maior que zero."
             )
 
-        effective_candidate_count = max(
+        requested_candidates = max(
             target_count,
             (
                 candidate_count
@@ -305,9 +348,12 @@ class CachedMatchService:
             ),
         )
 
-        match_ids = self._get_match_ids_cached(
-            puuid=puuid,
-            count=effective_candidate_count,
+        scan_limit = min(
+            max(
+                requested_candidates,
+                target_count + self.MATCH_IDS_PAGE_SIZE,
+            ),
+            self.MAX_MATCH_SCAN,
         )
 
         cached_by_id = self._cached_payloads_by_id(
@@ -316,45 +362,141 @@ class CachedMatchService:
 
         matches: list[Match] = []
         payloads: list[dict[str, Any]] = []
+
         cached_used = 0
         downloaded = 0
         failed = 0
         considered = 0
+        received = 0
 
-        for match_id in match_ids:
-            if len(matches) >= target_count:
+        filtered_other_sets = 0
+        filtered_unknown_set = 0
+
+        analysis_set_number = (
+            self.set_resolver.resolve_or_none()
+        )
+
+        start = 0
+        stop_for_set_boundary = False
+        saw_analysis_set = False
+
+        while (
+            len(matches) < target_count
+            and start < scan_limit
+            and not stop_for_set_boundary
+        ):
+            page_count = min(
+                self.MATCH_IDS_PAGE_SIZE,
+                scan_limit - start,
+            )
+
+            match_ids = self._get_match_ids_cached(
+                puuid=puuid,
+                count=page_count,
+                start=start,
+            )
+
+            if not match_ids:
                 break
 
-            considered += 1
+            received += len(match_ids)
 
-            payload = cached_by_id.get(
-                match_id
-            )
+            for match_id in match_ids:
+                if len(matches) >= target_count:
+                    break
 
-            from_cache = (
-                payload is not None
-            )
+                considered += 1
 
-            if payload is None:
-                try:
-                    payload = (
-                        self.riot_client.get_match_details(
-                            match_id=match_id
+                payload = cached_by_id.get(
+                    match_id
+                )
+
+                from_cache = (
+                    payload is not None
+                )
+
+                if payload is None:
+                    try:
+                        payload = (
+                            self.riot_client.get_match_details(
+                                match_id=match_id
+                            )
                         )
+
+                        self.repository.save_raw_match(
+                            match_id=match_id,
+                            puuid=puuid,
+                            payload=payload,
+                        )
+
+                        cached_by_id[
+                            match_id
+                        ] = payload
+
+                        downloaded += 1
+
+                    except (
+                        RuntimeError,
+                        ValueError,
+                        KeyError,
+                    ):
+                        failed += 1
+                        continue
+
+                match_set_number = (
+                    self._payload_set_number(
+                        payload
+                    )
+                )
+
+                if (
+                    analysis_set_number is None
+                    and match_set_number is not None
+                ):
+                    analysis_set_number = (
+                        match_set_number
                     )
 
-                    self.repository.save_raw_match(
-                        match_id=match_id,
-                        puuid=puuid,
+                if analysis_set_number is not None:
+                    if match_set_number is None:
+                        filtered_unknown_set += 1
+                        continue
+
+                    if (
+                        match_set_number
+                        != analysis_set_number
+                    ):
+                        # If Riot already has a newer set than the
+                        # external resolver and no target-set match was
+                        # accepted yet, trust the newest Riot payload.
+                        if (
+                            not saw_analysis_set
+                            and match_set_number
+                            > analysis_set_number
+                        ):
+                            analysis_set_number = (
+                                match_set_number
+                            )
+                        else:
+                            filtered_other_sets += 1
+
+                            # Match IDs are ordered newest -> oldest.
+                            # Once we reach an older set, no current-set
+                            # matches should exist further back.
+                            if (
+                                match_set_number
+                                < analysis_set_number
+                            ):
+                                stop_for_set_boundary = True
+                                break
+
+                            continue
+
+                try:
+                    transformed = self._transform(
                         payload=payload,
+                        puuid=puuid,
                     )
-
-                    cached_by_id[
-                        match_id
-                    ] = payload
-
-                    downloaded += 1
-
                 except (
                     RuntimeError,
                     ValueError,
@@ -363,35 +505,32 @@ class CachedMatchService:
                     failed += 1
                     continue
 
-            try:
-                transformed = self._transform(
-                    payload=payload,
-                    puuid=puuid,
+                if from_cache:
+                    cached_used += 1
+
+                payloads.append(
+                    payload
                 )
-            except (
-                RuntimeError,
-                ValueError,
-                KeyError,
+                matches.append(
+                    transformed
+                )
+                saw_analysis_set = True
+
+            if (
+                len(matches) >= target_count
+                or stop_for_set_boundary
             ):
-                failed += 1
-                continue
+                break
 
-            if from_cache:
-                cached_used += 1
+            if len(match_ids) < page_count:
+                break
 
-            payloads.append(
-                payload
-            )
-            matches.append(
-                transformed
-            )
+            start += len(match_ids)
 
         return MatchLoadResult(
             matches=matches,
             payloads=payloads,
-            match_ids_received=len(
-                match_ids
-            ),
+            match_ids_received=received,
             cached_matches_used=cached_used,
             new_matches_downloaded=downloaded,
             failed_matches=failed,
@@ -403,8 +542,11 @@ class CachedMatchService:
             ),
             stopped_after_target=(
                 len(matches) >= target_count
-                and considered < len(match_ids)
+                and considered < received
             ),
+            analysis_set_number=analysis_set_number,
+            filtered_other_sets=filtered_other_sets,
+            filtered_unknown_set=filtered_unknown_set,
         )
 
     def load_matches_by_ids(
@@ -423,12 +565,12 @@ class CachedMatchService:
 
         if not requested_ids:
             raise ValueError(
-                "É necessário informar ao menos um match_id."
+                "Ã‰ necessÃ¡rio informar ao menos um match_id."
             )
 
         if len(set(requested_ids)) != len(requested_ids):
             raise ValueError(
-                "match_ids não pode conter IDs duplicados."
+                "match_ids nÃ£o pode conter IDs duplicados."
             )
 
         cached_by_id = self._cached_payloads_by_id(
