@@ -33,6 +33,9 @@ from partner_platform.components.pre_match_coach import (
     build_pre_match_coach,
     render_pre_match_coach,
 )
+from partner_platform.components.metric_detail_card import (
+    render_metric_detail_card,
+)
 from partner_platform.intelligence import (
     build_benchmark_insights,
 )
@@ -3957,13 +3960,7 @@ def _render_roadmap22_priority(
         if isinstance(fusion, dict)
         else {}
     ) or {}
-    strength = (
-        fusion.get("strength_to_preserve")
-        if isinstance(fusion, dict)
-        else None
-    )
-
-    coach_text, next_focus, source = _coach_narrative_payload(
+    _, next_focus, _ = _coach_narrative_payload(
         comparison=comparison,
         benchmark_name=benchmark_name,
         spectrum=spectrum,
@@ -4036,40 +4033,6 @@ def _render_roadmap22_priority(
             tone="neutral",
         )
 
-    if isinstance(strength, dict) and strength:
-        with st.expander(
-            "Ver ponto forte a preservar",
-            expanded=False,
-        ):
-            st.markdown(
-                "**"
-                + _public_coach_text(
-                    str(
-                        strength.get("skill_label")
-                        or "Padrão positivo"
-                    )
-                )
-                + "**"
-            )
-            st.write(
-                _public_coach_text(
-                    str(
-                        strength.get("description")
-                        or "Preserve este padrão enquanto trabalha o foco principal."
-                    )
-                )
-            )
-
-    with st.expander(
-        "Abrir leitura completa do Coach",
-        expanded=False,
-    ):
-        st.write(coach_text)
-        st.caption(
-            source
-            + ". Os cálculos continuam sendo do TFT Insight."
-        )
-        _render_compact_training(training)
 
 
 def render(
@@ -4572,13 +4535,13 @@ def render(
     summary_cols = st.columns(2)
 
     with summary_cols[0]:
-        insight_banner(
+        render_metric_detail_card(
             eyebrow="Seu destaque",
-            title=(
+            metric_title=(
                 insights["strength_metric"]
                 or "Ponto forte"
             ),
-            description=(
+            summary=(
                 insights["strength"]
                 .replace(
                     "referência",
@@ -4589,17 +4552,20 @@ def render(
                     "grupo competitivo",
                 )
             ),
+            comparisons=compare_items,
+            benchmark_name=benchmark_name,
             tone="positive",
+            key="benchmark-strength-detail",
         )
 
     with summary_cols[1]:
-        insight_banner(
+        render_metric_detail_card(
             eyebrow="Maior oportunidade",
-            title=(
+            metric_title=(
                 insights["opportunity_metric"]
                 or "Oportunidade"
             ),
-            description=(
+            summary=(
                 insights["opportunity"]
                 .replace(
                     "referência",
@@ -4610,7 +4576,10 @@ def render(
                     "grupo competitivo",
                 )
             ),
+            comparisons=compare_items,
+            benchmark_name=benchmark_name,
             tone="warning",
+            key="benchmark-opportunity-detail",
         )
 
     profile_rows = _spectrum_profile_rows(

@@ -1,11 +1,21 @@
+"""
+Calculadora das métricas objetivas de combate.
+"""
+
 from statistics import mean
 
 from src.performance_engine.models import CombatMetrics, Match
+
+from .combat_availability import CombatAvailabilityChecker
 
 
 class CombatMetricsCalculator:
     """
     Calcula métricas objetivas relacionadas aos combates.
+
+    Quando a fonte retorna dano e eliminações zerados de forma sistêmica,
+    as métricas de combate são marcadas como indisponíveis (None) em vez de
+    serem interpretadas como desempenho real igual a zero.
     """
 
     @staticmethod
@@ -13,6 +23,16 @@ class CombatMetricsCalculator:
         if not matches:
             raise ValueError(
                 "É necessário informar ao menos uma partida."
+            )
+
+        availability = CombatAvailabilityChecker.evaluate(
+            matches
+        )
+
+        if not availability.available:
+            return CombatMetrics(
+                average_damage_to_players=None,
+                average_players_eliminated=None,
             )
 
         damage_values = [

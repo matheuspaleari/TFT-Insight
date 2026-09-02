@@ -17,6 +17,8 @@ from .metric_evaluator import MetricEvaluator
 class PerformanceCalculator:
     """
     Calcula a nota consolidada de performance do jogador.
+
+    Métricas indisponíveis não entram nas avaliações nem no score.
     """
 
     @staticmethod
@@ -68,72 +70,87 @@ class PerformanceCalculator:
         performance_weights: dict[MetricType, float],
     ) -> list[MetricEvaluation]:
         """
-        Avalia individualmente cada métrica.
+        Avalia individualmente cada métrica disponível.
+
+        Dano e eliminações podem estar como None quando a camada de
+        confiabilidade detecta uma amostra de combate sistematicamente
+        zerada. Nessa situação elas não entram no Performance.
         """
 
-        players_eliminated = MetricEvaluator.evaluate(
-            metric=MetricType.PLAYERS_ELIMINATED,
-            player_value=(
-                player_metrics
-                .combat
-                .average_players_eliminated
-            ),
-            benchmark_metric=(
-                benchmark.average_players_eliminated
-            ),
-            weight=performance_weights[
-                MetricType.PLAYERS_ELIMINATED
-            ],
+        evaluations: list[MetricEvaluation] = []
+
+        average_players_eliminated = (
+            player_metrics
+            .combat
+            .average_players_eliminated
         )
 
-        damage_to_players = MetricEvaluator.evaluate(
-            metric=MetricType.DAMAGE_TO_PLAYERS,
-            player_value=(
-                player_metrics
-                .combat
-                .average_damage_to_players
-            ),
-            benchmark_metric=(
-                benchmark.average_damage_to_players
-            ),
-            weight=performance_weights[
-                MetricType.DAMAGE_TO_PLAYERS
-            ],
+        if average_players_eliminated is not None:
+            evaluations.append(
+                MetricEvaluator.evaluate(
+                    metric=MetricType.PLAYERS_ELIMINATED,
+                    player_value=average_players_eliminated,
+                    benchmark_metric=(
+                        benchmark.average_players_eliminated
+                    ),
+                    weight=performance_weights[
+                        MetricType.PLAYERS_ELIMINATED
+                    ],
+                )
+            )
+
+        average_damage_to_players = (
+            player_metrics
+            .combat
+            .average_damage_to_players
         )
 
-        level = MetricEvaluator.evaluate(
-            metric=MetricType.LEVEL,
-            player_value=(
-                player_metrics.general.average_level
-            ),
-            benchmark_metric=benchmark.average_level,
-            weight=performance_weights[
-                MetricType.LEVEL
-            ],
+        if average_damage_to_players is not None:
+            evaluations.append(
+                MetricEvaluator.evaluate(
+                    metric=MetricType.DAMAGE_TO_PLAYERS,
+                    player_value=average_damage_to_players,
+                    benchmark_metric=(
+                        benchmark.average_damage_to_players
+                    ),
+                    weight=performance_weights[
+                        MetricType.DAMAGE_TO_PLAYERS
+                    ],
+                )
+            )
+
+        evaluations.append(
+            MetricEvaluator.evaluate(
+                metric=MetricType.LEVEL,
+                player_value=(
+                    player_metrics.general.average_level
+                ),
+                benchmark_metric=benchmark.average_level,
+                weight=performance_weights[
+                    MetricType.LEVEL
+                ],
+            )
         )
 
-        consistency = MetricEvaluator.evaluate(
-            metric=MetricType.CONSISTENCY,
-            player_value=(
-                player_metrics
-                .consistency
-                .placement_standard_deviation
-            ),
-            benchmark_metric=(
-                benchmark.placement_standard_deviation
-            ),
-            weight=performance_weights[
-                MetricType.CONSISTENCY
-            ],
-            higher_is_better=False,
+        evaluations.append(
+            MetricEvaluator.evaluate(
+                metric=MetricType.CONSISTENCY,
+                player_value=(
+                    player_metrics
+                    .consistency
+                    .placement_standard_deviation
+                ),
+                benchmark_metric=(
+                    benchmark.placement_standard_deviation
+                ),
+                weight=performance_weights[
+                    MetricType.CONSISTENCY
+                ],
+                higher_is_better=False,
+            )
         )
 
-        return [
-            players_eliminated,
-            damage_to_players,
-            level,
-            consistency,
-        ]
+        return evaluations
 
     @staticmethod
     def _calculate_weighted_score(
@@ -141,6 +158,9 @@ class PerformanceCalculator:
     ) -> float:
         """
         Calcula a média ponderada dos scores individuais.
+
+        Quando alguma métrica está indisponível, apenas os pesos das
+        avaliações restantes participam do denominador.
         """
 
         if not evaluations:
@@ -170,7 +190,7 @@ class PerformanceCalculator:
         performance_weights: dict[MetricType, float],
     ) -> None:
         """
-        Valida se todas as métricas necessárias possuem peso.
+        Valida o perfil de pesos configurado.
         """
 
         required_metrics = {
