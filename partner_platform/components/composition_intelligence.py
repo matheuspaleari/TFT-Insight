@@ -12,34 +12,57 @@ from partner_platform.components import (
 
 
 def _friendly_id(value: str | None) -> str:
-    text = str(
-        value
-        or ""
-    ).strip()
+    text = str(value or "").strip()
 
     if not text:
         return "-"
 
+    # IDs técnicos comuns da Riot, por exemplo:
+    # TFT18_Zyra -> Zyra
+    # TFT18_FloraFatalis -> Flora Fatalis
     text = re.sub(
-        r"^TFT\d+_",
+        r"^TFT\\d+_",
         "",
         text,
         flags=re.IGNORECASE,
     )
 
-    text = text.replace(
-        "_",
-        " ",
+    # Alguns payloads já chegam parcialmente "humanizados":
+    # DA 18 Zyra / DA18_Zyra / DA_18_Zyra -> Zyra
+    # DA Flora Fatalis18 -> Flora Fatalis
+    text = re.sub(
+        r"^DA[ _-]*\\d+[ _-]*",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(
+        r"^DA[ _-]+",
+        "",
+        text,
+        flags=re.IGNORECASE,
     )
 
+    text = text.replace("_", " ")
+
+    # Separa CamelCase sem destruir nomes já formatados.
     text = re.sub(
         r"(?<=[a-z])(?=[A-Z])",
         " ",
         text,
     )
 
-    return text.strip()
+    # Remove número técnico do set quando ele ficou no fim
+    # após a limpeza do prefixo DA.
+    text = re.sub(
+        r"(?<=[A-Za-z])\\d+$",
+        "",
+        text,
+    )
 
+    text = re.sub(r"\\s+", " ", text).strip()
+
+    return text or "-"
 
 def _join_ids(
     values,
