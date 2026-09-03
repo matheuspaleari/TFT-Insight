@@ -9,15 +9,13 @@ from partner_platform.components.insight_banner import insight_banner
 # ---------------------------------------------------------------------------
 # Garantia visual do modal de métricas em produção
 # ---------------------------------------------------------------------------
-# Em alguns ambientes, o st.dialog pode herdar a superfície clara do tema
-# nativo do Streamlit mesmo quando o restante do TFT Insight está em dark.
-# Esta regra afeta somente os dialogs e não altera a lógica pedagógica.
+# Em produção, o Streamlit renderiza o st.dialog com uma div interna sem
+# role="dialog". O seletor abaixo mira diretamente o primeiro filho do
+# data-testid="stDialog", que é a superfície branca observada no DOM real.
 st.markdown(
     """
     <style>
-    [data-testid="stDialog"] [role="dialog"],
-    [data-testid="stDialog"] > div > div[role="dialog"],
-    div[role="dialog"] {
+    [data-testid="stDialog"] > div {
         background: #0f131a !important;
         background-color: #0f131a !important;
         color: #f8fafc !important;
@@ -25,41 +23,40 @@ st.markdown(
         box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45) !important;
     }
 
-    [data-testid="stDialog"] [role="dialog"] > div,
-    [data-testid="stDialog"] [role="dialog"] section {
+    [data-testid="stDialog"] > div > div {
         background: #0f131a !important;
         background-color: #0f131a !important;
     }
 
-    [data-testid="stDialog"] [role="dialog"] h1,
-    [data-testid="stDialog"] [role="dialog"] h2,
-    [data-testid="stDialog"] [role="dialog"] h3,
-    [data-testid="stDialog"] [role="dialog"] h4,
-    [data-testid="stDialog"] [role="dialog"] p,
-    [data-testid="stDialog"] [role="dialog"] label,
-    [data-testid="stDialog"] [role="dialog"] [data-testid="stMetricLabel"],
-    [data-testid="stDialog"] [role="dialog"] [data-testid="stMetricValue"] {
+    [data-testid="stDialog"] h1,
+    [data-testid="stDialog"] h2,
+    [data-testid="stDialog"] h3,
+    [data-testid="stDialog"] h4,
+    [data-testid="stDialog"] p,
+    [data-testid="stDialog"] label,
+    [data-testid="stDialog"] [data-testid="stMetricLabel"],
+    [data-testid="stDialog"] [data-testid="stMetricValue"] {
         color: #f8fafc !important;
     }
 
-    [data-testid="stDialog"] [role="dialog"] [data-testid="stCaptionContainer"],
-    [data-testid="stDialog"] [role="dialog"] [data-testid="stCaptionContainer"] p {
+    [data-testid="stDialog"] [data-testid="stCaptionContainer"],
+    [data-testid="stDialog"] [data-testid="stCaptionContainer"] p {
         color: #94a3b8 !important;
     }
 
-    [data-testid="stDialog"] [role="dialog"] button,
-    [data-testid="stDialog"] [role="dialog"] button svg {
+    [data-testid="stDialog"] button,
+    [data-testid="stDialog"] button svg {
         color: #f8fafc !important;
         fill: currentColor !important;
     }
 
-    [data-testid="stDialog"] [role="dialog"] [data-testid="stAlert"] {
+    [data-testid="stDialog"] [data-testid="stAlert"] {
         background: #17324b !important;
         background-color: #17324b !important;
         border-color: rgba(96, 165, 250, 0.20) !important;
     }
 
-    [data-testid="stDialog"] [role="dialog"] [data-testid="stAlert"] p {
+    [data-testid="stDialog"] [data-testid="stAlert"] p {
         color: #60a5fa !important;
     }
     </style>
