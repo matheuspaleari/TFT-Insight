@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import re
-
 import streamlit as st
 
 from partner_platform.components import (
@@ -9,74 +7,11 @@ from partner_platform.components import (
     insight_banner,
     section_header,
 )
-
-
-def _friendly_id(
-    value: str | None,
-) -> str:
-    text = str(
-        value
-        or ""
-    ).strip()
-
-    if not text:
-        return "-"
-
-    # Remove prefixos internos mais comuns.
-    text = re.sub(
-        r"^TFT\d+_",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-    text = re.sub(
-        r"^TFT_",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    for prefix in (
-        "Item_Artifact_",
-        "Item_Radiant_",
-        "Item_",
-    ):
-        if text.startswith(
-            prefix
-        ):
-            text = text[
-                len(prefix):
-            ]
-
-    text = text.replace(
-        "_",
-        " ",
-    )
-
-    text = re.sub(
-        r"(?<=[a-z])(?=[A-Z])",
-        " ",
-        text,
-    )
-
-    # Limpeza de marcadores técnicos que vazam em alguns itens.
-    replacements = {
-        "TFT ": "",
-        "Mod ": "",
-    }
-
-    for old, new in replacements.items():
-        if text.startswith(
-            old
-        ):
-            text = (
-                new
-                + text[
-                    len(old):
-                ]
-            )
-
-    return text.strip()
+from partner_platform.utils.display_names import (
+    friendly_game_name,
+    friendly_item_name,
+    friendly_public_text,
+)
 
 
 def _items_line(
@@ -89,7 +24,7 @@ def _items_line(
         return "-"
 
     labels = [
-        _friendly_id(
+        friendly_item_name(
             item
         )
         for item in values
@@ -115,7 +50,7 @@ def _render_carry(
         eyebrow=eyebrow,
         title=title,
         description=(
-            f"{_friendly_id(profile.get('character_id'))} · "
+            f"{friendly_game_name(profile.get('character_id'))} · "
             f"{profile.get('matches_played', 0)} partida(s)"
         ),
         tone="neutral",
@@ -189,7 +124,7 @@ def _render_carry(
         )
         st.write(
             " · ".join(
-                f"{_friendly_id(item.get('item_id'))} "
+                f"{friendly_item_name(item.get('item_id'))} "
                 f"({float(item.get('match_rate', 0.0) or 0.0):.1f}%)"
                 for item in items[:5]
                 if isinstance(
@@ -267,16 +202,20 @@ def render_carry_item_intelligence(
 
     insight_banner(
         eyebrow="Leitura do Coach",
-        title=str(
-            coach.get(
-                "headline",
-                "Carries e itemizações no seu histórico",
+        title=friendly_public_text(
+            str(
+                coach.get(
+                    "headline",
+                    "Carries e itemizações no seu histórico",
+                )
             )
         ),
-        description=str(
-            coach.get(
-                "latest_reading",
-                "",
+        description=friendly_public_text(
+            str(
+                coach.get(
+                    "latest_reading",
+                    "",
+                )
             )
         ),
         tone="neutral",
@@ -294,7 +233,7 @@ def render_carry_item_intelligence(
         insight_banner(
             eyebrow="Decisão para a próxima partida",
             title="Use histórico sem transformar build em receita",
-            description=principle,
+            description=friendly_public_text(principle),
             tone="positive",
         )
 
@@ -380,7 +319,7 @@ def render_carry_item_intelligence(
         with columns[0]:
             executive_card(
                 title="Carry",
-                value=_friendly_id(
+                value=friendly_game_name(
                     latest.get(
                         "character_id"
                     )
@@ -487,7 +426,7 @@ def render_carry_item_intelligence(
                     continue
 
                 st.write(
-                    f"**{index}. {_friendly_id(profile.get('character_id'))}** · "
+                    f"**{index}. {friendly_game_name(profile.get('character_id'))}** · "
                     f"{profile.get('matches_played', 0)} partida(s) · "
                     f"média "
                     f"{float(profile.get('average_placement', 0.0) or 0.0):.2f} · "
@@ -513,8 +452,8 @@ def render_carry_item_intelligence(
                 border=True
             ):
                 st.write(
-                    str(
-                        item
+                    friendly_public_text(
+                        str(item)
                     )
                 )
 
@@ -554,5 +493,5 @@ def render_carry_item_intelligence(
                 )
                 st.write(
                     "• "
-                    + normalized
+                    + friendly_public_text(normalized)
                 )

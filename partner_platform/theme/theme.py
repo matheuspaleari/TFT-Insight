@@ -47,6 +47,10 @@ DIALOG_DARK_CSS = """
    no tema global carregado antes da navegação da aplicação.
 ------------------------------------------------------------------------- */
 [data-testid="stDialog"] > div {
+    /* Mantém todos os modais em uma coluna de leitura mais curta.
+       A largura continua responsiva em telas menores. */
+    width: min(92vw, 760px) !important;
+    max-width: 760px !important;
     background: #0f131a !important;
     background-color: #0f131a !important;
     color: #f8fafc !important;

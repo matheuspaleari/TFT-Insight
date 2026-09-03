@@ -205,6 +205,153 @@ def _public_coach_text(value: str) -> str:
     return text
 
 
+def _public_strength_description(strength: dict | None) -> str:
+    """
+    Traduz descrições internas de ponto forte para uma leitura pedagógica.
+
+    Não recalcula a Skill nem altera a autoridade da Fusion. Apenas evita
+    expor linguagem de implementação como "avaliação oficial forte" ou
+    "prioridade de correção" ao jogador.
+    """
+    if not isinstance(strength, dict):
+        return "Preserve este padrão enquanto trabalha o foco principal."
+
+    skill_label = _public_coach_text(
+        str(strength.get("skill_label") or "este fundamento")
+    ).strip()
+    raw = _public_coach_text(
+        str(strength.get("description") or "")
+    ).strip()
+
+    internal_markers = (
+        "avaliação oficial forte",
+        "avaliacao oficial forte",
+        "não deve ser convertida artificialmente",
+        "nao deve ser convertida artificialmente",
+        "prioridade de correção",
+        "prioridade de correcao",
+        "a skill possui",
+    )
+
+    normalized = raw.casefold()
+
+    if raw and not any(marker in normalized for marker in internal_markers):
+        return raw
+
+    return (
+        f"Você vem mostrando um padrão positivo em {skill_label}. "
+        "Esse fundamento não precisa ser o foco principal de correção agora. "
+        "Preserve o que já está funcionando enquanto direciona sua atenção "
+        "à prioridade principal do treino."
+    )
+
+
+def _public_priority_description(problem: dict | None) -> str:
+    """
+    Traduz descrições internas da prioridade para linguagem pedagógica.
+
+    Não altera a Skill escolhida, score, missão ou progresso.
+    """
+    if not isinstance(problem, dict):
+        return (
+            "Este é o fundamento com maior potencial de melhoria neste momento. "
+            "Concentre o treino nele sem abandonar o que já funciona."
+        )
+
+    skill_label = _public_coach_text(
+        str(
+            problem.get("skill_label")
+            or problem.get("title")
+            or "este fundamento"
+        )
+    ).strip()
+
+    raw = _public_coach_text(
+        str(problem.get("description") or "")
+    ).strip()
+
+    normalized = raw.casefold()
+
+    internal_markers = (
+        "avaliação oficial",
+        "avaliacao oficial",
+        "competent",
+        "skill está em",
+        "skill esta em",
+        "base histórica positiva",
+        "base historica positiva",
+        "gap específico",
+        "gap especifico",
+    )
+
+    if raw and not any(marker in normalized for marker in internal_markers):
+        return raw
+
+    return (
+        f"{skill_label} é o fundamento com maior oportunidade de evolução agora. "
+        "Você já possui uma base positiva, então o objetivo não é mudar tudo: "
+        "é melhorar o ponto específico indicado pelo Coach sem perder o que já funciona."
+    )
+
+
+def _priority_explainer_content(
+    *,
+    skill_name: str,
+    mission_title: str,
+    objective: str,
+    completed: int,
+    target: int,
+) -> tuple[str, str, str]:
+    """
+    Monta somente a explicação pública da prioridade já calculada.
+    """
+    skill = str(skill_name or "seu foco atual").strip()
+    mission = str(mission_title or "missão atual").strip()
+    objective_text = str(objective or "").strip()
+
+    why = (
+        f"O TFT Insight escolheu {skill} porque, dentro do seu histórico recente, "
+        "esse é o fundamento em que concentrar atenção tende a ser mais útil agora. "
+        "Isso não significa que os outros fundamentos estejam ruins; significa que este "
+        "é o melhor ponto para evitar dividir o treino em várias coisas ao mesmo tempo."
+    )
+
+    observe = (
+        f"Use a missão “{mission}” como referência durante a partida. "
+        + (
+            objective_text
+            if objective_text
+            else (
+                "Antes de tomar a decisão relacionada a esse fundamento, pare por alguns "
+                "segundos e confirme se ela está alinhada com o objetivo do ciclo."
+            )
+        )
+    )
+
+    if target > 0:
+        remaining = max(target - completed, 0)
+        follow = (
+            f"Este ciclo usa {target} partidas para observar o mesmo fundamento de forma consistente. "
+            f"Você está em {completed}/{target}"
+            + (
+                f" e ainda faltam {remaining} partida(s). "
+                if remaining
+                else ". O ciclo já atingiu a amostra prevista. "
+            )
+            + (
+                "Depois disso, o TFT Insight pode comparar o histórico e decidir se vale "
+                "manter, ajustar ou trocar o foco."
+            )
+        )
+    else:
+        follow = (
+            "O TFT Insight continuará acompanhando as próximas partidas antes de decidir "
+            "se este foco deve ser mantido, ajustado ou substituído."
+        )
+
+    return why, observe, follow
+
+
 def _human_stage_label(value: str) -> str:
     mapping = {
         "NOVICE": "Fundamentos",
@@ -2952,17 +3099,23 @@ def _render_compact_training(
     completed = summary["completed"]
     target = summary["target"]
     remaining = summary["remaining"]
+    checklist = summary["checklist"]
+
+    section_title = (
+        f"Seu foco nas próximas {target} partidas"
+        if target > 0
+        else "Seu foco de treino"
+    )
 
     section_header(
-        "Seu foco agora",
+        section_title,
         subtitle=(
-            "Uma orientação simples para levar às próximas partidas."
+            "Uma missão por ciclo: pratique o mesmo fundamento e deixe "
+            "o TFT Insight acompanhar a evolução antes de trocar o foco."
         ),
     )
 
-    columns = st.columns(
-        [1.2, 1, 1]
-    )
+    columns = st.columns([1.2, 1, 1])
 
     with columns[0]:
         executive_card(
@@ -2974,7 +3127,7 @@ def _render_compact_training(
 
     with columns[1]:
         executive_card(
-            title="Ciclo atual",
+            title="Progresso",
             value=f"{completed}/{target}",
             caption="Partidas concluídas",
             icon="",
@@ -2990,11 +3143,52 @@ def _render_compact_training(
 
     if objective:
         insight_banner(
-            eyebrow="Missão",
+            eyebrow="Missão do ciclo",
             title=mission_title,
             description=objective,
             tone="neutral",
         )
+
+    if target > 0:
+        progress_value = max(
+            0.0,
+            min(float(completed) / float(target), 1.0),
+        )
+        st.progress(progress_value)
+
+        if completed >= target:
+            st.caption(
+                "Ciclo concluído. O TFT Insight já pode avaliar o resultado "
+                "e preparar a próxima transição de treino."
+            )
+        elif completed <= 0:
+            st.caption(
+                "O ciclo começou agora. Somente partidas novas contam para "
+                "este progresso."
+            )
+        else:
+            st.caption(
+                f"Faltam {remaining} partida(s) para concluir este ciclo e "
+                "avaliar a evolução do fundamento."
+            )
+
+    if checklist and completed < target:
+        with st.expander(
+            "Como praticar nesta partida",
+            expanded=False,
+        ):
+            for item in checklist:
+                if isinstance(item, dict):
+                    item_text = (
+                        item.get("text")
+                        or item.get("label")
+                        or item.get("question")
+                    )
+                else:
+                    item_text = item
+
+                if item_text:
+                    st.write("• " + str(item_text))
 
 
 def _render_training_details(
@@ -3128,14 +3322,8 @@ def _render_coach_fusion(
                     or "Padrão positivo"
                 )
             ),
-            description=_public_coach_text(
-                str(
-                    strength.get("description")
-                    or (
-                        "Preserve este padrão enquanto "
-                        "trabalha o foco principal."
-                    )
-                )
+            description=_public_strength_description(
+                strength
             ),
             tone="positive",
         )
@@ -3226,10 +3414,6 @@ def _render_coach_contents(
 
     training = comparison.get(
         "training"
-    )
-
-    _render_compact_training(
-        training
     )
 
     coach_text, next_focus, source = (
@@ -3986,14 +4170,79 @@ def _render_roadmap22_priority(
                     or "Principal oportunidade"
                 )
             ),
-            description=_public_coach_text(
-                str(
-                    problem.get("description")
-                    or "Este é o sinal que mais sustenta seu foco atual."
-                )
+            description=_public_priority_description(
+                problem
             ),
             tone="warning",
         )
+
+        training_summary = _coach_training_summary(
+            comparison.get("training")
+        )
+
+        explainer_skill = str(
+            problem.get("skill_label")
+            or training_summary.get("skill_name")
+            or "seu foco atual"
+        ).strip()
+
+        explainer_mission = str(
+            training_summary.get("title")
+            or focus.get("mission_title")
+            or "missão atual"
+        ).strip()
+
+        explainer_objective = str(
+            training_summary.get("objective")
+            or focus.get("next_action")
+            or focus.get("training_focus")
+            or focus.get("objective")
+            or ""
+        ).strip()
+
+        explainer_completed = int(
+            training_summary.get("completed", 0)
+            or 0
+        )
+
+        explainer_target = int(
+            training_summary.get("target", 0)
+            or 0
+        )
+
+        @st.dialog("Entender esta prioridade")
+        def _open_priority_explainer():
+            why, observe, follow = _priority_explainer_content(
+                skill_name=explainer_skill,
+                mission_title=explainer_mission,
+                objective=explainer_objective,
+                completed=explainer_completed,
+                target=explainer_target,
+            )
+
+            st.markdown(
+                f"## Por que {explainer_skill} é sua prioridade?"
+            )
+            st.write(why)
+
+            st.markdown("### O que observar nas partidas")
+            st.write(observe)
+
+            st.markdown("### Como vamos acompanhar sua evolução")
+            st.write(follow)
+
+            st.caption(
+                "Esta explicação usa a prioridade e a missão já definidas pelo TFT Insight. "
+                "Ela não cria uma nova nota nem altera o ciclo de treino."
+            )
+
+        if st.button(
+            "Entender esta prioridade →",
+            key="understand-coach-priority",
+            use_container_width=True,
+        ):
+            _open_priority_explainer()
+
     elif next_focus:
         insight_banner(
             eyebrow="Prioridade principal",
@@ -4032,6 +4281,29 @@ def _render_roadmap22_priority(
             description=next_action,
             tone="neutral",
         )
+
+    strength = _fusion_authorized_strength(
+        fusion if isinstance(fusion, dict) else None
+    )
+
+    if isinstance(strength, dict) and strength:
+        with st.expander(
+            "Ver ponto forte a preservar",
+            expanded=False,
+        ):
+            st.markdown(
+                "**"
+                + _public_coach_text(
+                    str(
+                        strength.get("skill_label")
+                        or "Padrão positivo"
+                    )
+                )
+                + "**"
+            )
+            st.write(
+                _public_strength_description(strength)
+            )
 
 
 
@@ -4498,6 +4770,10 @@ def render(
         comparison=comparison,
         benchmark_name=benchmark_name,
         spectrum=spectrum,
+    )
+
+    _render_compact_training(
+        comparison.get("training")
     )
 
     compare_items = comparison.get(

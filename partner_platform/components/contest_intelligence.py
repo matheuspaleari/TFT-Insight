@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import re
-
 import streamlit as st
 
 from partner_platform.components import (
@@ -9,36 +7,10 @@ from partner_platform.components import (
     insight_banner,
     section_header,
 )
-
-
-def _friendly_id(value):
-    text = str(
-        value
-        or ""
-    ).strip()
-
-    if not text:
-        return "-"
-
-    text = re.sub(
-        r"^TFT\d+_",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    text = text.replace(
-        "_",
-        " ",
-    )
-
-    text = re.sub(
-        r"(?<=[a-z])(?=[A-Z])",
-        " ",
-        text,
-    )
-
-    return text.strip()
+from partner_platform.utils.display_names import (
+    friendly_game_name,
+    friendly_public_text,
+)
 
 
 def _frequency_lines(values):
@@ -59,7 +31,7 @@ def _frequency_lines(values):
             continue
 
         st.write(
-            f"**{_friendly_id(item.get('item_id'))}** · "
+            f"**{friendly_game_name(item.get('item_id'))}** · "
             f"{item.get('matches_observed', 0)} partida(s) · "
             f"{float(item.get('match_rate', 0.0) or 0.0):.1f}%"
         )
@@ -98,16 +70,20 @@ def render_contest_intelligence(
     # ------------------------------------------------------------------
     insight_banner(
         eyebrow="Leitura do Coach",
-        title=str(
-            coach.get(
-                "headline",
-                "Como a disputa aparece no seu histórico",
+        title=friendly_public_text(
+            str(
+                coach.get(
+                    "headline",
+                    "Como a disputa aparece no seu histórico",
+                )
             )
         ),
-        description=str(
-            coach.get(
-                "latest_reading",
-                "",
+        description=friendly_public_text(
+            str(
+                coach.get(
+                    "latest_reading",
+                    "",
+                )
             )
         ),
         tone="neutral",
@@ -125,7 +101,7 @@ def render_contest_intelligence(
         insight_banner(
             eyebrow="Decisão para a próxima partida",
             title="Use contestação como sinal, não como ordem",
-            description=principle,
+            description=friendly_public_text(principle),
             tone="positive",
         )
 
@@ -214,7 +190,7 @@ def render_contest_intelligence(
             ),
             (
                 "Carry",
-                _friendly_id(
+                friendly_game_name(
                     latest.get(
                         "carry_character_id"
                     )
@@ -356,8 +332,8 @@ def render_contest_intelligence(
                 border=True
             ):
                 st.write(
-                    str(
-                        item
+                    friendly_public_text(
+                        str(item)
                     )
                 )
 
@@ -398,5 +374,5 @@ def render_contest_intelligence(
 
                 st.write(
                     "• "
-                    + normalized
+                    + friendly_public_text(normalized)
                 )

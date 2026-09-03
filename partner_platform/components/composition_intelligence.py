@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import re
-
 import streamlit as st
 
 from partner_platform.components import (
@@ -9,60 +7,11 @@ from partner_platform.components import (
     insight_banner,
     section_header,
 )
+from partner_platform.utils.display_names import (
+    friendly_game_name,
+    friendly_public_text,
+)
 
-
-def _friendly_id(value: str | None) -> str:
-    text = str(value or "").strip()
-
-    if not text:
-        return "-"
-
-    # IDs técnicos comuns da Riot, por exemplo:
-    # TFT18_Zyra -> Zyra
-    # TFT18_FloraFatalis -> Flora Fatalis
-    text = re.sub(
-        r"^TFT\\d+_",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    # Alguns payloads já chegam parcialmente "humanizados":
-    # DA 18 Zyra / DA18_Zyra / DA_18_Zyra -> Zyra
-    # DA Flora Fatalis18 -> Flora Fatalis
-    text = re.sub(
-        r"^DA[ _-]*\\d+[ _-]*",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-    text = re.sub(
-        r"^DA[ _-]+",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    text = text.replace("_", " ")
-
-    # Separa CamelCase sem destruir nomes já formatados.
-    text = re.sub(
-        r"(?<=[a-z])(?=[A-Z])",
-        " ",
-        text,
-    )
-
-    # Remove número técnico do set quando ele ficou no fim
-    # após a limpeza do prefixo DA.
-    text = re.sub(
-        r"(?<=[A-Za-z])\\d+$",
-        "",
-        text,
-    )
-
-    text = re.sub(r"\\s+", " ", text).strip()
-
-    return text or "-"
 
 def _join_ids(
     values,
@@ -74,7 +23,7 @@ def _join_ids(
         return "-"
 
     labels = [
-        _friendly_id(
+        friendly_game_name(
             item
         )
         for item in values
@@ -127,12 +76,12 @@ def _render_profile(
     title: str,
     eyebrow: str,
 ) -> None:
-    carry = _friendly_id(
+    carry = friendly_game_name(
         profile.get(
             "carry_character_id"
         )
     )
-    tank = _friendly_id(
+    tank = friendly_game_name(
         profile.get(
             "tank_character_id"
         )
@@ -261,16 +210,20 @@ def render_composition_intelligence(
 
     insight_banner(
         eyebrow="Leitura do Coach",
-        title=str(
-            coach.get(
-                "headline",
-                "Seu histórico de composições",
+        title=friendly_public_text(
+            str(
+                coach.get(
+                    "headline",
+                    "Seu histórico de composições",
+                )
             )
         ),
-        description=str(
-            summary.get(
-                "repetition_interpretation",
-                "",
+        description=friendly_public_text(
+            str(
+                summary.get(
+                    "repetition_interpretation",
+                    "",
+                )
             )
         ),
         tone="neutral",
@@ -396,7 +349,7 @@ def render_composition_intelligence(
                 ):
                     continue
 
-                carry = _friendly_id(
+                carry = friendly_game_name(
                     profile.get(
                         "carry_character_id"
                     )
@@ -438,8 +391,8 @@ def render_composition_intelligence(
                 border=True
             ):
                 st.write(
-                    str(
-                        item
+                    friendly_public_text(
+                        str(item)
                     )
                 )
 
@@ -490,7 +443,7 @@ def render_composition_intelligence(
             ):
                 st.write(
                     "• "
-                    + str(
-                        item
+                    + friendly_public_text(
+                        str(item)
                     )
                 )

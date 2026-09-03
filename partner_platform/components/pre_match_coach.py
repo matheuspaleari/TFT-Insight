@@ -1,18 +1,9 @@
 from __future__ import annotations
 
-import re
 import streamlit as st
 
 from partner_platform.components import insight_banner, section_header
-
-
-def _friendly(value) -> str:
-    text = str(value or "").strip()
-    if not text:
-        return "-"
-    text = re.sub(r"^TFT\d+_", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", text)
-    return text.replace("_", " ").strip()
+from partner_platform.utils.display_names import friendly_game_name, friendly_public_text
 
 
 def build_pre_match_coach(*, training: dict, composition: dict, contest: dict, economy: dict, carry_item: dict) -> dict:
@@ -64,7 +55,7 @@ def build_pre_match_coach(*, training: dict, composition: dict, contest: dict, e
         })
 
     if carry_summary:
-        carry_name = _friendly(carry_most.get("character_id")) if carry_most else "-"
+        carry_name = friendly_game_name(carry_most.get("character_id")) if carry_most else "-"
         carry_matches = int(carry_most.get("matches_played", 0) or 0) if carry_most else 0
         carry_text = (
             f"Carry mais recorrente: {carry_name} em {carry_matches} partida(s). "
@@ -111,14 +102,14 @@ def render_pre_match_coach(payload: dict) -> None:
     with cols[0]:
         insight_banner(
             eyebrow="FOCO",
-            title=str(payload.get("skill", "-")),
+            title=friendly_public_text(str(payload.get("skill", "-"))),
             description="Fundamento que continua guiando seu treino.",
             tone="neutral",
         )
     with cols[1]:
         insight_banner(
             eyebrow="MISSÃO",
-            title=str(payload.get("mission", "-")),
+            title=friendly_public_text(str(payload.get("mission", "-"))),
             description="A consolidação não troca sua missão ativa.",
             tone="neutral",
         )
@@ -126,7 +117,7 @@ def render_pre_match_coach(payload: dict) -> None:
     insight_banner(
         eyebrow="AÇÃO PRINCIPAL",
         title="Leve uma decisão clara para a próxima partida",
-        description=str(payload.get("primary_action", "")),
+        description=friendly_public_text(str(payload.get("primary_action", ""))),
         tone="success",
     )
 
@@ -134,11 +125,11 @@ def render_pre_match_coach(payload: dict) -> None:
     for item in payload.get("support", []):
         with st.container(border=True):
             st.markdown(f"**{item.get('label', 'Sinal')}**")
-            st.write(item.get("text", ""))
+            st.write(friendly_public_text(str(item.get("text", ""))))
 
     st.markdown("#### Preserve")
-    st.write(payload.get("preserve", ""))
+    st.write(friendly_public_text(str(payload.get("preserve", ""))))
 
     with st.expander("Como interpretar este plano"):
         for item in payload.get("guardrails", []):
-            st.write(f"• {item}")
+            st.write("• " + friendly_public_text(str(item)))

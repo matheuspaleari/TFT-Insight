@@ -2,35 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-
-def _clean_identifier(
-    value: str | None,
-) -> str:
-    if not value:
-        return ""
-
-    cleaned = str(value)
-
-    for prefix in (
-        "TFT17_",
-        "TFT16_",
-        "TFT15_",
-        "TFT14_",
-        "TFT13_",
-        "TFT12_",
-        "TFT11_",
-        "TFT_",
-    ):
-        if cleaned.startswith(prefix):
-            cleaned = cleaned[
-                len(prefix):
-            ]
-            break
-
-    return cleaned.replace(
-        "_",
-        " ",
-    ).strip()
+from partner_platform.utils.display_names import friendly_game_name, friendly_public_text
 
 
 def _message(
@@ -86,11 +58,9 @@ def _composition_message(
             0,
         )
     )
-    carry = _clean_identifier(
-        context.get(
+    carry = friendly_game_name(context.get(
             "most_used_carry_character_id"
-        )
-    )
+        ), empty="")
     avg_placement = float(
         context.get(
             "most_used_average_placement",
@@ -276,16 +246,12 @@ def _contest_message(
         )
     )
 
-    most_contested = _clean_identifier(
-        context.get(
+    most_contested = friendly_game_name(context.get(
             "most_contested_unit_id"
-        )
-    )
-    latest_carry = _clean_identifier(
-        context.get(
+        ), empty="")
+    latest_carry = friendly_game_name(context.get(
             "latest_carry_character_id"
-        )
-    )
+        ), empty="")
     latest_contested = bool(
         context.get(
             "latest_carry_contested",
