@@ -119,7 +119,7 @@ def render(*, context, api_client, analytics) -> None:
 
             st.plotly_chart(
                 chart,
-                use_container_width=True,
+                width="stretch",
             )
     else:
         st.info(

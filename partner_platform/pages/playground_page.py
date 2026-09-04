@@ -70,7 +70,7 @@ def render(
             submitted = (
                 st.form_submit_button(
                     "Analyze",
-                    use_container_width=True,
+                    width="stretch",
                 )
             )
 

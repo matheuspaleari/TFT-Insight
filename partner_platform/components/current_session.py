@@ -52,14 +52,14 @@ def current_session_panel() -> None:
                 if st.button(
                     f"{item['game_name']} #{item['tag_line']}",
                     key=f"restore_player_{index}",
-                    use_container_width=True,
+                    width="stretch",
                 ):
                     PlayerSessionStore.restore(index)
                     st.rerun()
 
     if st.sidebar.button(
         "Trocar jogador",
-        use_container_width=True,
+        width="stretch",
     ):
         PlayerSessionStore.clear()
         st.session_state.pop("benchmark_comparison", None)

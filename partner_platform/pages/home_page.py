@@ -61,7 +61,7 @@ def render(
     if st.button(
         "Analisar meu Riot ID",
         type="primary",
-        use_container_width=True,
+        width="stretch",
     ):
         st.session_state["_tft_navigation_target"] = "Benchmark"
         st.rerun()
@@ -390,7 +390,7 @@ def render(
     if st.button(
         "Analisar meu Riot ID",
         type="primary",
-        use_container_width=True,
+        width="stretch",
         key="tft_home_final_cta",
     ):
         st.session_state["_tft_navigation_target"] = "Benchmark"

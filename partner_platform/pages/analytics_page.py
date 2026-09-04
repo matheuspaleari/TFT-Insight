@@ -43,7 +43,7 @@ def render(*, context, analytics) -> None:
     if events:
         st.dataframe(
             pd.DataFrame(events),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
     else:

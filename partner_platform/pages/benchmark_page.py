@@ -1921,7 +1921,7 @@ def _render_progress_dashboard(
 
             st.plotly_chart(
                 figure,
-                use_container_width=True,
+                width="stretch",
             )
 
     st.markdown("**Estado atual das Skills**")
@@ -3646,7 +3646,7 @@ def _render_post_match_integration(
         analyze_latest = st.button(
             "Analisar última partida",
             type="primary",
-            use_container_width=True,
+            width="stretch",
             key="post-match-analyze-" + cache_key,
         )
 
@@ -3724,7 +3724,7 @@ def _render_pre_match_coach_integration(
         analyze = st.button(
             "Gerar plano pré-partida",
             type="primary",
-            use_container_width=True,
+            width="stretch",
             key="pre-match-coach-button-" + key,
         )
     with cols[1]:
@@ -3819,7 +3819,7 @@ def _render_composition_intelligence_integration(
     with action_columns[0]:
         analyze = st.button(
             "Atualizar análise de composições" if isinstance(cached, dict) else "Analisar composições",
-            use_container_width=True,
+            width="stretch",
             key=(
                 "composition-intelligence-button-"
                 + cache_key
@@ -3916,7 +3916,7 @@ def _render_contest_intelligence_integration(
     with action_columns[0]:
         analyze = st.button(
             "Atualizar análise de contestação" if isinstance(cached, dict) else "Analisar contestação",
-            use_container_width=True,
+            width="stretch",
             key="contest-intelligence-button-" + cache_key,
         )
 
@@ -3996,7 +3996,7 @@ def _render_economy_intelligence_integration(
     with action_columns[0]:
         analyze = st.button(
             "Atualizar análise de economia" if isinstance(cached, dict) else "Analisar economia",
-            use_container_width=True,
+            width="stretch",
             key="economy-intelligence-button-" + cache_key,
         )
 
@@ -4076,7 +4076,7 @@ def _render_carry_item_intelligence_integration(
     with columns[0]:
         analyze = st.button(
             "Atualizar análise de carries e itens" if isinstance(cached, dict) else "Analisar carries e itens",
-            use_container_width=True,
+            width="stretch",
             key="carry-item-intelligence-button-" + cache_key,
         )
 
@@ -4239,7 +4239,7 @@ def _render_roadmap22_priority(
         if st.button(
             "Entender esta prioridade →",
             key="understand-coach-priority",
-            use_container_width=True,
+            width="stretch",
         ):
             _open_priority_explainer()
 
@@ -4407,7 +4407,7 @@ def render(
 
             submitted = st.form_submit_button(
                 "Analisar",
-                use_container_width=True,
+                width="stretch",
                 type="primary",
             )
 
@@ -4437,7 +4437,7 @@ def render(
                 if st.button(
                     "Nova análise",
                     key="tft_new_analysis",
-                    use_container_width=True,
+                    width="stretch",
                 ):
                     st.session_state[
                         "tft_show_analysis_form"
@@ -4970,7 +4970,7 @@ def render(
         if profile_rows:
             st.dataframe(
                 pd.DataFrame(profile_rows),
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
 
@@ -4987,7 +4987,7 @@ def render(
                     compare_items
                 )
             ),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 
@@ -5048,7 +5048,7 @@ def render(
 
                     st.plotly_chart(
                         figure,
-                        use_container_width=True,
+                        width="stretch",
                     )
 
             with chart_right:
@@ -5092,7 +5092,7 @@ def render(
 
                 st.plotly_chart(
                     figure,
-                    use_container_width=True,
+                    width="stretch",
                 )
 
         else:
@@ -5140,7 +5140,7 @@ def render(
 
             st.plotly_chart(
                 figure,
-                use_container_width=True,
+                width="stretch",
             )
 
     # O cristal continua disponível como atalho para a leitura completa.
@@ -5247,7 +5247,7 @@ def render(
 
         st.dataframe(
             table,
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 

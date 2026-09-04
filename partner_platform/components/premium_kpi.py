@@ -70,7 +70,7 @@ def premium_kpi(
 
     with st.popover(
         "ⓘ Entender nota",
-        use_container_width=True,
+        width="stretch",
     ):
         st.markdown(
             f"### {explanation_title}"

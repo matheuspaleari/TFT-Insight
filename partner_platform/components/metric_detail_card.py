@@ -512,7 +512,7 @@ def render_metric_detail_card(
     if st.button(
         "Entender minha avaliação →",
         key=key,
-        use_container_width=True,
+        width="stretch",
     ):
         _metric_details_dialog(
             metric_title=metric_title,

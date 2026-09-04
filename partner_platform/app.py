@@ -99,7 +99,7 @@ def _render_login() -> None:
 
             submitted = st.form_submit_button(
                 "Acessar TFT Insight",
-                use_container_width=True,
+                width="stretch",
             )
 
         if submitted:
@@ -126,7 +126,7 @@ def _render_logout() -> None:
 
         if st.button(
             "Sair da demo",
-            use_container_width=True,
+            width="stretch",
             key="tft_demo_logout",
         ):
             st.session_state.pop("tft_demo_authenticated", None)
