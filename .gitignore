@@ -121,3 +121,33 @@ sdk/python/src/*.egg-info/
 
 # Raw role-inference match dataset
 data/role_inference/**/matches/
+
+# ------------------------------------------------------------------------------
+# Roadmap 25 — outputs locais de investigação/runtime
+# ------------------------------------------------------------------------------
+data/eog_schema_analysis/
+data/exact_listener_verifier/
+data/game_client_discovery/
+data/game_process_artifact_mapper/
+data/lcu_directed_probe/
+data/lcu_endpoint_probe/
+data/lcu_exact_schema_mapper/
+data/lcu_help_mapper/
+data/lcu_probe/
+data/lcu_type_cross_mapper/
+data/lcu_type_mapper/
+data/lcu_whitelist_probe/
+data/live_probe/
+data/runtime_artifact_discovery/
+data/runtime_websocket_evidence/
+data/shipping_runtime_surface/
+data/spectator_probe/
+data/supported_runtime_interface_discovery/
+data/tftclient_process_environment/
+data/tftclient_runtime_mapper/
+
+# Relatorios locais de diagnostico
+diagnostico_untracked_roadmap25.txt
+diagnostico_nomes_riot_global.txt
+diagnostico_friendly_id_completo.txt
+riot_client_methods.txt
