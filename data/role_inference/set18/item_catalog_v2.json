@@ -1,0 +1,2700 @@
+{
+  "schema_version": "2.0",
+  "set": {
+    "number": 18,
+    "core_name": "TFTSet18"
+  },
+  "display_policy": {
+    "website_field": "display_name",
+    "internal_lookup_field": "riot_item_id",
+    "never_show_riot_item_id_to_user": true
+  },
+  "policy": {
+    "manual_classification_is_authority": true,
+    "challenger_learning_is_secondary": true,
+    "learning_cannot_override_manual_structure": true,
+    "unknown_items_are_not_manual_truth": true,
+    "radiants_inherit_verified_base_function": true,
+    "emblems_are_neutral_50_50_50": true
+  },
+  "items": [
+    {
+      "riot_item_id": "DA_GargoyleStoneplate",
+      "display_name": "Placa Gargolítica",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 2782,
+        "carry_uses": 76,
+        "tank_uses": 2620,
+        "support_uses": 86
+      }
+    },
+    {
+      "riot_item_id": "DA_WarmogsArmor",
+      "display_name": "Armadura de Warmog",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1888,
+        "carry_uses": 93,
+        "tank_uses": 1748,
+        "support_uses": 47
+      }
+    },
+    {
+      "riot_item_id": "DA_SpearOfShojin",
+      "display_name": "Lança de Shojin",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1643,
+        "carry_uses": 1600,
+        "tank_uses": 18,
+        "support_uses": 25
+      }
+    },
+    {
+      "riot_item_id": "DA_GuinsoosRageblade",
+      "display_name": "Lâmina da Fúria de Guinsoo",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1569,
+        "carry_uses": 1509,
+        "tank_uses": 44,
+        "support_uses": 16
+      }
+    },
+    {
+      "riot_item_id": "DA_InfinityEdge",
+      "display_name": "Gume do Infinito",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1375,
+        "carry_uses": 1295,
+        "tank_uses": 76,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_SpiritVisage",
+      "display_name": "Semblante Espiritual",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1361,
+        "carry_uses": 76,
+        "tank_uses": 1248,
+        "support_uses": 37
+      }
+    },
+    {
+      "riot_item_id": "DA_AdaptiveHelm",
+      "display_name": "Elmo Adaptativo",
+      "item_type": "completed",
+      "manual_category": "hybrid",
+      "manual_role_label": "Hybrid / Tank + AP",
+      "carry_weight": 45,
+      "tank_weight": 65,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1229,
+        "carry_uses": 572,
+        "tank_uses": 625,
+        "support_uses": 32
+      }
+    },
+    {
+      "riot_item_id": "DA_JeweledGauntlet",
+      "display_name": "Manopla Adornada",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1226,
+        "carry_uses": 1184,
+        "tank_uses": 33,
+        "support_uses": 9
+      }
+    },
+    {
+      "riot_item_id": "DA_ProtectorsVow",
+      "display_name": "Juramento do Protetor",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 5,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1154,
+        "carry_uses": 138,
+        "tank_uses": 1002,
+        "support_uses": 14
+      }
+    },
+    {
+      "riot_item_id": "DA_Crownguard",
+      "display_name": "Stemmaguarda",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 10,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1115,
+        "carry_uses": 103,
+        "tank_uses": 991,
+        "support_uses": 21
+      }
+    },
+    {
+      "riot_item_id": "DA_EdgeOfNight",
+      "display_name": "Limiar da Noite",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Protection",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1112,
+        "carry_uses": 913,
+        "tank_uses": 198,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_ThiefsGloves",
+      "display_name": "Luvas do Ladrão",
+      "item_type": "completed",
+      "manual_category": "neutral",
+      "manual_role_label": "Flexible / Neutral",
+      "carry_weight": 25,
+      "tank_weight": 25,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1100,
+        "carry_uses": 568,
+        "tank_uses": 513,
+        "support_uses": 19
+      }
+    },
+    {
+      "riot_item_id": "DA_GiantSlayer",
+      "display_name": "Mata-Gigantes",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1036,
+        "carry_uses": 944,
+        "tank_uses": 84,
+        "support_uses": 8
+      }
+    },
+    {
+      "riot_item_id": "DA_RedBuff",
+      "display_name": "Efeito Vermelho",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Utility",
+      "carry_weight": 85,
+      "tank_weight": 5,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1006,
+        "carry_uses": 948,
+        "tank_uses": 45,
+        "support_uses": 13
+      }
+    },
+    {
+      "riot_item_id": "DA_VoidStaff",
+      "display_name": "Cajado do Vazio",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 90,
+      "tank_weight": 0,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 965,
+        "carry_uses": 901,
+        "tank_uses": 43,
+        "support_uses": 21
+      }
+    },
+    {
+      "riot_item_id": "DA_RabadonsDeathcap",
+      "display_name": "Capuz da Morte de Rabadon",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 946,
+        "carry_uses": 902,
+        "tank_uses": 31,
+        "support_uses": 13
+      }
+    },
+    {
+      "riot_item_id": "DA_SteraksGage",
+      "display_name": "Sinal de Sterak",
+      "item_type": "completed",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 80,
+      "tank_weight": 30,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 931,
+        "carry_uses": 538,
+        "tank_uses": 389,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_StrikersFlail",
+      "display_name": "Mangual do Guerreiro",
+      "item_type": "completed",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 80,
+      "tank_weight": 30,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 890,
+        "carry_uses": 847,
+        "tank_uses": 39,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_ArchangelsStaff",
+      "display_name": "Cajado do Arcanjo",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 845,
+        "carry_uses": 774,
+        "tank_uses": 65,
+        "support_uses": 6
+      }
+    },
+    {
+      "riot_item_id": "DA_Deathblade",
+      "display_name": "Lâmina Mortal",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 812,
+        "carry_uses": 741,
+        "tank_uses": 71,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_HextechGunblade",
+      "display_name": "Pistola Laminar Hextec",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Sustain",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 736,
+        "carry_uses": 671,
+        "tank_uses": 60,
+        "support_uses": 5
+      }
+    },
+    {
+      "riot_item_id": "DA_KrakensFury",
+      "display_name": "Fúria do Cráquem",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 729,
+        "carry_uses": 672,
+        "tank_uses": 53,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_LastWhisper",
+      "display_name": "Último Sussurro",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 721,
+        "carry_uses": 673,
+        "tank_uses": 46,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_SteadfastHeart",
+      "display_name": "Coração Inabalável",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 5,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 718,
+        "carry_uses": 75,
+        "tank_uses": 628,
+        "support_uses": 15
+      }
+    },
+    {
+      "riot_item_id": "DA_BlueBuff",
+      "display_name": "Efeito Azul",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP / Mana",
+      "carry_weight": 95,
+      "tank_weight": 0,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 662,
+        "carry_uses": 611,
+        "tank_uses": 37,
+        "support_uses": 14
+      }
+    },
+    {
+      "riot_item_id": "DA_DragonsClaw",
+      "display_name": "Garra do Dragão",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 655,
+        "carry_uses": 57,
+        "tank_uses": 587,
+        "support_uses": 11
+      }
+    },
+    {
+      "riot_item_id": "DA_Quicksilver",
+      "display_name": "Mercúrio",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Protection",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 632,
+        "carry_uses": 480,
+        "tank_uses": 151,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_Evenshroud",
+      "display_name": "Proteção Imutável",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank / Utility",
+      "carry_weight": 5,
+      "tank_weight": 90,
+      "support_weight": 25,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 628,
+        "carry_uses": 77,
+        "tank_uses": 529,
+        "support_uses": 22
+      }
+    },
+    {
+      "riot_item_id": "DA_Morellonomicon",
+      "display_name": "Morellonomicon",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP / Utility",
+      "carry_weight": 85,
+      "tank_weight": 5,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 626,
+        "carry_uses": 569,
+        "tank_uses": 39,
+        "support_uses": 18
+      }
+    },
+    {
+      "riot_item_id": "DA_SunfireCape",
+      "display_name": "Capa de Fogo Solar",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank / Utility",
+      "carry_weight": 10,
+      "tank_weight": 90,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 588,
+        "carry_uses": 76,
+        "tank_uses": 497,
+        "support_uses": 15
+      }
+    },
+    {
+      "riot_item_id": "DA_NashorsTooth",
+      "display_name": "Dente de Na'Shor",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 566,
+        "carry_uses": 505,
+        "tank_uses": 52,
+        "support_uses": 9
+      }
+    },
+    {
+      "riot_item_id": "DA_TitansResolve",
+      "display_name": "Determinação Titânica",
+      "item_type": "completed",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 80,
+      "tank_weight": 30,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 557,
+        "carry_uses": 345,
+        "tank_uses": 211,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_HandOfJustice",
+      "display_name": "Mão da Justiça",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Sustain",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 496,
+        "carry_uses": 423,
+        "tank_uses": 72,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_BrambleVest",
+      "display_name": "Colete Espinhoso",
+      "item_type": "completed",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 469,
+        "carry_uses": 31,
+        "tank_uses": 425,
+        "support_uses": 13
+      }
+    },
+    {
+      "riot_item_id": "DA_IonicSpark",
+      "display_name": "Centelha Iônica",
+      "item_type": "completed",
+      "manual_category": "hybrid",
+      "manual_role_label": "Hybrid / Tank + AP",
+      "carry_weight": 50,
+      "tank_weight": 55,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 424,
+        "carry_uses": 92,
+        "tank_uses": 327,
+        "support_uses": 5
+      }
+    },
+    {
+      "riot_item_id": "DA_Bloodthirster",
+      "display_name": "Sedenta por Sangue",
+      "item_type": "completed",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Sustain",
+      "carry_weight": 90,
+      "tank_weight": 15,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 315,
+        "carry_uses": 189,
+        "tank_uses": 126,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemBrawler",
+      "display_name": "Emblema de Lutador",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 224,
+        "carry_uses": 144,
+        "tank_uses": 72,
+        "support_uses": 8
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemExecutioner",
+      "display_name": "Emblema de Carrasco",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 217,
+        "carry_uses": 209,
+        "tank_uses": 6,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_GiantsBelt",
+      "display_name": "Cinto do Gigante",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Tank / Componente",
+      "carry_weight": 5,
+      "tank_weight": 30,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 190,
+        "carry_uses": 33,
+        "tank_uses": 150,
+        "support_uses": 7
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_RecurveBow",
+      "display_name": "Arco Recurvo",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Carry / Componente",
+      "carry_weight": 30,
+      "tank_weight": 5,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 170,
+        "carry_uses": 140,
+        "tank_uses": 18,
+        "support_uses": 12
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemRapidfire",
+      "display_name": "Emblema de Fumegante",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 160,
+        "carry_uses": 79,
+        "tank_uses": 81,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemVanguard",
+      "display_name": "Emblema de Vanguarda",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 157,
+        "carry_uses": 38,
+        "tank_uses": 111,
+        "support_uses": 8
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemHunter",
+      "display_name": "Emblema de Caçador",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 150,
+        "carry_uses": 132,
+        "tank_uses": 17,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemDefender",
+      "display_name": "Emblema de Defendente",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 146,
+        "carry_uses": 82,
+        "tank_uses": 61,
+        "support_uses": 3
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemFae",
+      "display_name": "Emblema de Feérico",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 144,
+        "carry_uses": 135,
+        "tank_uses": 9,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemSpellweaver",
+      "display_name": "Emblema de Enfeitiçador",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 133,
+        "carry_uses": 115,
+        "tank_uses": 16,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemInvoker",
+      "display_name": "Emblema de Emanador",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 132,
+        "carry_uses": 112,
+        "tank_uses": 14,
+        "support_uses": 6
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemElderwood",
+      "display_name": "Emblema de Sabugueiro",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 128,
+        "carry_uses": 74,
+        "tank_uses": 50,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_NavoriFlickerblade",
+      "display_name": "Adagas Oscilantes",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 122,
+        "carry_uses": 122,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_ChainVest",
+      "display_name": "Cota de Malha",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Tank / Componente",
+      "carry_weight": 5,
+      "tank_weight": 30,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 120,
+        "carry_uses": 8,
+        "tank_uses": 111,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_NeedlesslyLargeRod",
+      "display_name": "Bastão Desnecessariamente Grande",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Carry AP / Componente",
+      "carry_weight": 30,
+      "tank_weight": 5,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 118,
+        "carry_uses": 93,
+        "tank_uses": 14,
+        "support_uses": 11
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_TearOfTheGoddess",
+      "display_name": "Lágrima da Deusa",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Flexível / Mana",
+      "carry_weight": 20,
+      "tank_weight": 15,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 116,
+        "carry_uses": 64,
+        "tank_uses": 44,
+        "support_uses": 8
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_NegatronCloak",
+      "display_name": "Capa Negatron",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Tank / Componente",
+      "carry_weight": 5,
+      "tank_weight": 30,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 113,
+        "carry_uses": 15,
+        "tank_uses": 95,
+        "support_uses": 3
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_BFSword",
+      "display_name": "Espada G.p.C.",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Carry AD / Componente",
+      "carry_weight": 30,
+      "tank_weight": 5,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 112,
+        "carry_uses": 91,
+        "tank_uses": 17,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemJuggernaut",
+      "display_name": "Emblema de Colosso",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 110,
+        "carry_uses": 31,
+        "tank_uses": 79,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemSprykin",
+      "display_name": "Emblema de Vivaz",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 100,
+        "carry_uses": 56,
+        "tank_uses": 43,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemFloraFatalis",
+      "display_name": "Emblema de Flora Fatalis",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 94,
+        "carry_uses": 87,
+        "tank_uses": 6,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemSlayer",
+      "display_name": "Emblema de Devastador",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 89,
+        "carry_uses": 70,
+        "tank_uses": 19,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_LightshieldCrest",
+      "display_name": "Insígnia do Lumescudo",
+      "item_type": "artifact",
+      "manual_category": "tank",
+      "manual_role_label": "Tank / Support defensivo",
+      "carry_weight": 5,
+      "tank_weight": 100,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 89,
+        "carry_uses": 2,
+        "tank_uses": 85,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemLunar",
+      "display_name": "Emblema de Lunar",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 88,
+        "carry_uses": 52,
+        "tank_uses": 34,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemBlackthorn",
+      "display_name": "Emblema de Espinhos Negros",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 87,
+        "carry_uses": 28,
+        "tank_uses": 59,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemFloraFatalisAugment",
+      "display_name": "Emblema de Flora Fatalis",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 83,
+        "carry_uses": 83,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_RapidFireCannon",
+      "display_name": "Canhão Fumegante",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 83,
+        "carry_uses": 81,
+        "tank_uses": 2,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemBlossom",
+      "display_name": "Emblema de Florescer",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 82,
+        "carry_uses": 64,
+        "tank_uses": 14,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_MogulsMail",
+      "display_name": "Carapaça do Manda-Chuva",
+      "item_type": "artifact",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 79,
+        "carry_uses": 1,
+        "tank_uses": 76,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_WitsEnd",
+      "display_name": "Limite da Razão",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 78,
+        "carry_uses": 78,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemPrimal",
+      "display_name": "Emblema de Primitiva",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 76,
+        "carry_uses": 61,
+        "tank_uses": 15,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_SeekersArmguard",
+      "display_name": "Armaguarda da Caçadora",
+      "item_type": "artifact",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 85,
+      "tank_weight": 25,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 76,
+        "carry_uses": 63,
+        "tank_uses": 13,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemInferno",
+      "display_name": "Emblema de Inferno",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 73,
+        "carry_uses": 66,
+        "tank_uses": 4,
+        "support_uses": 3
+      }
+    },
+    {
+      "riot_item_id": "DA_TacticiansCrown",
+      "display_name": "Coroa de Estrategista",
+      "item_type": "completed",
+      "manual_category": "neutral",
+      "manual_role_label": "Neutro / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 72,
+        "carry_uses": 59,
+        "tank_uses": 10,
+        "support_uses": 3
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_SparringGloves",
+      "display_name": "Luvas do Pugilista",
+      "item_type": "review",
+      "manual_category": "component",
+      "manual_role_label": "Flexível / Ofensivo",
+      "carry_weight": 20,
+      "tank_weight": 10,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 71,
+        "carry_uses": 47,
+        "tank_uses": 20,
+        "support_uses": 4
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_Mittens",
+      "display_name": "Luvinhas",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Speed",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 67,
+        "carry_uses": 62,
+        "tank_uses": 5,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_TheIndomitable",
+      "display_name": "Imbatível",
+      "item_type": "artifact",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 63,
+        "carry_uses": 0,
+        "tank_uses": 63,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_Dawncore",
+      "display_name": "Auronúcleo",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 58,
+        "carry_uses": 57,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_Fishbones",
+      "display_name": "Fishbones",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 55,
+        "carry_uses": 55,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_HellfireHatchet",
+      "display_name": "Machadinha Infernal",
+      "item_type": "artifact",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 90,
+      "tank_weight": 15,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 49,
+        "carry_uses": 44,
+        "tank_uses": 5,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_TacticiansCape",
+      "display_name": "Capa de Estrategista",
+      "item_type": "completed",
+      "manual_category": "neutral",
+      "manual_role_label": "Neutro / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 49,
+        "carry_uses": 35,
+        "tank_uses": 8,
+        "support_uses": 6
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_Manazane",
+      "display_name": "Manazane",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP / Mana",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 47,
+        "carry_uses": 45,
+        "tank_uses": 2,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_BlightingJewel",
+      "display_name": "Joia da Ruína",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 45,
+        "carry_uses": 44,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_ZhonyasParadox",
+      "display_name": "Paradoxo de Zhonya",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP / Protection",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 45,
+        "carry_uses": 42,
+        "tank_uses": 3,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_LichBane",
+      "display_name": "Perdição de Lich",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 44,
+        "carry_uses": 44,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_InfinityForce",
+      "display_name": "Força do Infinito",
+      "item_type": "artifact",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Hybrid",
+      "carry_weight": 85,
+      "tank_weight": 20,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 40,
+        "carry_uses": 31,
+        "tank_uses": 9,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_EternalPact",
+      "display_name": "Pacto Eterno",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 95,
+      "tank_weight": 5,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 37,
+        "carry_uses": 35,
+        "tank_uses": 1,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_StatikkShiv",
+      "display_name": "Faca de Statikk",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Utility",
+      "carry_weight": 90,
+      "tank_weight": 0,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 33,
+        "carry_uses": 32,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_TitanicHydra",
+      "display_name": "Hidra Titânica",
+      "item_type": "artifact",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 85,
+      "tank_weight": 25,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 32,
+        "carry_uses": 28,
+        "tank_uses": 4,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_ForbiddenIdol",
+      "display_name": "Ídolo Proibido",
+      "item_type": "artifact",
+      "manual_category": "support",
+      "manual_role_label": "Support",
+      "carry_weight": 5,
+      "tank_weight": 5,
+      "support_weight": 100,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 31,
+        "carry_uses": 0,
+        "tank_uses": 31,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_GoldCollector",
+      "display_name": "Coletor de Ouro",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 31,
+        "carry_uses": 31,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_LudensTempest",
+      "display_name": "Tormenta de Luden",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 29,
+        "carry_uses": 28,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_AegisOfDusk",
+      "display_name": "Égide do Crepúsculo",
+      "item_type": "artifact",
+      "manual_category": "tank",
+      "manual_role_label": "Tank / Support",
+      "carry_weight": 5,
+      "tank_weight": 95,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 28,
+        "carry_uses": 1,
+        "tank_uses": 25,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_18_EmblemCoven",
+      "display_name": "Emblema de Congregação das Bruxas",
+      "item_type": "emblem_or_trait",
+      "manual_category": "emblem",
+      "manual_role_label": "Emblema / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "global_emblem_rule",
+      "observations": {
+        "observed_uses": 23,
+        "carry_uses": 5,
+        "tank_uses": 18,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_TacticiansShield",
+      "display_name": "Escudo de Estrategista",
+      "item_type": "completed",
+      "manual_category": "neutral",
+      "manual_role_label": "Neutro / Flexível",
+      "carry_weight": 50,
+      "tank_weight": 50,
+      "support_weight": 50,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 23,
+        "carry_uses": 12,
+        "tank_uses": 9,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_VoidGauntlet",
+      "display_name": "Manopla do Vazio",
+      "item_type": "artifact",
+      "manual_category": "tank",
+      "manual_role_label": "Tank / Utility",
+      "carry_weight": 5,
+      "tank_weight": 95,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 20,
+        "carry_uses": 0,
+        "tank_uses": 19,
+        "support_uses": 1
+      }
+    },
+    {
+      "riot_item_id": "DA_GiantSlayer_Radiant",
+      "display_name": "Mata-Gigantes Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_GiantSlayer",
+      "observations": {
+        "observed_uses": 20,
+        "carry_uses": 19,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_AegisOfDawn",
+      "display_name": "Égide da Alvorada",
+      "item_type": "artifact",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 5,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 19,
+        "carry_uses": 1,
+        "tank_uses": 16,
+        "support_uses": 2
+      }
+    },
+    {
+      "riot_item_id": "DA_Item_Artifact_TalismanOfAscension",
+      "display_name": "Talismã da Ascensão",
+      "item_type": "artifact",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Hybrid",
+      "carry_weight": 80,
+      "tank_weight": 20,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 19,
+        "carry_uses": 17,
+        "tank_uses": 2,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_SilvermereDawn",
+      "display_name": "Alvorada de Pratânia",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD / Bruiser",
+      "carry_weight": 90,
+      "tank_weight": 20,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 18,
+        "carry_uses": 16,
+        "tank_uses": 2,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_GuinsoosRagebladeRadiant",
+      "display_name": "Lâmina da Fúria de Guinsoo Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_GuinsoosRageblade",
+      "observations": {
+        "observed_uses": 18,
+        "carry_uses": 17,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_GamblersBlade",
+      "display_name": "Lâmina do Apostador",
+      "item_type": "artifact",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 17,
+        "carry_uses": 17,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_DeathbladeRadiant",
+      "display_name": "Lâmina Mortal Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_Deathblade",
+      "observations": {
+        "observed_uses": 16,
+        "carry_uses": 16,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_ThiefsGlovesRadiant",
+      "display_name": "Luvas do Ladrão Radiantes",
+      "item_type": "radiant",
+      "manual_category": "neutral",
+      "manual_role_label": "Flexible / Neutral",
+      "carry_weight": 25,
+      "tank_weight": 25,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_ThiefsGloves",
+      "observations": {
+        "observed_uses": 15,
+        "carry_uses": 11,
+        "tank_uses": 4,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Artifact_HorizonFocus",
+      "display_name": "Foco do Horizonte",
+      "item_type": "artifact",
+      "manual_category": "hybrid",
+      "manual_role_label": "Hybrid / Utility",
+      "carry_weight": 40,
+      "tank_weight": 60,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 14,
+        "carry_uses": 4,
+        "tank_uses": 10,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_InfinityEdgeRadiant",
+      "display_name": "Gume do Infinito Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_InfinityEdge",
+      "observations": {
+        "observed_uses": 13,
+        "carry_uses": 12,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_JeweledGauntletRadiant",
+      "display_name": "Manopla Adornada Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_JeweledGauntlet",
+      "observations": {
+        "observed_uses": 13,
+        "carry_uses": 13,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_RedBuffRadiant",
+      "display_name": "Efeito Vermelho Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Utility",
+      "carry_weight": 85,
+      "tank_weight": 5,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_RedBuff",
+      "observations": {
+        "observed_uses": 12,
+        "carry_uses": 12,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_GargoyleStoneplate_Radiant",
+      "display_name": "Placa Gargolítica Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_GargoyleStoneplate",
+      "observations": {
+        "observed_uses": 11,
+        "carry_uses": 0,
+        "tank_uses": 11,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_SpearOfShojinRadiant",
+      "display_name": "Lança de Shojin Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_SpearOfShojin",
+      "observations": {
+        "observed_uses": 11,
+        "carry_uses": 11,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_StrikersFlailRadiant",
+      "display_name": "Mangual do Guerreiro Radiante",
+      "item_type": "radiant",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 80,
+      "tank_weight": 30,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_StrikersFlail",
+      "observations": {
+        "observed_uses": 11,
+        "carry_uses": 11,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_BlastPotion18",
+      "display_name": "Poção Explosiva",
+      "item_type": "review",
+      "manual_category": "special",
+      "manual_role_label": "Especial / Neutro",
+      "carry_weight": 10,
+      "tank_weight": 10,
+      "support_weight": 10,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 10,
+        "carry_uses": 2,
+        "tank_uses": 8,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_BlueBuffRadiant",
+      "display_name": "Efeito Azul Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP / Mana",
+      "carry_weight": 95,
+      "tank_weight": 0,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_BlueBuff",
+      "observations": {
+        "observed_uses": 10,
+        "carry_uses": 10,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_KrakensFury_Radiant",
+      "display_name": "Fúria do Cráquem Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_KrakensFury",
+      "observations": {
+        "observed_uses": 10,
+        "carry_uses": 10,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_RabadonsDeathcap_Radiant",
+      "display_name": "Capuz da Morte de Rabadon Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_RabadonsDeathcap",
+      "observations": {
+        "observed_uses": 10,
+        "carry_uses": 10,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_WarmogsArmorRadiant",
+      "display_name": "Armadura de Warmog Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_WarmogsArmor",
+      "observations": {
+        "observed_uses": 10,
+        "carry_uses": 2,
+        "tank_uses": 8,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_CrownguardRadiant",
+      "display_name": "Stemmaguarda Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 10,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_Crownguard",
+      "observations": {
+        "observed_uses": 7,
+        "carry_uses": 3,
+        "tank_uses": 4,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_SpiritVisage_Radiant",
+      "display_name": "Semblante Espiritual Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_SpiritVisage",
+      "observations": {
+        "observed_uses": 7,
+        "carry_uses": 2,
+        "tank_uses": 5,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_VoidStaffRadiant",
+      "display_name": "Cajado do Vazio Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 90,
+      "tank_weight": 0,
+      "support_weight": 15,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_VoidStaff",
+      "observations": {
+        "observed_uses": 7,
+        "carry_uses": 7,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_SteraksGageRadiant",
+      "display_name": "Sinal de Sterak Radiante",
+      "item_type": "radiant",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 80,
+      "tank_weight": 30,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_SteraksGage",
+      "observations": {
+        "observed_uses": 6,
+        "carry_uses": 5,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_AdaptiveHelm_Radiant",
+      "display_name": "Elmo Adaptativo Radiante",
+      "item_type": "radiant",
+      "manual_category": "hybrid",
+      "manual_role_label": "Hybrid / Tank + AP",
+      "carry_weight": 45,
+      "tank_weight": 65,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_AdaptiveHelm",
+      "observations": {
+        "observed_uses": 5,
+        "carry_uses": 5,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_ArchangelsStaffRadiant",
+      "display_name": "Cajado do Arcanjo Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_ArchangelsStaff",
+      "observations": {
+        "observed_uses": 5,
+        "carry_uses": 4,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_EdgeOfNightRadiant",
+      "display_name": "Limiar da Noite Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Protection",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_EdgeOfNight",
+      "observations": {
+        "observed_uses": 5,
+        "carry_uses": 4,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_HandOfJusticeRadiant",
+      "display_name": "Mão da Justiça Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Sustain",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_HandOfJustice",
+      "observations": {
+        "observed_uses": 5,
+        "carry_uses": 5,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_HextechGunbladeRadiant",
+      "display_name": "Pistola Laminar Hextec Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Sustain",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_HextechGunblade",
+      "observations": {
+        "observed_uses": 5,
+        "carry_uses": 5,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_BrambleVestRadiant",
+      "display_name": "Colete Espinhoso Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_BrambleVest",
+      "observations": {
+        "observed_uses": 4,
+        "carry_uses": 1,
+        "tank_uses": 3,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_Spatula",
+      "display_name": "Espátula",
+      "item_type": "emblem_or_trait",
+      "manual_category": "component_special",
+      "manual_role_label": "Neutro / Especial",
+      "carry_weight": 10,
+      "tank_weight": 10,
+      "support_weight": 10,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 4,
+        "carry_uses": 3,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_ManaPotion18",
+      "display_name": "Poção de Mana",
+      "item_type": "review",
+      "manual_category": "special",
+      "manual_role_label": "Especial / Neutro",
+      "carry_weight": 10,
+      "tank_weight": 10,
+      "support_weight": 10,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 4,
+        "carry_uses": 2,
+        "tank_uses": 2,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_ProtectorsVowRadiant",
+      "display_name": "Juramento do Protetor Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 5,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_ProtectorsVow",
+      "observations": {
+        "observed_uses": 4,
+        "carry_uses": 1,
+        "tank_uses": 3,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_EvenshroudRadiant",
+      "display_name": "Proteção Imutável Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank / Utility",
+      "carry_weight": 5,
+      "tank_weight": 90,
+      "support_weight": 25,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_Evenshroud",
+      "observations": {
+        "observed_uses": 3,
+        "carry_uses": 1,
+        "tank_uses": 2,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_HealthPotion18",
+      "display_name": "Poção de Vida",
+      "item_type": "review",
+      "manual_category": "special",
+      "manual_role_label": "Especial / Neutro",
+      "carry_weight": 10,
+      "tank_weight": 10,
+      "support_weight": 10,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 3,
+        "carry_uses": 2,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_NashorsToothRadiant",
+      "display_name": "Dente de Na'Shor Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_NashorsTooth",
+      "observations": {
+        "observed_uses": 3,
+        "carry_uses": 3,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_BloodthirsterRadiant",
+      "display_name": "Sedenta por Sangue Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Sustain",
+      "carry_weight": 90,
+      "tank_weight": 15,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_Bloodthirster",
+      "observations": {
+        "observed_uses": 2,
+        "carry_uses": 2,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_DragonsClawRadiant",
+      "display_name": "Garra do Dragão Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 0,
+      "tank_weight": 100,
+      "support_weight": 5,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_DragonsClaw",
+      "observations": {
+        "observed_uses": 2,
+        "carry_uses": 0,
+        "tank_uses": 2,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_IonicSparkRadiant",
+      "display_name": "Centelha Iônica Radiante",
+      "item_type": "radiant",
+      "manual_category": "hybrid",
+      "manual_role_label": "Hybrid / Tank + AP",
+      "carry_weight": 50,
+      "tank_weight": 55,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_IonicSpark",
+      "observations": {
+        "observed_uses": 2,
+        "carry_uses": 1,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_MorellonomiconRadiant",
+      "display_name": "Morellonomicon Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AP / Utility",
+      "carry_weight": 85,
+      "tank_weight": 5,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_Morellonomicon",
+      "observations": {
+        "observed_uses": 2,
+        "carry_uses": 2,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_QuicksilverRadiant",
+      "display_name": "Mercúrio Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry / Protection",
+      "carry_weight": 90,
+      "tank_weight": 10,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_Quicksilver",
+      "observations": {
+        "observed_uses": 2,
+        "carry_uses": 2,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_Component_FryingPan",
+      "display_name": "Frigideira",
+      "item_type": "review",
+      "manual_category": "component_special",
+      "manual_role_label": "Neutro / Especial",
+      "carry_weight": 10,
+      "tank_weight": 10,
+      "support_weight": 10,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "manual_approved",
+      "observations": {
+        "observed_uses": 1,
+        "carry_uses": 1,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_HealthPotion18_Radiant",
+      "display_name": "Poção de Vida Radiante",
+      "item_type": "radiant",
+      "manual_category": "special",
+      "manual_role_label": "Especial / Neutro",
+      "carry_weight": 10,
+      "tank_weight": 10,
+      "support_weight": 10,
+      "learning_enabled": false,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_HealthPotion18",
+      "observations": {
+        "observed_uses": 1,
+        "carry_uses": 0,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_LastWhisperRadiant",
+      "display_name": "Último Sussurro Radiante",
+      "item_type": "radiant",
+      "manual_category": "carry",
+      "manual_role_label": "Carry AD",
+      "carry_weight": 100,
+      "tank_weight": 0,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_LastWhisper",
+      "observations": {
+        "observed_uses": 1,
+        "carry_uses": 1,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_SteadfastHeartRadiant",
+      "display_name": "Coração Inabalável Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank",
+      "carry_weight": 5,
+      "tank_weight": 100,
+      "support_weight": 10,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_SteadfastHeart",
+      "observations": {
+        "observed_uses": 1,
+        "carry_uses": 0,
+        "tank_uses": 1,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_SunfireCape_Radiant",
+      "display_name": "Capa de Fogo Solar Radiante",
+      "item_type": "radiant",
+      "manual_category": "tank",
+      "manual_role_label": "Tank / Utility",
+      "carry_weight": 10,
+      "tank_weight": 90,
+      "support_weight": 20,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_SunfireCape",
+      "observations": {
+        "observed_uses": 1,
+        "carry_uses": 1,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    },
+    {
+      "riot_item_id": "DA_TitansResolve_Radiant",
+      "display_name": "Determinação Titânica Radiante",
+      "item_type": "radiant",
+      "manual_category": "hybrid",
+      "manual_role_label": "Carry / Bruiser",
+      "carry_weight": 80,
+      "tank_weight": 30,
+      "support_weight": 0,
+      "learning_enabled": true,
+      "manual_verified": true,
+      "classification_rule": "radiant_inherits_verified_base",
+      "inherits_from": "DA_TitansResolve",
+      "observations": {
+        "observed_uses": 1,
+        "carry_uses": 1,
+        "tank_uses": 0,
+        "support_uses": 0
+      }
+    }
+  ]
+}

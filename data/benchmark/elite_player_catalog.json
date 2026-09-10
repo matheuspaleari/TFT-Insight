@@ -1,874 +1,122 @@
 {
   "benchmark_id": "elite",
-  "generated_at": "2026-08-18T15:56:41.466490+00:00",
-  "players_count": 50,
+  "generated_at": "2026-09-09T20:55:43.088892+00:00",
+  "players_count": 38,
   "players": [
     {
       "benchmark_id": "elite",
-      "puuid": "HwfFcu35bWQpxAvCSQnc-Dc8ZbL_9AltPkUNoClzBTQTDP_hAkU3sz_SLseWX_1trHjnppBQo9wx0A",
-      "game_name": "INTZ tisora",
-      "tag_line": "zzz",
+      "puuid": "yRR009GgMmUw1pNmty3Enf-6Fz9a0zWie4If3av48VU2BExyf5mvWrdzkqnQu8zXyRzwbi1dMnZeFA",
+      "game_name": "manu",
+      "tag_line": "ivy",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 723,
+      "league_points_at_collection": 495,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 723,
+      "current_league_points": 495,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.37,
-          "top4_rate": 73.33,
-          "win_rate": 30.0,
-          "average_level": 8.4
-        },
-        "consistency": {
-          "placement_variance": 4.97,
-          "placement_standard_deviation": 2.23,
-          "bottom4_rate": 26.67,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 109.87,
-          "average_players_eliminated": 0.93
-        },
-        "economy": {
-          "average_gold_left": 13.93
-        }
-      },
-      "collected_at": "2026-08-18T15:10:55.979862+00:00",
-      "rank_checked_at": "2026-08-18T15:10:55.979862+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:10:55.979862+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 723
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "WTke0kA1zecp24gYZN1ZFVyV2f9pyRjMsI8SuHtyeIQ9vARdTpkErTfn4p8G70p2m2Jq30i3mBkTNg",
-      "game_name": "Cloudy",
-      "tag_line": "hp1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 2028,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 2028,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 2.7,
-          "top4_rate": 83.33,
+          "average_placement": 3.2,
+          "top4_rate": 76.67,
           "win_rate": 26.67,
-          "average_level": 9.2
-        },
-        "consistency": {
-          "placement_variance": 2.21,
-          "placement_standard_deviation": 1.49,
-          "bottom4_rate": 16.67,
-          "best_placement": 1,
-          "worst_placement": 6
-        },
-        "combat": {
-          "average_damage_to_players": 135.13,
-          "average_players_eliminated": 1.13
-        },
-        "economy": {
-          "average_gold_left": 11.1
-        }
-      },
-      "collected_at": "2026-08-18T15:11:49.894375+00:00",
-      "rank_checked_at": "2026-08-18T15:11:49.894375+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:11:49.894375+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 2028
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "NT2mOKiSRwJUx5_mWOiUXU4yGjgzw87Wf0DWurjU4Gln3IjiAJNfDrODrtPJVc0m3duOnR2ufi4tBA",
-      "game_name": "fast9orDieTrying",
-      "tag_line": "WIL",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 707,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 707,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.93,
-          "top4_rate": 63.33,
-          "win_rate": 13.33,
-          "average_level": 8.5
-        },
-        "consistency": {
-          "placement_variance": 4.86,
-          "placement_standard_deviation": 2.21,
-          "bottom4_rate": 36.67,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 112.53,
-          "average_players_eliminated": 0.93
-        },
-        "economy": {
-          "average_gold_left": 8.33
-        }
-      },
-      "collected_at": "2026-08-18T15:12:43.874034+00:00",
-      "rank_checked_at": "2026-08-18T15:12:43.874034+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:12:43.874034+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 707
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "wsxiohAEbYLRq5Ib_0E8NQ3DZKeiYSKQkvMM33C8uoMj_qr0esxxIlH3cXfCPA_H4VtrBc5D-ncXoQ",
-      "game_name": "Yetti",
-      "tag_line": "000",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1752,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1752,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.37,
-          "top4_rate": 73.33,
-          "win_rate": 23.33,
-          "average_level": 8.47
-        },
-        "consistency": {
-          "placement_variance": 4.3,
-          "placement_standard_deviation": 2.07,
-          "bottom4_rate": 26.67,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 129.63,
-          "average_players_eliminated": 1.27
-        },
-        "economy": {
-          "average_gold_left": 8.5
-        }
-      },
-      "collected_at": "2026-08-18T15:13:37.305006+00:00",
-      "rank_checked_at": "2026-08-18T15:13:37.305006+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:13:37.305006+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1752
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "B4_iG2iq6KHGJlvEmAhAjSUxCSHdegbIOLMbuL2W6XqeqTdrQElJYaHWJeNAAUenlRGZEOCaJAYBkQ",
-      "game_name": "VENVANSE 70mg",
-      "tag_line": "avisa",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 693,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 693,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.27,
-          "top4_rate": 70.0,
-          "win_rate": 20.0,
-          "average_level": 8.97
-        },
-        "consistency": {
-          "placement_variance": 4.06,
-          "placement_standard_deviation": 2.02,
-          "bottom4_rate": 30.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 111.23,
-          "average_players_eliminated": 1.53
-        },
-        "economy": {
-          "average_gold_left": 6.4
-        }
-      },
-      "collected_at": "2026-08-18T15:14:46.548143+00:00",
-      "rank_checked_at": "2026-08-18T15:14:46.548143+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:14:46.548143+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 693
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "SMd7It3pnpHSzq-sdpRy-GiZ6kbGz0EDMtFQypHK50l_WhD7hZYKIXcgjidHSg6PjJusrFzLM8iKzw",
-      "game_name": "Tallis Sauro",
-      "tag_line": "BR1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1642,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1642,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 2.63,
-          "top4_rate": 80.0,
-          "win_rate": 36.67,
-          "average_level": 9.23
-        },
-        "consistency": {
-          "placement_variance": 2.77,
-          "placement_standard_deviation": 1.66,
-          "bottom4_rate": 20.0,
-          "best_placement": 1,
-          "worst_placement": 6
-        },
-        "combat": {
-          "average_damage_to_players": 145.77,
-          "average_players_eliminated": 1.47
-        },
-        "economy": {
-          "average_gold_left": 7.57
-        }
-      },
-      "collected_at": "2026-08-18T15:15:40.364630+00:00",
-      "rank_checked_at": "2026-08-18T15:15:40.364630+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:15:40.364630+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1642
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "pSh3_0HNJxM70d-TTFiEjb0w_VklsnKNid2kFm2knIH-BRNq8S4tRYeT96nwyJu-El-M-MWVr0tLAA",
-      "game_name": "Star1",
-      "tag_line": "BR1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 690,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 690,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.1,
-          "top4_rate": 56.67,
-          "win_rate": 13.33,
           "average_level": 8.13
         },
         "consistency": {
-          "placement_variance": 4.02,
-          "placement_standard_deviation": 2.01,
-          "bottom4_rate": 43.33,
+          "placement_variance": 3.63,
+          "placement_standard_deviation": 1.9,
+          "bottom4_rate": 23.33,
           "best_placement": 1,
-          "worst_placement": 8
+          "worst_placement": 7
         },
         "combat": {
-          "average_damage_to_players": 109.97,
-          "average_players_eliminated": 0.87
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 8.67
+          "average_gold_left": 6.67
         }
       },
-      "collected_at": "2026-08-18T15:16:38.727091+00:00",
-      "rank_checked_at": "2026-08-18T15:16:38.727091+00:00",
+      "collected_at": "2026-09-09T19:55:31.004791+00:00",
+      "rank_checked_at": "2026-09-09T19:55:31.004791+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:16:38.727091+00:00",
+          "checked_at": "2026-09-09T19:55:31.004791+00:00",
           "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 690
+          "league_points": 495
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "1Cfcb_sR0zjPLkO9fFeB66X0N3IvJbad1bbnSER2M1Xk42WHH5TgiPBoDsDKtHAQeb4RHcXSwcDqEg",
-      "game_name": "faker indiano",
-      "tag_line": "BR1",
+      "puuid": "TFL6p6U4ZxUhKWYx1jiup1CPtTFQBUKMBoJjr_t3dl0g_28hMyTi2k-OMx4z06e8ivDt6g_iImv0hg",
+      "game_name": "ego illusions",
+      "tag_line": "ego",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "CHALLENGER",
       "division_at_collection": "I",
-      "league_points_at_collection": 1592,
+      "league_points_at_collection": 1454,
       "current_tier": "CHALLENGER",
       "current_division": "I",
-      "current_league_points": 1592,
+      "current_league_points": 1454,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 2.63,
-          "top4_rate": 83.33,
-          "win_rate": 36.67,
-          "average_level": 9.13
+          "average_placement": 2.87,
+          "top4_rate": 80.0,
+          "win_rate": 30.0,
+          "average_level": 8.47
         },
         "consistency": {
-          "placement_variance": 3.63,
-          "placement_standard_deviation": 1.91,
-          "bottom4_rate": 16.67,
+          "placement_variance": 3.05,
+          "placement_standard_deviation": 1.75,
+          "bottom4_rate": 20.0,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 146.73,
-          "average_players_eliminated": 1.57
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 5.13
+          "average_gold_left": 5.47
         }
       },
-      "collected_at": "2026-08-18T15:17:35.513695+00:00",
-      "rank_checked_at": "2026-08-18T15:17:35.513695+00:00",
+      "collected_at": "2026-09-09T19:55:43.705947+00:00",
+      "rank_checked_at": "2026-09-09T19:55:43.705947+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:17:35.513695+00:00",
+          "checked_at": "2026-09-09T19:55:43.705947+00:00",
           "tier": "CHALLENGER",
           "division": "I",
-          "league_points": 1592
+          "league_points": 1454
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "TesgbD1MDq0zcKC1LvYXgDFdDgfpk2GY7ZpJ7rqW4itls6bF-7LVGbHn_vytKEgUT1gG-9z3kNmOiA",
-      "game_name": "BALACOBACO",
-      "tag_line": "BR2",
+      "puuid": "E85JnBH7JcpvsP5qSsMXibhgGY4N-aSOTuhzWfY5hwp6QtlBoqVWgh6ECRAF9-cLeKm5X1xfZDrmfQ",
+      "game_name": "JuanGhurkas",
+      "tag_line": "Doom",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 681,
+      "league_points_at_collection": 475,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 681,
+      "current_league_points": 475,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
           "average_placement": 3.8,
           "top4_rate": 63.33,
-          "win_rate": 16.67,
-          "average_level": 8.53
-        },
-        "consistency": {
-          "placement_variance": 4.36,
-          "placement_standard_deviation": 2.09,
-          "bottom4_rate": 36.67,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 110.8,
-          "average_players_eliminated": 0.93
-        },
-        "economy": {
-          "average_gold_left": 10.03
-        }
-      },
-      "collected_at": "2026-08-18T15:18:29.307024+00:00",
-      "rank_checked_at": "2026-08-18T15:18:29.307024+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:18:29.307024+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 681
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "t_WZscXDl9FdrzzuWMZriOBv_Ay-mU_SptYh-HBIkEZk9VQcuzdnQMMwv5PhvoTn93WFKYKT5W3flg",
-      "game_name": "HIGH GuiOliveira",
-      "tag_line": "0709",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1285,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1285,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.47,
-          "top4_rate": 76.67,
           "win_rate": 20.0,
-          "average_level": 8.97
-        },
-        "consistency": {
-          "placement_variance": 4.52,
-          "placement_standard_deviation": 2.12,
-          "bottom4_rate": 23.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 133,
-          "average_players_eliminated": 1.2
-        },
-        "economy": {
-          "average_gold_left": 11.7
-        }
-      },
-      "collected_at": "2026-08-18T15:19:38.331719+00:00",
-      "rank_checked_at": "2026-08-18T15:19:38.331719+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:19:38.331719+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1285
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "2m0lnzOl5YoGorsfTdeP46iD22yrjTCwa0ri4vmVSvOs9o1lRto6mfgYByQ5MZJo6MgYukUnOHcxvw",
-      "game_name": "Zaco",
-      "tag_line": "ccc",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 658,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 658,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.67,
-          "top4_rate": 60.0,
-          "win_rate": 20.0,
-          "average_level": 8.6
-        },
-        "consistency": {
-          "placement_variance": 4.09,
-          "placement_standard_deviation": 2.02,
-          "bottom4_rate": 40.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 114.57,
-          "average_players_eliminated": 1.13
-        },
-        "economy": {
-          "average_gold_left": 5.33
-        }
-      },
-      "collected_at": "2026-08-18T15:20:32.070074+00:00",
-      "rank_checked_at": "2026-08-18T15:20:32.070074+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:20:32.070074+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 658
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "mzH-Nl1_XhN6P2KXgV1RlAU1DPyYZ5ooJiCFWZgwmBqBB71OzY7wQ0ijAikCrF9Qkm06kUXebqWe9g",
-      "game_name": "Ciulla",
-      "tag_line": "666",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1276,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1276,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 2.8,
-          "top4_rate": 80.0,
-          "win_rate": 33.33,
-          "average_level": 8.97
-        },
-        "consistency": {
-          "placement_variance": 4.16,
-          "placement_standard_deviation": 2.04,
-          "bottom4_rate": 20.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 134.57,
-          "average_players_eliminated": 1.23
-        },
-        "economy": {
-          "average_gold_left": 7.6
-        }
-      },
-      "collected_at": "2026-08-18T15:21:26.117949+00:00",
-      "rank_checked_at": "2026-08-18T15:21:26.117949+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:21:26.117949+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1276
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "0B8sRSKIbgT4fe0KvvE92_YRUW4gcayHYrOld7vMbXScMVFEcG3XTgNok58G5jujobFR2MBS3BleDA",
-      "game_name": "devilman",
-      "tag_line": "001",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 656,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 656,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.6,
-          "top4_rate": 43.33,
-          "win_rate": 10.0,
-          "average_level": 8.03
-        },
-        "consistency": {
-          "placement_variance": 4.31,
-          "placement_standard_deviation": 2.08,
-          "bottom4_rate": 56.67,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 94.37,
-          "average_players_eliminated": 0.63
-        },
-        "economy": {
-          "average_gold_left": 5.67
-        }
-      },
-      "collected_at": "2026-08-18T15:22:20.522028+00:00",
-      "rank_checked_at": "2026-08-18T15:22:20.522028+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:22:20.522028+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 656
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "ieM-YGm1LXAcS2R-7AljoPJNM2PW8Ld02rCfHHKbuqRExg1L-qGZr0sJndpf61a4oo3FVZdEEvDm2g",
-      "game_name": "Alberoni",
-      "tag_line": "TFT",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1256,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1256,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3,
-          "top4_rate": 73.33,
-          "win_rate": 33.33,
-          "average_level": 9.03
-        },
-        "consistency": {
-          "placement_variance": 5.27,
-          "placement_standard_deviation": 2.29,
-          "bottom4_rate": 26.67,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 127.27,
-          "average_players_eliminated": 1.23
-        },
-        "economy": {
-          "average_gold_left": 5.37
-        }
-      },
-      "collected_at": "2026-08-18T15:23:14.758316+00:00",
-      "rank_checked_at": "2026-08-18T15:23:14.758316+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:23:14.758316+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1256
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "puSzXc8DMK7h_2PHmkejEGTK0YSaTTsdlZhMnow-pb3Y9SkV8ZNHo1HSYTupqdi_PBwXenjgGf9Wxw",
-      "game_name": "JohnnyTFT",
-      "tag_line": "0420",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 654,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 654,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.3,
-          "top4_rate": 60.0,
-          "win_rate": 10.0,
-          "average_level": 8.33
-        },
-        "consistency": {
-          "placement_variance": 4.68,
-          "placement_standard_deviation": 2.16,
-          "bottom4_rate": 40.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 107.4,
-          "average_players_eliminated": 0.83
-        },
-        "economy": {
-          "average_gold_left": 6
-        }
-      },
-      "collected_at": "2026-08-18T15:24:08.230947+00:00",
-      "rank_checked_at": "2026-08-18T15:24:08.230947+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:24:08.230947+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 654
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "-zAL_3ZQLherFyRUYvWrwHNyUnmXpaVqeSjL83B3KppaiQ9Fgp3rMHh2NF5AdWRqYLm0rXxlr1K52A",
-      "game_name": "TTTango",
-      "tag_line": "tango",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1249,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1249,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.5,
-          "top4_rate": 66.67,
-          "win_rate": 30.0,
-          "average_level": 8.57
-        },
-        "consistency": {
-          "placement_variance": 4.25,
-          "placement_standard_deviation": 2.06,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 130.97,
-          "average_players_eliminated": 1.17
-        },
-        "economy": {
-          "average_gold_left": 12.4
-        }
-      },
-      "collected_at": "2026-08-18T15:25:10.899932+00:00",
-      "rank_checked_at": "2026-08-18T15:25:10.899932+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:25:10.899932+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1249
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "I0ZhMyAGg8ZCXiurDT3rX40INaFK31rLE4hk3Kb6xblqrS7604jY4ZYdzWiSN61LVNQ-KXhRs5wv6w",
-      "game_name": "Quinho",
-      "tag_line": "old",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 653,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 653,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.23,
-          "top4_rate": 66.67,
-          "win_rate": 30.0,
-          "average_level": 8.73
-        },
-        "consistency": {
-          "placement_variance": 3.91,
-          "placement_standard_deviation": 1.98,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 6
-        },
-        "combat": {
-          "average_damage_to_players": 131.63,
-          "average_players_eliminated": 1.27
-        },
-        "economy": {
-          "average_gold_left": 7.93
-        }
-      },
-      "collected_at": "2026-08-18T15:26:04.120465+00:00",
-      "rank_checked_at": "2026-08-18T15:26:04.120465+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:26:04.120465+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 653
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "2DCoA3X-pQRU_P5Qw79sJ2Mz4BvoTDZ2K2clL3OrTGK32AKGYcfxU2nbCIostb3Hhn2VfWQtxzZorA",
-      "game_name": "HIGH Hatsu",
-      "tag_line": "3030",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1187,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1187,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.37,
-          "top4_rate": 66.67,
-          "win_rate": 23.33,
-          "average_level": 9
-        },
-        "consistency": {
-          "placement_variance": 3.77,
-          "placement_standard_deviation": 1.94,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 127.4,
-          "average_players_eliminated": 1.2
-        },
-        "economy": {
-          "average_gold_left": 8.07
-        }
-      },
-      "collected_at": "2026-08-18T15:27:19.222982+00:00",
-      "rank_checked_at": "2026-08-18T15:27:19.222982+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:27:19.222982+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1187
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "rwpqwU2dDJuwS68TXEJGHIu94gfXJybvl-l8_p5Z-xpKWYUVgqx-2CoqIYmyTq5t9_Z4ttSInhG5Vw",
-      "game_name": "eduardo",
-      "tag_line": "330",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 641,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 641,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.63,
-          "top4_rate": 63.33,
-          "win_rate": 26.67,
-          "average_level": 9
+          "average_level": 8.37
         },
         "consistency": {
           "placement_variance": 5.43,
@@ -878,113 +126,1006 @@
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 122.3,
-          "average_players_eliminated": 1.07
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 6.37
+          "average_gold_left": 5.63
         }
       },
-      "collected_at": "2026-08-18T15:28:13.267867+00:00",
-      "rank_checked_at": "2026-08-18T15:28:13.267867+00:00",
+      "collected_at": "2026-09-09T19:55:51.675316+00:00",
+      "rank_checked_at": "2026-09-09T19:55:51.675316+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:28:13.267867+00:00",
+          "checked_at": "2026-09-09T19:55:51.675316+00:00",
           "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 641
+          "league_points": 475
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "I1sgFmVTPGHj6XDr1EjbaqV8DZ_iVKhzOu18oiHq6s0zMNkXtMjKl90yTaUhITVcmoJ2FumLV1WNiA",
-      "game_name": "Pàla",
-      "tag_line": "High",
+      "puuid": "e0TCKSW1tnmHJs4L5sIu0U_p-iXo-UmWgwea-pUQPySyg959pw0dxgoQbbYn2FpxWjfu6kVT-o4JzQ",
+      "game_name": "RYT Luffy",
+      "tag_line": "missy",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "CHALLENGER",
       "division_at_collection": "I",
-      "league_points_at_collection": 1148,
+      "league_points_at_collection": 1373,
       "current_tier": "CHALLENGER",
       "current_division": "I",
-      "current_league_points": 1148,
+      "current_league_points": 1373,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.3,
-          "top4_rate": 80.0,
-          "win_rate": 20.0,
-          "average_level": 9.1
+          "average_placement": 3.33,
+          "top4_rate": 63.33,
+          "win_rate": 33.33,
+          "average_level": 8.33
         },
         "consistency": {
-          "placement_variance": 4.21,
-          "placement_standard_deviation": 2.05,
-          "bottom4_rate": 20.0,
+          "placement_variance": 5.62,
+          "placement_standard_deviation": 2.37,
+          "bottom4_rate": 36.67,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 104.33,
-          "average_players_eliminated": 1.27
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 7.63
+          "average_gold_left": 6.63
         }
       },
-      "collected_at": "2026-08-18T15:29:07.683799+00:00",
-      "rank_checked_at": "2026-08-18T15:29:07.683799+00:00",
+      "collected_at": "2026-09-09T19:55:57.411737+00:00",
+      "rank_checked_at": "2026-09-09T19:55:57.411737+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:29:07.683799+00:00",
+          "checked_at": "2026-09-09T19:55:57.411737+00:00",
           "tier": "CHALLENGER",
           "division": "I",
-          "league_points": 1148
+          "league_points": 1373
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "HPHPEVdJUSwUt0EL61X9g32GNIyXps3_rFDjIlfwIV63sdR64r8Ap8nup7Jz3tIEn42BPRwxbHS_lw",
-      "game_name": "Jojoleano",
-      "tag_line": "jojo",
+      "puuid": "CQ4cOpEscigGzsI6mqehy-qmLxS1OAs9yoF9mWoScuiuL_iLBu1x3MfiskFJIUjISeRq1OuizsW49A",
+      "game_name": "Ney4i20",
+      "tag_line": "4i20",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 638,
+      "league_points_at_collection": 375,
       "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 375,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.17,
+          "top4_rate": 56.67,
+          "win_rate": 23.33,
+          "average_level": 8.53
+        },
+        "consistency": {
+          "placement_variance": 5.21,
+          "placement_standard_deviation": 2.28,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 9.13
+        }
+      },
+      "collected_at": "2026-09-09T19:56:06.089449+00:00",
+      "rank_checked_at": "2026-09-09T19:56:06.089449+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:56:06.089449+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 375
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "IL0S_zCaHU9Tr6geBWPPMeGz8MKZI--IDt3hiWuHhHKdk9aQzfEgbdJERdrvuDPILgu-7I0vfKhj5Q",
+      "game_name": "Mestre da Bocha",
+      "tag_line": "edson",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 1263,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 1263,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.87,
+          "top4_rate": 63.33,
+          "win_rate": 10.0,
+          "average_level": 8.03
+        },
+        "consistency": {
+          "placement_variance": 3.92,
+          "placement_standard_deviation": 1.98,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 12.13
+        }
+      },
+      "collected_at": "2026-09-09T19:56:14.547338+00:00",
+      "rank_checked_at": "2026-09-09T19:56:14.547338+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:56:14.547338+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 1263
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "s3waRk41KHE3IEMWOYuyjvKcToSXAJKDIwZd-zPxopI7pF5nyaqodGkZUcPulNTuboZf-N1IYDCbBg",
+      "game_name": "Yujih1",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 361,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 361,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.8,
+          "top4_rate": 63.33,
+          "win_rate": 23.33,
+          "average_level": 8.47
+        },
+        "consistency": {
+          "placement_variance": 4.76,
+          "placement_standard_deviation": 2.18,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 3.47
+        }
+      },
+      "collected_at": "2026-09-09T19:56:32.454924+00:00",
+      "rank_checked_at": "2026-09-09T19:56:32.454924+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:56:32.454924+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 361
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "P8Ch7RDZ23-IVAVPlGJPqdyFTa5btDi3_YOfabUMcD11ZgeoP0n4n7Rge4iSdafz26nmPX8P_ygzKw",
+      "game_name": "Bapzera",
+      "tag_line": "BR4",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 1263,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 1263,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.4,
+          "top4_rate": 70.0,
+          "win_rate": 20.0,
+          "average_level": 8.23
+        },
+        "consistency": {
+          "placement_variance": 4.97,
+          "placement_standard_deviation": 2.23,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.77
+        }
+      },
+      "collected_at": "2026-09-09T19:56:40.294084+00:00",
+      "rank_checked_at": "2026-09-09T19:56:40.294084+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:56:40.294084+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 1263
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "2DCoA3X-pQRU_P5Qw79sJ2Mz4BvoTDZ2K2clL3OrTGK32AKGYcfxU2nbCIostb3Hhn2VfWQtxzZorA",
+      "game_name": "HIGH Hatsu",
+      "tag_line": "3030",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 343,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 343,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.63,
+          "top4_rate": 63.33,
+          "win_rate": 16.67,
+          "average_level": 8.6
+        },
+        "consistency": {
+          "placement_variance": 4.83,
+          "placement_standard_deviation": 2.2,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 6.7
+        }
+      },
+      "collected_at": "2026-09-09T19:56:54.761913+00:00",
+      "rank_checked_at": "2026-09-09T19:56:54.761913+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:56:54.761913+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 343
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "y1a2qNSNqk27SQkON91lU7DbWoWI3MWht3Fkd7LpIx0Av8_fJ1AaNmbx7ia-8iQEdv7gcEorRwMhfw",
+      "game_name": "eusouolucas",
+      "tag_line": "1212",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 1114,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 1114,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.17,
+          "top4_rate": 66.67,
+          "win_rate": 30.0,
+          "average_level": 8.3
+        },
+        "consistency": {
+          "placement_variance": 4.54,
+          "placement_standard_deviation": 2.13,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.43
+        }
+      },
+      "collected_at": "2026-09-09T19:57:02.699877+00:00",
+      "rank_checked_at": "2026-09-09T19:57:02.699877+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:57:02.699877+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 1114
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "0tu90t4P8GwbgF4fo6XfJaw-141k20PAkEDO-E2EmJ_uZoQg8ZhupFRg0nArhWFn7DPbeJlOVWEzkg",
+      "game_name": "RYT Morta0",
+      "tag_line": "Doug",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 336,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 336,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.7,
+          "top4_rate": 66.67,
+          "win_rate": 16.67,
+          "average_level": 8.2
+        },
+        "consistency": {
+          "placement_variance": 4.41,
+          "placement_standard_deviation": 2.1,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 5.53
+        }
+      },
+      "collected_at": "2026-09-09T19:57:17.478466+00:00",
+      "rank_checked_at": "2026-09-09T19:57:17.478466+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:57:17.478466+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 336
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "bSqNJ04j9_mvBYlIfcuii2-OthWhbKvyxqH0e3ZoT_unNPTYrnG_QlsVGktSBoPnC5N5lKvL8WWFzg",
+      "game_name": "Quintanilha",
+      "tag_line": "1919",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 1026,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 1026,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.73,
+          "top4_rate": 63.33,
+          "win_rate": 20.0,
+          "average_level": 8.33
+        },
+        "consistency": {
+          "placement_variance": 5.93,
+          "placement_standard_deviation": 2.43,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 3.83
+        }
+      },
+      "collected_at": "2026-09-09T19:57:22.185460+00:00",
+      "rank_checked_at": "2026-09-09T19:57:22.185460+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:57:22.185460+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 1026
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "vlCyV4SEFgpILvJZJ8JFymYC3cymBTjTTVWMHFS7n_tmJr61GG851rAg_AlC1kZTk8GK9F_BhprYNw",
+      "game_name": "RYT Hardpuzzle",
+      "tag_line": "3356",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 317,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 317,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.8,
+          "top4_rate": 66.67,
+          "win_rate": 20.0,
+          "average_level": 8.33
+        },
+        "consistency": {
+          "placement_variance": 4.83,
+          "placement_standard_deviation": 2.2,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.6
+        }
+      },
+      "collected_at": "2026-09-09T19:57:30.222426+00:00",
+      "rank_checked_at": "2026-09-09T19:57:30.222426+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:57:30.222426+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 317
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "vFgdyZ_POjCK_QPBsmQKdG9SkGJ8I2tnhdkPjsWLL79rVSq_oyf8ROvhIAfPC3RrEzncUg7RgmqS1A",
+      "game_name": "Só bio",
+      "tag_line": "gag",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 946,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 946,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.77,
+          "top4_rate": 66.67,
+          "win_rate": 10.0,
+          "average_level": 8.37
+        },
+        "consistency": {
+          "placement_variance": 3.05,
+          "placement_standard_deviation": 1.75,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.23
+        }
+      },
+      "collected_at": "2026-09-09T19:57:34.942228+00:00",
+      "rank_checked_at": "2026-09-09T19:57:34.942228+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:57:34.942228+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 946
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "ABWPnrvsn4Nu-fbG-5r5lHyGXsSGQK_Utfh_yanpC8auz79GyaoUNpFY2yK-vOsAkatwP_7kcDGSuQ",
+      "game_name": "ImpagnaT",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 311,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 311,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.43,
+          "top4_rate": 70.0,
+          "win_rate": 23.33,
+          "average_level": 8.37
+        },
+        "consistency": {
+          "placement_variance": 3.78,
+          "placement_standard_deviation": 1.94,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.8
+        }
+      },
+      "collected_at": "2026-09-09T19:57:51.433837+00:00",
+      "rank_checked_at": "2026-09-09T19:57:51.433837+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:57:51.433837+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 311
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "2hUJ8pUPEXMzFBFxzkYNcAPOV9wIjDIMeig_Be-qmo3mVU_7n0sFPawoS_OqM4YJb3Aw4D07ZtzQ5Q",
+      "game_name": "Mecmeno",
+      "tag_line": "AMOR",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 819,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 819,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.67,
+          "top4_rate": 46.67,
+          "win_rate": 16.67,
+          "average_level": 7.77
+        },
+        "consistency": {
+          "placement_variance": 6.29,
+          "placement_standard_deviation": 2.51,
+          "bottom4_rate": 53.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8
+        }
+      },
+      "collected_at": "2026-09-09T19:57:56.162415+00:00",
+      "rank_checked_at": "2026-09-09T19:57:56.162415+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:57:56.162415+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 819
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "tErofx3U-DHmrzB0mbw803dEmA_dqhmnNvXfzCgJBbmSl81RMHcjvDorEg86xiq7TQeaxp_AfLOrVA",
+      "game_name": "Dklein",
+      "tag_line": "GUILD",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 307,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 307,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.2,
+          "top4_rate": 53.33,
+          "win_rate": 13.33,
+          "average_level": 8.03
+        },
+        "consistency": {
+          "placement_variance": 5.16,
+          "placement_standard_deviation": 2.27,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.53
+        }
+      },
+      "collected_at": "2026-09-09T19:58:02.438769+00:00",
+      "rank_checked_at": "2026-09-09T19:58:02.438769+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:58:02.438769+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 307
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "zjkppE18r1OOrrm9sLRy7InTWga5bBF6yVcFZPS0-1zGOv_vMjxA0lhndxS4_rqJ86Fm08HbR8Xdxg",
+      "game_name": "Rafael Araújo",
+      "tag_line": "BR2",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 757,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 757,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.97,
+          "top4_rate": 70.0,
+          "win_rate": 10.0,
+          "average_level": 8.13
+        },
+        "consistency": {
+          "placement_variance": 4.17,
+          "placement_standard_deviation": 2.04,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 9.4
+        }
+      },
+      "collected_at": "2026-09-09T19:58:07.095065+00:00",
+      "rank_checked_at": "2026-09-09T19:58:07.095065+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:58:07.095065+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 757
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "ONf-GOEUJMqRRa85zVGfcEsBLQ50fM1-FcfzMsGiptT3vQ2MPpN3b4MGdoIm0htG8IhMg6Zx6gXhTg",
+      "game_name": "NÃO PIVOTO",
+      "tag_line": "TFT",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 251,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 251,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.6,
+          "top4_rate": 50.0,
+          "win_rate": 13.33,
+          "average_level": 8.1
+        },
+        "consistency": {
+          "placement_variance": 5.17,
+          "placement_standard_deviation": 2.27,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.1
+        }
+      },
+      "collected_at": "2026-09-09T19:58:11.766684+00:00",
+      "rank_checked_at": "2026-09-09T19:58:11.766684+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:58:11.766684+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 251
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "shrGmSoCKgivq7wzaOWiPYzhvVsy08VXxqNdXatY-sDn9l21rJWHkFPK70nvFcnLGci79OykBvFl4g",
+      "game_name": "Taliyent",
+      "tag_line": "mao",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 674,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 674,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.67,
+          "top4_rate": 63.33,
+          "win_rate": 26.67,
+          "average_level": 8.03
+        },
+        "consistency": {
+          "placement_variance": 5.69,
+          "placement_standard_deviation": 2.39,
+          "bottom4_rate": 36.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.5
+        }
+      },
+      "collected_at": "2026-09-09T19:58:16.555057+00:00",
+      "rank_checked_at": "2026-09-09T19:58:16.555057+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:58:16.555057+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 674
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "JyKsmnVt1AGHvhHXBpBgzKyT7n1DFANqlaFuWNBXCkXUUFN_foELx59aae7OzMBbEhOt9IFx5Ld4-g",
+      "game_name": "FOUR vakio",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 240,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 240,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.13,
+          "top4_rate": 53.33,
+          "win_rate": 30.0,
+          "average_level": 8.13
+        },
+        "consistency": {
+          "placement_variance": 6.58,
+          "placement_standard_deviation": 2.57,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.07
+        }
+      },
+      "collected_at": "2026-09-09T19:58:21.259528+00:00",
+      "rank_checked_at": "2026-09-09T19:58:21.259528+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:58:21.259528+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 240
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "ZfNzAE9SS7bSbCmiEcgEFwIb_sHFr8Z7gqO_nJeEDrsA-aKHFiBH3Iv5o9PZnBhTY9Qbk24JcrnHlQ",
+      "game_name": "RYT Tiaagowski",
+      "tag_line": "TFT",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 664,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 664,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 3.77,
+          "top4_rate": 73.33,
+          "win_rate": 10.0,
+          "average_level": 8.3
+        },
+        "consistency": {
+          "placement_variance": 3.58,
+          "placement_standard_deviation": 1.89,
+          "bottom4_rate": 26.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.37
+        }
+      },
+      "collected_at": "2026-09-09T19:58:25.878671+00:00",
+      "rank_checked_at": "2026-09-09T19:58:25.878671+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:58:25.878671+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 664
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "ieM-YGm1LXAcS2R-7AljoPJNM2PW8Ld02rCfHHKbuqRExg1L-qGZr0sJndpf61a4oo3FVZdEEvDm2g",
+      "game_name": "M4 Berix",
+      "tag_line": "TFT",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 240,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 240,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4,
+          "top4_rate": 60.0,
+          "win_rate": 10.0,
+          "average_level": 8.27
+        },
+        "consistency": {
+          "placement_variance": 4.13,
+          "placement_standard_deviation": 2.03,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 5.03
+        }
+      },
+      "collected_at": "2026-09-09T19:58:30.554323+00:00",
+      "rank_checked_at": "2026-09-09T19:58:30.554323+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:58:30.554323+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 240
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "HQs1nyOkc22amOW4y8Wg13rUioYXFURX0R_I7sDMocZ4UCxLCXGBHx7TQ1sm9rcW38PNdJDzqKW0iQ",
+      "game_name": "Lefeco",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 638,
+      "current_tier": "CHALLENGER",
       "current_division": "I",
       "current_league_points": 638,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.67,
-          "top4_rate": 60.0,
-          "win_rate": 20.0,
-          "average_level": 8.83
+          "average_placement": 4.1,
+          "top4_rate": 66.67,
+          "win_rate": 6.67,
+          "average_level": 8.3
         },
         "consistency": {
-          "placement_variance": 4.82,
-          "placement_standard_deviation": 2.2,
-          "bottom4_rate": 40.0,
+          "placement_variance": 3.49,
+          "placement_standard_deviation": 1.87,
+          "bottom4_rate": 33.33,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 113.1,
-          "average_players_eliminated": 1.03
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 5.13
+          "average_gold_left": 3.47
         }
       },
-      "collected_at": "2026-08-18T15:30:04.314209+00:00",
-      "rank_checked_at": "2026-08-18T15:30:04.314209+00:00",
+      "collected_at": "2026-09-09T19:58:51.247022+00:00",
+      "rank_checked_at": "2026-09-09T19:58:51.247022+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:30:04.314209+00:00",
-          "tier": "GRANDMASTER",
+          "checked_at": "2026-09-09T19:58:51.247022+00:00",
+          "tier": "CHALLENGER",
           "division": "I",
           "league_points": 638
         }
@@ -992,988 +1133,612 @@
     },
     {
       "benchmark_id": "elite",
-      "puuid": "2MojuFp5uu1MV2UZl-mGQ1HYPd7YxDQoBSaIC2QR9lKPa0pCGLoedwsanrA111I8lFiZJdSoYl7HwQ",
-      "game_name": "Jogo Nu de Nunu",
-      "tag_line": "BOLA",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1140,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1140,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.2,
-          "top4_rate": 73.33,
-          "win_rate": 0.0,
-          "average_level": 8.93
-        },
-        "consistency": {
-          "placement_variance": 3.49,
-          "placement_standard_deviation": 1.87,
-          "bottom4_rate": 26.67,
-          "best_placement": 2,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 76.9,
-          "average_players_eliminated": 2.03
-        },
-        "economy": {
-          "average_gold_left": 13.23
-        }
-      },
-      "collected_at": "2026-08-18T15:30:57.663767+00:00",
-      "rank_checked_at": "2026-08-18T15:30:57.663767+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:30:57.663767+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1140
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "eh10soHfrLbm2YIc0IjPthpwxDK8ki3DXfkNq8jzYOZoyW2u-Eac901EYmpHYUwuvyK0g0n4AuRVxw",
-      "game_name": "Baaga",
-      "tag_line": "BR1",
+      "puuid": "2yy1Eqq5KVdHe5d06igavEnVk6IRny86uagkLPXuw98RHjK_3Em0YRtG2Xopf7VZgV52Esvp29zrUg",
+      "game_name": "Tanjo",
+      "tag_line": "Café",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 636,
+      "league_points_at_collection": 229,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 636,
+      "current_league_points": 229,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.73,
-          "top4_rate": 70.0,
-          "win_rate": 13.33,
-          "average_level": 8.73
-        },
-        "consistency": {
-          "placement_variance": 3.73,
-          "placement_standard_deviation": 1.93,
-          "bottom4_rate": 30.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 113.67,
-          "average_players_eliminated": 1.13
-        },
-        "economy": {
-          "average_gold_left": 9.97
-        }
-      },
-      "collected_at": "2026-08-18T15:31:58.337218+00:00",
-      "rank_checked_at": "2026-08-18T15:31:58.337218+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:31:58.337218+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 636
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "fKoTb_a1OZTkylygXgpzMCSCqe5Uwi13_OFX6pvNAgy1rRMxYE-lO-PveyTJLiAuWVuXbuVn1-xBww",
-      "game_name": "DestroyerHunter9",
-      "tag_line": "BR1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1120,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1120,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.57,
+          "average_placement": 3.6,
           "top4_rate": 70.0,
           "win_rate": 20.0,
-          "average_level": 8.77
+          "average_level": 8.33
         },
         "consistency": {
-          "placement_variance": 3.78,
-          "placement_standard_deviation": 1.94,
+          "placement_variance": 4.71,
+          "placement_standard_deviation": 2.17,
           "bottom4_rate": 30.0,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 113.37,
-          "average_players_eliminated": 1.07
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 7.97
+          "average_gold_left": 7.8
         }
       },
-      "collected_at": "2026-08-18T15:32:51.142119+00:00",
-      "rank_checked_at": "2026-08-18T15:32:51.142119+00:00",
+      "collected_at": "2026-09-09T19:59:00.869200+00:00",
+      "rank_checked_at": "2026-09-09T19:59:00.869200+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:32:51.142119+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1120
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "HwwwfDo3ruRwqsoVWPgOB0BlbVzK2rt6jhJPaTi3A5DNG651UVa3ODs7MraBFdPCLJjxFo6eWByQMA",
-      "game_name": "Runenzin",
-      "tag_line": "Gap",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 632,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 632,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.7,
-          "top4_rate": 63.33,
-          "win_rate": 16.67,
-          "average_level": 8.4
-        },
-        "consistency": {
-          "placement_variance": 4.01,
-          "placement_standard_deviation": 2.0,
-          "bottom4_rate": 36.67,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 111.97,
-          "average_players_eliminated": 1.23
-        },
-        "economy": {
-          "average_gold_left": 7.5
-        }
-      },
-      "collected_at": "2026-08-18T15:33:44.693180+00:00",
-      "rank_checked_at": "2026-08-18T15:33:44.693180+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:33:44.693180+00:00",
+          "checked_at": "2026-09-09T19:59:00.869200+00:00",
           "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 632
+          "league_points": 229
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "qKHLq0kQwH8IgtYAkgIgVuyUCb_AQrE4EQwGEWVI9xD86sBxeg6Za1xf3UFWSk1nM2jzE437DwLs1w",
-      "game_name": "evazord",
-      "tag_line": "ttv",
+      "puuid": "rqZtGlVlKUNqCCUVVX-sh-NFUup3Ie3OQWzx-c_rgGqiLETNa-yF0drK_jxfSA8iogLAWqCBYN7ChA",
+      "game_name": "To de atestado",
+      "tag_line": "0101",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "CHALLENGER",
       "division_at_collection": "I",
-      "league_points_at_collection": 1117,
+      "league_points_at_collection": 611,
       "current_tier": "CHALLENGER",
       "current_division": "I",
-      "current_league_points": 1117,
+      "current_league_points": 611,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.33,
+          "average_placement": 3.77,
           "top4_rate": 66.67,
-          "win_rate": 20.0,
-          "average_level": 8.83
+          "win_rate": 33.33,
+          "average_level": 8.1
         },
         "consistency": {
-          "placement_variance": 3.76,
-          "placement_standard_deviation": 1.94,
+          "placement_variance": 6.05,
+          "placement_standard_deviation": 2.46,
           "bottom4_rate": 33.33,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 120.23,
-          "average_players_eliminated": 1.5
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 8.07
+          "average_gold_left": 5.83
         }
       },
-      "collected_at": "2026-08-18T15:34:48.750030+00:00",
-      "rank_checked_at": "2026-08-18T15:34:48.750030+00:00",
+      "collected_at": "2026-09-09T19:59:12.051622+00:00",
+      "rank_checked_at": "2026-09-09T19:59:12.051622+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:34:48.750030+00:00",
+          "checked_at": "2026-09-09T19:59:12.051622+00:00",
           "tier": "CHALLENGER",
           "division": "I",
-          "league_points": 1117
+          "league_points": 611
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "snCNiMhvn8oFb2Jyl56VRV1AMyK8gKT8p6FyWZxqwDWFF1DnQMoMMXKXfWBSqO-av14zxFZQzVA1mA",
-      "game_name": "Dezio",
-      "tag_line": "BR11",
+      "puuid": "YJRYMtpYpkVp-Sp4IMZ4nS2lac2Di_Jx7Hgx8f6ex9G3Hgtl4IZlZtkqXJ8XzJqCZx8BjkC9yUUKNQ",
+      "game_name": "LeuzZoka",
+      "tag_line": "TFT",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 607,
+      "league_points_at_collection": 226,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 607,
+      "current_league_points": 226,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.83,
-          "top4_rate": 63.33,
+          "average_placement": 4.03,
+          "top4_rate": 60.0,
           "win_rate": 16.67,
-          "average_level": 8.4
+          "average_level": 8.23
         },
         "consistency": {
-          "placement_variance": 5.54,
-          "placement_standard_deviation": 2.35,
-          "bottom4_rate": 36.67,
+          "placement_variance": 5.5,
+          "placement_standard_deviation": 2.34,
+          "bottom4_rate": 40.0,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 122.97,
-          "average_players_eliminated": 1.1
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 6.27
+          "average_gold_left": 4.73
         }
       },
-      "collected_at": "2026-08-18T15:35:48.953497+00:00",
-      "rank_checked_at": "2026-08-18T15:35:48.953497+00:00",
+      "collected_at": "2026-09-09T19:59:21.611728+00:00",
+      "rank_checked_at": "2026-09-09T19:59:21.611728+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:35:48.953497+00:00",
+          "checked_at": "2026-09-09T19:59:21.611728+00:00",
           "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 607
+          "league_points": 226
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "7E2yDs7M9OGhJkQV8shjH-drRj6OOcmklGFphcPrRHYyK_Qjlo6V3SP75AX-lmc2STAcNRbZVIGUQQ",
-      "game_name": "lemoonxx",
+      "puuid": "Bx4cgi-YZ0-e2L_HxvHx62EgCrH_c9rNhDBHBf3Ot0wwhlIkkdtJng0vaIAR-qZIxEgRyNEHcgjo2w",
+      "game_name": "GVidigal",
       "tag_line": "br1",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "CHALLENGER",
       "division_at_collection": "I",
-      "league_points_at_collection": 1094,
+      "league_points_at_collection": 538,
       "current_tier": "CHALLENGER",
       "current_division": "I",
-      "current_league_points": 1094,
+      "current_league_points": 538,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.07,
+          "average_placement": 3.27,
           "top4_rate": 73.33,
           "win_rate": 30.0,
-          "average_level": 9.13
+          "average_level": 8.4
         },
         "consistency": {
-          "placement_variance": 4.06,
-          "placement_standard_deviation": 2.02,
+          "placement_variance": 3.46,
+          "placement_standard_deviation": 1.86,
           "bottom4_rate": 26.67,
           "best_placement": 1,
           "worst_placement": 7
         },
         "combat": {
-          "average_damage_to_players": 137.8,
-          "average_players_eliminated": 1.53
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.37
+        }
+      },
+      "collected_at": "2026-09-09T19:59:37.932122+00:00",
+      "rank_checked_at": "2026-09-09T19:59:37.932122+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T19:59:37.932122+00:00",
+          "tier": "CHALLENGER",
+          "division": "I",
+          "league_points": 538
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "0aDGb-V_x7WqUgKWNRzDYFbE8n9ZznBkLKfCnLSXxVaLcYEocxbAyq02RKvIwx_8bVg9s6o1SjoMFQ",
+      "game_name": "Deafen",
+      "tag_line": "NSNP",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 184,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 184,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.03,
+          "top4_rate": 50.0,
+          "win_rate": 16.67,
+          "average_level": 8.13
+        },
+        "consistency": {
+          "placement_variance": 3.83,
+          "placement_standard_deviation": 1.96,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 6.17
+        }
+      },
+      "collected_at": "2026-09-09T20:00:00.262775+00:00",
+      "rank_checked_at": "2026-09-09T20:00:00.262775+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T20:00:00.262775+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 184
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "y07GEe8TK53ba4Si7rwdSudh4TYxFIdBr-Yns_64tS352bDsGKUCPLtg6boekjN5dVeliQgrZB4QLQ",
+      "game_name": "frey",
+      "tag_line": "sky",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "CHALLENGER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 316,
+      "current_tier": "CHALLENGER",
+      "current_division": "I",
+      "current_league_points": 316,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 5.13,
+          "top4_rate": 36.67,
+          "win_rate": 6.67,
+          "average_level": 8.2
+        },
+        "consistency": {
+          "placement_variance": 3.78,
+          "placement_standard_deviation": 1.94,
+          "bottom4_rate": 63.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
           "average_gold_left": 6.5
         }
       },
-      "collected_at": "2026-08-18T15:36:42.854523+00:00",
-      "rank_checked_at": "2026-08-18T15:36:42.854523+00:00",
+      "collected_at": "2026-09-09T20:00:05.037793+00:00",
+      "rank_checked_at": "2026-09-09T20:00:05.037793+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:36:42.854523+00:00",
+          "checked_at": "2026-09-09T20:00:05.037793+00:00",
           "tier": "CHALLENGER",
           "division": "I",
-          "league_points": 1094
+          "league_points": 316
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "L2rwTe98rOABoZmBEaHfahpkqbmL-XG1_2GPLy-eS-tHYwUWVuMIL7Q3X0LprTmTtYvvYITunGFPWw",
-      "game_name": "Beleza Léozão",
-      "tag_line": "007",
+      "puuid": "8GAkVlypRNtShdKJB52lbJK-B4p2K1f7ly0g_vdsBvJ4wt8alawvSqPADUl6bT0eOW1xR88gbTyShw",
+      "game_name": "polo",
+      "tag_line": "tft",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 600,
+      "league_points_at_collection": 175,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 600,
+      "current_league_points": 175,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.87,
-          "top4_rate": 56.67,
-          "win_rate": 23.33,
-          "average_level": 8.83
-        },
-        "consistency": {
-          "placement_variance": 5.65,
-          "placement_standard_deviation": 2.38,
-          "bottom4_rate": 43.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 115.9,
-          "average_players_eliminated": 1.17
-        },
-        "economy": {
-          "average_gold_left": 4.8
-        }
-      },
-      "collected_at": "2026-08-18T15:37:36.478521+00:00",
-      "rank_checked_at": "2026-08-18T15:37:36.478521+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:37:36.478521+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 600
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "bxaqYcBSZq-Hc9aRUNzJ4Q4X1QUOiefbxpWYebN5D4N0kRLf7nIieI-_8ZScsNER73IuyKFUL4SiTQ",
-      "game_name": "The Manhieco",
-      "tag_line": "br1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1075,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1075,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 2.77,
-          "top4_rate": 86.67,
-          "win_rate": 43.33,
-          "average_level": 9.37
-        },
-        "consistency": {
-          "placement_variance": 3.65,
-          "placement_standard_deviation": 1.91,
-          "bottom4_rate": 13.33,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 106.47,
-          "average_players_eliminated": 2.1
-        },
-        "economy": {
-          "average_gold_left": 5.33
-        }
-      },
-      "collected_at": "2026-08-18T15:38:30.502529+00:00",
-      "rank_checked_at": "2026-08-18T15:38:30.502529+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:38:30.502529+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1075
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "H5HVOIT2axfqrGg25CzBiV4u3jFkLigoUpwqDoXtgspDPu7L1AdaRPgMdBNgRYUtiU0ot36wqLMhlA",
-      "game_name": "Cenoura",
-      "tag_line": "May",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 599,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 599,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.17,
-          "top4_rate": 56.67,
-          "win_rate": 13.33,
-          "average_level": 8.97
-        },
-        "consistency": {
-          "placement_variance": 4.74,
-          "placement_standard_deviation": 2.18,
-          "bottom4_rate": 43.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 108.23,
-          "average_players_eliminated": 0.9
-        },
-        "economy": {
-          "average_gold_left": 8.4
-        }
-      },
-      "collected_at": "2026-08-18T15:39:23.082358+00:00",
-      "rank_checked_at": "2026-08-18T15:39:23.082358+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:39:23.082358+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 599
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "HRwhrgwy7AbeXtDjiQdrLs0VuV8novuyGGk3alkMPV0G2BXVVB0U1wr-nFvcoIpd-DkG8o3Z4eurkg",
-      "game_name": "msg",
-      "tag_line": "TFT",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1062,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1062,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.23,
-          "top4_rate": 60.0,
-          "win_rate": 20.0,
-          "average_level": 8.33
-        },
-        "consistency": {
-          "placement_variance": 6.38,
-          "placement_standard_deviation": 2.53,
-          "bottom4_rate": 40.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 110.1,
-          "average_players_eliminated": 0.83
-        },
-        "economy": {
-          "average_gold_left": 15.93
-        }
-      },
-      "collected_at": "2026-08-18T15:40:20.871356+00:00",
-      "rank_checked_at": "2026-08-18T15:40:20.871356+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:40:20.871356+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1062
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "NmE3a5KajbTjhMPhrIulelYnS8mW9nNFqJJjB_LlqsCx5A869KLXuPkG6sM3JufjsD-jDdCEnsbcBA",
-      "game_name": "JerbasCremosinho",
-      "tag_line": "BR1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 598,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 598,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.6,
+          "average_placement": 4.5,
           "top4_rate": 46.67,
-          "win_rate": 10.0,
-          "average_level": 8.33
+          "win_rate": 13.33,
+          "average_level": 8
         },
         "consistency": {
-          "placement_variance": 4.17,
-          "placement_standard_deviation": 2.04,
+          "placement_variance": 4.72,
+          "placement_standard_deviation": 2.17,
           "bottom4_rate": 53.33,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 91.97,
-          "average_players_eliminated": 0.7
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 10.5
+          "average_gold_left": 6.23
         }
       },
-      "collected_at": "2026-08-18T15:41:14.543598+00:00",
-      "rank_checked_at": "2026-08-18T15:41:14.543598+00:00",
+      "collected_at": "2026-09-09T20:00:11.434706+00:00",
+      "rank_checked_at": "2026-09-09T20:00:11.434706+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:41:14.543598+00:00",
+          "checked_at": "2026-09-09T20:00:11.434706+00:00",
           "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 598
+          "league_points": 175
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "RB0icx4_hQ4JbpvhdGpIm3ovkm9lZKt8u-5Vsr7lix8DLGMPXct0IC33XiE2fefAwrHchikj5AF0vw",
-      "game_name": "mad",
-      "tag_line": "zada",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1042,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1042,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.37,
-          "top4_rate": 66.67,
-          "win_rate": 23.33,
-          "average_level": 8.9
-        },
-        "consistency": {
-          "placement_variance": 4.1,
-          "placement_standard_deviation": 2.02,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 129.4,
-          "average_players_eliminated": 1.27
-        },
-        "economy": {
-          "average_gold_left": 7.23
-        }
-      },
-      "collected_at": "2026-08-18T15:42:11.119799+00:00",
-      "rank_checked_at": "2026-08-18T15:42:11.119799+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:42:11.119799+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1042
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "Egmz6IB-8DrXGuNfJhmqt-LDaNkRgkUSWEeq5iitID7LHGJUmGh0AYTY7A8UJ4l6AlXiLhzTFzN2uA",
-      "game_name": "Salheb22",
-      "tag_line": "br1",
+      "puuid": "GRoTIXuZDFeaK_tSbmbn8kE3wfhYDnNogMX7gUnNgvcgWy8XUh8xnxgP4gbka-yxlns3fPiF6k1kyA",
+      "game_name": "yatsuminto",
+      "tag_line": "2147",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 595,
+      "league_points_at_collection": 168,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 595,
+      "current_league_points": 168,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.43,
-          "top4_rate": 66.67,
-          "win_rate": 20.0,
-          "average_level": 8.67
-        },
-        "consistency": {
-          "placement_variance": 4.18,
-          "placement_standard_deviation": 2.04,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 130.03,
-          "average_players_eliminated": 1.23
-        },
-        "economy": {
-          "average_gold_left": 8.03
-        }
-      },
-      "collected_at": "2026-08-18T15:43:04.165541+00:00",
-      "rank_checked_at": "2026-08-18T15:43:04.165541+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:43:04.165541+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 595
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "hzAC7LWRGId_MXu3NIE_0ck2gd9xTY8Q5Svu4CtRFYVzgFgswhGqcToveB3tj7jDrxuWQNywN9CbUw",
-      "game_name": "Que Cara Bom",
-      "tag_line": "RXT",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1028,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1028,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 2.77,
+          "average_placement": 3.27,
           "top4_rate": 80.0,
-          "win_rate": 36.67,
-          "average_level": 9.6
+          "win_rate": 23.33,
+          "average_level": 8.2
         },
         "consistency": {
-          "placement_variance": 3.31,
-          "placement_standard_deviation": 1.82,
+          "placement_variance": 3.86,
+          "placement_standard_deviation": 1.97,
           "bottom4_rate": 20.0,
           "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 143.6,
-          "average_players_eliminated": 1.2
-        },
-        "economy": {
-          "average_gold_left": 19.6
-        }
-      },
-      "collected_at": "2026-08-18T15:43:57.696391+00:00",
-      "rank_checked_at": "2026-08-18T15:43:57.696391+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:43:57.696391+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1028
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "x3GlM3rMJ21N2tnMPtFcrN3aaxZieE0AJV8l47SYWQNvLnde3Oa4fWT8u4gd8dTV8DncGlA0Ym5MEw",
-      "game_name": "nized",
-      "tag_line": "035",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 590,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 590,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.53,
-          "top4_rate": 70.0,
-          "win_rate": 10.0,
-          "average_level": 8.87
-        },
-        "consistency": {
-          "placement_variance": 2.85,
-          "placement_standard_deviation": 1.69,
-          "bottom4_rate": 30.0,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 119.17,
-          "average_players_eliminated": 0.87
-        },
-        "economy": {
-          "average_gold_left": 13.8
-        }
-      },
-      "collected_at": "2026-08-18T15:44:51.415462+00:00",
-      "rank_checked_at": "2026-08-18T15:44:51.415462+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:44:51.415462+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 590
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "1uytC5FkSFZTlwLZP-9XHMA-nUqzbO2Bc3HMwYNB4scQvlSWT2IV0Ymspc79aXFIe9u2ebzoXP6VJg",
-      "game_name": "Lanzin",
-      "tag_line": "high",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1020,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1020,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.37,
-          "top4_rate": 63.33,
-          "win_rate": 26.67,
-          "average_level": 9
-        },
-        "consistency": {
-          "placement_variance": 4.43,
-          "placement_standard_deviation": 2.11,
-          "bottom4_rate": 36.67,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 137.6,
-          "average_players_eliminated": 1.33
-        },
-        "economy": {
-          "average_gold_left": 9.37
-        }
-      },
-      "collected_at": "2026-08-18T15:45:44.947812+00:00",
-      "rank_checked_at": "2026-08-18T15:45:44.947812+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:45:44.947812+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1020
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "H-dcggHq1nFEXl7NuUGnTmo1FfVIpZzXvGwwBPYSTdIfsmSeK_JLEwUVOCvw78I338lQqB7E4Vhmaw",
-      "game_name": "Nativo",
-      "tag_line": "001",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 583,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 583,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4,
-          "top4_rate": 60.0,
-          "win_rate": 16.67,
-          "average_level": 8.47
-        },
-        "consistency": {
-          "placement_variance": 4.27,
-          "placement_standard_deviation": 2.07,
-          "bottom4_rate": 40.0,
-          "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 110.17,
-          "average_players_eliminated": 0.87
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 6.53
+          "average_gold_left": 9.2
         }
       },
-      "collected_at": "2026-08-18T15:46:37.752942+00:00",
-      "rank_checked_at": "2026-08-18T15:46:37.752942+00:00",
+      "collected_at": "2026-09-09T20:00:29.271228+00:00",
+      "rank_checked_at": "2026-09-09T20:00:29.271228+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:46:37.752942+00:00",
+          "checked_at": "2026-09-09T20:00:29.271228+00:00",
           "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 583
+          "league_points": 168
         }
       ]
     },
     {
       "benchmark_id": "elite",
-      "puuid": "gNKqPpkFllfgJ_pWvE_S35gFOQuq7_WUaLBvXjeV6K-MSQETT2pyz14d7RY6VmPe3j5_qDvRx05Acw",
-      "game_name": "Tico Tico",
-      "tag_line": "1995",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1008,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1008,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.67,
-          "top4_rate": 66.67,
-          "win_rate": 20.0,
-          "average_level": 8.33
-        },
-        "consistency": {
-          "placement_variance": 3.56,
-          "placement_standard_deviation": 1.89,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 7
-        },
-        "combat": {
-          "average_damage_to_players": 120.13,
-          "average_players_eliminated": 1.3
-        },
-        "economy": {
-          "average_gold_left": 11.5
-        }
-      },
-      "collected_at": "2026-08-18T15:47:30.756011+00:00",
-      "rank_checked_at": "2026-08-18T15:47:30.756011+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:47:30.756011+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1008
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "IFX3CilO5FPBQvPJ_1TG3PMorTPcGQGsgCZ_KkOEnlopkF_oC5esUMOZIk-r39pEmc-laBXxVqc1MA",
-      "game_name": "Marciin",
-      "tag_line": "6665",
+      "puuid": "L2uWNmfY-75hEhnaACp75LOvaj75n774pz-2MrF6C0UqrREi_NmwkpT-hLFzNrnsfdcKLf3CZNXmmQ",
+      "game_name": "polar1zed",
+      "tag_line": "011",
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 573,
+      "league_points_at_collection": 165,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 573,
+      "current_league_points": 165,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 3.7,
-          "top4_rate": 66.67,
-          "win_rate": 26.67,
-          "average_level": 8.9
-        },
-        "consistency": {
-          "placement_variance": 5.54,
-          "placement_standard_deviation": 2.35,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 117.7,
-          "average_players_eliminated": 1.23
-        },
-        "economy": {
-          "average_gold_left": 10.43
-        }
-      },
-      "collected_at": "2026-08-18T15:48:24.319508+00:00",
-      "rank_checked_at": "2026-08-18T15:48:24.319508+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:48:24.319508+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 573
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "CEtvIgQ4eGIoD_rvjAlZGUauB5gdk_WO6ZyjjEKv_zlu4B6hIm3ue0YOU2jc6pXUhDyAJSPeMFMkiw",
-      "game_name": "Veggie Hannibal",
-      "tag_line": "lucas",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1006,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1006,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.17,
+          "average_placement": 4.27,
           "top4_rate": 56.67,
           "win_rate": 13.33,
-          "average_level": 8.4
+          "average_level": 8.37
         },
         "consistency": {
-          "placement_variance": 4.87,
-          "placement_standard_deviation": 2.21,
+          "placement_variance": 4.93,
+          "placement_standard_deviation": 2.22,
           "bottom4_rate": 43.33,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 110.77,
-          "average_players_eliminated": 0.93
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 44.5
+          "average_gold_left": 12.47
         }
       },
-      "collected_at": "2026-08-18T15:49:20.507635+00:00",
-      "rank_checked_at": "2026-08-18T15:49:20.507635+00:00",
+      "collected_at": "2026-09-09T20:00:46.762261+00:00",
+      "rank_checked_at": "2026-09-09T20:00:46.762261+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:49:20.507635+00:00",
-          "tier": "CHALLENGER",
+          "checked_at": "2026-09-09T20:00:46.762261+00:00",
+          "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 1006
+          "league_points": 165
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "fAABeZyBzkHSbOu7M9WHee8MiSw52rTXDS_BeuK1PIEMg0vxuHzYSCgbwOofUnkP9s-1cOAWs8KiYQ",
+      "game_name": "LokiFc",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 131,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 131,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.37,
+          "top4_rate": 53.33,
+          "win_rate": 23.33,
+          "average_level": 8.3
+        },
+        "consistency": {
+          "placement_variance": 7.3,
+          "placement_standard_deviation": 2.7,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.77
+        }
+      },
+      "collected_at": "2026-09-09T20:00:55.858584+00:00",
+      "rank_checked_at": "2026-09-09T20:00:55.858584+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T20:00:55.858584+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 131
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "5wf1wt9gk7gVtO0PL0BxiNug6w3AQI785hEVuxPyEiPECl1_W_QrisqLOEhjAPgQaAkcnEEL3H6Vag",
+      "game_name": "emitesy",
+      "tag_line": "085",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 116,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 116,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.17,
+          "top4_rate": 53.33,
+          "win_rate": 10.0,
+          "average_level": 8.37
+        },
+        "consistency": {
+          "placement_variance": 5.14,
+          "placement_standard_deviation": 2.27,
+          "bottom4_rate": 46.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 9.07
+        }
+      },
+      "collected_at": "2026-09-09T20:01:03.797519+00:00",
+      "rank_checked_at": "2026-09-09T20:01:03.797519+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T20:01:03.797519+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 116
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "mrzflzgr93Gi4XyZxOlVqHlUhefsU7NcUcTakDkBuVvSCaBjomU_hEh6n-nC1xcP6y_pzdAZ7q-TcA",
+      "game_name": "ZicoO",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 98,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 98,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.3,
+          "top4_rate": 60.0,
+          "win_rate": 13.33,
+          "average_level": 8.4
+        },
+        "consistency": {
+          "placement_variance": 5.41,
+          "placement_standard_deviation": 2.33,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 3.3
+        }
+      },
+      "collected_at": "2026-09-09T20:01:10.299174+00:00",
+      "rank_checked_at": "2026-09-09T20:01:10.299174+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T20:01:10.299174+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "elite",
+      "puuid": "D6EaF1H8sWwngDny2defWXYd2zxrPIfKoc7wrwzCtFNV_KdX9m1BVe120FiD5qaXvrm-z7mDfSF7PA",
+      "game_name": "Lionel Messi",
+      "tag_line": "BeTo",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "GRANDMASTER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 76,
+      "current_tier": "GRANDMASTER",
+      "current_division": "I",
+      "current_league_points": 76,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.37,
+          "top4_rate": 50.0,
+          "win_rate": 26.67,
+          "average_level": 8.03
+        },
+        "consistency": {
+          "placement_variance": 7.23,
+          "placement_standard_deviation": 2.69,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 12.77
+        }
+      },
+      "collected_at": "2026-09-09T20:01:15.007883+00:00",
+      "rank_checked_at": "2026-09-09T20:01:15.007883+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T20:01:15.007883+00:00",
+          "tier": "GRANDMASTER",
+          "division": "I",
+          "league_points": 76
         }
       ]
     },
@@ -1985,371 +1750,42 @@
       "queue_type": "RANKED_TFT",
       "tier_at_collection": "GRANDMASTER",
       "division_at_collection": "I",
-      "league_points_at_collection": 572,
+      "league_points_at_collection": 42,
       "current_tier": "GRANDMASTER",
       "current_division": "I",
-      "current_league_points": 572,
+      "current_league_points": 42,
       "matches_used": 30,
       "metrics": {
         "general": {
           "matches_played": 30,
-          "average_placement": 4.77,
+          "average_placement": 4.83,
           "top4_rate": 43.33,
-          "win_rate": 20.0,
-          "average_level": 8.63
+          "win_rate": 6.67,
+          "average_level": 7.77
         },
         "consistency": {
-          "placement_variance": 6.18,
-          "placement_standard_deviation": 2.49,
+          "placement_variance": 4.54,
+          "placement_standard_deviation": 2.13,
           "bottom4_rate": 56.67,
           "best_placement": 1,
           "worst_placement": 8
         },
         "combat": {
-          "average_damage_to_players": 97.47,
-          "average_players_eliminated": 0.67
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
         },
         "economy": {
-          "average_gold_left": 4.37
+          "average_gold_left": 5.33
         }
       },
-      "collected_at": "2026-08-18T15:50:18.808794+00:00",
-      "rank_checked_at": "2026-08-18T15:50:18.808794+00:00",
+      "collected_at": "2026-09-09T20:01:19.681815+00:00",
+      "rank_checked_at": "2026-09-09T20:01:19.681815+00:00",
       "rank_history": [
         {
-          "checked_at": "2026-08-18T15:50:18.808794+00:00",
+          "checked_at": "2026-09-09T20:01:19.681815+00:00",
           "tier": "GRANDMASTER",
           "division": "I",
-          "league_points": 572
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "akI8pQUsSHUD0dJYfgxJZaz4BNf--ggVh57g7DtXAsE5ubQBID8D3g7SJg6nWaqrrrte87WlQKSJfw",
-      "game_name": "sassicaia",
-      "tag_line": "0000",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1003,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1003,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.6,
-          "top4_rate": 66.67,
-          "win_rate": 13.33,
-          "average_level": 9
-        },
-        "consistency": {
-          "placement_variance": 3.04,
-          "placement_standard_deviation": 1.74,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 122.27,
-          "average_players_eliminated": 1
-        },
-        "economy": {
-          "average_gold_left": 6.37
-        }
-      },
-      "collected_at": "2026-08-18T15:51:12.459926+00:00",
-      "rank_checked_at": "2026-08-18T15:51:12.459926+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:51:12.459926+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1003
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "u30XeVEjwubF-pjWY58hQeU9aXY3glzsPaPrZPVKIbW_OxtDEw0kX68IiAzOiIoOgeb5pMj4AyKF3g",
-      "game_name": "Rose On My Grave",
-      "tag_line": "br1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 569,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 569,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.37,
-          "top4_rate": 50.0,
-          "win_rate": 6.67,
-          "average_level": 8.4
-        },
-        "consistency": {
-          "placement_variance": 3.43,
-          "placement_standard_deviation": 1.85,
-          "bottom4_rate": 50.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 103.33,
-          "average_players_eliminated": 0.57
-        },
-        "economy": {
-          "average_gold_left": 4.63
-        }
-      },
-      "collected_at": "2026-08-18T15:52:05.964038+00:00",
-      "rank_checked_at": "2026-08-18T15:52:05.964038+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:52:05.964038+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 569
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "CgTqWNeWBymDDPUWoXRL9XK1HiLJBcyhvHQV3bpVdEWRW15Q9pP3yrVEXOLcHizNa2J9GlNpFapIGA",
-      "game_name": "Nineahris",
-      "tag_line": "BR1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 1002,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 1002,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.53,
-          "top4_rate": 66.67,
-          "win_rate": 23.33,
-          "average_level": 9.3
-        },
-        "consistency": {
-          "placement_variance": 5.32,
-          "placement_standard_deviation": 2.31,
-          "bottom4_rate": 33.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 124.6,
-          "average_players_eliminated": 1.17
-        },
-        "economy": {
-          "average_gold_left": 6.1
-        }
-      },
-      "collected_at": "2026-08-18T15:52:59.502463+00:00",
-      "rank_checked_at": "2026-08-18T15:52:59.502463+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:52:59.502463+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 1002
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "5Bybo5-ktP5D3lMXOJCRzQu8tjGJQ2rnMvChs8B_jx38UTexftxvcw1Kq-bIlZgBIRGQo7cV-nOHiA",
-      "game_name": "Thales Lord",
-      "tag_line": "br1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 566,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 566,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.23,
-          "top4_rate": 50.0,
-          "win_rate": 23.33,
-          "average_level": 8.53
-        },
-        "consistency": {
-          "placement_variance": 5.98,
-          "placement_standard_deviation": 2.45,
-          "bottom4_rate": 50.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 110.6,
-          "average_players_eliminated": 1.03
-        },
-        "economy": {
-          "average_gold_left": 6.83
-        }
-      },
-      "collected_at": "2026-08-18T15:53:53.150900+00:00",
-      "rank_checked_at": "2026-08-18T15:53:53.150900+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:53:53.150900+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 566
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "9upYZ_i-MawDJtugHraTzqjrePDgt5xVUYEgDamijdGRTMei0w7nxYLS_wSj_eDEdHJairtWbuuwqw",
-      "game_name": "ArchhMad",
-      "tag_line": "br1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 989,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 989,
-      "matches_used": 27,
-      "metrics": {
-        "general": {
-          "matches_played": 27,
-          "average_placement": 1.63,
-          "top4_rate": 92.59,
-          "win_rate": 77.78,
-          "average_level": 9.7
-        },
-        "consistency": {
-          "placement_variance": 2.38,
-          "placement_standard_deviation": 1.54,
-          "bottom4_rate": 7.41,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 178,
-          "average_players_eliminated": 2.56
-        },
-        "economy": {
-          "average_gold_left": 11.96
-        }
-      },
-      "collected_at": "2026-08-18T15:54:50.227660+00:00",
-      "rank_checked_at": "2026-08-18T15:54:50.227660+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:54:50.227660+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 989
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "MIR_QgVjqeV_nJQLMGwuSGeWDPgX_NupP5ExGgwfb2uz-d1RX9mmuCDcfgydeh0iG97hr09fnkWbIQ",
-      "game_name": "JôrFP",
-      "tag_line": "BR1",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "GRANDMASTER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 558,
-      "current_tier": "GRANDMASTER",
-      "current_division": "I",
-      "current_league_points": 558,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 4.2,
-          "top4_rate": 60.0,
-          "win_rate": 16.67,
-          "average_level": 8.4
-        },
-        "consistency": {
-          "placement_variance": 5.43,
-          "placement_standard_deviation": 2.33,
-          "bottom4_rate": 40.0,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 105.13,
-          "average_players_eliminated": 1.07
-        },
-        "economy": {
-          "average_gold_left": 13
-        }
-      },
-      "collected_at": "2026-08-18T15:55:43.673000+00:00",
-      "rank_checked_at": "2026-08-18T15:55:43.673000+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:55:43.673000+00:00",
-          "tier": "GRANDMASTER",
-          "division": "I",
-          "league_points": 558
-        }
-      ]
-    },
-    {
-      "benchmark_id": "elite",
-      "puuid": "LmX-xoNHkadHVQsVDlxTuzUvGvgH40Z2AHdmf1mRH0ITWlH3ykHP3QU3mn_N-Zld73rVc1Kur0KXVg",
-      "game_name": "levelmaximo",
-      "tag_line": "1996",
-      "queue_type": "RANKED_TFT",
-      "tier_at_collection": "CHALLENGER",
-      "division_at_collection": "I",
-      "league_points_at_collection": 984,
-      "current_tier": "CHALLENGER",
-      "current_division": "I",
-      "current_league_points": 984,
-      "matches_used": 30,
-      "metrics": {
-        "general": {
-          "matches_played": 30,
-          "average_placement": 3.2,
-          "top4_rate": 76.67,
-          "win_rate": 23.33,
-          "average_level": 8.53
-        },
-        "consistency": {
-          "placement_variance": 3.43,
-          "placement_standard_deviation": 1.85,
-          "bottom4_rate": 23.33,
-          "best_placement": 1,
-          "worst_placement": 8
-        },
-        "combat": {
-          "average_damage_to_players": 127.3,
-          "average_players_eliminated": 0.93
-        },
-        "economy": {
-          "average_gold_left": 12.87
-        }
-      },
-      "collected_at": "2026-08-18T15:56:41.464028+00:00",
-      "rank_checked_at": "2026-08-18T15:56:41.464028+00:00",
-      "rank_history": [
-        {
-          "checked_at": "2026-08-18T15:56:41.464028+00:00",
-          "tier": "CHALLENGER",
-          "division": "I",
-          "league_points": 984
+          "league_points": 42
         }
       ]
     }

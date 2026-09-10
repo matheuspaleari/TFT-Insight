@@ -85,7 +85,10 @@ class PerformanceCalculator:
             .average_players_eliminated
         )
 
-        if average_players_eliminated is not None:
+        if (
+            average_players_eliminated is not None
+            and benchmark.average_players_eliminated is not None
+        ):
             evaluations.append(
                 MetricEvaluator.evaluate(
                     metric=MetricType.PLAYERS_ELIMINATED,
@@ -105,7 +108,10 @@ class PerformanceCalculator:
             .average_damage_to_players
         )
 
-        if average_damage_to_players is not None:
+        if (
+            average_damage_to_players is not None
+            and benchmark.average_damage_to_players is not None
+        ):
             evaluations.append(
                 MetricEvaluator.evaluate(
                     metric=MetricType.DAMAGE_TO_PLAYERS,

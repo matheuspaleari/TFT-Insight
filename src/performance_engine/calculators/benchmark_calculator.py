@@ -18,6 +18,10 @@ class BenchmarkCalculator:
 
     Não busca dados na Riot API e não interpreta desempenho.
     Apenas consolida métricas já calculadas.
+
+    Métricas de combate indisponíveis são ignoradas na distribuição.
+    Se nenhum jogador possuir um valor válido para uma métrica de combate,
+    o benchmark preserva essa métrica como None.
     """
 
     @staticmethod
@@ -29,14 +33,6 @@ class BenchmarkCalculator:
     ) -> Benchmark:
         """
         Constrói um benchmark a partir das métricas recebidas.
-
-        Args:
-            metrics: Métricas dos jogadores analisados.
-            name: Nome do benchmark.
-            total_matches: Total de partidas utilizadas.
-
-        Returns:
-            Benchmark consolidado.
         """
 
         if not metrics:
@@ -122,13 +118,13 @@ class BenchmarkCalculator:
             ),
 
             average_damage_to_players=(
-                BenchmarkCalculator._build_metric(
+                BenchmarkCalculator._build_optional_metric(
                     average_damage_values
                 )
             ),
 
             average_players_eliminated=(
-                BenchmarkCalculator._build_metric(
+                BenchmarkCalculator._build_optional_metric(
                     average_eliminations_values
                 )
             ),
@@ -140,6 +136,28 @@ class BenchmarkCalculator:
                 ),
                 2,
             ),
+        )
+
+    @staticmethod
+    def _build_optional_metric(
+        values: list[float | None],
+    ) -> BenchmarkMetric | None:
+        """
+        Constrói uma distribuição usando apenas valores disponíveis.
+
+        None significa dado indisponível e nunca é convertido para zero.
+        """
+        available_values = [
+            value
+            for value in values
+            if value is not None
+        ]
+
+        if not available_values:
+            return None
+
+        return BenchmarkCalculator._build_metric(
+            available_values
         )
 
     @staticmethod

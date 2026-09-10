@@ -1,0 +1,4707 @@
+{
+  "benchmark_id": "novice",
+  "generated_at": "2026-09-09T15:32:57.363616+00:00",
+  "players_count": 100,
+  "players": [
+    {
+      "benchmark_id": "novice",
+      "puuid": "CWex9wzHx6s_VqvP4F0Zm_FFDWig5jd6Eo59lxPb_cHnJPG-BX9lVqRO9L4UUGDl0LzYd53qDgkr5Q",
+      "game_name": "NoahRip",
+      "tag_line": "Noah",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 7,
+      "metrics": {
+        "general": {
+          "matches_played": 7,
+          "average_placement": 5.43,
+          "top4_rate": 14.29,
+          "win_rate": 14.29,
+          "average_level": 7.57
+        },
+        "consistency": {
+          "placement_variance": 3.67,
+          "placement_standard_deviation": 1.92,
+          "bottom4_rate": 85.71,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 21.57
+        }
+      },
+      "collected_at": "2026-09-09T15:17:22.593998+00:00",
+      "rank_checked_at": "2026-09-09T15:17:22.593998+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:17:22.593998+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "-mJ3wYqFSbzIplTNP74FNUOR4siaCZY1QipU5Z9VbRWME_0uzFnn3IKnL6eKELy8uPGRYoMVEaz8VA",
+      "game_name": "MtxFactor",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 12,
+      "metrics": {
+        "general": {
+          "matches_played": 12,
+          "average_placement": 4,
+          "top4_rate": 58.33,
+          "win_rate": 0.0,
+          "average_level": 8.33
+        },
+        "consistency": {
+          "placement_variance": 3.5,
+          "placement_standard_deviation": 1.87,
+          "bottom4_rate": 41.67,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 9.83
+        }
+      },
+      "collected_at": "2026-09-09T15:17:27.338108+00:00",
+      "rank_checked_at": "2026-09-09T15:17:27.338108+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:17:27.338108+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "PTz3GEJSwBGiA12njgAxrQVb0f_V57EYGCifaZq05pRkrxK5Y1yoXs5HzPJKKimBuj6tocRO-XlBTA",
+      "game_name": "Saintzu",
+      "tag_line": "1997",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 16,
+      "metrics": {
+        "general": {
+          "matches_played": 16,
+          "average_placement": 4.12,
+          "top4_rate": 50.0,
+          "win_rate": 18.75,
+          "average_level": 8.62
+        },
+        "consistency": {
+          "placement_variance": 6.36,
+          "placement_standard_deviation": 2.52,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 20.44
+        }
+      },
+      "collected_at": "2026-09-09T15:17:32.048115+00:00",
+      "rank_checked_at": "2026-09-09T15:17:32.048115+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:17:32.048115+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "w7boCXMiDv9qvxLRrTQ1f4O8P3L1UdB37izgWgl54AbyrFMdx0DiTFyc9Fo2jH4g2w4ie1s5l-0xyA",
+      "game_name": "WarriorRevenge",
+      "tag_line": "War",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 98,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 98,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 5,
+          "top4_rate": 40.0,
+          "win_rate": 0.0,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 1.2,
+          "placement_standard_deviation": 1.1,
+          "bottom4_rate": 60.0,
+          "best_placement": 4,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 15.6
+        }
+      },
+      "collected_at": "2026-09-09T15:17:36.833042+00:00",
+      "rank_checked_at": "2026-09-09T15:17:36.833042+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:17:36.833042+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "q7AqKT4SXmCCUq_mWUw3aq8zl-YlaENAhXJpL2NPmGOjVjxHA7zO3EBemsm0RuENvg7kbqs7oKTLZQ",
+      "game_name": "Capixaba Dele",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 99,
+      "matches_used": 14,
+      "metrics": {
+        "general": {
+          "matches_played": 14,
+          "average_placement": 4.93,
+          "top4_rate": 42.86,
+          "win_rate": 7.14,
+          "average_level": 7.57
+        },
+        "consistency": {
+          "placement_variance": 3.21,
+          "placement_standard_deviation": 1.79,
+          "bottom4_rate": 57.14,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 1.86
+        }
+      },
+      "collected_at": "2026-09-09T15:19:39.119848+00:00",
+      "rank_checked_at": "2026-09-09T15:19:39.119848+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:19:39.119848+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "QIREjt8xHcM6kHM4vGeuM7JPPYAeW9SSz_YVyo8g1YOAuAgYfEYESvK3WDWevOJvbiC9g9zNkU9DCQ",
+      "game_name": "ÉO JHXN",
+      "tag_line": "CVRL",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 99,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 99,
+      "matches_used": 16,
+      "metrics": {
+        "general": {
+          "matches_played": 16,
+          "average_placement": 3.62,
+          "top4_rate": 68.75,
+          "win_rate": 18.75,
+          "average_level": 9
+        },
+        "consistency": {
+          "placement_variance": 5.36,
+          "placement_standard_deviation": 2.32,
+          "bottom4_rate": 31.25,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 26.81
+        }
+      },
+      "collected_at": "2026-09-09T15:19:43.878463+00:00",
+      "rank_checked_at": "2026-09-09T15:19:43.878463+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:19:43.878463+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "8Pb44xn2fmVMm0zML-VReLfKJa6h2ZsT0tGKhKl94LTGIyFkgajbrkP8_Yia-KDRrwG5hEANB-juJg",
+      "game_name": "EragonX",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 99,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 99,
+      "matches_used": 8,
+      "metrics": {
+        "general": {
+          "matches_played": 8,
+          "average_placement": 6,
+          "top4_rate": 12.5,
+          "win_rate": 0.0,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 1.5,
+          "placement_standard_deviation": 1.22,
+          "bottom4_rate": 87.5,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 5.88
+        }
+      },
+      "collected_at": "2026-09-09T15:19:48.594353+00:00",
+      "rank_checked_at": "2026-09-09T15:19:48.594353+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:19:48.594353+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "ajD-FGtRPMe7N5zy-dnukUpP6wT-Vmh3tD_tCQKuqBNPR1NKKNOCJfl8O48ubWxy7q9M0iNvKG9chA",
+      "game_name": "TPM Capes",
+      "tag_line": "TPM",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 99,
+      "matches_used": 8,
+      "metrics": {
+        "general": {
+          "matches_played": 8,
+          "average_placement": 5,
+          "top4_rate": 50.0,
+          "win_rate": 12.5,
+          "average_level": 7.25
+        },
+        "consistency": {
+          "placement_variance": 4.5,
+          "placement_standard_deviation": 2.12,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 11
+        }
+      },
+      "collected_at": "2026-09-09T15:19:53.345608+00:00",
+      "rank_checked_at": "2026-09-09T15:19:53.345608+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:19:53.345608+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "nlm8NxtPxIg2EpZVS49Ob3SqDfRTqAi36zDBYxVBd-uWb7JziY6kI1pT13DL2x_L-buYC8IlqbnNhg",
+      "game_name": "Membro",
+      "tag_line": "1234",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 99,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 99,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 5.03,
+          "top4_rate": 43.33,
+          "win_rate": 3.33,
+          "average_level": 7.9
+        },
+        "consistency": {
+          "placement_variance": 3.7,
+          "placement_standard_deviation": 1.92,
+          "bottom4_rate": 56.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.07
+        }
+      },
+      "collected_at": "2026-09-09T15:19:58.105738+00:00",
+      "rank_checked_at": "2026-09-09T15:19:58.105738+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:19:58.105738+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "HoJn2wLatAY8om4oDjKlPjIlVVOf5FDo7rSURG3bNXGJ39wVCqRUWxauHOWfJzCFX3AdUzmZ7OC1eA",
+      "game_name": "amainiris",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 77,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 77,
+      "matches_used": 22,
+      "metrics": {
+        "general": {
+          "matches_played": 22,
+          "average_placement": 7.18,
+          "top4_rate": 9.09,
+          "win_rate": 0.0,
+          "average_level": 6.23
+        },
+        "consistency": {
+          "placement_variance": 1.42,
+          "placement_standard_deviation": 1.19,
+          "bottom4_rate": 90.91,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.86
+        }
+      },
+      "collected_at": "2026-09-09T15:20:02.849828+00:00",
+      "rank_checked_at": "2026-09-09T15:20:02.849828+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:02.849828+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 77
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "jXb28g45mE_X9gYg-2jsbl48ykClpH-hFqXegvljv7A7apAhURZSK8DWUTDsazMIXN8JkVAJVWRwDw",
+      "game_name": "Mystique",
+      "tag_line": "MANU",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "IV",
+      "current_league_points": 99,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 4.83,
+          "top4_rate": 50.0,
+          "win_rate": 0.0,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 3.47,
+          "placement_standard_deviation": 1.86,
+          "bottom4_rate": 50.0,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 13.33
+        }
+      },
+      "collected_at": "2026-09-09T15:20:07.560717+00:00",
+      "rank_checked_at": "2026-09-09T15:20:07.560717+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:07.560717+00:00",
+          "tier": "BRONZE",
+          "division": "IV",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "1fPVNgVqrxt1-M8Z1ccCd_5_XaXSnuRit4fnrxS3nCH3470En7NdK35UUjFGzAcMZL4m8gyliUZgQQ",
+      "game_name": "SrBabayaga",
+      "tag_line": "42852",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 97,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 97,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.73,
+          "top4_rate": 43.33,
+          "win_rate": 6.67,
+          "average_level": 8.13
+        },
+        "consistency": {
+          "placement_variance": 3.4,
+          "placement_standard_deviation": 1.84,
+          "bottom4_rate": 56.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 5.93
+        }
+      },
+      "collected_at": "2026-09-09T15:20:12.282149+00:00",
+      "rank_checked_at": "2026-09-09T15:20:12.282149+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:12.282149+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "hZzBdlfimsWYhm1_KUG2M_01_iBxVo3qPbF2g7AJNl35w-FVHctLea9rjOJEoAInADcOAIh8uhLc9w",
+      "game_name": "JOTACE",
+      "tag_line": "BRA01",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 5.8,
+          "top4_rate": 40.0,
+          "win_rate": 0.0,
+          "average_level": 7.6
+        },
+        "consistency": {
+          "placement_variance": 3.76,
+          "placement_standard_deviation": 1.94,
+          "bottom4_rate": 60.0,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.6
+        }
+      },
+      "collected_at": "2026-09-09T15:20:17.008877+00:00",
+      "rank_checked_at": "2026-09-09T15:20:17.008877+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:17.008877+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "sbp3OlpbLIcM9a9MAfIFBV4fgRg4sFzWKoEd-FRVqa7s83xRxpcXnBIHVDtVGoBksjOFjziT5qJbYg",
+      "game_name": "pikolehh",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 24,
+      "metrics": {
+        "general": {
+          "matches_played": 24,
+          "average_placement": 4.33,
+          "top4_rate": 54.17,
+          "win_rate": 12.5,
+          "average_level": 8.25
+        },
+        "consistency": {
+          "placement_variance": 4.06,
+          "placement_standard_deviation": 2.01,
+          "bottom4_rate": 45.83,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 49.54
+        }
+      },
+      "collected_at": "2026-09-09T15:20:21.737395+00:00",
+      "rank_checked_at": "2026-09-09T15:20:21.737395+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:21.737395+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "G8Hm_veC4Z5EU39L6xgjOkxs1DbPUzTM4IXESIttqq0ur9d6b3ZMbgYbND-icmBUm6rhXH-I8AyPgg",
+      "game_name": "Darknote",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 9,
+      "metrics": {
+        "general": {
+          "matches_played": 9,
+          "average_placement": 3.44,
+          "top4_rate": 88.89,
+          "win_rate": 22.22,
+          "average_level": 9.33
+        },
+        "consistency": {
+          "placement_variance": 1.8,
+          "placement_standard_deviation": 1.34,
+          "bottom4_rate": 11.11,
+          "best_placement": 1,
+          "worst_placement": 5
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 11.33
+        }
+      },
+      "collected_at": "2026-09-09T15:20:26.487314+00:00",
+      "rank_checked_at": "2026-09-09T15:20:26.487314+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:26.487314+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "tv-OadWdeq3k7mQ6FsnS3q1kHZabv8n6jIL40Kxt0mXLWmdbMqagL3RZhoYoUsfevuV4HhOsK5LozA",
+      "game_name": "GipsyDanger",
+      "tag_line": "7847",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 10,
+      "metrics": {
+        "general": {
+          "matches_played": 10,
+          "average_placement": 5.5,
+          "top4_rate": 30.0,
+          "win_rate": 0.0,
+          "average_level": 7.4
+        },
+        "consistency": {
+          "placement_variance": 2.25,
+          "placement_standard_deviation": 1.5,
+          "bottom4_rate": 70.0,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 32.9
+        }
+      },
+      "collected_at": "2026-09-09T15:20:31.262813+00:00",
+      "rank_checked_at": "2026-09-09T15:20:31.262813+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:31.262813+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "6BrMdVjI8TeOQQQC4XmjL0q6wAI4K_dVPCSRqsTkH12JqP4rL98bpGQZ-E_vdE2m2vyVIwIbwHk4yA",
+      "game_name": "Jorge",
+      "tag_line": "iFood",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 96,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 96,
+      "matches_used": 20,
+      "metrics": {
+        "general": {
+          "matches_played": 20,
+          "average_placement": 5.2,
+          "top4_rate": 50.0,
+          "win_rate": 0.0,
+          "average_level": 7.65
+        },
+        "consistency": {
+          "placement_variance": 3.26,
+          "placement_standard_deviation": 1.81,
+          "bottom4_rate": 50.0,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 17.45
+        }
+      },
+      "collected_at": "2026-09-09T15:20:36.043369+00:00",
+      "rank_checked_at": "2026-09-09T15:20:36.043369+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:36.043369+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "R2lFzXzkH-MauYegaJ7-noYFxHHn-bMQkLMxxTpiGkEpCPwrbWKlxBWK1PWzW4-5I0ISWFZHdrC3jw",
+      "game_name": "xerlok",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 18,
+      "metrics": {
+        "general": {
+          "matches_played": 18,
+          "average_placement": 4.17,
+          "top4_rate": 50.0,
+          "win_rate": 22.22,
+          "average_level": 7.11
+        },
+        "consistency": {
+          "placement_variance": 5.47,
+          "placement_standard_deviation": 2.34,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 23.17
+        }
+      },
+      "collected_at": "2026-09-09T15:20:40.762222+00:00",
+      "rank_checked_at": "2026-09-09T15:20:40.762222+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:40.762222+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "bM3N0oDlxe4C42SdtLt9HvPEHSbYOIBFNE-C4c9gO-2myqnKNNu4AhDjLdt8ZFxmGmXKeoPiivjJgg",
+      "game_name": "Stanleychines",
+      "tag_line": "safad",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 93,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 93,
+      "matches_used": 9,
+      "metrics": {
+        "general": {
+          "matches_played": 9,
+          "average_placement": 6.78,
+          "top4_rate": 11.11,
+          "win_rate": 0.0,
+          "average_level": 7.11
+        },
+        "consistency": {
+          "placement_variance": 1.95,
+          "placement_standard_deviation": 1.4,
+          "bottom4_rate": 88.89,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 3.22
+        }
+      },
+      "collected_at": "2026-09-09T15:20:45.477314+00:00",
+      "rank_checked_at": "2026-09-09T15:20:45.477314+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:45.477314+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "IEAu7zRMaqiZ2IDoPtW9oVz-7kEDECUW1INtq4wk2P9H_OzFojmvb2nk-1stExXlo_GBHFwy2CJH8Q",
+      "game_name": "GrrMoura",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 99,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.7,
+          "top4_rate": 53.33,
+          "win_rate": 0.0,
+          "average_level": 8.93
+        },
+        "consistency": {
+          "placement_variance": 4.28,
+          "placement_standard_deviation": 2.07,
+          "bottom4_rate": 46.67,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 15.93
+        }
+      },
+      "collected_at": "2026-09-09T15:20:50.208318+00:00",
+      "rank_checked_at": "2026-09-09T15:20:50.208318+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:50.208318+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "rn74eNalXG6byjgMxyw7y5yHvwaEKHlcaSj7ApmHFWnaWcUSo-L3V6AOGf88_f7rp8w8nrEAkaIztA",
+      "game_name": "MainTsuNAMI97",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 95,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 95,
+      "matches_used": 24,
+      "metrics": {
+        "general": {
+          "matches_played": 24,
+          "average_placement": 4.46,
+          "top4_rate": 50.0,
+          "win_rate": 0.0,
+          "average_level": 8.58
+        },
+        "consistency": {
+          "placement_variance": 2.58,
+          "placement_standard_deviation": 1.61,
+          "bottom4_rate": 50.0,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 6.38
+        }
+      },
+      "collected_at": "2026-09-09T15:20:54.911293+00:00",
+      "rank_checked_at": "2026-09-09T15:20:54.911293+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:54.911293+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "1J55cAc3xcHzHh40vGIU4R8CwomAF8cgsll9EpyUL6SCVH6ag7i3BnEb6hJU-cGtae5F-rOPqofsNw",
+      "game_name": "gbrdc",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 75,
+      "matches_used": 21,
+      "metrics": {
+        "general": {
+          "matches_played": 21,
+          "average_placement": 6.9,
+          "top4_rate": 4.76,
+          "win_rate": 0.0,
+          "average_level": 7.19
+        },
+        "consistency": {
+          "placement_variance": 1.23,
+          "placement_standard_deviation": 1.11,
+          "bottom4_rate": 95.24,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 30.24
+        }
+      },
+      "collected_at": "2026-09-09T15:20:59.671448+00:00",
+      "rank_checked_at": "2026-09-09T15:20:59.671448+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:20:59.671448+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "DIgAMjR-9tRZChJq3he61v_yVMMAOV36IoQJ9D6BN5wNBDXU89WKblXb_Z6JtCMA_WxFb7JuDRPyUw",
+      "game_name": "AfterPrime",
+      "tag_line": "157",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 98,
+      "current_tier": "BRONZE",
+      "current_division": "IV",
+      "current_league_points": 98,
+      "matches_used": 20,
+      "metrics": {
+        "general": {
+          "matches_played": 20,
+          "average_placement": 5.65,
+          "top4_rate": 35.0,
+          "win_rate": 5.0,
+          "average_level": 7.2
+        },
+        "consistency": {
+          "placement_variance": 4.13,
+          "placement_standard_deviation": 2.03,
+          "bottom4_rate": 65.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 6.55
+        }
+      },
+      "collected_at": "2026-09-09T15:21:04.333910+00:00",
+      "rank_checked_at": "2026-09-09T15:21:04.333910+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:04.333910+00:00",
+          "tier": "BRONZE",
+          "division": "IV",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "ftMGz-8TIUJi0gEPrgDcbBFmEpFrat1gJB-YN8L3sG1qdgPH_mETT-EuNKp-T2cZD2XgOAP1P5017Q",
+      "game_name": "Parado no Tempo",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 96,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 96,
+      "matches_used": 19,
+      "metrics": {
+        "general": {
+          "matches_played": 19,
+          "average_placement": 4.89,
+          "top4_rate": 42.11,
+          "win_rate": 0.0,
+          "average_level": 7.58
+        },
+        "consistency": {
+          "placement_variance": 1.88,
+          "placement_standard_deviation": 1.37,
+          "bottom4_rate": 57.89,
+          "best_placement": 2,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 3.89
+        }
+      },
+      "collected_at": "2026-09-09T15:21:09.075732+00:00",
+      "rank_checked_at": "2026-09-09T15:21:09.075732+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:09.075732+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "WrUtK2ywf91lohx0UObI4qFuFgvPdFrtQWlTpfNwM9CYyN0Aqoat8q16hGfhtGsN7GB7SQ7Y9RQEtg",
+      "game_name": "Fauhir",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 98,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 98,
+      "matches_used": 8,
+      "metrics": {
+        "general": {
+          "matches_played": 8,
+          "average_placement": 4.5,
+          "top4_rate": 37.5,
+          "win_rate": 0.0,
+          "average_level": 7.5
+        },
+        "consistency": {
+          "placement_variance": 1,
+          "placement_standard_deviation": 1.0,
+          "bottom4_rate": 62.5,
+          "best_placement": 3,
+          "worst_placement": 6
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 2.88
+        }
+      },
+      "collected_at": "2026-09-09T15:21:13.836258+00:00",
+      "rank_checked_at": "2026-09-09T15:21:13.836258+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:13.836258+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "OrV_GCfO9WAPVHO_GlbnfbvzCSdcr1UvgJX9GoMcgIghLeGk6NrF_Ad-_OVoMBEVF38dM5haexoSZg",
+      "game_name": "Yuc",
+      "tag_line": "BR01",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 99,
+      "matches_used": 22,
+      "metrics": {
+        "general": {
+          "matches_played": 22,
+          "average_placement": 4.86,
+          "top4_rate": 40.91,
+          "win_rate": 9.09,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 4.48,
+          "placement_standard_deviation": 2.12,
+          "bottom4_rate": 59.09,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 18.23
+        }
+      },
+      "collected_at": "2026-09-09T15:21:18.545440+00:00",
+      "rank_checked_at": "2026-09-09T15:21:18.545440+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:18.545440+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "T6KABgrF6Bckyg7Gl7czoJpcOrmKmOk81Ie5BS4J5587LTjz9dJ7XE1OqSlx9pPI6-y302Kisq0Ybg",
+      "game_name": "Rick P1k4 torta",
+      "tag_line": "BR2",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 96,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 96,
+      "matches_used": 7,
+      "metrics": {
+        "general": {
+          "matches_played": 7,
+          "average_placement": 3.71,
+          "top4_rate": 57.14,
+          "win_rate": 28.57,
+          "average_level": 8.14
+        },
+        "consistency": {
+          "placement_variance": 5.92,
+          "placement_standard_deviation": 2.43,
+          "bottom4_rate": 42.86,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 14.43
+        }
+      },
+      "collected_at": "2026-09-09T15:21:23.212019+00:00",
+      "rank_checked_at": "2026-09-09T15:21:23.212019+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:23.212019+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "rNs5N-SYLScdIk4uY1MPae0C286CF_9x3xBGzVU-961CgedHkncp-7P1lBB5aLqna0MoTMooCDcF0Q",
+      "game_name": "joaosdds",
+      "tag_line": "4641",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 7,
+      "metrics": {
+        "general": {
+          "matches_played": 7,
+          "average_placement": 5.14,
+          "top4_rate": 42.86,
+          "win_rate": 0.0,
+          "average_level": 7.57
+        },
+        "consistency": {
+          "placement_variance": 1.27,
+          "placement_standard_deviation": 1.12,
+          "bottom4_rate": 57.14,
+          "best_placement": 4,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 13.29
+        }
+      },
+      "collected_at": "2026-09-09T15:21:27.924888+00:00",
+      "rank_checked_at": "2026-09-09T15:21:27.924888+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:27.924888+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "zOMlY00w0T8giTmhSfvHWFPzgDbrcCq1QRrq-voXWAu7sP7eqcw46C94WLawteT255xNlliClWEzlQ",
+      "game_name": "LTK",
+      "tag_line": "000",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 94,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 94,
+      "matches_used": 14,
+      "metrics": {
+        "general": {
+          "matches_played": 14,
+          "average_placement": 5.21,
+          "top4_rate": 28.57,
+          "win_rate": 7.14,
+          "average_level": 7.57
+        },
+        "consistency": {
+          "placement_variance": 5.31,
+          "placement_standard_deviation": 2.3,
+          "bottom4_rate": 71.43,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 24.57
+        }
+      },
+      "collected_at": "2026-09-09T15:21:32.636679+00:00",
+      "rank_checked_at": "2026-09-09T15:21:32.636679+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:32.636679+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "SYL4ZttJTskqMPaTu87CS0CD_fKq3Rd1Kow3tvlA4i7jhogvY8_Z0dr42eI7fTff5ePga__IF1xX2g",
+      "game_name": "iTzLh4m4V0ad0r4",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 96,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 96,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.4,
+          "top4_rate": 50.0,
+          "win_rate": 6.67,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 5.24,
+          "placement_standard_deviation": 2.29,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 6.03
+        }
+      },
+      "collected_at": "2026-09-09T15:21:37.312695+00:00",
+      "rank_checked_at": "2026-09-09T15:21:37.312695+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:37.312695+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "oLXnRRsOAu3tBMJGaEq6wr1ZSVVUCzYSH131RCRnW05r4Ah_mz1lRrQUKlqp81YA1-r3TUgAM35xzw",
+      "game_name": "TENAJ SENUN",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 89,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 89,
+      "matches_used": 26,
+      "metrics": {
+        "general": {
+          "matches_played": 26,
+          "average_placement": 6.04,
+          "top4_rate": 15.38,
+          "win_rate": 3.85,
+          "average_level": 7.23
+        },
+        "consistency": {
+          "placement_variance": 3.11,
+          "placement_standard_deviation": 1.76,
+          "bottom4_rate": 84.62,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.88
+        }
+      },
+      "collected_at": "2026-09-09T15:21:41.996358+00:00",
+      "rank_checked_at": "2026-09-09T15:21:41.996358+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:41.996358+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 89
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "zqaYAOhmBgjQMwmcL2P_4dKtjxRUL8xqCjumCxbqXq3V-yadKwbHsmFY4H8L_FJRhX_GollQC7EgNQ",
+      "game_name": "Reiimarzinho",
+      "tag_line": "rezim",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 99,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 99,
+      "matches_used": 11,
+      "metrics": {
+        "general": {
+          "matches_played": 11,
+          "average_placement": 4.18,
+          "top4_rate": 63.64,
+          "win_rate": 9.09,
+          "average_level": 8.36
+        },
+        "consistency": {
+          "placement_variance": 4.15,
+          "placement_standard_deviation": 2.04,
+          "bottom4_rate": 36.36,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 3.55
+        }
+      },
+      "collected_at": "2026-09-09T15:21:46.707110+00:00",
+      "rank_checked_at": "2026-09-09T15:21:46.707110+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:46.707110+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 99
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "vhYUB1U5BfigBXfD2j6XfPBfkMfXBr9nkAVrvKTzRRxb-AMTqFxmBjs9tNV3fNSH7oJWZly7T39lBQ",
+      "game_name": "Multi",
+      "tag_line": "Poppy",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 95,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 95,
+      "matches_used": 21,
+      "metrics": {
+        "general": {
+          "matches_played": 21,
+          "average_placement": 3.62,
+          "top4_rate": 71.43,
+          "win_rate": 19.05,
+          "average_level": 7.81
+        },
+        "consistency": {
+          "placement_variance": 4.81,
+          "placement_standard_deviation": 2.19,
+          "bottom4_rate": 28.57,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.67
+        }
+      },
+      "collected_at": "2026-09-09T15:21:51.442252+00:00",
+      "rank_checked_at": "2026-09-09T15:21:51.442252+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:51.442252+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "nKSSJF5M8l7j3f1QPHG7spa5s3fDC27_JDqr4dN-0MjncxUtl_aigkzC-tj2aEVCl8nQz20ip9MOWw",
+      "game_name": "Richeritte",
+      "tag_line": "Hwei",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 75,
+      "matches_used": 19,
+      "metrics": {
+        "general": {
+          "matches_played": 19,
+          "average_placement": 5.89,
+          "top4_rate": 15.79,
+          "win_rate": 0.0,
+          "average_level": 8.05
+        },
+        "consistency": {
+          "placement_variance": 3.78,
+          "placement_standard_deviation": 1.94,
+          "bottom4_rate": 84.21,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 27.95
+        }
+      },
+      "collected_at": "2026-09-09T15:21:56.192913+00:00",
+      "rank_checked_at": "2026-09-09T15:21:56.192913+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:21:56.192913+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "P8-tnS_009-eIp4WwByaoPtdYcrBSssFODUAqPaHNVdByeaPsXYEU3tLHnXGJPwllVqlYGFJh_qwUg",
+      "game_name": "Sparkless",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 98,
+      "current_tier": "BRONZE",
+      "current_division": "IV",
+      "current_league_points": 98,
+      "matches_used": 18,
+      "metrics": {
+        "general": {
+          "matches_played": 18,
+          "average_placement": 5.17,
+          "top4_rate": 38.89,
+          "win_rate": 0.0,
+          "average_level": 7.83
+        },
+        "consistency": {
+          "placement_variance": 2.69,
+          "placement_standard_deviation": 1.64,
+          "bottom4_rate": 61.11,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 22.28
+        }
+      },
+      "collected_at": "2026-09-09T15:22:02.542856+00:00",
+      "rank_checked_at": "2026-09-09T15:22:02.542856+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:22:02.542856+00:00",
+          "tier": "BRONZE",
+          "division": "IV",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "buX8C4vsn2mvEtlOc8WjKLao7PNSIoyLDwexFjhlQ5e8Gh0Gypff1ov3iSTUy9K0BfZ_Zo-ODKGnNg",
+      "game_name": "Slamm",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 95,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 95,
+      "matches_used": 12,
+      "metrics": {
+        "general": {
+          "matches_played": 12,
+          "average_placement": 4.67,
+          "top4_rate": 41.67,
+          "win_rate": 25.0,
+          "average_level": 8.08
+        },
+        "consistency": {
+          "placement_variance": 6.39,
+          "placement_standard_deviation": 2.53,
+          "bottom4_rate": 58.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 10.42
+        }
+      },
+      "collected_at": "2026-09-09T15:22:07.238937+00:00",
+      "rank_checked_at": "2026-09-09T15:22:07.238937+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:22:07.238937+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "Pff3_iTNInBRqFT3HR9jHj0YV9oKdyrcTZCwJAJb1Xf04LBOeAFMqttW4NRQ6xf1L4223SjigV6kcA",
+      "game_name": "DeadOnKiss",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 97,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 97,
+      "matches_used": 7,
+      "metrics": {
+        "general": {
+          "matches_played": 7,
+          "average_placement": 5.14,
+          "top4_rate": 42.86,
+          "win_rate": 0.0,
+          "average_level": 7.57
+        },
+        "consistency": {
+          "placement_variance": 2.69,
+          "placement_standard_deviation": 1.64,
+          "bottom4_rate": 57.14,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.71
+        }
+      },
+      "collected_at": "2026-09-09T15:22:11.967958+00:00",
+      "rank_checked_at": "2026-09-09T15:22:11.967958+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:22:11.967958+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "m9coolKQqnY8zjyNJWphXm5dcOhYC1G6y2JBCAvnCT_k6Gv02Ii6R0yj6UePQa7TLIS_Jl799PjxXg",
+      "game_name": "Nakka",
+      "tag_line": "naka",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 98,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 98,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.53,
+          "top4_rate": 50.0,
+          "win_rate": 13.33,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 5.32,
+          "placement_standard_deviation": 2.31,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 19.03
+        }
+      },
+      "collected_at": "2026-09-09T15:22:16.673753+00:00",
+      "rank_checked_at": "2026-09-09T15:22:16.673753+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:22:16.673753+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "14GbUmq9CdHOPCGcP_Dwx_iae4V27Qk6o5n-V1rieMDaKnOEbDT88lQ2IjSKr_E8OIQPM7RTgaixBg",
+      "game_name": "therealkenzo",
+      "tag_line": "simp",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 95,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 95,
+      "matches_used": 24,
+      "metrics": {
+        "general": {
+          "matches_played": 24,
+          "average_placement": 3.92,
+          "top4_rate": 54.17,
+          "win_rate": 29.17,
+          "average_level": 8.38
+        },
+        "consistency": {
+          "placement_variance": 5.74,
+          "placement_standard_deviation": 2.4,
+          "bottom4_rate": 45.83,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 15.42
+        }
+      },
+      "collected_at": "2026-09-09T15:22:21.337060+00:00",
+      "rank_checked_at": "2026-09-09T15:22:21.337060+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:22:21.337060+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "lQwQQGqWcb1GJ44NjVQMrjmgvSemEpiKU8_F_iAk0lDZknCylJvHWGagL8haGJ0X_LePqIDmzv568A",
+      "game_name": "O Virtuoso",
+      "tag_line": "URSS",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 97,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 97,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 5,
+          "top4_rate": 40.0,
+          "win_rate": 0.0,
+          "average_level": 7
+        },
+        "consistency": {
+          "placement_variance": 1.2,
+          "placement_standard_deviation": 1.1,
+          "bottom4_rate": 60.0,
+          "best_placement": 4,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 6.6
+        }
+      },
+      "collected_at": "2026-09-09T15:22:26.017420+00:00",
+      "rank_checked_at": "2026-09-09T15:22:26.017420+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:22:26.017420+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "TGIoJlDOxpIDbweFKRwYH0tz9dLlM2Gsx94BfrvvucHVs2iL4LzmFXQ21BhUoSebM1jgM1VEtVbhog",
+      "game_name": "Kyuma Kurokami",
+      "tag_line": "Rei",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 92,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 92,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 5,
+          "top4_rate": 33.33,
+          "win_rate": 16.67,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 4,
+          "placement_standard_deviation": 2.0,
+          "bottom4_rate": 66.67,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 29.17
+        }
+      },
+      "collected_at": "2026-09-09T15:24:26.324124+00:00",
+      "rank_checked_at": "2026-09-09T15:24:26.324124+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:26.324124+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "x-cPvuUXH1sRIcB7B1QI_wyj_TFGSnImwMvRBcFB1U2qmv8flRqy97KFvMO-k6bDEYT8LZUaKFlKhg",
+      "game_name": "TFTEGA",
+      "tag_line": "IOC",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 96,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 96,
+      "matches_used": 8,
+      "metrics": {
+        "general": {
+          "matches_played": 8,
+          "average_placement": 3.62,
+          "top4_rate": 50.0,
+          "win_rate": 37.5,
+          "average_level": 8.88
+        },
+        "consistency": {
+          "placement_variance": 6.48,
+          "placement_standard_deviation": 2.55,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 14.38
+        }
+      },
+      "collected_at": "2026-09-09T15:24:31.037275+00:00",
+      "rank_checked_at": "2026-09-09T15:24:31.037275+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:31.037275+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "Enev7Nj6uvWQgOys94RInVhtk6pmBJ6c2RkozMbQ2fl7xm9OW_yDnCrz8X4vbs9hvP6iUOhIJ5S5Pw",
+      "game_name": "troteirodops",
+      "tag_line": "patas",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 89,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 89,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 2.4,
+          "top4_rate": 76.67,
+          "win_rate": 70.0,
+          "average_level": 6.77
+        },
+        "consistency": {
+          "placement_variance": 4.91,
+          "placement_standard_deviation": 2.22,
+          "bottom4_rate": 23.33,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.67
+        }
+      },
+      "collected_at": "2026-09-09T15:24:35.834749+00:00",
+      "rank_checked_at": "2026-09-09T15:24:35.834749+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:35.834749+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 89
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "--nRXqfmV76hVtq1Ju2D2kPWNzTymY4ldQ4WQwdPXaGvHAvDRG9Dyu6IcKPY0NYn7h0G0Cim0KMWHA",
+      "game_name": "hidron",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 98,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 98,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 3.83,
+          "top4_rate": 66.67,
+          "win_rate": 0.0,
+          "average_level": 7.83
+        },
+        "consistency": {
+          "placement_variance": 1.81,
+          "placement_standard_deviation": 1.34,
+          "bottom4_rate": 33.33,
+          "best_placement": 2,
+          "worst_placement": 6
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 5
+        }
+      },
+      "collected_at": "2026-09-09T15:24:40.610988+00:00",
+      "rank_checked_at": "2026-09-09T15:24:40.610988+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:40.610988+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "cUCtjsT-xVTZBdOGtCBUs7kzmR1Nt_qbVEQumnnDZiqCwt2Z0o7VVDxqH9Bt55oz92CE5fCsi_vucA",
+      "game_name": "Aizenrj2",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 94,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 94,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.67,
+          "top4_rate": 53.33,
+          "win_rate": 0.0,
+          "average_level": 7.7
+        },
+        "consistency": {
+          "placement_variance": 3.82,
+          "placement_standard_deviation": 1.96,
+          "bottom4_rate": 46.67,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 18.3
+        }
+      },
+      "collected_at": "2026-09-09T15:24:45.269859+00:00",
+      "rank_checked_at": "2026-09-09T15:24:45.269859+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:45.269859+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "ib0-yVBfUkvNa9AXtcBfPyGB10mpDvkZ7pAkg59S_4vd81zhTIozZN7OZ0QBDJAaC1jEfziM284NNw",
+      "game_name": "Jucas034",
+      "tag_line": "br3",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 75,
+      "matches_used": 15,
+      "metrics": {
+        "general": {
+          "matches_played": 15,
+          "average_placement": 7.93,
+          "top4_rate": 0.0,
+          "win_rate": 0.0,
+          "average_level": 4.93
+        },
+        "consistency": {
+          "placement_variance": 0.06,
+          "placement_standard_deviation": 0.25,
+          "bottom4_rate": 100.0,
+          "best_placement": 7,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 106.6
+        }
+      },
+      "collected_at": "2026-09-09T15:24:50.054033+00:00",
+      "rank_checked_at": "2026-09-09T15:24:50.054033+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:50.054033+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "Ws3dRPeA3KwSIXf9pVI7wy7UXeXQHnfVmdfdAX-xxMwDENMBA_V472CpcBeb7weKoHH34C3T2DVHLQ",
+      "game_name": "SirPerseu",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 98,
+      "current_tier": "BRONZE",
+      "current_division": "IV",
+      "current_league_points": 98,
+      "matches_used": 8,
+      "metrics": {
+        "general": {
+          "matches_played": 8,
+          "average_placement": 5.75,
+          "top4_rate": 25.0,
+          "win_rate": 0.0,
+          "average_level": 7.88
+        },
+        "consistency": {
+          "placement_variance": 4.44,
+          "placement_standard_deviation": 2.11,
+          "bottom4_rate": 75.0,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 5.75
+        }
+      },
+      "collected_at": "2026-09-09T15:24:54.901240+00:00",
+      "rank_checked_at": "2026-09-09T15:24:54.901240+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:54.901240+00:00",
+          "tier": "BRONZE",
+          "division": "IV",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "lg-55Ea-99EEpZ3db9Zaszer5gpYyP-gHpbo9B5qNDzBNscACUpJVyn4lLaFBhwNytrPZjTka_CWKA",
+      "game_name": "Hipotetic Neymar",
+      "tag_line": "GABRI",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 95,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 95,
+      "matches_used": 9,
+      "metrics": {
+        "general": {
+          "matches_played": 9,
+          "average_placement": 4,
+          "top4_rate": 66.67,
+          "win_rate": 11.11,
+          "average_level": 7.67
+        },
+        "consistency": {
+          "placement_variance": 4.67,
+          "placement_standard_deviation": 2.16,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.22
+        }
+      },
+      "collected_at": "2026-09-09T15:24:59.681918+00:00",
+      "rank_checked_at": "2026-09-09T15:24:59.681918+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:24:59.681918+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "UowenFZD5jHK5uQcKlwD0I3tvXoo5Fqp7WaMOlK0o72PuIhvhi5z5T2fcoNVT9gJ8lYoy06qiLiv5Q",
+      "game_name": "DuduMilfHunter",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 96,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 96,
+      "matches_used": 7,
+      "metrics": {
+        "general": {
+          "matches_played": 7,
+          "average_placement": 6.14,
+          "top4_rate": 28.57,
+          "win_rate": 0.0,
+          "average_level": 7.43
+        },
+        "consistency": {
+          "placement_variance": 4.12,
+          "placement_standard_deviation": 2.03,
+          "bottom4_rate": 71.43,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 20.43
+        }
+      },
+      "collected_at": "2026-09-09T15:25:24.533771+00:00",
+      "rank_checked_at": "2026-09-09T15:25:24.533771+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:24.533771+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "FIN6f8h4sKU3TyKoqlygHhCniWsBcwaw8IwFEatSts__B7_r4I_-NzENTeq93i-e388D2obHHdabNA",
+      "game_name": "KOREA",
+      "tag_line": "DOBR",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 98,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 98,
+      "matches_used": 9,
+      "metrics": {
+        "general": {
+          "matches_played": 9,
+          "average_placement": 2.89,
+          "top4_rate": 77.78,
+          "win_rate": 33.33,
+          "average_level": 8.67
+        },
+        "consistency": {
+          "placement_variance": 2.54,
+          "placement_standard_deviation": 1.59,
+          "bottom4_rate": 22.22,
+          "best_placement": 1,
+          "worst_placement": 5
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 24.11
+        }
+      },
+      "collected_at": "2026-09-09T15:25:29.308689+00:00",
+      "rank_checked_at": "2026-09-09T15:25:29.308689+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:29.308689+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 98
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "UPpVx-cY70rhwRCHpdvtyXvTfBp1t23TR1vPtI6fAvQHwMxq3GNsNxpvu4uWDx8mmDX3RKPbFYwVJA",
+      "game_name": "SoloQ NewRick",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 94,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 94,
+      "matches_used": 10,
+      "metrics": {
+        "general": {
+          "matches_played": 10,
+          "average_placement": 3.7,
+          "top4_rate": 70.0,
+          "win_rate": 40.0,
+          "average_level": 8.2
+        },
+        "consistency": {
+          "placement_variance": 8.01,
+          "placement_standard_deviation": 2.83,
+          "bottom4_rate": 30.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 29.3
+        }
+      },
+      "collected_at": "2026-09-09T15:25:34.070756+00:00",
+      "rank_checked_at": "2026-09-09T15:25:34.070756+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:34.070756+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "SNee9FpgeqQnEYFBqUxbCLUrJZIout_GAZheEJAUYovVSeitL1IyVWRGs_JI4kIFGw25Imyns4u5Wg",
+      "game_name": "NAV23",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 96,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 96,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 5.83,
+          "top4_rate": 16.67,
+          "win_rate": 0.0,
+          "average_level": 8
+        },
+        "consistency": {
+          "placement_variance": 2.47,
+          "placement_standard_deviation": 1.57,
+          "bottom4_rate": 83.33,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 3.5
+        }
+      },
+      "collected_at": "2026-09-09T15:25:38.798297+00:00",
+      "rank_checked_at": "2026-09-09T15:25:38.798297+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:38.798297+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "1vltChDOkB_P1n_0ReNhiPxkVcSA-2YGmiG_jAao3hO0HVZCyPkyOX_6aqL9b0CJ8FtJN7jsp6Ri9g",
+      "game_name": "Star Shopping",
+      "tag_line": "Umbre",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 89,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 89,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 4.17,
+          "top4_rate": 50.0,
+          "win_rate": 0.0,
+          "average_level": 7.5
+        },
+        "consistency": {
+          "placement_variance": 4.47,
+          "placement_standard_deviation": 2.11,
+          "bottom4_rate": 50.0,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.33
+        }
+      },
+      "collected_at": "2026-09-09T15:25:43.543788+00:00",
+      "rank_checked_at": "2026-09-09T15:25:43.543788+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:43.543788+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 89
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "KBcVn2X3P2r5p_CW1xIIExdDxzMe9gs7ytQ5Ct_TnBQIq4KbBmi0aXOs9Qgrl2L5UYBnV56mu71Kbw",
+      "game_name": "Lelê",
+      "tag_line": "8894",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 95,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 95,
+      "matches_used": 24,
+      "metrics": {
+        "general": {
+          "matches_played": 24,
+          "average_placement": 4.38,
+          "top4_rate": 62.5,
+          "win_rate": 12.5,
+          "average_level": 8.12
+        },
+        "consistency": {
+          "placement_variance": 4.65,
+          "placement_standard_deviation": 2.16,
+          "bottom4_rate": 37.5,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 16.42
+        }
+      },
+      "collected_at": "2026-09-09T15:25:48.253124+00:00",
+      "rank_checked_at": "2026-09-09T15:25:48.253124+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:48.253124+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "k4oeYiWDdnqvM_fR5UNkWLSSG2e9CGaxPHk4Qx5jVUFBRYgLF8Jnny4M7D68MdXCL223xyQTdOcLhg",
+      "game_name": "marlboro",
+      "tag_line": "yaru",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 75,
+      "matches_used": 20,
+      "metrics": {
+        "general": {
+          "matches_played": 20,
+          "average_placement": 6.1,
+          "top4_rate": 20.0,
+          "win_rate": 5.0,
+          "average_level": 7.35
+        },
+        "consistency": {
+          "placement_variance": 3.09,
+          "placement_standard_deviation": 1.76,
+          "bottom4_rate": 80.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 33.6
+        }
+      },
+      "collected_at": "2026-09-09T15:25:52.981993+00:00",
+      "rank_checked_at": "2026-09-09T15:25:52.981993+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:52.981993+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "tW8IJLlRfdW3smMUXC845qRmpZODxwzIjpBKpjx7gP7vmrnrdRmfycOIYKFwJnW8NBxq5yTo3Ba3gw",
+      "game_name": "Twtv Flavitchous",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 96,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 96,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 5,
+          "top4_rate": 20.0,
+          "win_rate": 0.0,
+          "average_level": 8.4
+        },
+        "consistency": {
+          "placement_variance": 2.8,
+          "placement_standard_deviation": 1.67,
+          "bottom4_rate": 80.0,
+          "best_placement": 2,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 25
+        }
+      },
+      "collected_at": "2026-09-09T15:25:57.751431+00:00",
+      "rank_checked_at": "2026-09-09T15:25:57.751431+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:25:57.751431+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "QHVo2IYZGTnwGUP9LYJu9Rrsjzq20JR5E-LG0lYoLILFXpkmqEJ8CH33cTdnwZumUslSy7KDKmLVAw",
+      "game_name": "Morozova",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 93,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 93,
+      "matches_used": 27,
+      "metrics": {
+        "general": {
+          "matches_played": 27,
+          "average_placement": 4.78,
+          "top4_rate": 48.15,
+          "win_rate": 7.41,
+          "average_level": 7.93
+        },
+        "consistency": {
+          "placement_variance": 4.77,
+          "placement_standard_deviation": 2.18,
+          "bottom4_rate": 51.85,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 13.19
+        }
+      },
+      "collected_at": "2026-09-09T15:26:02.476564+00:00",
+      "rank_checked_at": "2026-09-09T15:26:02.476564+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:02.476564+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "pY_lGa6Z9B9p_tWLpYinsQDWCGK1NyqCdoL5jxCzkRbd5qtMAsBQ2xmrBIlE2ugJtplqmgqwpL5nLA",
+      "game_name": "YsLaN",
+      "tag_line": "OWE",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 75,
+      "matches_used": 15,
+      "metrics": {
+        "general": {
+          "matches_played": 15,
+          "average_placement": 7.8,
+          "top4_rate": 0.0,
+          "win_rate": 0.0,
+          "average_level": 5.07
+        },
+        "consistency": {
+          "placement_variance": 0.16,
+          "placement_standard_deviation": 0.4,
+          "bottom4_rate": 100.0,
+          "best_placement": 7,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 133.87
+        }
+      },
+      "collected_at": "2026-09-09T15:26:07.220048+00:00",
+      "rank_checked_at": "2026-09-09T15:26:07.220048+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:07.220048+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "YByuXufmquR-b3kBIVzmPzteNh-zW1M7_eEtbCrB75rQd_PbHu9OkDIls4dhqippw_UL9_R4wc65RA",
+      "game_name": "Nizubay",
+      "tag_line": "2304",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 97,
+      "current_tier": "BRONZE",
+      "current_division": "IV",
+      "current_league_points": 97,
+      "matches_used": 8,
+      "metrics": {
+        "general": {
+          "matches_played": 8,
+          "average_placement": 5,
+          "top4_rate": 37.5,
+          "win_rate": 12.5,
+          "average_level": 7.88
+        },
+        "consistency": {
+          "placement_variance": 4,
+          "placement_standard_deviation": 2.0,
+          "bottom4_rate": 62.5,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 22
+        }
+      },
+      "collected_at": "2026-09-09T15:26:11.918644+00:00",
+      "rank_checked_at": "2026-09-09T15:26:11.918644+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:11.918644+00:00",
+          "tier": "BRONZE",
+          "division": "IV",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "ZM9V0YDw2VJfv1o9jsJJ9E61oDdPaXnTD5xlj0ye3VLH2x3pWh1TyE6Rpyjk6kwqC2tfbvJqHLFzrQ",
+      "game_name": "reciclador",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 94,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 94,
+      "matches_used": 15,
+      "metrics": {
+        "general": {
+          "matches_played": 15,
+          "average_placement": 4.4,
+          "top4_rate": 40.0,
+          "win_rate": 13.33,
+          "average_level": 8.07
+        },
+        "consistency": {
+          "placement_variance": 4.64,
+          "placement_standard_deviation": 2.15,
+          "bottom4_rate": 60.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 18.93
+        }
+      },
+      "collected_at": "2026-09-09T15:26:16.611929+00:00",
+      "rank_checked_at": "2026-09-09T15:26:16.611929+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:16.611929+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "VX2iS0Bhz9ACP9Y-L_uZBymkfKpkOyv1k6Z_xS2HdqKE0uW9CahSZOGh79CBQUWiTYqZNdzWxoHEjA",
+      "game_name": "Lectorx",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 95,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 95,
+      "matches_used": 16,
+      "metrics": {
+        "general": {
+          "matches_played": 16,
+          "average_placement": 2.25,
+          "top4_rate": 87.5,
+          "win_rate": 68.75,
+          "average_level": 8.75
+        },
+        "consistency": {
+          "placement_variance": 4.31,
+          "placement_standard_deviation": 2.08,
+          "bottom4_rate": 12.5,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 12.06
+        }
+      },
+      "collected_at": "2026-09-09T15:26:21.291731+00:00",
+      "rank_checked_at": "2026-09-09T15:26:21.291731+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:21.291731+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "0Af0Um3ei-sb53pfLYnuuf7NxNHC6LxEjkVt7SW3OvrlMNlC4fHWwxDR5Z561CTPQFCCnNhO2S3ybw",
+      "game_name": "NILTINHO FOREVER",
+      "tag_line": "PJL",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 97,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 97,
+      "matches_used": 8,
+      "metrics": {
+        "general": {
+          "matches_played": 8,
+          "average_placement": 4.25,
+          "top4_rate": 50.0,
+          "win_rate": 25.0,
+          "average_level": 8.12
+        },
+        "consistency": {
+          "placement_variance": 7.69,
+          "placement_standard_deviation": 2.77,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 1.5
+        }
+      },
+      "collected_at": "2026-09-09T15:26:26.054811+00:00",
+      "rank_checked_at": "2026-09-09T15:26:26.054811+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:26.054811+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 97
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "QS6YX8JhYCn0SosUOxhitegDFz1I-I8KJefbouWIhrHEVPoXbbbvK-N1eL61Fam8fM9GTyXk9B2Umw",
+      "game_name": "Sujeito",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 93,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 93,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.73,
+          "top4_rate": 43.33,
+          "win_rate": 10.0,
+          "average_level": 8.07
+        },
+        "consistency": {
+          "placement_variance": 4.66,
+          "placement_standard_deviation": 2.16,
+          "bottom4_rate": 56.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.7
+        }
+      },
+      "collected_at": "2026-09-09T15:26:30.847568+00:00",
+      "rank_checked_at": "2026-09-09T15:26:30.847568+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:30.847568+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "WJ02pDsGEU0SksjcnXTJQB9IVDFL_QnX20YJ2EZVV832AOvI5QewykZ-suuCWjw2TaLu0iJaLi0uNQ",
+      "game_name": "TR3W4Y",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 96,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 96,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 5.5,
+          "top4_rate": 33.33,
+          "win_rate": 0.0,
+          "average_level": 7.67
+        },
+        "consistency": {
+          "placement_variance": 1.92,
+          "placement_standard_deviation": 1.38,
+          "bottom4_rate": 66.67,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 12.17
+        }
+      },
+      "collected_at": "2026-09-09T15:26:35.575880+00:00",
+      "rank_checked_at": "2026-09-09T15:26:35.575880+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:35.575880+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "Uv8lWUmOWIjKT1uF1UffGimrHR8gYVlqHNqp1FpIv9xc8eg0l4iiw4n2tYGN0vChsQN5HUXupxk1lA",
+      "game_name": "xingxing",
+      "tag_line": "ning",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 86,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 86,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 4.5,
+          "top4_rate": 66.67,
+          "win_rate": 16.67,
+          "average_level": 7.83
+        },
+        "consistency": {
+          "placement_variance": 5.58,
+          "placement_standard_deviation": 2.36,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 1.67
+        }
+      },
+      "collected_at": "2026-09-09T15:26:40.326955+00:00",
+      "rank_checked_at": "2026-09-09T15:26:40.326955+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:40.326955+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 86
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "NGDTQfWxlp8KgvzkjceQC3fxbQzaOe5nijuYKiPGXRuw_4u10QT-DtrzDe2adKQ3TtH8eoiFQaAlmQ",
+      "game_name": "Bonin",
+      "tag_line": "7161",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 93,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 93,
+      "matches_used": 16,
+      "metrics": {
+        "general": {
+          "matches_played": 16,
+          "average_placement": 4.25,
+          "top4_rate": 62.5,
+          "win_rate": 6.25,
+          "average_level": 7.81
+        },
+        "consistency": {
+          "placement_variance": 5.19,
+          "placement_standard_deviation": 2.28,
+          "bottom4_rate": 37.5,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 27.19
+        }
+      },
+      "collected_at": "2026-09-09T15:26:45.065313+00:00",
+      "rank_checked_at": "2026-09-09T15:26:45.065313+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:45.065313+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "BpmZ9b2jRfZceURMecS9pxWeGgxemrlYOdpJWk8I0F6rU2Lm48J6_aDNyyVu6XypPDvAUP6Y386ITQ",
+      "game_name": "vander",
+      "tag_line": "vndrs",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 75,
+      "matches_used": 12,
+      "metrics": {
+        "general": {
+          "matches_played": 12,
+          "average_placement": 6.17,
+          "top4_rate": 8.33,
+          "win_rate": 0.0,
+          "average_level": 7.67
+        },
+        "consistency": {
+          "placement_variance": 1.97,
+          "placement_standard_deviation": 1.4,
+          "bottom4_rate": 91.67,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 42.83
+        }
+      },
+      "collected_at": "2026-09-09T15:26:49.764434+00:00",
+      "rank_checked_at": "2026-09-09T15:26:49.764434+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:49.764434+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "hsvPROjJfzM3Hdjum1SgwJf4WpR57lgGqt_cgAojgAoQphprbuRIYPmJ9Bq39IsJAO_OE-mZaS_aYg",
+      "game_name": "Edredom",
+      "tag_line": "godao",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 96,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 96,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 5,
+          "top4_rate": 33.33,
+          "win_rate": 16.67,
+          "average_level": 7.17
+        },
+        "consistency": {
+          "placement_variance": 5.67,
+          "placement_standard_deviation": 2.38,
+          "bottom4_rate": 66.67,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 21.5
+        }
+      },
+      "collected_at": "2026-09-09T15:26:54.554594+00:00",
+      "rank_checked_at": "2026-09-09T15:26:54.554594+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:54.554594+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "GDMtoqkmv-4jcvid4Ah2NuS2R0ySpgM6sLCoNuwtBmacxzLbmt7XnuJYgT897dCyaRryKwqrPDIY6w",
+      "game_name": "ArcanjoCastiel1",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 93,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 93,
+      "matches_used": 16,
+      "metrics": {
+        "general": {
+          "matches_played": 16,
+          "average_placement": 4.62,
+          "top4_rate": 50.0,
+          "win_rate": 0.0,
+          "average_level": 7.94
+        },
+        "consistency": {
+          "placement_variance": 3.73,
+          "placement_standard_deviation": 1.93,
+          "bottom4_rate": 50.0,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 4.69
+        }
+      },
+      "collected_at": "2026-09-09T15:26:59.250530+00:00",
+      "rank_checked_at": "2026-09-09T15:26:59.250530+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:26:59.250530+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "Iau3NfHlTl29VV6ZD-Kny4khZk6ojGfKnOX-fX9ICEObLiyFEX1UlCuADKcFx3WvJ-Zib3yckFLL5g",
+      "game_name": "euiparanoias",
+      "tag_line": "4i20",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 55,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 55,
+      "matches_used": 17,
+      "metrics": {
+        "general": {
+          "matches_played": 17,
+          "average_placement": 6.59,
+          "top4_rate": 0.0,
+          "win_rate": 0.0,
+          "average_level": 7.29
+        },
+        "consistency": {
+          "placement_variance": 1.18,
+          "placement_standard_deviation": 1.09,
+          "bottom4_rate": 100.0,
+          "best_placement": 5,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 14.59
+        }
+      },
+      "collected_at": "2026-09-09T15:27:04.123473+00:00",
+      "rank_checked_at": "2026-09-09T15:27:04.123473+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:27:04.123473+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 55
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "NMlUUacZtHZkBg9As9kYeok0MxZTqYJMisufyeNZjY1LJKmpF5SfngmyRDAiO-QhWCawQRE7uIGJMA",
+      "game_name": "postefalante",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 96,
+      "current_tier": "BRONZE",
+      "current_division": "IV",
+      "current_league_points": 96,
+      "matches_used": 9,
+      "metrics": {
+        "general": {
+          "matches_played": 9,
+          "average_placement": 4.89,
+          "top4_rate": 55.56,
+          "win_rate": 0.0,
+          "average_level": 7.67
+        },
+        "consistency": {
+          "placement_variance": 2.77,
+          "placement_standard_deviation": 1.66,
+          "bottom4_rate": 44.44,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 41.56
+        }
+      },
+      "collected_at": "2026-09-09T15:27:08.823736+00:00",
+      "rank_checked_at": "2026-09-09T15:27:08.823736+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:27:08.823736+00:00",
+          "tier": "BRONZE",
+          "division": "IV",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "5uQbpzyriHH1iCLwEcafxXqvPmEWUooofL0bzVqdSBHiL3NE9a0e4feYvdc0Se-oZa1pneId_HThUQ",
+      "game_name": "Marchi",
+      "tag_line": "GM1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 94,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 94,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 3.83,
+          "top4_rate": 66.67,
+          "win_rate": 16.67,
+          "average_level": 7.67
+        },
+        "consistency": {
+          "placement_variance": 6.14,
+          "placement_standard_deviation": 2.48,
+          "bottom4_rate": 33.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 25
+        }
+      },
+      "collected_at": "2026-09-09T15:27:13.491989+00:00",
+      "rank_checked_at": "2026-09-09T15:27:13.491989+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:27:13.491989+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "nTAj8QzbM4q3QqJTxLuanhX1m42pvrFW9PT0nO3xl5u75w2UTvxi7jbqOEeWnQbbpeW-MBODmUYoPQ",
+      "game_name": "BS Gibby",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 95,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 95,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 5.4,
+          "top4_rate": 40.0,
+          "win_rate": 0.0,
+          "average_level": 7.8
+        },
+        "consistency": {
+          "placement_variance": 3.04,
+          "placement_standard_deviation": 1.74,
+          "bottom4_rate": 60.0,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 12.8
+        }
+      },
+      "collected_at": "2026-09-09T15:29:04.192316+00:00",
+      "rank_checked_at": "2026-09-09T15:29:04.192316+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:29:04.192316+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "Nr-tfjUPOp6d1Ic_9xMkmAgbsS4UKSj2V90Z6IRIlkkSnmmzRdwPtcmrAp-K2teIWqOrvTtmkuqtYQ",
+      "game_name": "Milamores",
+      "tag_line": "1997",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 95,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 95,
+      "matches_used": 15,
+      "metrics": {
+        "general": {
+          "matches_played": 15,
+          "average_placement": 4.93,
+          "top4_rate": 46.67,
+          "win_rate": 0.0,
+          "average_level": 8.53
+        },
+        "consistency": {
+          "placement_variance": 5.4,
+          "placement_standard_deviation": 2.32,
+          "bottom4_rate": 53.33,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 10.07
+        }
+      },
+      "collected_at": "2026-09-09T15:29:09.040333+00:00",
+      "rank_checked_at": "2026-09-09T15:29:09.040333+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:29:09.040333+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "MHhDZpPARuy_S_t5-GpBWpcqOcwYbG8WT-lveZ01UNGcD9z6Z04k4MV95t2Qh88pwoxek-RStwRnKg",
+      "game_name": "Korrout",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 93,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 93,
+      "matches_used": 17,
+      "metrics": {
+        "general": {
+          "matches_played": 17,
+          "average_placement": 4.29,
+          "top4_rate": 52.94,
+          "win_rate": 23.53,
+          "average_level": 8.24
+        },
+        "consistency": {
+          "placement_variance": 6.09,
+          "placement_standard_deviation": 2.47,
+          "bottom4_rate": 47.06,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 19.82
+        }
+      },
+      "collected_at": "2026-09-09T15:29:13.789478+00:00",
+      "rank_checked_at": "2026-09-09T15:29:13.789478+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:29:13.789478+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "zxlzBz9iukzbLIgExrQ39_ehPMDRT5AyEDQ42Mtx22NX9E7cGTNXSfUQCDdnxTXPEeQJpxWxv8t19Q",
+      "game_name": "Louberg",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 94,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 94,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 6.33,
+          "top4_rate": 16.67,
+          "win_rate": 0.0,
+          "average_level": 8.17
+        },
+        "consistency": {
+          "placement_variance": 3.22,
+          "placement_standard_deviation": 1.8,
+          "bottom4_rate": 83.33,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 12.5
+        }
+      },
+      "collected_at": "2026-09-09T15:29:18.554866+00:00",
+      "rank_checked_at": "2026-09-09T15:29:18.554866+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:29:18.554866+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "BS4heO_OyqaUh5Z4Y5XzYoWsMvP0l_hxGKNoSLVJeu4vxzpxLz47XEnQLcxow_GPmCLTWi0EPe5BSw",
+      "game_name": "paulito",
+      "tag_line": "6414",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 86,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 86,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 3.8,
+          "top4_rate": 40.0,
+          "win_rate": 20.0,
+          "average_level": 7.8
+        },
+        "consistency": {
+          "placement_variance": 3.76,
+          "placement_standard_deviation": 1.94,
+          "bottom4_rate": 60.0,
+          "best_placement": 1,
+          "worst_placement": 6
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 9.4
+        }
+      },
+      "collected_at": "2026-09-09T15:29:23.295833+00:00",
+      "rank_checked_at": "2026-09-09T15:29:23.295833+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:29:23.295833+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 86
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "MKorSp4qK6iNoWQipw6zHUqeLK2dZIxyh0PSvXEkCUB2Up12vJxK7lE8W_AbzOb8zRY4qeW1iv_xwQ",
+      "game_name": "hglsmoke",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 89,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 89,
+      "matches_used": 23,
+      "metrics": {
+        "general": {
+          "matches_played": 23,
+          "average_placement": 4.26,
+          "top4_rate": 52.17,
+          "win_rate": 4.35,
+          "average_level": 8.3
+        },
+        "consistency": {
+          "placement_variance": 4.19,
+          "placement_standard_deviation": 2.05,
+          "bottom4_rate": 47.83,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 14.17
+        }
+      },
+      "collected_at": "2026-09-09T15:29:28.031695+00:00",
+      "rank_checked_at": "2026-09-09T15:29:28.031695+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:29:28.031695+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 89
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "moZ7iPOAVMwMDkTpwB4kwXi_x3NMJSB5ZDMnJkfuFlTaPuz3w17Tf56aXuabo_VePdNFoJCGiZGeJg",
+      "game_name": "joaodx987",
+      "tag_line": "7301",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 75,
+      "matches_used": 16,
+      "metrics": {
+        "general": {
+          "matches_played": 16,
+          "average_placement": 6.31,
+          "top4_rate": 6.25,
+          "win_rate": 0.0,
+          "average_level": 7.12
+        },
+        "consistency": {
+          "placement_variance": 0.96,
+          "placement_standard_deviation": 0.98,
+          "bottom4_rate": 93.75,
+          "best_placement": 4,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 20.31
+        }
+      },
+      "collected_at": "2026-09-09T15:31:12.059716+00:00",
+      "rank_checked_at": "2026-09-09T15:31:12.059716+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:12.059716+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "rRZ68IikpSnd9GkBwPh0VYk8TIZO832kH1dusyhpZeyq70JB7mKbn0mDvW0WYgVKBoOJdsFo_he5Og",
+      "game_name": "Canudo d Prasco",
+      "tag_line": "PE1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 96,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 96,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 4.4,
+          "top4_rate": 60.0,
+          "win_rate": 0.0,
+          "average_level": 7.4
+        },
+        "consistency": {
+          "placement_variance": 5.04,
+          "placement_standard_deviation": 2.24,
+          "bottom4_rate": 40.0,
+          "best_placement": 2,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 13
+        }
+      },
+      "collected_at": "2026-09-09T15:31:16.760125+00:00",
+      "rank_checked_at": "2026-09-09T15:31:16.760125+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:16.760125+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 96
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "CXf0awXxnscuBocMxklwmK-MW7d2Rfwpd6-aLN0FTt4WAoRdWSNvRyXpaQoxNVAdjCfR3IGb2_r3PA",
+      "game_name": "Markalo",
+      "tag_line": "lopes",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 92,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 92,
+      "matches_used": 30,
+      "metrics": {
+        "general": {
+          "matches_played": 30,
+          "average_placement": 4.5,
+          "top4_rate": 56.67,
+          "win_rate": 3.33,
+          "average_level": 7.53
+        },
+        "consistency": {
+          "placement_variance": 3.38,
+          "placement_standard_deviation": 1.84,
+          "bottom4_rate": 43.33,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 10.13
+        }
+      },
+      "collected_at": "2026-09-09T15:31:21.448599+00:00",
+      "rank_checked_at": "2026-09-09T15:31:21.448599+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:21.448599+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "yTI5gH9yHr2JNidGi4H_NBQMrIEGprhlYudRVX9JnFVAuSnyszzFJx0rA-8QrNt5zQmlMB7SLhoN2w",
+      "game_name": "Dekstermurilin",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 55,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 55,
+      "matches_used": 17,
+      "metrics": {
+        "general": {
+          "matches_played": 17,
+          "average_placement": 6.35,
+          "top4_rate": 0.0,
+          "win_rate": 0.0,
+          "average_level": 7.71
+        },
+        "consistency": {
+          "placement_variance": 0.93,
+          "placement_standard_deviation": 0.97,
+          "bottom4_rate": 100.0,
+          "best_placement": 5,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 28.59
+        }
+      },
+      "collected_at": "2026-09-09T15:31:26.237041+00:00",
+      "rank_checked_at": "2026-09-09T15:31:26.237041+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:26.237041+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 55
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "-CRcNw3UbW9-sxgcf6YfLDzIwtZgSD6wb14dIjXivZbbfidAsG0yKuWqZllVG5iOQzWCPzNQ2hVO2g",
+      "game_name": "Kuroyami",
+      "tag_line": "1495",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 93,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 93,
+      "matches_used": 18,
+      "metrics": {
+        "general": {
+          "matches_played": 18,
+          "average_placement": 4.5,
+          "top4_rate": 50.0,
+          "win_rate": 5.56,
+          "average_level": 7.56
+        },
+        "consistency": {
+          "placement_variance": 3.14,
+          "placement_standard_deviation": 1.77,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.5
+        }
+      },
+      "collected_at": "2026-09-09T15:31:32.628834+00:00",
+      "rank_checked_at": "2026-09-09T15:31:32.628834+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:32.628834+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "KvPjQgEkwx0GqIJgWxCIaerjcV1wZ9Fifp16nvJcIsheGvxDgCE5MKEehQlLQYTKUXmg-LsJD_Tdpw",
+      "game_name": "Noguin",
+      "tag_line": "NIKA",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 94,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 94,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 5,
+          "top4_rate": 40.0,
+          "win_rate": 0.0,
+          "average_level": 7.6
+        },
+        "consistency": {
+          "placement_variance": 2.8,
+          "placement_standard_deviation": 1.67,
+          "bottom4_rate": 60.0,
+          "best_placement": 3,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 9.4
+        }
+      },
+      "collected_at": "2026-09-09T15:31:37.381153+00:00",
+      "rank_checked_at": "2026-09-09T15:31:37.381153+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:37.381153+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "yvNIA-d_UDKkVbHHRBWEL5rHfjDRz7rMonW8IM-hh7bDvKuHTUsSzN9Dbtdahhoeir1FCcMMZ03i7A",
+      "game_name": "Hot Willians",
+      "tag_line": "Gas",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 95,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 95,
+      "matches_used": 7,
+      "metrics": {
+        "general": {
+          "matches_played": 7,
+          "average_placement": 3.14,
+          "top4_rate": 71.43,
+          "win_rate": 14.29,
+          "average_level": 8.29
+        },
+        "consistency": {
+          "placement_variance": 2.12,
+          "placement_standard_deviation": 1.46,
+          "bottom4_rate": 28.57,
+          "best_placement": 1,
+          "worst_placement": 5
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 13.29
+        }
+      },
+      "collected_at": "2026-09-09T15:31:42.061450+00:00",
+      "rank_checked_at": "2026-09-09T15:31:42.061450+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:42.061450+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "hLl3DyvrDADXtXFHowJZr36Tc5ra9IcqPBvQ-rV4Y3TUl2MOjJ_ljwooYM0qA94JhRqOuRrQZ3robQ",
+      "game_name": "LATIN PARTY",
+      "tag_line": "LP1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 92,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 92,
+      "matches_used": 28,
+      "metrics": {
+        "general": {
+          "matches_played": 28,
+          "average_placement": 4.57,
+          "top4_rate": 53.57,
+          "win_rate": 14.29,
+          "average_level": 7.75
+        },
+        "consistency": {
+          "placement_variance": 6.24,
+          "placement_standard_deviation": 2.5,
+          "bottom4_rate": 46.43,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 21.5
+        }
+      },
+      "collected_at": "2026-09-09T15:31:46.800497+00:00",
+      "rank_checked_at": "2026-09-09T15:31:46.800497+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:46.800497+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "Qy2ASsEefVfymqlcmg41aimdP9jHAeZ2d8HZfjceTdf37n0isXTrrU0rHYpx3l3BV4DCOVz7kpCFNg",
+      "game_name": "Gal",
+      "tag_line": "BR10",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 92,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 92,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 6,
+          "top4_rate": 16.67,
+          "win_rate": 0.0,
+          "average_level": 7.5
+        },
+        "consistency": {
+          "placement_variance": 2.67,
+          "placement_standard_deviation": 1.63,
+          "bottom4_rate": 83.33,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 27.33
+        }
+      },
+      "collected_at": "2026-09-09T15:31:51.499339+00:00",
+      "rank_checked_at": "2026-09-09T15:31:51.499339+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:51.499339+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "O6YUgulVjj3hsyGMHA1iTtUu1vCv90nBTIZotmoePS-Au2HTKmxJnnfdqprlHeCWIKUjT9KeeOMzwQ",
+      "game_name": "milenadapavoro",
+      "tag_line": "BSCDA",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 85,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 85,
+      "matches_used": 9,
+      "metrics": {
+        "general": {
+          "matches_played": 9,
+          "average_placement": 4.44,
+          "top4_rate": 44.44,
+          "win_rate": 11.11,
+          "average_level": 7.78
+        },
+        "consistency": {
+          "placement_variance": 3.36,
+          "placement_standard_deviation": 1.83,
+          "bottom4_rate": 55.56,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.67
+        }
+      },
+      "collected_at": "2026-09-09T15:31:56.249114+00:00",
+      "rank_checked_at": "2026-09-09T15:31:56.249114+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:31:56.249114+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 85
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "nkJZ4xdYE0T1gCuYuOJZQZ0-RWo9O1Mt25PQyEVLV0X25WSsU2Cb0h1xDYDJ3YkmrnJWbQVdA0YIIQ",
+      "game_name": "Amir",
+      "tag_line": "G0AT",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "II",
+      "league_points_at_collection": 89,
+      "current_tier": "SILVER",
+      "current_division": "II",
+      "current_league_points": 89,
+      "matches_used": 18,
+      "metrics": {
+        "general": {
+          "matches_played": 18,
+          "average_placement": 4.17,
+          "top4_rate": 50.0,
+          "win_rate": 16.67,
+          "average_level": 7.83
+        },
+        "consistency": {
+          "placement_variance": 5.92,
+          "placement_standard_deviation": 2.43,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 7.67
+        }
+      },
+      "collected_at": "2026-09-09T15:32:00.931824+00:00",
+      "rank_checked_at": "2026-09-09T15:32:00.931824+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:00.931824+00:00",
+          "tier": "SILVER",
+          "division": "II",
+          "league_points": 89
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "ATLA-KaXpWmzbR-04FM6myUFhNjy0pMSDX19h-00MIa6hczrHYpaJcjv8zNaVENhzSUoS7utBNCv0g",
+      "game_name": "Ambrosiuus",
+      "tag_line": "BR1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "III",
+      "league_points_at_collection": 75,
+      "current_tier": "IRON",
+      "current_division": "III",
+      "current_league_points": 75,
+      "matches_used": 16,
+      "metrics": {
+        "general": {
+          "matches_played": 16,
+          "average_placement": 5.56,
+          "top4_rate": 25.0,
+          "win_rate": 12.5,
+          "average_level": 7.56
+        },
+        "consistency": {
+          "placement_variance": 5.0,
+          "placement_standard_deviation": 2.24,
+          "bottom4_rate": 75.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 26.81
+        }
+      },
+      "collected_at": "2026-09-09T15:32:05.638440+00:00",
+      "rank_checked_at": "2026-09-09T15:32:05.638440+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:05.638440+00:00",
+          "tier": "IRON",
+          "division": "III",
+          "league_points": 75
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "reb6BseE1bdThmVTO8CPXhqup6i1Jr-m3H7U9YFSbGzsnEmek_IefTSjCvn2SNAo9VSZGHuPjRDz3w",
+      "game_name": "bosta nuclear",
+      "tag_line": "br11",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "III",
+      "league_points_at_collection": 95,
+      "current_tier": "BRONZE",
+      "current_division": "III",
+      "current_league_points": 95,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 4.2,
+          "top4_rate": 60.0,
+          "win_rate": 0.0,
+          "average_level": 7.6
+        },
+        "consistency": {
+          "placement_variance": 2.96,
+          "placement_standard_deviation": 1.72,
+          "bottom4_rate": 40.0,
+          "best_placement": 2,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 43.2
+        }
+      },
+      "collected_at": "2026-09-09T15:32:10.366292+00:00",
+      "rank_checked_at": "2026-09-09T15:32:10.366292+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:10.366292+00:00",
+          "tier": "BRONZE",
+          "division": "III",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "xGr4bGQ9yILEDDStejZBotOSBALKfGEj8cvypw-M0Sie7YtUIndKafqqk-rJLtujGk3ZZslqNrLmvg",
+      "game_name": "Oshino Ougi",
+      "tag_line": "Ka Ka",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "III",
+      "league_points_at_collection": 91,
+      "current_tier": "SILVER",
+      "current_division": "III",
+      "current_league_points": 91,
+      "matches_used": 29,
+      "metrics": {
+        "general": {
+          "matches_played": 29,
+          "average_placement": 4,
+          "top4_rate": 62.07,
+          "win_rate": 17.24,
+          "average_level": 9.1
+        },
+        "consistency": {
+          "placement_variance": 5.52,
+          "placement_standard_deviation": 2.35,
+          "bottom4_rate": 37.93,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 16.34
+        }
+      },
+      "collected_at": "2026-09-09T15:32:15.972310+00:00",
+      "rank_checked_at": "2026-09-09T15:32:15.972310+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:15.972310+00:00",
+          "tier": "SILVER",
+          "division": "III",
+          "league_points": 91
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "-CmDdmd_EITxaGyjxCURqX81Yo3Kp1BbjYqRMmEEqcGlgkqc6JUXFCIwqh6_xbF5N8XO05YAeVAxhg",
+      "game_name": "Uilian Bonerr",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 45,
+      "current_tier": "IRON",
+      "current_division": "IV",
+      "current_league_points": 45,
+      "matches_used": 15,
+      "metrics": {
+        "general": {
+          "matches_played": 15,
+          "average_placement": 7.33,
+          "top4_rate": 0.0,
+          "win_rate": 0.0,
+          "average_level": 7.13
+        },
+        "consistency": {
+          "placement_variance": 0.62,
+          "placement_standard_deviation": 0.79,
+          "bottom4_rate": 100.0,
+          "best_placement": 6,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 38.4
+        }
+      },
+      "collected_at": "2026-09-09T15:32:23.981179+00:00",
+      "rank_checked_at": "2026-09-09T15:32:23.981179+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:23.981179+00:00",
+          "tier": "IRON",
+          "division": "IV",
+          "league_points": 45
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "0wjg19s6UbStQFHXjSJTnQEe_7G8EintgRMW3gZI8wx1T_Kau1wC7nxKjlpGy2nzRT0kfxKb7OeT7A",
+      "game_name": "Glntoki",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 95,
+      "current_tier": "BRONZE",
+      "current_division": "IV",
+      "current_league_points": 95,
+      "matches_used": 10,
+      "metrics": {
+        "general": {
+          "matches_played": 10,
+          "average_placement": 5,
+          "top4_rate": 50.0,
+          "win_rate": 0.0,
+          "average_level": 8.1
+        },
+        "consistency": {
+          "placement_variance": 2.2,
+          "placement_standard_deviation": 1.48,
+          "bottom4_rate": 50.0,
+          "best_placement": 3,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 8.7
+        }
+      },
+      "collected_at": "2026-09-09T15:32:28.723463+00:00",
+      "rank_checked_at": "2026-09-09T15:32:28.723463+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:28.723463+00:00",
+          "tier": "BRONZE",
+          "division": "IV",
+          "league_points": 95
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "TAUQq8wB2wHqUoe4fNhNTrnhRIZMCvaprONy-f5Zd_t9VPc0CfkkCfq3Ons4ngZ7-7pwm830CQSTbw",
+      "game_name": "Jungle Dif",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "IV",
+      "league_points_at_collection": 93,
+      "current_tier": "SILVER",
+      "current_division": "IV",
+      "current_league_points": 93,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 4.2,
+          "top4_rate": 60.0,
+          "win_rate": 20.0,
+          "average_level": 7.2
+        },
+        "consistency": {
+          "placement_variance": 4.56,
+          "placement_standard_deviation": 2.14,
+          "bottom4_rate": 40.0,
+          "best_placement": 1,
+          "worst_placement": 7
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 26.6
+        }
+      },
+      "collected_at": "2026-09-09T15:32:33.432709+00:00",
+      "rank_checked_at": "2026-09-09T15:32:33.432709+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:33.432709+00:00",
+          "tier": "SILVER",
+          "division": "IV",
+          "league_points": 93
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "VV6Z77b9Xi4DwxARA_gYTzNCmHcfKb8YWtos_ehkdTgtL-ddLevDZBFlgpQbtFJ0lxkNHiXexmLVAg",
+      "game_name": "Boi Selvagem",
+      "tag_line": "Nelor",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "I",
+      "league_points_at_collection": 94,
+      "current_tier": "IRON",
+      "current_division": "I",
+      "current_league_points": 94,
+      "matches_used": 5,
+      "metrics": {
+        "general": {
+          "matches_played": 5,
+          "average_placement": 5.2,
+          "top4_rate": 40.0,
+          "win_rate": 0.0,
+          "average_level": 7.6
+        },
+        "consistency": {
+          "placement_variance": 2.96,
+          "placement_standard_deviation": 1.72,
+          "bottom4_rate": 60.0,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 2.6
+        }
+      },
+      "collected_at": "2026-09-09T15:32:38.136469+00:00",
+      "rank_checked_at": "2026-09-09T15:32:38.136469+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:38.136469+00:00",
+          "tier": "IRON",
+          "division": "I",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "E70IzUbmkVz4dqNPDcxQ1nMbIme9-CtMNUEnAcpaDa2UNgzzdW1o4ZSlJoWLZ7v34RFIa9q8O4VB5w",
+      "game_name": "Alaxbiscaia",
+      "tag_line": "br11",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "I",
+      "league_points_at_collection": 94,
+      "current_tier": "BRONZE",
+      "current_division": "I",
+      "current_league_points": 94,
+      "matches_used": 23,
+      "metrics": {
+        "general": {
+          "matches_played": 23,
+          "average_placement": 1.87,
+          "top4_rate": 91.3,
+          "win_rate": 69.57,
+          "average_level": 8.96
+        },
+        "consistency": {
+          "placement_variance": 3.42,
+          "placement_standard_deviation": 1.85,
+          "bottom4_rate": 8.7,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 14.35
+        }
+      },
+      "collected_at": "2026-09-09T15:32:43.071619+00:00",
+      "rank_checked_at": "2026-09-09T15:32:43.071619+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:43.071619+00:00",
+          "tier": "BRONZE",
+          "division": "I",
+          "league_points": 94
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "m4C7OhRpntR57Ir4CwfN_AzYPQcqAA1iVRyp-NUG9fmwlV_D2zdegP34i68GIDhGoTZgmn9uE6xVrA",
+      "game_name": "2NicoBJJ",
+      "tag_line": "BRL",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "SILVER",
+      "division_at_collection": "I",
+      "league_points_at_collection": 92,
+      "current_tier": "SILVER",
+      "current_division": "I",
+      "current_league_points": 92,
+      "matches_used": 17,
+      "metrics": {
+        "general": {
+          "matches_played": 17,
+          "average_placement": 4.12,
+          "top4_rate": 58.82,
+          "win_rate": 17.65,
+          "average_level": 8.12
+        },
+        "consistency": {
+          "placement_variance": 5.63,
+          "placement_standard_deviation": 2.37,
+          "bottom4_rate": 41.18,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 24.53
+        }
+      },
+      "collected_at": "2026-09-09T15:32:47.842077+00:00",
+      "rank_checked_at": "2026-09-09T15:32:47.842077+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:47.842077+00:00",
+          "tier": "SILVER",
+          "division": "I",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "09GgQ1bj1g-BJjHrlkp3dPA-RZfjDNLAZ-SnrfGW7NvWq7ymz32E-n205OhGKw4y-S0ZQNNvkFAm2g",
+      "game_name": "AlexB",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "IRON",
+      "division_at_collection": "II",
+      "league_points_at_collection": 92,
+      "current_tier": "IRON",
+      "current_division": "II",
+      "current_league_points": 92,
+      "matches_used": 6,
+      "metrics": {
+        "general": {
+          "matches_played": 6,
+          "average_placement": 6,
+          "top4_rate": 16.67,
+          "win_rate": 0.0,
+          "average_level": 7.67
+        },
+        "consistency": {
+          "placement_variance": 3,
+          "placement_standard_deviation": 1.73,
+          "bottom4_rate": 83.33,
+          "best_placement": 3,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 36.17
+        }
+      },
+      "collected_at": "2026-09-09T15:32:52.616928+00:00",
+      "rank_checked_at": "2026-09-09T15:32:52.616928+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:52.616928+00:00",
+          "tier": "IRON",
+          "division": "II",
+          "league_points": 92
+        }
+      ]
+    },
+    {
+      "benchmark_id": "novice",
+      "puuid": "YWfw6JGOF1EplZ_OKEdp75HtIv-RtliMZ2GG85UsXYWTPCdzXHBNFkhWrPRTqgnxBJYPiqlAg2YMtQ",
+      "game_name": "Goat Jungle",
+      "tag_line": "br1",
+      "queue_type": "RANKED_TFT",
+      "tier_at_collection": "BRONZE",
+      "division_at_collection": "II",
+      "league_points_at_collection": 84,
+      "current_tier": "BRONZE",
+      "current_division": "II",
+      "current_league_points": 84,
+      "matches_used": 12,
+      "metrics": {
+        "general": {
+          "matches_played": 12,
+          "average_placement": 4.58,
+          "top4_rate": 50.0,
+          "win_rate": 16.67,
+          "average_level": 8.25
+        },
+        "consistency": {
+          "placement_variance": 5.41,
+          "placement_standard_deviation": 2.33,
+          "bottom4_rate": 50.0,
+          "best_placement": 1,
+          "worst_placement": 8
+        },
+        "combat": {
+          "average_damage_to_players": null,
+          "average_players_eliminated": null
+        },
+        "economy": {
+          "average_gold_left": 30.67
+        }
+      },
+      "collected_at": "2026-09-09T15:32:57.352930+00:00",
+      "rank_checked_at": "2026-09-09T15:32:57.352930+00:00",
+      "rank_history": [
+        {
+          "checked_at": "2026-09-09T15:32:57.352930+00:00",
+          "tier": "BRONZE",
+          "division": "II",
+          "league_points": 84
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,9 @@ from src.decision_engine.models import (
 )
 from src.performance_engine.models import Match
 from src.role_inference.models import ItemClassification
+from src.role_inference.repositories.unit_catalog_repository import (
+    UnitCatalogRepository,
+)
 from src.role_inference.services import RoleInferenceEngine
 
 from .contest_analyzer import ContestAnalyzer
@@ -565,13 +568,30 @@ class MatchDecisionExplanationEngine:
                 f"Itens no suporte: {support_items}",
                 (
                     "Carry detectado: "
-                    f"{role_report.damage_carry.character_id if role_report.damage_carry else '-'}"
+                    f"{cls._role_display_name(role_report.damage_carry)}"
                 ),
                 (
                     "Tank detectado: "
-                    f"{role_report.main_tank.character_id if role_report.main_tank else '-'}"
+                    f"{cls._role_display_name(role_report.main_tank)}"
                 ),
             ),
+        )
+
+    @staticmethod
+    def _role_display_name(assessment) -> str:
+        if assessment is None:
+            return "-"
+
+        character_id = str(
+            getattr(assessment, "character_id", "") or ""
+        ).strip()
+
+        if not character_id:
+            return "-"
+
+        return UnitCatalogRepository.display_name(
+            character_id=character_id,
+            fallback="-",
         )
 
     @classmethod

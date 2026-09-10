@@ -1,46 +1,30 @@
 {
     "name": "Avançado BR",
-    "players_analyzed": 50,
-    "matches_analyzed": 1499,
-    "average_placement": 3.93,
-    "top4_rate": 60.57,
-    "win_rate": 19.01,
+    "players_analyzed": 100,
+    "matches_analyzed": 2997,
+    "average_placement": 3.99,
+    "top4_rate": 59.82,
+    "win_rate": 17.14,
     "average_level": {
-        "mean": 8.53,
-        "median": 8.49,
-        "standard_deviation": 0.4,
-        "first_quartile": 8.33,
-        "third_quartile": 8.84,
-        "minimum": 7.47,
-        "maximum": 9.43
+        "mean": 8.23,
+        "median": 8.2,
+        "standard_deviation": 0.26,
+        "first_quartile": 8.03,
+        "third_quartile": 8.4,
+        "minimum": 7.53,
+        "maximum": 8.89
     },
     "placement_standard_deviation": {
-        "mean": 2.27,
-        "median": 2.28,
-        "standard_deviation": 0.23,
-        "first_quartile": 2.1,
-        "third_quartile": 2.42,
-        "minimum": 1.68,
-        "maximum": 2.75
+        "mean": 2.19,
+        "median": 2.2,
+        "standard_deviation": 0.24,
+        "first_quartile": 2.04,
+        "third_quartile": 2.35,
+        "minimum": 1.5,
+        "maximum": 2.69
     },
-    "bottom4_rate": 39.43,
-    "average_damage_to_players": {
-        "mean": 113.0,
-        "median": 112.77,
-        "standard_deviation": 12.89,
-        "first_quartile": 102.84,
-        "third_quartile": 121.14,
-        "minimum": 87.5,
-        "maximum": 151.17
-    },
-    "average_players_eliminated": {
-        "mean": 1.06,
-        "median": 1.03,
-        "standard_deviation": 0.28,
-        "first_quartile": 0.84,
-        "third_quartile": 1.29,
-        "minimum": 0.5,
-        "maximum": 1.7
-    },
-    "average_gold_left": 10.55
+    "bottom4_rate": 40.18,
+    "average_damage_to_players": null,
+    "average_players_eliminated": null,
+    "average_gold_left": 8.04
 }

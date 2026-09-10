@@ -303,8 +303,31 @@ class BenchmarkIntelligenceService:
                 "q25": value, "q75": value,
             }
 
-        for metric in ("average_level", "average_damage_to_players", "placement_standard_deviation"):
-            raw = data[metric]
+        for metric in (
+            "average_level",
+            "average_damage_to_players",
+            "placement_standard_deviation",
+        ):
+            raw = data.get(metric)
+
+            # Algumas métricas agregadas são opcionais. Ex.: benchmarks
+            # construídos sem dados de combate persistem
+            # average_damage_to_players como null. A ausência de uma
+            # distribuição não deve invalidar o benchmark inteiro.
+            if not isinstance(raw, dict):
+                continue
+
+            required_fields = (
+                "mean",
+                "median",
+                "minimum",
+                "maximum",
+                "first_quartile",
+                "third_quartile",
+            )
+            if any(raw.get(field) is None for field in required_fields):
+                continue
+
             metrics[metric] = {
                 "label": self.METRICS[metric]["label"],
                 "mean": float(raw["mean"]),

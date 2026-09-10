@@ -12,7 +12,7 @@ O script:
 7. salva um relatório CSV com a classificação final.
 
 Por padrão:
-- 50 jogadores;
+- 100 jogadores;
 - 30 partidas por jogador;
 - processamento em lotes de 25 partidas.
 """
@@ -61,9 +61,12 @@ from src.transformers.match_transformer import (
 )
 
 
-DEFAULT_PLAYERS = 50
+DEFAULT_PLAYERS = 100
 DEFAULT_MATCHES_PER_PLAYER = 30
 DEFAULT_BATCH_SIZE = 25
+TARGET_SET_NUMBER = 18
+TARGET_SET_CORE_NAME = "TFTSet18"
+MATCH_SCAN_MULTIPLIER = 2.0
 
 STATE_DIRECTORY = (
     PROJECT_ROOT
@@ -146,6 +149,15 @@ def parse_arguments() -> argparse.Namespace:
     )
 
     parser.add_argument(
+        "--reset-learning",
+        action="store_true",
+        help=(
+            "Apaga somente observações/relatórios e reinicia o estado "
+            "de processamento, preservando IDs e cache das partidas."
+        ),
+    )
+
+    parser.add_argument(
         "--refresh-communitydragon",
         action="store_true",
         help=(
@@ -175,6 +187,46 @@ def validate_arguments(
             "--batch-size deve ser maior que zero."
         )
 
+    if args.reset and args.reset_learning:
+        raise ValueError(
+            "Use apenas um modo de reset: --reset ou --reset-learning."
+        )
+
+
+def match_scan_limit(matches_per_player: int) -> int:
+    return max(
+        matches_per_player,
+        round(matches_per_player * MATCH_SCAN_MULTIPLIER),
+    )
+
+
+def is_target_set_match(match_data: dict[str, Any]) -> bool:
+    info = match_data.get("info")
+
+    if not isinstance(info, dict):
+        return False
+
+    raw_set_number = info.get("tft_set_number")
+    raw_core_name = info.get("tft_set_core_name")
+
+    set_number: int | None = None
+
+    try:
+        if raw_set_number is not None:
+            set_number = int(raw_set_number)
+    except (TypeError, ValueError):
+        set_number = None
+
+    core_name = str(raw_core_name or "").strip()
+
+    if set_number is not None:
+        return set_number == TARGET_SET_NUMBER
+
+    if core_name:
+        return core_name.casefold() == TARGET_SET_CORE_NAME.casefold()
+
+    return False
+
 
 def reset_state() -> None:
     if not STATE_DIRECTORY.exists():
@@ -188,6 +240,57 @@ def reset_state() -> None:
             path.unlink()
         elif path.is_dir():
             path.rmdir()
+
+
+def reset_learning_state() -> None:
+    """
+    Reinicia somente o aprendizado Challenger.
+
+    Preserva:
+    - match_index.json -> match_ids;
+    - data/role_inference/challenger/matches/*.json.
+
+    Remove:
+    - observações aprendidas;
+    - CSV e resumo;
+    - marcações processed/failed, para reprocessar o cache existente.
+    """
+    for path in (
+        OBSERVATIONS_PATH,
+        REPORT_CSV_PATH,
+        SUMMARY_JSON_PATH,
+    ):
+        if path.exists():
+            path.unlink()
+
+    index = load_index()
+
+    # Os IDs coletados são mantidos. Apenas o estado derivado do
+    # processamento/aprendizado é reiniciado.
+    index["processed_match_ids"] = []
+    index["failed_match_ids"] = {}
+    index["discarded_other_set"] = 0
+    index["accepted_set_matches"] = 0
+    index["target_set_number"] = TARGET_SET_NUMBER
+    index["target_set_core_name"] = TARGET_SET_CORE_NAME
+
+    save_index(index)
+
+    cached_matches = (
+        sum(
+            1
+            for path in MATCH_CACHE_DIRECTORY.glob("*.json")
+            if path.is_file()
+        )
+        if MATCH_CACHE_DIRECTORY.exists()
+        else 0
+    )
+
+    print(
+        "Aprendizado reiniciado seletivamente · "
+        f"{cached_matches} partidas em cache preservadas · "
+        f"{len(index.get('match_ids', {}))} IDs preservados."
+    )
 
 
 def load_rich_items() -> dict:
@@ -335,7 +438,7 @@ def collect_match_ids(
         try:
             match_ids = riot_client.get_match_ids(
                 puuid=puuid,
-                count=matches_per_player,
+                count=match_scan_limit(matches_per_player),
             )
 
         except RuntimeError as error:
@@ -360,7 +463,7 @@ def collect_match_ids(
 
         print(
             f"[{index_number}/{len(entries)}] "
-            f"{len(match_ids)} IDs recebidos · "
+            f"{len(match_ids)} IDs recebidos (scan) · "
             f"{added} novos · "
             f"{len(match_to_puuid)} únicos"
         )
@@ -497,6 +600,8 @@ def process_matches(
 
     batch = []
     started_at = time.monotonic()
+    discarded_other_set = 0
+    accepted_set_matches = 0
 
     for position, (
         match_id,
@@ -511,12 +616,25 @@ def process_matches(
                 match_id=match_id,
             )
 
+            if not is_target_set_match(match_data):
+                discarded_other_set += 1
+                processed.add(match_id)
+
+                index["processed_match_ids"] = sorted(processed)
+                index["failed_match_ids"] = failed
+                index["target_set_number"] = TARGET_SET_NUMBER
+                index["target_set_core_name"] = TARGET_SET_CORE_NAME
+                index["discarded_other_set"] = discarded_other_set
+                save_index(index)
+                continue
+
             match = MatchTransformer.transform(
                 match_data=match_data,
                 puuid=puuid,
             )
 
             batch.append(match)
+            accepted_set_matches += 1
 
         except (
             RuntimeError,
@@ -554,6 +672,10 @@ def process_matches(
             index[
                 "failed_match_ids"
             ] = failed
+            index["target_set_number"] = TARGET_SET_NUMBER
+            index["target_set_core_name"] = TARGET_SET_CORE_NAME
+            index["discarded_other_set"] = discarded_other_set
+            index["accepted_set_matches"] = accepted_set_matches
 
             save_index(index)
 
@@ -576,6 +698,10 @@ def process_matches(
         processed
     )
     index["failed_match_ids"] = failed
+    index["target_set_number"] = TARGET_SET_NUMBER
+    index["target_set_core_name"] = TARGET_SET_CORE_NAME
+    index["discarded_other_set"] = discarded_other_set
+    index["accepted_set_matches"] = accepted_set_matches
     save_index(index)
 
 
@@ -697,6 +823,11 @@ def save_report(
         "matches_per_player": (
             ARGS.matches_per_player
         ),
+        "match_scan_limit": match_scan_limit(
+            ARGS.matches_per_player
+        ),
+        "target_set_number": TARGET_SET_NUMBER,
+        "target_set_core_name": TARGET_SET_CORE_NAME,
         "unique_matches": len(
             index.get("match_ids", {})
         ),
@@ -711,6 +842,12 @@ def save_report(
                 "failed_match_ids",
                 {},
             )
+        ),
+        "discarded_other_set": int(
+            index.get("discarded_other_set", 0) or 0
+        ),
+        "accepted_set_matches": int(
+            index.get("accepted_set_matches", 0) or 0
         ),
         "classified_items": len(rows),
         "observations_path": str(
@@ -748,6 +885,18 @@ def save_report(
     print(
         f"Partidas com falha    : "
         f"{summary['failed_matches']}"
+    )
+    print(
+        f"Set alvo              : "
+        f"{summary['target_set_core_name']}"
+    )
+    print(
+        f"Partidas Set alvo     : "
+        f"{summary['accepted_set_matches']}"
+    )
+    print(
+        f"Outros Sets descart.  : "
+        f"{summary['discarded_other_set']}"
     )
     print(
         f"Itens observados      : "
@@ -803,6 +952,13 @@ def main() -> None:
         )
         reset_state()
 
+    elif ARGS.reset_learning:
+        print(
+            "Reiniciando somente o aprendizado Challenger "
+            "(cache de partidas será preservado)..."
+        )
+        reset_learning_state()
+
     STATE_DIRECTORY.mkdir(
         parents=True,
         exist_ok=True,
@@ -811,6 +967,15 @@ def main() -> None:
     rich_items = load_rich_items()
     riot_client = RiotClient()
     index = load_index()
+
+    print(
+        f"Set alvo            : {TARGET_SET_CORE_NAME} "
+        f"({TARGET_SET_NUMBER})"
+    )
+    print(
+        f"Scan por jogador    : "
+        f"{match_scan_limit(ARGS.matches_per_player)} IDs recentes"
+    )
 
     match_to_puuid = collect_match_ids(
         riot_client=riot_client,

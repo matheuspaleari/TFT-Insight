@@ -9,9 +9,11 @@ Gerar somente alguns grupos:
 
     python scripts/generate_all_benchmarks.py advanced expert
 
-Permitir uma quantidade menor de partidas válidas por jogador:
+Por padrão, aceita jogadores com pelo menos 5 partidas válidas do Set alvo.
 
-    python scripts/generate_all_benchmarks.py --minimum-valid-matches 25
+Alterar o mínimo manualmente:
+
+    python scripts/generate_all_benchmarks.py --minimum-valid-matches 10
 """
 
 from __future__ import annotations
@@ -47,6 +49,9 @@ from src.performance_engine.calculators import (
 )
 from src.performance_engine.collectors import (
     BenchmarkCollector,
+)
+from src.performance_engine.collectors.benchmark_collector import (
+    DEFAULT_MINIMUM_VALID_MATCHES,
 )
 from src.performance_engine.engine import (
     BenchmarkEngine,
@@ -112,11 +117,11 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "--minimum-valid-matches",
         type=int,
-        default=None,
+        default=DEFAULT_MINIMUM_VALID_MATCHES,
         help=(
             "Quantidade mínima de partidas válidas exigida "
-            "por jogador. O padrão exige todas as partidas "
-            "configuradas para o grupo."
+            "por jogador. Padrão: "
+            f"{DEFAULT_MINIMUM_VALID_MATCHES}."
         ),
     )
 
@@ -147,9 +152,6 @@ def validate_arguments(
         raise ValueError(
             "--minimum-valid-matches deve ser maior que zero."
         )
-
-    if minimum_valid_matches is None:
-        return
 
     smallest_configured_sample = min(
         configuration.matches_per_player
@@ -230,7 +232,7 @@ def print_plan(
         )
 
         required_matches = (
-            configuration.matches_per_player
+            DEFAULT_MINIMUM_VALID_MATCHES
             if minimum_valid_matches is None
             else minimum_valid_matches
         )

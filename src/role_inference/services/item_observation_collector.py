@@ -7,21 +7,24 @@ from src.role_inference.models import (
     ItemObservation,
     UnitRoleSeed,
 )
-
-from .unit_role_seed_inference import (
-    UnitRoleSeedInference,
+from src.role_inference.repositories.item_manual_catalog_repository import (
+    ItemManualCatalogRepository,
 )
+
+from .unit_role_seed_inference import UnitRoleSeedInference
 
 
 class ItemObservationCollector:
     """
     Gera observações estatísticas a partir de partidas enriquecidas.
 
-    Como o histórico oficial não expõe posição no tabuleiro, esta versão
-    não inventa frontline/backline. Esses campos permanecem zerados.
-
-    O papel inicial da unidade é inferido apenas quando sua itemização
-    possui evidência suficiente nos metadados completos.
+    Regras V2:
+    - o papel-semente da unidade continua vindo do UnitRoleSeedInference;
+    - itens manuais com learning_enabled=False não recebem novas observações;
+    - itens manuais com learning_enabled=True podem ser observados, mas essas
+      observações são apenas evidência secundária;
+    - itens ausentes do catálogo manual mantêm o comportamento legado;
+    - observações históricas já existentes não são apagadas automaticamente.
     """
 
     @classmethod
@@ -29,19 +32,15 @@ class ItemObservationCollector:
         cls,
         *,
         matches: list[Match],
-        item_classifications: dict[
-            str,
-            ItemClassification,
-        ],
-        existing: dict[
-            str,
-            ItemObservation,
-        ] | None = None,
+        item_classifications: dict[str, ItemClassification],
+        existing: dict[str, ItemObservation] | None = None,
     ) -> dict[str, ItemObservation]:
         if not matches:
             raise ValueError(
                 "É necessário informar ao menos uma partida."
             )
+
+        manual_catalog = ItemManualCatalogRepository().load_items()
 
         counters = defaultdict(
             lambda: {
@@ -54,51 +53,35 @@ class ItemObservationCollector:
         for match in matches:
             for participant in match.participants:
                 for unit in participant.units:
-                    assessment = (
-                        UnitRoleSeedInference.infer(
-                            unit=unit,
-                            classifications=(
-                                item_classifications
-                            ),
-                        )
+                    assessment = UnitRoleSeedInference.infer(
+                        unit=unit,
+                        classifications=item_classifications,
                     )
 
                     for item_id in unit.items:
+                        manual_entry = manual_catalog.get(item_id)
+
                         if (
-                            assessment.role
-                            == UnitRoleSeed.DAMAGE_CARRY
+                            manual_entry is not None
+                            and manual_entry["learning_enabled"] is False
                         ):
-                            counters[item_id][
-                                "damage_carry_uses"
-                            ] += 1
+                            continue
 
-                        elif (
-                            assessment.role
-                            == UnitRoleSeed.TANK
-                        ):
-                            counters[item_id][
-                                "tank_uses"
-                            ] += 1
+                        if assessment.role == UnitRoleSeed.DAMAGE_CARRY:
+                            counters[item_id]["damage_carry_uses"] += 1
 
-                        elif (
-                            assessment.role
-                            == UnitRoleSeed.SUPPORT
-                        ):
-                            counters[item_id][
-                                "support_uses"
-                            ] += 1
+                        elif assessment.role == UnitRoleSeed.TANK:
+                            counters[item_id]["tank_uses"] += 1
 
-        observations = dict(
-            existing
-            or {}
-        )
+                        elif assessment.role == UnitRoleSeed.SUPPORT:
+                            counters[item_id]["support_uses"] += 1
+
+        observations = dict(existing or {})
 
         for item_id, values in counters.items():
             current = observations.get(
                 item_id,
-                ItemObservation(
-                    item_id=item_id
-                ),
+                ItemObservation(item_id=item_id),
             )
 
             observations[item_id] = replace(

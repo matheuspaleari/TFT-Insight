@@ -11,12 +11,7 @@ from src.partner_analytics import PartnerAnalyticsRepository
 
 class DashboardAnalyticsService:
     def __init__(self) -> None:
-        self.repository = PartnerAnalyticsRepository(
-            PROJECT_ROOT
-            / "data"
-            / "partner"
-            / "partner_analytics.db"
-        )
+        self.repository = PartnerAnalyticsRepository()
         self.repository.initialize()
 
     def summary(self, *, hours: int = 24) -> dict:

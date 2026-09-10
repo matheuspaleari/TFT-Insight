@@ -25,8 +25,8 @@ class Benchmark:
 
     bottom4_rate: float
 
-    average_damage_to_players: BenchmarkMetric
-    average_players_eliminated: BenchmarkMetric
+    average_damage_to_players: BenchmarkMetric | None
+    average_players_eliminated: BenchmarkMetric | None
 
     average_gold_left: float
 
@@ -90,9 +90,13 @@ class Benchmark:
             "bottom4_rate": self.bottom4_rate,
             "average_damage_to_players": (
                 self.average_damage_to_players.to_dict()
+                if self.average_damage_to_players is not None
+                else None
             ),
             "average_players_eliminated": (
                 self.average_players_eliminated.to_dict()
+                if self.average_players_eliminated is not None
+                else None
             ),
             "average_gold_left": self.average_gold_left,
         }
@@ -157,13 +161,15 @@ class Benchmark:
                 BenchmarkMetric.from_dict(
                     data["average_damage_to_players"]
                 )
+                if data["average_damage_to_players"] is not None
+                else None
             ),
             average_players_eliminated=(
                 BenchmarkMetric.from_dict(
-                    data[
-                        "average_players_eliminated"
-                    ]
+                    data["average_players_eliminated"]
                 )
+                if data["average_players_eliminated"] is not None
+                else None
             ),
             average_gold_left=float(
                 data["average_gold_left"]

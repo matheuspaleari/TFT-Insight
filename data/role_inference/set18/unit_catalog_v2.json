@@ -1,0 +1,608 @@
+{
+  "schema_version": "2.0",
+  "set": {
+    "number": 18,
+    "core_name": "TFTSet18"
+  },
+  "display_policy": {
+    "website_field": "display_name",
+    "internal_lookup_field": "character_id",
+    "never_show_character_id_to_user": true
+  },
+  "units": [
+    {
+      "character_id": "DA_Sentinel18",
+      "display_name": "Azuporã",
+      "cost": 4,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_Fiddlesticks18",
+      "display_name": "Fiddlesticks",
+      "cost": 3,
+      "primary_role": "hybrid_tank",
+      "role_label": "Híbrido / Tank secundário",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Amumu18",
+      "display_name": "Amumu",
+      "cost": 4,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Yorick",
+      "display_name": "Yorick",
+      "cost": 1,
+      "primary_role": "tank",
+      "role_label": "Tank / Frontline",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Krug18",
+      "display_name": "Krugue",
+      "cost": 3,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_18_Malphite",
+      "display_name": "Malphite",
+      "cost": 4,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Zyra",
+      "display_name": "Zyra",
+      "cost": 4,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Sett",
+      "display_name": "Sett",
+      "cost": 4,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Soraka",
+      "display_name": "Soraka",
+      "cost": 4,
+      "primary_role": "ap_carry_support",
+      "role_label": "AP Carry / Suporte",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Nidalee18_AP",
+      "display_name": "Nidalee",
+      "cost": 4,
+      "primary_role": "hybrid_carry",
+      "role_label": "Carry híbrido",
+      "carry_eligible": true,
+      "unit_type": "champion_variant"
+    },
+    {
+      "character_id": "DA_Vi18",
+      "display_name": "Vi",
+      "cost": 3,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Azir",
+      "display_name": "Azir",
+      "cost": 3,
+      "primary_role": "secondary_ap_carry",
+      "role_label": "AP Carry secundário",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Taric18",
+      "display_name": "Taric",
+      "cost": 5,
+      "primary_role": "tank_support",
+      "role_label": "Tank / Suporte",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Kennen",
+      "display_name": "Kennen",
+      "cost": 5,
+      "primary_role": "hybrid_secondary_carry",
+      "role_label": "Carry híbrido / secundário",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Ornn",
+      "display_name": "Ornn",
+      "cost": 1,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_KogMaw18_AD",
+      "display_name": "Kog'Maw",
+      "cost": 3,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion_variant"
+    },
+    {
+      "character_id": "DA_18_Hecarim",
+      "display_name": "Hecarim",
+      "cost": 3,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Diana",
+      "display_name": "Diana",
+      "cost": 3,
+      "primary_role": "hybrid_secondary_carry",
+      "role_label": "Carry híbrido / secundário",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Rakan",
+      "display_name": "Rakan",
+      "cost": 1,
+      "primary_role": "support_tank",
+      "role_label": "Suporte / Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Sivir",
+      "display_name": "Sivir",
+      "cost": 4,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_GnarSmall",
+      "display_name": "Gnar",
+      "cost": 5,
+      "primary_role": "secondary_hybrid_ad_carry",
+      "role_label": "AD Carry secundário / Híbrido",
+      "carry_eligible": true,
+      "unit_type": "champion_variant"
+    },
+    {
+      "character_id": "DA_18_Aphelios",
+      "display_name": "Aphelios",
+      "cost": 4,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Lillia",
+      "display_name": "Lillia",
+      "cost": 4,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Leona",
+      "display_name": "Leona",
+      "cost": 1,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Brambleback18",
+      "display_name": "Rubrivira",
+      "cost": 4,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_18_Rammus",
+      "display_name": "Rammus",
+      "cost": 3,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Rengar",
+      "display_name": "Rengar",
+      "cost": 3,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Xayah",
+      "display_name": "Xayah",
+      "cost": 1,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Cinderling18",
+      "display_name": "Rubrivirim",
+      "cost": 1,
+      "primary_role": "unknown",
+      "role_label": "Especial / ainda não classificado",
+      "carry_eligible": false,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_18_Sejuani",
+      "display_name": "Sejuani",
+      "cost": 2,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Alune",
+      "display_name": "Alune",
+      "cost": 5,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_RekSai",
+      "display_name": "Rek'Sai",
+      "cost": 1,
+      "primary_role": "tank_hybrid",
+      "role_label": "Tank / Híbrido",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Maokai",
+      "display_name": "Maokai",
+      "cost": 5,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_CrimsonRaptor18",
+      "display_name": "Mamãe Bicuda",
+      "cost": 3,
+      "primary_role": "unknown",
+      "role_label": "Especial / ainda não classificado",
+      "carry_eligible": false,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_Lux18_Base",
+      "display_name": "Lux",
+      "cost": 5,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion_variant"
+    },
+    {
+      "character_id": "DA_18_MasterYi_AD",
+      "display_name": "Master Yi",
+      "cost": 3,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion_variant"
+    },
+    {
+      "character_id": "DA_18_Sentry",
+      "display_name": "Cascalho",
+      "cost": 1,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_18_Ezreal",
+      "display_name": "Ezreal",
+      "cost": 4,
+      "primary_role": "hybrid_ad_carry",
+      "role_label": "Carry híbrido / AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Ahri",
+      "display_name": "Ahri",
+      "cost": 4,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Kayle",
+      "display_name": "Kayle",
+      "cost": 2,
+      "primary_role": "hybrid_carry",
+      "role_label": "Carry / AP-AD híbrido",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Ivern",
+      "display_name": "Ivern",
+      "cost": 5,
+      "primary_role": "support",
+      "role_label": "Suporte",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Scuttlecrab18",
+      "display_name": "Aronguejo",
+      "cost": 2,
+      "primary_role": "support",
+      "role_label": "Especial / Suporte",
+      "carry_eligible": false,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_18_Morgana",
+      "display_name": "Morgana",
+      "cost": 4,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Alistar",
+      "display_name": "Alistar",
+      "cost": 2,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Shen",
+      "display_name": "Shen",
+      "cost": 2,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Ashe",
+      "display_name": "Ashe",
+      "cost": 5,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Tristana",
+      "display_name": "Tristana",
+      "cost": 3,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Cassiopeia",
+      "display_name": "Cassiopeia",
+      "cost": 3,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Karma18",
+      "display_name": "Karma",
+      "cost": 1,
+      "primary_role": "support_secondary_ap",
+      "role_label": "Suporte / AP secundário",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Draven18",
+      "display_name": "Draven",
+      "cost": 5,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Kobuko",
+      "display_name": "Kobuko",
+      "cost": 1,
+      "primary_role": "tank",
+      "role_label": "Tank",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Varus",
+      "display_name": "Varus",
+      "cost": 1,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_ElderDragon",
+      "display_name": "Dragão Ancião",
+      "cost": 5,
+      "primary_role": "carry",
+      "role_label": "Carry",
+      "carry_eligible": true,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_18_LeBlanc",
+      "display_name": "LeBlanc",
+      "cost": 2,
+      "primary_role": "secondary_ap_carry",
+      "role_label": "AP Carry / secundário",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Murkwolf18",
+      "display_name": "Lobo Trevoguari",
+      "cost": 2,
+      "primary_role": "frontline",
+      "role_label": "Especial / Frontline",
+      "carry_eligible": false,
+      "unit_type": "special"
+    },
+    {
+      "character_id": "DA_18_Veigar",
+      "display_name": "Veigar",
+      "cost": 1,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Akali_AD",
+      "display_name": "Akali",
+      "cost": 1,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion_variant"
+    },
+    {
+      "character_id": "DA_18_KhaZix",
+      "display_name": "Kha'Zix",
+      "cost": 3,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Camille",
+      "display_name": "Camille",
+      "cost": 1,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Elise",
+      "display_name": "Elise",
+      "cost": 2,
+      "primary_role": "tank_support",
+      "role_label": "Tank / Suporte",
+      "carry_eligible": false,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Teemo",
+      "display_name": "Teemo",
+      "cost": 2,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Yunara",
+      "display_name": "Yunara",
+      "cost": 2,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_18_Caitlyn",
+      "display_name": "Caitlyn",
+      "cost": 2,
+      "primary_role": "ad_carry",
+      "role_label": "AD Carry",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "DA_Gromp18_AP",
+      "display_name": "Grompe",
+      "cost": 2,
+      "primary_role": "ap_carry",
+      "role_label": "AP Carry",
+      "carry_eligible": true,
+      "unit_type": "special_variant"
+    },
+    {
+      "character_id": "DA_18_Warwick",
+      "display_name": "Warwick",
+      "cost": 2,
+      "primary_role": "hybrid_ad_carry",
+      "role_label": "AD Carry / Híbrido",
+      "carry_eligible": true,
+      "unit_type": "champion"
+    },
+    {
+      "character_id": "TFT18_Gromp",
+      "display_name": "Grompe",
+      "cost": 2,
+      "primary_role": "unknown",
+      "role_label": "Especial / ainda não classificado",
+      "carry_eligible": false,
+      "unit_type": "special"
+    }
+  ]
+}

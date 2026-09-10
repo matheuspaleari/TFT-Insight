@@ -18,3 +18,11 @@ pydantic
 
 # Environment
 python-dotenv
+
+
+# Authentication
+argon2-cffi
+PyJWT
+
+# PostgreSQL
+psycopg[binary]

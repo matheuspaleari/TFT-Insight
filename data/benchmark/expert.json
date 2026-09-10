@@ -1,46 +1,30 @@
 {
     "name": "Especialista BR",
-    "players_analyzed": 50,
-    "matches_analyzed": 1497,
-    "average_placement": 4.0,
-    "top4_rate": 61.38,
-    "win_rate": 17.17,
+    "players_analyzed": 96,
+    "matches_analyzed": 2880,
+    "average_placement": 4.22,
+    "top4_rate": 55.35,
+    "win_rate": 14.9,
     "average_level": {
-        "mean": 8.59,
-        "median": 8.52,
-        "standard_deviation": 0.3,
-        "first_quartile": 8.4,
-        "third_quartile": 8.76,
-        "minimum": 8,
-        "maximum": 9.83
+        "mean": 8.19,
+        "median": 8.2,
+        "standard_deviation": 0.24,
+        "first_quartile": 8.03,
+        "third_quartile": 8.37,
+        "minimum": 7.53,
+        "maximum": 8.7
     },
     "placement_standard_deviation": {
-        "mean": 2.22,
-        "median": 2.22,
-        "standard_deviation": 0.25,
-        "first_quartile": 2.05,
-        "third_quartile": 2.35,
-        "minimum": 1.58,
-        "maximum": 2.93
+        "mean": 2.24,
+        "median": 2.25,
+        "standard_deviation": 0.19,
+        "first_quartile": 2.11,
+        "third_quartile": 2.37,
+        "minimum": 1.76,
+        "maximum": 2.61
     },
-    "bottom4_rate": 38.62,
-    "average_damage_to_players": {
-        "mean": 110.66,
-        "median": 109.15,
-        "standard_deviation": 9.75,
-        "first_quartile": 103.81,
-        "third_quartile": 114.83,
-        "minimum": 93.27,
-        "maximum": 149.1
-    },
-    "average_players_eliminated": {
-        "mean": 0.97,
-        "median": 0.93,
-        "standard_deviation": 0.24,
-        "first_quartile": 0.77,
-        "third_quartile": 1.12,
-        "minimum": 0.63,
-        "maximum": 1.83
-    },
-    "average_gold_left": 9.07
+    "bottom4_rate": 44.65,
+    "average_damage_to_players": null,
+    "average_players_eliminated": null,
+    "average_gold_left": 7.45
 }

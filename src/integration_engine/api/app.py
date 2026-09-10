@@ -10,6 +10,9 @@ from src.integration_engine.api.routes import (
     health_router,
     integrated_analysis_router,
 )
+from src.integration_engine.api.routes.auth import (
+    router as auth_router,
+)
 from src.integration_engine.api.routes.queue_status import (
     router as queue_status_router,
 )
@@ -28,6 +31,10 @@ from src.integration_engine.api.routes.economy_intelligence import (
 from src.integration_engine.api.routes.carry_item_intelligence import (
     router as carry_item_intelligence_router,
 )
+from src.integration_engine.api.routes.overwolf_events import (
+    router as overwolf_events_router,
+)
+
 from src.integration_engine.config import (
     IntegrationSettings,
 )
@@ -37,9 +44,7 @@ from src.partner_analytics import (
 
 
 def create_app() -> FastAPI:
-    settings = (
-        IntegrationSettings.from_environment()
-    )
+    settings = IntegrationSettings.from_environment()
 
     app = FastAPI(
         title=settings.app_name,
@@ -60,23 +65,16 @@ def create_app() -> FastAPI:
         allow_methods=["GET", "POST"],
         allow_headers=[
             "Content-Type",
+            "Authorization",
             "X-API-Key",
             "X-Request-ID",
         ],
     )
 
-    app.add_middleware(
-        PartnerAnalyticsMiddleware
-    )
+    app.add_middleware(PartnerAnalyticsMiddleware)
+    app.add_middleware(HeavyRequestQueueMiddleware)
 
-    app.add_middleware(
-        HeavyRequestQueueMiddleware
-    )
-
-    @app.get(
-        "/",
-        tags=["system"],
-    )
+    @app.get("/", tags=["system"])
     def root() -> dict:
         return {
             "service": settings.app_name,
@@ -88,36 +86,18 @@ def create_app() -> FastAPI:
             "health": "/health",
         }
 
-    app.include_router(
-        health_router
-    )
-    app.include_router(
-        queue_status_router
-    )
-    app.include_router(
-        analysis_router
-    )
-    app.include_router(
-        integrated_analysis_router
-    )
-    app.include_router(
-        benchmark_router
-    )
-    app.include_router(
-        post_match_router
-    )
-    app.include_router(
-        composition_intelligence_router
-    )
-    app.include_router(
-        contest_intelligence_router
-    )
-    app.include_router(
-        economy_intelligence_router
-    )
-    app.include_router(
-        carry_item_intelligence_router
-    )
+    app.include_router(health_router)
+    app.include_router(queue_status_router)
+    app.include_router(auth_router)
+    app.include_router(analysis_router)
+    app.include_router(integrated_analysis_router)
+    app.include_router(benchmark_router)
+    app.include_router(post_match_router)
+    app.include_router(composition_intelligence_router)
+    app.include_router(contest_intelligence_router)
+    app.include_router(economy_intelligence_router)
+    app.include_router(carry_item_intelligence_router)
+    app.include_router(overwolf_events_router)
 
     return app
 

@@ -23,13 +23,14 @@ class CarryItemIntelligenceEngine:
     """
     #28 — Carry + Item Intelligence
 
-    A V2 adiciona uma camada de validação do carry inferido:
-    - o damage_carry do RoleInferenceEngine continua sendo a fonte principal;
-    - ele só é aceito publicamente quando termina com pelo menos 2 itens;
-    - se não cumprir esse mínimo, usamos o principal item holder do board;
-    - se ninguém tiver ao menos 2 itens, a partida fica sem carry público.
+    A V2 usa o RoleInferenceEngine como única fonte de identidade do carry:
+    - somente o damage_carry inferido pelo RoleInferenceEngine pode ser publicado;
+    - ele só entra na análise de itens quando termina com pelo menos 2 itens;
+    - não existe fallback por quantidade de itens, tier ou raridade;
+    - se não houver damage_carry válido, a partida fica sem carry público.
 
-    Isso reduz falsos positivos históricos sem inventar dano, DPS ou timing.
+    Isso impede que um tank, suporte ou outra unidade muito itemizada seja
+    promovida artificialmente a carry.
     """
 
     MIN_SAMPLE = 3
@@ -172,7 +173,8 @@ class CarryItemIntelligenceEngine:
             latest=latest,
             limitations=(
                 "A análise usa apenas carry e itens observados no board final.",
-                "O carry público precisa terminar com pelo menos 2 itens para reduzir falsos positivos.",
+                "Somente o carry inferido pelo RoleInferenceEngine é aceito; não há fallback por itemização.",
+                "Para a análise pública de itens, o carry inferido precisa terminar com pelo menos 2 itens.",
                 "A Riot API não informa em qual round cada item foi construído ou equipado.",
                 "Performance histórica de um conjunto não prova que os itens causaram o resultado.",
                 "Builds são comparadas apenas dentro do mesmo carry e exigem amostra mínima para leitura comparativa.",
@@ -186,99 +188,36 @@ class CarryItemIntelligenceEngine:
         participant,
         assessment,
     ) -> tuple[str, tuple[str, ...]] | None:
-        inferred_character_id = ""
-        inferred_items: tuple[str, ...] = ()
+        """
+        Valida exclusivamente o carry já inferido pelo RoleInferenceEngine V2.
 
-        if assessment is not None:
-            inferred_character_id = cls._assessment_character_id(
-                assessment=assessment,
-                participant=participant,
-            )
-
-            if inferred_character_id:
-                inferred_items = cls._assessment_item_ids(
-                    assessment=assessment,
-                    participant=participant,
-                    character_id=inferred_character_id,
-                )
-
-        # Mantém o carry inferido quando há evidência mínima no board final.
-        if (
-            inferred_character_id
-            and len(inferred_items)
-            >= cls.MIN_ITEMS_FOR_PUBLIC_CARRY
-        ):
-            return (
-                inferred_character_id,
-                inferred_items,
-            )
-
-        # Fallback conservador: principal item holder do board final.
-        candidates = []
-
-        for unit in participant.units:
-            character_id = str(
-                getattr(
-                    unit,
-                    "character_id",
-                    "",
-                )
-                or ""
-            ).strip()
-
-            item_ids = cls._unit_item_ids(
-                unit
-            )
-
-            if (
-                not character_id
-                or len(item_ids)
-                < cls.MIN_ITEMS_FOR_PUBLIC_CARRY
-            ):
-                continue
-
-            tier = cls._safe_int(
-                getattr(
-                    unit,
-                    "tier",
-                    0,
-                )
-            )
-
-            rarity = cls._safe_int(
-                getattr(
-                    unit,
-                    "rarity",
-                    0,
-                )
-            )
-
-            candidates.append(
-                (
-                    len(item_ids),
-                    tier,
-                    rarity,
-                    character_id,
-                    item_ids,
-                )
-            )
-
-        if not candidates:
+        Esta camada não escolhe um substituto quando o motor de roles retorna
+        None ou quando o carry inferido termina com poucos itens. Quantidade de
+        itens, tier e raridade não podem promover outra unidade a carry.
+        """
+        if assessment is None:
             return None
 
-        # Mais itens primeiro; tier/rarity só desempata.
-        best = max(
-            candidates,
-            key=lambda item: (
-                item[0],
-                item[1],
-                item[2],
-            ),
+        inferred_character_id = cls._assessment_character_id(
+            assessment=assessment,
+            participant=participant,
         )
 
+        if not inferred_character_id:
+            return None
+
+        inferred_items = cls._assessment_item_ids(
+            assessment=assessment,
+            participant=participant,
+            character_id=inferred_character_id,
+        )
+
+        if len(inferred_items) < cls.MIN_ITEMS_FOR_PUBLIC_CARRY:
+            return None
+
         return (
-            best[3],
-            best[4],
+            inferred_character_id,
+            inferred_items,
         )
 
     @classmethod

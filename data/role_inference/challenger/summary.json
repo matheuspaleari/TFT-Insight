@@ -1,10 +1,15 @@
 {
-  "players_requested": 50,
+  "players_requested": 100,
   "matches_per_player": 30,
-  "unique_matches": 1234,
-  "processed_matches": 1229,
-  "failed_matches": 5,
-  "classified_items": 239,
-  "observations_path": "C:\\Users\\user\\Desktop\\TFT Insight — Aprenda a pensar como um Challenger\\data\\role_inference\\challenger\\item_observations.json",
-  "report_csv_path": "C:\\Users\\user\\Desktop\\TFT Insight — Aprenda a pensar como um Challenger\\data\\role_inference\\challenger\\item_classifications.csv"
+  "match_scan_limit": 60,
+  "target_set_number": 18,
+  "target_set_core_name": "TFTSet18",
+  "unique_matches": 419,
+  "processed_matches": 419,
+  "failed_matches": 0,
+  "discarded_other_set": 0,
+  "accepted_set_matches": 419,
+  "classified_items": 0,
+  "observations_path": "C:\\Users\\user\\Desktop\\TFT-Insight-Git\\data\\role_inference\\challenger\\item_observations.json",
+  "report_csv_path": "C:\\Users\\user\\Desktop\\TFT-Insight-Git\\data\\role_inference\\challenger\\item_classifications.csv"
 }

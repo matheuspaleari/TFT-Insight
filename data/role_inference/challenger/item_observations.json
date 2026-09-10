@@ -1,1710 +1,975 @@
 {
-  "TFT_Item_BFSword": {
+  "DA_Crownguard": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 365,
-    "tank_uses": 15,
-    "support_uses": 1
+    "damage_carry_uses": 103,
+    "tank_uses": 991,
+    "support_uses": 21
   },
-  "TFT_Item_Morellonomicon": {
+  "DA_WarmogsArmor": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 1289,
-    "tank_uses": 228,
-    "support_uses": 298
+    "damage_carry_uses": 93,
+    "tank_uses": 1748,
+    "support_uses": 47
   },
-  "TFT_Item_StatikkShiv": {
+  "DA_GargoyleStoneplate": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 2704,
-    "tank_uses": 52,
-    "support_uses": 105
+    "damage_carry_uses": 76,
+    "tank_uses": 2620,
+    "support_uses": 86
   },
-  "TFT_Item_FrozenHeart": {
+  "DA_GiantSlayer": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 4471,
-    "support_uses": 1
+    "damage_carry_uses": 944,
+    "tank_uses": 84,
+    "support_uses": 8
   },
-  "TFT_Item_RabadonsDeathcap": {
+  "DA_StrikersFlail": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 2926,
-    "tank_uses": 156,
-    "support_uses": 48
-  },
-  "TFT_Item_JeweledGauntlet": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 4956,
-    "tank_uses": 68,
-    "support_uses": 39
-  },
-  "TFT_Item_GuinsoosRageblade": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 4281,
-    "tank_uses": 83,
-    "support_uses": 5
-  },
-  "TFT_Item_NightHarvester": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 4,
-    "tank_uses": 2119,
-    "support_uses": 0
-  },
-  "TFT_Item_GargoyleStoneplate": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 8628,
-    "support_uses": 0
-  },
-  "TFT_Item_RedBuff": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 10,
-    "tank_uses": 2323,
-    "support_uses": 0
-  },
-  "TFT_Item_ChainVest": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3,
-    "tank_uses": 384,
-    "support_uses": 0
-  },
-  "TFT_Item_MadredsBloodrazor": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3843,
-    "tank_uses": 273,
-    "support_uses": 17
-  },
-  "TFT_Item_RunaansHurricane": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2392,
-    "tank_uses": 10,
-    "support_uses": 0
-  },
-  "TFT_Item_WarmogsArmor": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 8,
-    "tank_uses": 5526,
-    "support_uses": 0
-  },
-  "TFT_Item_Redemption": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 6,
-    "tank_uses": 4006,
-    "support_uses": 0
-  },
-  "TFT_Item_SpearOfShojin": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2905,
-    "tank_uses": 115,
-    "support_uses": 178
-  },
-  "TFT17_AnimaSquadItem_Tier1_RocketSwarm": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 49,
-    "tank_uses": 6,
-    "support_uses": 7
-  },
-  "TFT_Item_Crownguard": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 28,
-    "tank_uses": 2170,
-    "support_uses": 0
-  },
-  "TFT_Item_BrambleVest": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 8,
-    "tank_uses": 1611,
-    "support_uses": 0
-  },
-  "TFT_Item_SpectralGauntlet": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 1148,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_ChemicalCapacitorMod_Radiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 20,
-    "support_uses": 0
-  },
-  "TFT_Item_GuardianAngel": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 521,
-    "tank_uses": 961,
-    "support_uses": 5
-  },
-  "TFT_Item_SteraksGage": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 224,
-    "tank_uses": 1463,
-    "support_uses": 1
-  },
-  "TFT_Item_Bloodthirster": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 156,
-    "tank_uses": 1434,
-    "support_uses": 0
-  },
-  "TFT_Item_Leviathan": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2714,
-    "tank_uses": 20,
-    "support_uses": 25
-  },
-  "TFT_Item_UnstableConcoction": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1111,
-    "tank_uses": 312,
+    "damage_carry_uses": 847,
+    "tank_uses": 39,
     "support_uses": 4
   },
-  "TFT17_AnimaSquadItem_Tier1_TentacleSlam": {
+  "DA_InfinityEdge": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 98,
-    "support_uses": 0
-  },
-  "TFT17_Item_MeleeTraitEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 154,
-    "tank_uses": 29,
-    "support_uses": 13
-  },
-  "TFT_Item_Artifact_HellfireHatchet": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 28,
-    "tank_uses": 47,
-    "support_uses": 1
-  },
-  "TFT_Item_Artifact_RapidFirecannon": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 68,
-    "tank_uses": 11,
-    "support_uses": 0
-  },
-  "TFT_Item_Quicksilver": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1218,
-    "tank_uses": 279,
-    "support_uses": 0
-  },
-  "TFT_Item_Deathblade": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3510,
-    "tank_uses": 138,
-    "support_uses": 22
-  },
-  "TFT_Item_RapidFireCannon": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2700,
-    "tank_uses": 106,
-    "support_uses": 30
-  },
-  "TFT_Item_ThiefsGloves": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1296,
-    "tank_uses": 1820,
-    "support_uses": 4
-  },
-  "TFT_Item_TitansResolve": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 402,
-    "tank_uses": 576,
-    "support_uses": 0
-  },
-  "TFT7_Item_ShimmerscaleMogulsMail": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 158,
-    "support_uses": 0
-  },
-  "TFT_Item_ArchangelsStaff": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1039,
-    "tank_uses": 48,
-    "support_uses": 38
-  },
-  "TFT_Item_Artifact_TheIndomitable": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 197,
-    "support_uses": 0
-  },
-  "TFT_Item_DragonsClaw": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 1804,
-    "support_uses": 0
-  },
-  "TFT_Item_LastWhisper": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1953,
-    "tank_uses": 31,
-    "support_uses": 1
-  },
-  "TFT_Item_HextechGunblade": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1922,
-    "tank_uses": 107,
-    "support_uses": 82
-  },
-  "TFT_Item_PowerGauntlet": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3207,
-    "tank_uses": 110,
-    "support_uses": 1
-  },
-  "TFT_Item_AdaptiveHelm": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 578,
-    "tank_uses": 1823,
-    "support_uses": 14
-  },
-  "TFT17_Item_SpaceGrooveEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 78,
-    "tank_uses": 499,
-    "support_uses": 1
-  },
-  "TFT_Item_Artifact_BlightingJewel": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 95,
-    "tank_uses": 11,
-    "support_uses": 11
-  },
-  "TFT_Item_InfinityEdge": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2252,
-    "tank_uses": 134,
-    "support_uses": 11
-  },
-  "TFT_Item_NegatronCloak": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 4,
-    "tank_uses": 328,
-    "support_uses": 0
-  },
-  "TFT17_Item_Artifact_ThreshLantern": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 192,
-    "support_uses": 0
-  },
-  "TFT17_Item_RangedTraitEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 106,
-    "tank_uses": 29,
-    "support_uses": 5
-  },
-  "TFT17_Item_Artifact_SorakaArtifact": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 242,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_CappaJuice": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 42,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_SympatheticImplantMod": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 134,
-    "tank_uses": 14,
-    "support_uses": 35
-  },
-  "TFT_Item_RecurveBow": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 395,
-    "tank_uses": 24,
-    "support_uses": 5
-  },
-  "TFT17_Item_ShieldTankEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 42,
-    "tank_uses": 238,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_DroneMod": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 174,
-    "tank_uses": 11,
-    "support_uses": 1
-  },
-  "TFT17_Item_HPTankEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 27,
-    "tank_uses": 286,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier2_BattleBunnyCrossbow": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 114,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT_Item_GiantsBelt": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 11,
-    "tank_uses": 450,
-    "support_uses": 1
-  },
-  "TFT9_Item_CrownOfDemacia": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 26,
-    "tank_uses": 4,
-    "support_uses": 0
-  },
-  "TFT17_Item_PrimordianEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 14,
-    "tank_uses": 161,
-    "support_uses": 1
-  },
-  "TFT17_Item_FavoredEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 29,
-    "tank_uses": 128,
-    "support_uses": 5
-  },
-  "TFT17_Item_DRXEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 99,
-    "tank_uses": 338,
-    "support_uses": 0
-  },
-  "TFT9_Item_OrnnHullbreaker": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 6,
+    "damage_carry_uses": 1295,
     "tank_uses": 76,
-    "support_uses": 0
-  },
-  "TFT5_Item_NightHarvesterRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 12,
-    "support_uses": 0
-  },
-  "TFT_Item_IonicSpark": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 63,
-    "tank_uses": 1008,
     "support_uses": 4
   },
-  "TFT17_Item_FlexTraitEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 107,
-    "tank_uses": 304,
-    "support_uses": 1
-  },
-  "TFT_Item_NeedlesslyLargeRod": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 357,
-    "tank_uses": 38,
-    "support_uses": 5
-  },
-  "TFT17_Item_AstronautEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 28,
-    "tank_uses": 221,
-    "support_uses": 0
-  },
-  "TFT17_Item_StargazerEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 286,
-    "tank_uses": 744,
-    "support_uses": 13
-  },
-  "TFT_Item_BlueBuff": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1252,
-    "tank_uses": 49,
-    "support_uses": 13
-  },
-  "TFT_Item_TearOfTheGoddess": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 42,
-    "tank_uses": 99,
-    "support_uses": 166
-  },
-  "TFT17_Item_PulsefireEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 97,
-    "tank_uses": 153,
-    "support_uses": 3
-  },
-  "TFT17_AnimaSquadItem_Tier1_SavageSlicer": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 44,
-    "tank_uses": 15,
-    "support_uses": 0
-  },
-  "TFT17_Item_AnimaSquadEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 11,
-    "tank_uses": 184,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_ProwlersClaw": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 67,
-    "tank_uses": 13,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier2_RadiantField": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 73,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_GrenadeMod": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 129,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_TargetlockMod": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 146,
-    "tank_uses": 5,
-    "support_uses": 0
-  },
-  "TFT5_Item_JeweledGauntletRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 53,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT_Item_ForceOfNature": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 7,
-    "tank_uses": 7,
-    "support_uses": 59
-  },
-  "TFT17_Item_ResistTankEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 34,
-    "tank_uses": 222,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_NavoriFlickerblades": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 136,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier2_LionessLament": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 79,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier2_CyclonicSlicers": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 11,
-    "tank_uses": 30,
-    "support_uses": 0
-  },
-  "TFT17_Item_ASTraitEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 132,
-    "tank_uses": 289,
-    "support_uses": 6
-  },
-  "TFT17_Item_PsyOps_ChemicalCapacitorMod": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 68,
-    "tank_uses": 109,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOpsEmblemItem": {
+  "DA_DragonsClaw": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 57,
-    "tank_uses": 131,
-    "support_uses": 6
+    "tank_uses": 587,
+    "support_uses": 11
   },
-  "TFT_Item_Artifact_SilvermereDawn": {
+  "DA_ProtectorsVow": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 21,
-    "tank_uses": 90,
-    "support_uses": 1
+    "damage_carry_uses": 138,
+    "tank_uses": 1002,
+    "support_uses": 14
   },
-  "TFT5_Item_RabadonsDeathcapRadiant": {
+  "DA_Evenshroud": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 77,
+    "tank_uses": 529,
+    "support_uses": 22
+  },
+  "DA_TacticiansCrown": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 59,
+    "tank_uses": 10,
+    "support_uses": 3
+  },
+  "DA_RedBuff": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 948,
+    "tank_uses": 45,
+    "support_uses": 13
+  },
+  "DA_SpearOfShojin": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1600,
+    "tank_uses": 18,
+    "support_uses": 25
+  },
+  "DA_18_EmblemSlayer": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 70,
-    "tank_uses": 1,
+    "tank_uses": 19,
+    "support_uses": 0
+  },
+  "DA_18_EmblemElderwood": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 74,
+    "tank_uses": 50,
     "support_uses": 4
   },
-  "TFT17_Item_Artifact_VarusArtifact": {
+  "DA_18_EmblemRapidfire": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 102,
-    "tank_uses": 4,
+    "damage_carry_uses": 79,
+    "tank_uses": 81,
     "support_uses": 0
   },
-  "TFT5_Item_HextechGunbladeRadiant": {
+  "DA_JeweledGauntlet": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 16,
+    "damage_carry_uses": 1184,
+    "tank_uses": 33,
+    "support_uses": 9
+  },
+  "DA_Deathblade": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 741,
+    "tank_uses": 71,
+    "support_uses": 0
+  },
+  "DA_ThiefsGloves": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 568,
+    "tank_uses": 513,
+    "support_uses": 19
+  },
+  "DA_BlueBuff": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 611,
+    "tank_uses": 37,
+    "support_uses": 14
+  },
+  "DA_KrakensFury": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 672,
+    "tank_uses": 53,
+    "support_uses": 4
+  },
+  "DA_SteraksGage": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 538,
+    "tank_uses": 389,
+    "support_uses": 4
+  },
+  "DA_HextechGunblade": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 671,
+    "tank_uses": 60,
+    "support_uses": 5
+  },
+  "DA_ArchangelsStaff": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 774,
+    "tank_uses": 65,
+    "support_uses": 6
+  },
+  "DA_Artifact_BlightingJewel": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 44,
     "tank_uses": 1,
-    "support_uses": 13
-  },
-  "TFT_Item_SparringGloves": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 286,
-    "tank_uses": 24,
     "support_uses": 0
   },
-  "TFT_Item_TacticiansRing": {
+  "DA_AdaptiveHelm": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 17,
-    "tank_uses": 11,
-    "support_uses": 82
+    "damage_carry_uses": 572,
+    "tank_uses": 625,
+    "support_uses": 32
   },
-  "TFT_Item_Artifact_Fishbones": {
+  "DA_IonicSpark": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 92,
-    "tank_uses": 4,
-    "support_uses": 1
+    "tank_uses": 327,
+    "support_uses": 5
   },
-  "TFT_Item_Artifact_LightshieldCrest": {
+  "DA_SunfireCape": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 151,
-    "support_uses": 0
+    "damage_carry_uses": 76,
+    "tank_uses": 497,
+    "support_uses": 15
   },
-  "TFT17_AnimaSquadItem_Tier2_UwuBlaster": {
+  "DA_NashorsTooth": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 34,
-    "tank_uses": 5,
-    "support_uses": 0
+    "damage_carry_uses": 505,
+    "tank_uses": 52,
+    "support_uses": 9
   },
-  "TFT17_Item_PsyOps_GrenadeMod_Radiant": {
+  "DA_Component_SparringGloves": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 17,
-    "support_uses": 0
+    "damage_carry_uses": 47,
+    "tank_uses": 20,
+    "support_uses": 4
   },
-  "TFT_Item_Artifact_TitanicHydra": {
+  "DA_BrambleVest": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 73,
-    "tank_uses": 32,
-    "support_uses": 0
+    "damage_carry_uses": 31,
+    "tank_uses": 425,
+    "support_uses": 13
   },
-  "TFT17_AnimaSquadItem_Tier2_SearingShortbow": {
+  "DA_GuinsoosRageblade": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 50,
-    "tank_uses": 0,
+    "damage_carry_uses": 1509,
+    "tank_uses": 44,
+    "support_uses": 16
+  },
+  "DA_LastWhisper": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 673,
+    "tank_uses": 46,
     "support_uses": 2
   },
-  "TFT17_AnimaSquadItem_Tier0_LeakyPrototype": {
+  "DA_Morellonomicon": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 34,
-    "tank_uses": 14,
-    "support_uses": 25
+    "damage_carry_uses": 569,
+    "tank_uses": 39,
+    "support_uses": 18
   },
-  "TFT17_Item_AssassinTraitEmblemItem": {
+  "DA_VoidStaff": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 211,
-    "tank_uses": 24,
-    "support_uses": 4
+    "damage_carry_uses": 901,
+    "tank_uses": 43,
+    "support_uses": 21
   },
-  "TFT_Item_Artifact_WitsEnd": {
+  "DA_RabadonsDeathcap": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 60,
-    "tank_uses": 29,
-    "support_uses": 0
+    "damage_carry_uses": 902,
+    "tank_uses": 31,
+    "support_uses": 13
   },
-  "TFT_Item_Artifact_LichBane": {
+  "DA_SpiritVisage": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 88,
-    "tank_uses": 6,
-    "support_uses": 4
+    "damage_carry_uses": 76,
+    "tank_uses": 1248,
+    "support_uses": 37
   },
-  "TFT17_Item_Artifact_AhriArtifact": {
+  "DA_SteadfastHeart": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 110,
-    "tank_uses": 4,
-    "support_uses": 4
+    "damage_carry_uses": 75,
+    "tank_uses": 628,
+    "support_uses": 15
   },
-  "TFT4_Item_OrnnTheCollector": {
+  "DA_Item_Artifact_TalismanOfAscension": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 82,
-    "tank_uses": 6,
-    "support_uses": 1
-  },
-  "TFT17_Item_SummonTraitEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 69,
-    "tank_uses": 53,
-    "support_uses": 96
-  },
-  "TFT_Item_Artifact_Dawncore": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 90,
-    "tank_uses": 11,
-    "support_uses": 11
-  },
-  "TFT9_Item_OrnnHorizonFocus": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 106,
-    "tank_uses": 3,
-    "support_uses": 4
-  },
-  "TFT17_AnimaSquadItem_Tier1_GuidingHex": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 98,
+    "damage_carry_uses": 17,
     "tank_uses": 2,
     "support_uses": 0
   },
-  "TFT7_Item_ShimmerscaleGamblersBlade": {
+  "DA_Bloodthirster": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 112,
-    "tank_uses": 3,
+    "damage_carry_uses": 189,
+    "tank_uses": 126,
     "support_uses": 0
   },
-  "TFT17_AnimaSquadItem_Tier2_Annihilator": {
+  "DA_18_EmblemDefender": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 82,
+    "tank_uses": 61,
+    "support_uses": 3
+  },
+  "DA_Quicksilver": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 480,
+    "tank_uses": 151,
+    "support_uses": 1
+  },
+  "DA_EdgeOfNight": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 913,
+    "tank_uses": 198,
+    "support_uses": 1
+  },
+  "DA_Artifact_Mittens": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 62,
+    "tank_uses": 5,
+    "support_uses": 0
+  },
+  "DA_Component_BFSword": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 91,
+    "tank_uses": 17,
+    "support_uses": 4
+  },
+  "DA_Artifact_WitsEnd": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 78,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Artifact_Manazane": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 45,
+    "tank_uses": 2,
+    "support_uses": 0
+  },
+  "DA_18_EmblemExecutioner": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 209,
+    "tank_uses": 6,
+    "support_uses": 2
+  },
+  "DA_Component_NeedlesslyLargeRod": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 93,
+    "tank_uses": 14,
+    "support_uses": 11
+  },
+  "DA_Artifact_SeekersArmguard": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 63,
-    "tank_uses": 3,
-    "support_uses": 1
+    "tank_uses": 13,
+    "support_uses": 0
   },
-  "TFT17_Item_DarkStarEmblemItem": {
+  "DA_TitansResolve": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 306,
-    "tank_uses": 60,
+    "damage_carry_uses": 345,
+    "tank_uses": 211,
+    "support_uses": 1
+  },
+  "DA_18_EmblemBlackthorn": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 28,
+    "tank_uses": 59,
+    "support_uses": 0
+  },
+  "DA_Component_TearOfTheGoddess": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 64,
+    "tank_uses": 44,
+    "support_uses": 8
+  },
+  "DA_HandOfJustice": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 423,
+    "tank_uses": 72,
+    "support_uses": 1
+  },
+  "DA_18_EmblemVanguard": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 38,
+    "tank_uses": 111,
+    "support_uses": 8
+  },
+  "DA_18_EmblemFloraFatalis": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 87,
+    "tank_uses": 6,
+    "support_uses": 1
+  },
+  "DA_18_EmblemBlossom": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 64,
+    "tank_uses": 14,
+    "support_uses": 4
+  },
+  "DA_Component_GiantsBelt": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 33,
+    "tank_uses": 150,
+    "support_uses": 7
+  },
+  "DA_Artifact_RapidFireCannon": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 81,
+    "tank_uses": 2,
+    "support_uses": 0
+  },
+  "DA_18_EmblemHunter": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 132,
+    "tank_uses": 17,
+    "support_uses": 1
+  },
+  "DA_18_EmblemInferno": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 66,
+    "tank_uses": 4,
+    "support_uses": 3
+  },
+  "DA_18_EmblemCoven": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 5,
+    "tank_uses": 18,
+    "support_uses": 0
+  },
+  "DA_18_EmblemPrimal": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 61,
+    "tank_uses": 15,
+    "support_uses": 0
+  },
+  "DA_18_EmblemFae": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 135,
+    "tank_uses": 9,
+    "support_uses": 0
+  },
+  "DA_TacticiansCape": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 35,
+    "tank_uses": 8,
     "support_uses": 6
   },
-  "TFT5_Item_WarmogsArmorRadiant": {
+  "DA_18_EmblemSprykin": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 56,
+    "tank_uses": 43,
+    "support_uses": 1
+  },
+  "DA_18_EmblemSpellweaver": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 115,
+    "tank_uses": 16,
+    "support_uses": 2
+  },
+  "DA_18_EmblemJuggernaut": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 31,
+    "tank_uses": 79,
+    "support_uses": 0
+  },
+  "DA_TacticiansShield": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 12,
+    "tank_uses": 9,
+    "support_uses": 2
+  },
+  "DA_Component_ChainVest": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 8,
+    "tank_uses": 111,
+    "support_uses": 1
+  },
+  "DA_18_EmblemFloraFatalisAugment": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 83,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Artifact_NavoriFlickerblade": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 122,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Artifact_TheIndomitable": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 0,
-    "tank_uses": 56,
+    "tank_uses": 63,
     "support_uses": 0
   },
-  "TFT5_Item_RunaansHurricaneRadiant": {
+  "DA_18_EmblemLunar": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 52,
+    "tank_uses": 34,
+    "support_uses": 2
+  },
+  "DA_Component_NegatronCloak": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 15,
+    "tank_uses": 95,
+    "support_uses": 3
+  },
+  "DA_Artifact_EternalPact": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 35,
+    "tank_uses": 1,
+    "support_uses": 1
+  },
+  "DA_Artifact_Dawncore": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 57,
+    "tank_uses": 1,
+    "support_uses": 0
+  },
+  "DA_18_EmblemInvoker": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 112,
+    "tank_uses": 14,
+    "support_uses": 6
+  },
+  "DA_Artifact_Fishbones": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 55,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Artifact_AegisOfDawn": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1,
+    "tank_uses": 16,
+    "support_uses": 2
+  },
+  "DA_Artifact_StatikkShiv": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 32,
+    "tank_uses": 1,
+    "support_uses": 0
+  },
+  "DA_Artifact_LightshieldCrest": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 2,
+    "tank_uses": 85,
+    "support_uses": 2
+  },
+  "DA_18_EmblemBrawler": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 144,
+    "tank_uses": 72,
+    "support_uses": 8
+  },
+  "DA_Artifact_InfinityForce": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 31,
+    "tank_uses": 9,
+    "support_uses": 0
+  },
+  "DA_Artifact_LichBane": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 44,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Component_RecurveBow": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 140,
+    "tank_uses": 18,
+    "support_uses": 12
+  },
+  "DA_Artifact_HellfireHatchet": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 44,
+    "tank_uses": 5,
+    "support_uses": 0
+  },
+  "DA_Artifact_SilvermereDawn": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 16,
+    "tank_uses": 2,
+    "support_uses": 0
+  },
+  "DA_Artifact_MogulsMail": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1,
+    "tank_uses": 76,
+    "support_uses": 2
+  },
+  "DA_BlueBuffRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 10,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Artifact_ZhonyasParadox": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 42,
+    "tank_uses": 3,
+    "support_uses": 0
+  },
+  "DA_Artifact_LudensTempest": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 28,
+    "tank_uses": 1,
+    "support_uses": 0
+  },
+  "DA_Artifact_HorizonFocus": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 4,
+    "tank_uses": 10,
+    "support_uses": 0
+  },
+  "DA_Artifact_TitanicHydra": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 28,
+    "tank_uses": 4,
+    "support_uses": 0
+  },
+  "DA_GiantSlayer_Radiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 19,
+    "tank_uses": 1,
+    "support_uses": 0
+  },
+  "DA_EdgeOfNightRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 4,
+    "tank_uses": 1,
+    "support_uses": 0
+  },
+  "DA_AdaptiveHelm_Radiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 5,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_ThiefsGlovesRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 11,
+    "tank_uses": 4,
+    "support_uses": 0
+  },
+  "DA_ProtectorsVowRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1,
+    "tank_uses": 3,
+    "support_uses": 0
+  },
+  "DA_StrikersFlailRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 11,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Artifact_GamblersBlade": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 17,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_LastWhisperRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_EvenshroudRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1,
+    "tank_uses": 2,
+    "support_uses": 0
+  },
+  "DA_Artifact_ForbiddenIdol": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 0,
+    "tank_uses": 31,
+    "support_uses": 0
+  },
+  "DA_GargoyleStoneplate_Radiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 0,
+    "tank_uses": 11,
+    "support_uses": 0
+  },
+  "DA_Artifact_GoldCollector": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 31,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFT17_EkkoOffering_AnomalyItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 216,
-    "tank_uses": 883,
-    "support_uses": 3
-  },
-  "TFT17_Item_Artifact_EvelynnArtifact": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 45,
-    "tank_uses": 47,
-    "support_uses": 1
-  },
-  "TFT17_AnimaSquadItem_Tier0_ClunkyPrototype": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 73,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier0_SparkingPrototype": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 65,
-    "tank_uses": 10,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_Mittens": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 49,
-    "tank_uses": 18,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_TargetlockMod_Radiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 29,
-    "tank_uses": 4,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_SympatheticImplantMod_Radiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 44,
-    "tank_uses": 1,
-    "support_uses": 1
-  },
-  "TFT4_Item_OrnnInfinityForce": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 48,
-    "tank_uses": 75,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_LudensTempest": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 73,
-    "tank_uses": 9,
-    "support_uses": 2
-  },
-  "TFT17_Item_Artifact_YasuoArtifact": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 54,
-    "tank_uses": 7,
-    "support_uses": 0
-  },
-  "TFT5_Item_BloodthirsterRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 17,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_AegisOfDusk": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 123,
-    "support_uses": 0
-  },
-  "TFT5_Item_AdaptiveHelmRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 7,
-    "tank_uses": 8,
-    "support_uses": 0
-  },
-  "TFT4_Item_OrnnZhonyasParadox": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 17,
-    "tank_uses": 45,
-    "support_uses": 0
-  },
-  "TFT5_Item_LeviathanRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 49,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_EternalPact": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 77,
-    "tank_uses": 4,
-    "support_uses": 6
-  },
-  "TFT_Item_Artifact_VoidGauntlet": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 104,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_AegisOfDawn": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 116,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_SeekersArmguard": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 33,
-    "tank_uses": 68,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_TalismanOfAscension": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 20,
-    "tank_uses": 76,
-    "support_uses": 0
-  },
-  "TFT4_Item_OrnnDeathsDefiance": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 47,
-    "tank_uses": 39,
-    "support_uses": 0
-  },
-  "TFT5_Item_GiantSlayerRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 42,
-    "tank_uses": 8,
-    "support_uses": 0
-  },
-  "TFT_Item_Artifact_StatikkShiv": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 88,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT5_Item_ThiefsGlovesRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 25,
-    "tank_uses": 23,
-    "support_uses": 5
-  },
-  "TFT5_Item_LastWhisperRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 18,
-    "tank_uses": 3,
-    "support_uses": 0
-  },
-  "TFT5_Item_StatikkShivRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 26,
-    "tank_uses": 1,
-    "support_uses": 2
-  },
-  "TFT5_Item_GargoyleStoneplateRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 65,
-    "support_uses": 0
-  },
-  "TFT5_Item_RapidFirecannonRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 30,
-    "tank_uses": 2,
-    "support_uses": 2
-  },
-  "TFT17_AnimaSquadItem_Tier2_IceblastArmor": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 59,
-    "support_uses": 0
-  },
-  "TFT_Item_ChonccsChalice": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 9,
-    "tank_uses": 11,
-    "support_uses": 26
-  },
-  "TFT16_Item_FreljordEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 11,
-    "support_uses": 0
-  },
-  "TFT16_TheDarkinStaff": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 21,
-    "tank_uses": 7,
-    "support_uses": 2
-  },
-  "TFT5_Item_BlueBuffRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 27,
-    "tank_uses": 1,
-    "support_uses": 1
-  },
-  "TFT16_Item_JuggernautEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 10,
-    "support_uses": 0
-  },
-  "TFT5_Item_IonicSparkRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 12,
-    "support_uses": 0
-  },
-  "TFT16_Item_IoniaEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3,
-    "tank_uses": 3,
-    "support_uses": 2
-  },
-  "TFT_Item_TacticiansScepter": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 2,
-    "support_uses": 9
-  },
-  "TFT16_Item_NoxusEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 4,
-    "tank_uses": 7,
-    "support_uses": 0
-  },
-  "TFT5_Item_TrapClawRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 36,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFT16_Item_PiltoverEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 5,
-    "support_uses": 0
-  },
-  "TFT16_Item_MagusEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFT5_Item_SunfireCapeRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 20,
-    "support_uses": 0
-  },
-  "TFT5_Item_QuicksilverRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 13,
-    "tank_uses": 3,
-    "support_uses": 0
-  },
-  "TFT5_Item_CrownguardRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 12,
-    "support_uses": 0
-  },
-  "TFT5_Item_DragonsClawRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 28,
-    "support_uses": 0
-  },
-  "TFT5_Item_HandOfJusticeRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 15,
-    "tank_uses": 5,
-    "support_uses": 1
-  },
-  "TFT17_AnimaSquadItem_Tier2_EchoingBatblades": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 27,
-    "tank_uses": 10,
-    "support_uses": 0
-  },
-  "TFT5_Item_DeathbladeRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 33,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT17_Item_PsyOps_DroneMod_Radiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 45,
-    "tank_uses": 3,
-    "support_uses": 0
-  },
-  "TFT5_Item_SpearOfShojinRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 20,
-    "tank_uses": 1,
-    "support_uses": 3
-  },
-  "TFT5_Item_TitansResolveRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 14,
-    "tank_uses": 4,
-    "support_uses": 0
-  },
-  "TFT5_Item_RedemptionRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 49,
-    "support_uses": 1
-  },
-  "TFT5_Item_InfinityEdgeRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 19,
-    "tank_uses": 6,
-    "support_uses": 1
-  },
-  "TFT5_Item_GuardianAngelRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 4,
-    "tank_uses": 9,
-    "support_uses": 0
-  },
-  "TFT5_Item_BrambleVestRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 23,
-    "support_uses": 0
-  },
-  "TFT16_Item_SorcererEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 1,
-    "support_uses": 5
-  },
-  "TFT16_Item_BrawlerEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 10,
-    "support_uses": 0
-  },
-  "TFT16_TheDarkinAegis": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 36,
-    "support_uses": 1
-  },
-  "TFTEvent5YR_Item_SevikasJinxedArm": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFTEvent5YR_Item_GlacialMallet": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFTEvent5YR_Item_Nitro_ChromeCounter": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFTEvent5YR_Item_LavenderCrown": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 3,
-    "support_uses": 0
-  },
-  "TFTEvent5YR_Item_ShimmerscaleGoldmancersStaff": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFTEvent5YR_Item_ShimmerscaleDravensAxe": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFT5_Item_FrozenHeartRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 24,
-    "support_uses": 0
-  },
-  "TFT_Item_FryingPan": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3,
-    "tank_uses": 2,
-    "support_uses": 1
-  },
-  "TFT_Item_Spatula": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 7,
-    "tank_uses": 0,
-    "support_uses": 2
-  },
-  "TFT5_Item_GuinsoosRagebladeRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 38,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFT5_Item_MorellonomiconRadiant": {
+  "DA_RabadonsDeathcap_Radiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 10,
     "tank_uses": 0,
-    "support_uses": 7
-  },
-  "TFT5_Item_ArchangelsStaffRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 18,
-    "tank_uses": 5,
     "support_uses": 0
   },
-  "TFT_Item_EmptyBag": {
+  "DA_GuinsoosRagebladeRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 560,
-    "support_uses": 0
-  },
-  "TFT5_Item_SteraksGageRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 7,
-    "tank_uses": 17,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier4_Omniweapon": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
+    "damage_carry_uses": 17,
     "tank_uses": 1,
-    "support_uses": 1
-  },
-  "TFT17_AnimaSquadItem_Tier3_CyclonicSlicers": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 3,
     "support_uses": 0
   },
-  "TFT17_AnimaSquadItem_Tier3_Annihilator": {
+  "DA_DeathbladeRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 2,
+    "damage_carry_uses": 16,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFT16_Item_InvokerEmblemItem": {
+  "DA_WarmogsArmorRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 2,
-    "tank_uses": 2,
-    "support_uses": 1
+    "tank_uses": 8,
+    "support_uses": 0
   },
-  "TFT16_TheDarkinBow": {
+  "DA_SpiritVisage_Radiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 14,
+    "damage_carry_uses": 2,
     "tank_uses": 5,
     "support_uses": 0
   },
-  "TFT16_Item_BilgewaterEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3,
-    "tank_uses": 7,
-    "support_uses": 6
-  },
-  "TFT16_TheDarkinScythe": {
+  "DA_SpearOfShojinRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 11,
-    "tank_uses": 19,
-    "support_uses": 1
-  },
-  "TFT16_Item_Bilgewater_DeadmansDagger": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 8,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFT16_Item_DemaciaEmblemItem": {
+  "DA_JeweledGauntletRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 3,
+    "damage_carry_uses": 13,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_BlastPotion18": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 2,
     "tank_uses": 8,
     "support_uses": 0
   },
-  "TFT17_AnimaSquadItem_Tier3_IceblastArmor": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 4,
-    "support_uses": 0
-  },
-  "TFT5_Item_SpectralGauntletRadiant": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 15,
-    "support_uses": 0
-  },
-  "TFT_Item_ChonccsCrown": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 3,
-    "tank_uses": 5,
-    "support_uses": 23
-  },
-  "TFT16_Item_Bilgewater_CaptainsBrew": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 9,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFT16_Item_Bilgewater_FreebootersFrock": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 9,
-    "support_uses": 0
-  },
-  "TFT16_Item_RapidfireEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 5,
-    "tank_uses": 6,
-    "support_uses": 2
-  },
-  "TFT16_Item_VanquisherEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 6,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFT16_Item_Bilgewater_LuckyEyepatch": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 6,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier3_RadiantField": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT16_Item_ZaunEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 5,
-    "support_uses": 0
-  },
-  "TFT16_Item_DefenderEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 8,
-    "support_uses": 0
-  },
-  "TFT16_Item_Bilgewater_PileOCitrus": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 9,
-    "support_uses": 0
-  },
-  "TFT16_Item_WardenEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 6,
-    "support_uses": 0
-  },
-  "TFT17_AnimaSquadItem_Tier3_SearingShortbow": {
+  "DA_QuicksilverRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 2,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFT17_AnimaSquadItem_Tier3_EchoingBatblades": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFT16_Item_LongshotEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFT4_Item_OrnnRocketPropelledFist": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 4,
-    "support_uses": 4
-  },
-  "TFT16_Item_Bilgewater_FirstMatesFlintlock": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 8,
-    "tank_uses": 0,
-    "support_uses": 0
-  },
-  "TFTEventER_Item_SpiritOfTheAncientGolem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 5,
-    "support_uses": 0
-  },
-  "TFTEventER_Item_SpiritOfTheElderLizard": {
+  "DA_NashorsToothRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 3,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFTEventER_Item_SpiritOfTheSpectralWraith": {
+  "DA_HealthPotion18": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 2,
-    "tank_uses": 0,
-    "support_uses": 1
-  },
-  "TFTEventER_Item_HeartOfGold": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 5,
-    "support_uses": 0
-  },
-  "TFT_Item_ChonccsSpork": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 5,
-    "tank_uses": 6,
-    "support_uses": 3
-  },
-  "TFTEventER_Item_LuckyPick": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 5,
     "tank_uses": 1,
     "support_uses": 0
   },
-  "TFTEventER_Item_AvariceBlade": {
+  "DA_HextechGunbladeRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 5,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_HandOfJusticeRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 5,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_VoidStaffRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 7,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT16_Item_YordleEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 3,
-    "support_uses": 0
-  },
-  "TFTEventER_Item_SwordOfTheDivine": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFTEventER_Item_BannerOfCommand": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 5,
-    "support_uses": 0
-  },
-  "TFTEventER_Item_Ohmwrecker": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 10,
-    "support_uses": 0
-  },
-  "TFT16_Item_Bilgewater_BlackmarketExplosives": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 2,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFT16_Item_GunslingerEmblemItem": {
+  "DA_ArchangelsStaffRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 4,
     "tank_uses": 1,
     "support_uses": 0
   },
-  "TFT16_Item_Bilgewater_BilgeratCutlass": {
+  "DA_RedBuffRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 1,
+    "damage_carry_uses": 12,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFTEventER_Item_BlackCleaver": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFT16_Item_SlayerEmblemItem": {
+  "DA_Artifact_VoidGauntlet": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 0,
-    "tank_uses": 3,
+    "tank_uses": 19,
+    "support_uses": 1
+  },
+  "DA_InfinityEdgeRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 12,
+    "tank_uses": 1,
     "support_uses": 0
   },
-  "TFT16_Item_VoidEmblemItem": {
+  "DA_Artifact_AegisOfDusk": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 1,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFTEventER_Item_PhilosophersStone": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 1,
-    "tank_uses": 0,
+    "tank_uses": 25,
     "support_uses": 2
   },
-  "TFTEventER_Item_WillOfTheAncients": {
+  "DA_CrownguardRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 3,
+    "tank_uses": 4,
+    "support_uses": 0
+  },
+  "DA_SteraksGageRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 5,
     "tank_uses": 1,
     "support_uses": 0
   },
-  "TFTEventER_Item_MikaelsCrucible": {
+  "DA_KrakensFury_Radiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 1,
+    "damage_carry_uses": 10,
     "tank_uses": 0,
-    "support_uses": 1
-  },
-  "TFTEventER_Item_RunicBulwark": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 5,
     "support_uses": 0
   },
-  "TFTEventER_Item_ChaliceOfHarmony": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 2,
-    "support_uses": 1
-  },
-  "TFT15_Item_StarGuardianEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
-    "tank_uses": 1,
-    "support_uses": 0
-  },
-  "TFT15_Item_EdgelordEmblemItem": {
+  "DA_IonicSparkRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 1,
     "tank_uses": 1,
     "support_uses": 0
   },
-  "TFT15_Item_SoulFighterEmblemItem": {
+  "DA_BrambleVestRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
-    "damage_carry_uses": 3,
-    "tank_uses": 2,
-    "support_uses": 0
-  },
-  "TFT15_Item_CrystalRoseEmblemItem": {
-    "frontline_uses": 0,
-    "backline_uses": 0,
-    "damage_carry_uses": 0,
+    "damage_carry_uses": 1,
     "tank_uses": 3,
     "support_uses": 0
   },
-  "TFT15_Item_ProtectorEmblemItem": {
+  "DA_Component_Spatula": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 3,
+    "tank_uses": 1,
+    "support_uses": 0
+  },
+  "DA_HealthPotion18_Radiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 0,
     "tank_uses": 1,
     "support_uses": 0
   },
-  "TFT15_Item_RingKingsEmblemItem": {
+  "DA_BloodthirsterRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 2,
-    "tank_uses": 1,
+    "tank_uses": 0,
     "support_uses": 0
   },
-  "TFT15_Item_DestroyerEmblemItem": {
+  "DA_TitansResolve_Radiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 1,
     "tank_uses": 0,
     "support_uses": 0
   },
-  "TFT15_Item_ShotcallerEmblemItem": {
+  "DA_ManaPotion18": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 2,
+    "tank_uses": 2,
+    "support_uses": 0
+  },
+  "DA_SteadfastHeartRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 0,
     "tank_uses": 1,
     "support_uses": 0
   },
-  "TFT15_Item_EmpyreanEmblemItem": {
+  "DA_SunfireCape_Radiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_DragonsClawRadiant": {
     "frontline_uses": 0,
     "backline_uses": 0,
     "damage_carry_uses": 0,
-    "tank_uses": 1,
+    "tank_uses": 2,
+    "support_uses": 0
+  },
+  "DA_MorellonomiconRadiant": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 2,
+    "tank_uses": 0,
+    "support_uses": 0
+  },
+  "DA_Component_FryingPan": {
+    "frontline_uses": 0,
+    "backline_uses": 0,
+    "damage_carry_uses": 1,
+    "tank_uses": 0,
     "support_uses": 0
   }
 }

@@ -1,10 +1,10 @@
-# ==============================================================================
-# TFT Insight — contrato público do repositório
+﻿# ==============================================================================
+# TFT Insight â€” contrato pÃºblico do repositÃ³rio
 # Roadmap 24.2
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-# Segredos / configuração local
+# Segredos / configuraÃ§Ã£o local
 # ------------------------------------------------------------------------------
 .env
 .env.*
@@ -44,7 +44,7 @@ Thumbs.db
 desktop.ini
 
 # ------------------------------------------------------------------------------
-# Logs e arquivos temporários
+# Logs e arquivos temporÃ¡rios
 # ------------------------------------------------------------------------------
 logs/*.log
 !logs/.gitkeep
@@ -56,7 +56,7 @@ logs/*.log
 *.swo
 
 # ------------------------------------------------------------------------------
-# Relatórios/listagens locais gerados durante auditorias
+# RelatÃ³rios/listagens locais gerados durante auditorias
 # ------------------------------------------------------------------------------
 estrutura.txt
 estrutura_tft_insight.txt
@@ -66,17 +66,17 @@ roadmap*_home_current.zip
 *_diagnostic_output.txt
 
 # ------------------------------------------------------------------------------
-# Runtime local — NÃO publicar
+# Runtime local â€” NÃƒO publicar
 # ------------------------------------------------------------------------------
 
 # Cache
 data/cache/
 data/debug/
 
-# Diagnósticos gerados por execução
+# DiagnÃ³sticos gerados por execuÃ§Ã£o
 data/diagnostics/
 
-# Histórico e estado local
+# HistÃ³rico e estado local
 data/history/
 data/players/
 
@@ -90,8 +90,6 @@ data/processed/*
 !data/processed/.gitkeep
 
 # Dados raw coletados da Riot
-data/raw/*
-!data/raw/.gitkeep
 
 # ------------------------------------------------------------------------------
 # Notebooks
@@ -108,22 +106,22 @@ sdk/python/*.egg-info/
 sdk/python/src/*.egg-info/
 
 # ------------------------------------------------------------------------------
-# IMPORTANTE — dados que fazem parte do produto
+# IMPORTANTE â€” dados que fazem parte do produto
 # ------------------------------------------------------------------------------
-# NÃO ignorar:
+# NÃƒO ignorar:
 # - data/benchmark/
 # - data/benchmarks/
 # - data/static_data/
 # - assets/
 #
-# Esses diretórios contêm referências/artefatos necessários ao funcionamento
-# atual do TFT Insight e serão tratados explicitamente nas próximas etapas.
+# Esses diretÃ³rios contÃªm referÃªncias/artefatos necessÃ¡rios ao funcionamento
+# atual do TFT Insight e serÃ£o tratados explicitamente nas prÃ³ximas etapas.
 
 # Raw role-inference match dataset
 data/role_inference/**/matches/
 
 # ------------------------------------------------------------------------------
-# Roadmap 25 � outputs locais de investiga��o/runtime
+# Roadmap 25 ï¿½ outputs locais de investigaï¿½ï¿½o/runtime
 # ------------------------------------------------------------------------------
 data/eog_schema_analysis/
 data/exact_listener_verifier/
@@ -151,3 +149,21 @@ diagnostico_untracked_roadmap25.txt
 diagnostico_nomes_riot_global.txt
 diagnostico_friendly_id_completo.txt
 riot_client_methods.txt
+
+database/tft_insight_auth.db
+database/tft_insight_auth.db-shm
+database/tft_insight_auth.db-wal
+
+# Runtime temporário - NÃO subir
+data/benchmark/checkpoints/
+data/benchmark/match_cache/
+data/role_inference/challenger/backup_pre_set18_*/
+
+# Auditorias temporárias
+data/role_inference/challenger/audit_*.csv
+data/role_inference/challenger/audit_*.json
+
+# Arquivos locais auxiliares
+auditoria_pre_update_servidor.txt
+GITIGNORE_ADICIONAR.txt
+status_pre_commit.txt

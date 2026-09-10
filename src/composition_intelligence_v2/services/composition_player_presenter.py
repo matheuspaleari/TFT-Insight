@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+from src.role_inference.repositories.unit_catalog_repository import (
+    UnitCatalogRepository,
+)
+
 
 class CompositionPlayerPresenter:
     """
@@ -40,12 +44,14 @@ class CompositionPlayerPresenter:
             "limitations": list(report.limitations),
         }
 
-    @staticmethod
-    def _profile(profile) -> dict:
+    @classmethod
+    def _profile(cls, profile) -> dict:
         return {
             "composition_key": profile.composition_key,
             "carry_character_id": profile.carry_character_id,
+            "carry_name": cls._display_name(profile.carry_character_id),
             "tank_character_id": profile.tank_character_id,
+            "tank_name": cls._display_name(profile.tank_character_id),
             # Support foi retirado da camada pública porque a auditoria
             # real encontrou 0/30 identificações confiáveis.
             "primary_trait_names": list(
@@ -72,6 +78,16 @@ class CompositionPlayerPresenter:
                 "label": profile.recommendation_label,
             },
         }
+
+
+    @staticmethod
+    def _display_name(character_id, fallback: str = "") -> str:
+        if not character_id:
+            return fallback
+        return UnitCatalogRepository.display_name(
+            character_id=str(character_id),
+            fallback=fallback,
+        )
 
     @classmethod
     def _coach(cls, report) -> dict:

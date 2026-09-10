@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+from src.role_inference.repositories.unit_catalog_repository import (
+    UnitCatalogRepository,
+)
+
 class ContestPlayerPresenter:
     @classmethod
     def build(cls, report) -> dict:
@@ -25,6 +29,16 @@ class ContestPlayerPresenter:
             "coach": cls._coach(report),
             "limitations": list(report.limitations),
         }
+
+
+    @staticmethod
+    def _display_name(character_id, fallback: str = "") -> str:
+        if not character_id:
+            return fallback
+        return UnitCatalogRepository.display_name(
+            character_id=str(character_id),
+            fallback=fallback,
+        )
 
     @classmethod
     def _coach(cls, report) -> dict:
@@ -56,7 +70,7 @@ class ContestPlayerPresenter:
         latest = report.latest
         if latest.carry_contested:
             latest_reading = (
-                f"Na partida mais recente, o carry {latest.carry_character_id or 'identificado'} apareceu em "
+                f"Na partida mais recente, o carry {cls._display_name(latest.carry_character_id, 'identificado')} apareceu em "
                 f"{latest.opponents_contesting_carry} adversário(s) no board final."
             )
         else:

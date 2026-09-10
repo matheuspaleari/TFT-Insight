@@ -22,6 +22,9 @@ from src.recommendation_engine.services.contest_recommendation_engine import (
 from src.recommendation_engine.services.economy_recommendation_engine import (
     EconomyRecommendationEngine,
 )
+from src.role_inference.repositories.unit_catalog_repository import (
+    UnitCatalogRepository,
+)
 
 
 def _contest_impact_semantics(
@@ -304,6 +307,14 @@ class BenchmarkCoachContextBuilder:
                 "most_used_carry_character_id": (
                     most_used.carry_character_id
                 ),
+                "most_used_carry_name": (
+                    UnitCatalogRepository.display_name(
+                        character_id=most_used.carry_character_id,
+                        fallback="",
+                    )
+                    if most_used.carry_character_id
+                    else ""
+                ),
                 "most_used_matches": (
                     most_used.matches_played
                 ),
@@ -327,6 +338,14 @@ class BenchmarkCoachContextBuilder:
                 ),
                 "best_carry_character_id": (
                     best.carry_character_id
+                ),
+                "best_carry_name": (
+                    UnitCatalogRepository.display_name(
+                        character_id=best.carry_character_id,
+                        fallback="",
+                    )
+                    if best.carry_character_id
+                    else ""
                 ),
                 "best_average_placement": (
                     best.average_placement
@@ -368,11 +387,27 @@ class BenchmarkCoachContextBuilder:
                 "most_contested_unit_id": (
                     contest_history.most_contested_unit_id
                 ),
+                "most_contested_unit_name": (
+                    UnitCatalogRepository.display_name(
+                        character_id=contest_history.most_contested_unit_id,
+                        fallback="",
+                    )
+                    if contest_history.most_contested_unit_id
+                    else ""
+                ),
                 "most_contested_trait_name": (
                     contest_history.most_contested_trait_name
                 ),
                 "latest_carry_character_id": (
                     latest_contest.carry_character_id
+                ),
+                "latest_carry_name": (
+                    UnitCatalogRepository.display_name(
+                        character_id=latest_contest.carry_character_id,
+                        fallback="",
+                    )
+                    if latest_contest.carry_character_id
+                    else ""
                 ),
                 "latest_carry_contested": (
                     latest_contest.carry_contested
@@ -383,6 +418,14 @@ class BenchmarkCoachContextBuilder:
                 "latest_contested_unit_ids": list(
                     latest_contest.contested_unit_ids
                 ),
+                "latest_contested_unit_names": [
+                    UnitCatalogRepository.display_name(
+                        character_id=character_id,
+                        fallback="",
+                    )
+                    for character_id in latest_contest.contested_unit_ids
+                    if character_id
+                ],
                 "latest_contested_trait_names": list(
                     latest_contest.contested_trait_names
                 ),
