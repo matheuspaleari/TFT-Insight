@@ -1,2 +1,12 @@
-[theme]
+﻿[theme]
 base = "dark"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#151B26"
+textColor = "#FAFAFA"
+primaryColor = "#4C78FF"
+
+[client]
+showSidebarNavigation = false
+
+[server]
+headless = true
