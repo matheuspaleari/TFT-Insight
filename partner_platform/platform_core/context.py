@@ -3,6 +3,7 @@ import os
 
 import streamlit as st
 
+from partner_platform.auth.session import current_user
 from partner_platform.components import (
     current_session_panel,
     sidebar_brand,
@@ -25,6 +26,9 @@ class PlatformContext:
 
         catalog = NavigationCatalog.default()
 
+        user = current_user() or {}
+        is_admin = user.get("role") == "admin"
+
         pending_page = st.session_state.pop(
             "_tft_navigation_target",
             None,
@@ -34,7 +38,10 @@ class PlatformContext:
             pending_label = next(
                 (
                     item.display_label
-                    for item in catalog.items
+                    for item in catalog.visible_items(
+                        "Principal",
+                        is_admin=is_admin,
+                    )
                     if item.page == pending_page
                 ),
                 None,
@@ -45,10 +52,21 @@ class PlatformContext:
                     "tft_product_navigation"
                 ] = pending_label
 
+        labels = catalog.labels_for(
+            "Principal",
+            is_admin=is_admin,
+        )
+
+        current_choice = st.session_state.get(
+            "tft_product_navigation"
+        )
+        if current_choice not in labels and labels:
+            st.session_state["tft_product_navigation"] = labels[0]
+
         st.sidebar.markdown("#### Navegação")
         choice = st.sidebar.radio(
             "Navegação TFT Insight",
-            options=catalog.labels_for("Principal"),
+            options=labels,
             label_visibility="collapsed",
             key="tft_product_navigation",
         )
@@ -70,8 +88,6 @@ class PlatformContext:
             "Development",
         ).strip()
 
-        # Em produção, configuração técnica vem exclusivamente do ambiente.
-        # Em desenvolvimento/staging, mantemos os controles para facilitar testes.
         if configured_environment.lower() == "production":
             api_base_url = configured_api_url
             api_key = configured_api_key

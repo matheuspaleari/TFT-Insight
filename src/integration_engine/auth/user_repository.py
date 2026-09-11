@@ -42,11 +42,11 @@ class UserRepository:
         with connect() as db:
             with db.cursor() as cursor:
                 cursor.execute(
-                    '''
+                    """
                     SELECT *
                     FROM users
                     WHERE LOWER(email) = LOWER(%s)
-                    ''',
+                    """,
                     (email.strip(),),
                 )
                 row = cursor.fetchone()
@@ -62,6 +62,24 @@ class UserRepository:
                 row = cursor.fetchone()
         return _row_to_user(row)
 
+    def list_users(self) -> list[UserRecord]:
+        with connect() as db:
+            with db.cursor() as cursor:
+                cursor.execute(
+                    """
+                    SELECT *
+                    FROM users
+                    ORDER BY created_at DESC, id DESC
+                    """
+                )
+                rows = cursor.fetchall()
+
+        return [
+            user
+            for row in rows
+            if (user := _row_to_user(row)) is not None
+        ]
+
     def create_password_user(
         self,
         *,
@@ -76,14 +94,14 @@ class UserRepository:
         with connect() as db:
             with db.cursor() as cursor:
                 cursor.execute(
-                    '''
+                    """
                     INSERT INTO users (
                         email, display_name, role, is_active,
                         created_at, updated_at
                     )
                     VALUES (%s, %s, %s, TRUE, %s, %s)
                     RETURNING id
-                    ''',
+                    """,
                     (
                         normalized_email,
                         display_name.strip(),
@@ -95,13 +113,13 @@ class UserRepository:
                 user_id = int(cursor.fetchone()["id"])
 
                 cursor.execute(
-                    '''
+                    """
                     INSERT INTO auth_identities (
                         user_id, provider, provider_id,
                         password_hash, created_at, updated_at
                     )
                     VALUES (%s, 'password', NULL, %s, %s, %s)
-                    ''',
+                    """,
                     (user_id, password_hash, now, now),
                 )
 
@@ -116,11 +134,11 @@ class UserRepository:
         with connect() as db:
             with db.cursor() as cursor:
                 cursor.execute(
-                    '''
+                    """
                     SELECT password_hash
                     FROM auth_identities
                     WHERE user_id = %s AND provider = 'password'
-                    ''',
+                    """,
                     (user_id,),
                 )
                 row = cursor.fetchone()
@@ -134,11 +152,11 @@ class UserRepository:
         with connect() as db:
             with db.cursor() as cursor:
                 cursor.execute(
-                    '''
+                    """
                     UPDATE auth_identities
                     SET password_hash = %s, updated_at = %s
                     WHERE user_id = %s AND provider = 'password'
-                    ''',
+                    """,
                     (password_hash, now, user_id),
                 )
             db.commit()
@@ -148,11 +166,11 @@ class UserRepository:
         with connect() as db:
             with db.cursor() as cursor:
                 cursor.execute(
-                    '''
+                    """
                     UPDATE users
                     SET last_login_at = %s, updated_at = %s
                     WHERE id = %s
-                    ''',
+                    """,
                     (now, now, user_id),
                 )
             db.commit()
@@ -169,13 +187,13 @@ class UserRepository:
         with connect() as db:
             with db.cursor() as cursor:
                 cursor.execute(
-                    '''
+                    """
                     INSERT INTO login_events (
                         user_id, email, success, provider,
                         occurred_at, reason
                     )
                     VALUES (%s, %s, %s, %s, %s, %s)
-                    ''',
+                    """,
                     (
                         user_id,
                         email.strip().lower(),

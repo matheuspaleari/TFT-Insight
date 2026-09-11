@@ -7,6 +7,7 @@ class NavigationItem:
     label: str
     icon: str
     group: str
+    admin_only: bool = False
 
     @property
     def display_label(self) -> str:
@@ -14,11 +15,7 @@ class NavigationItem:
 
 
 class NavigationCatalog:
-    """Navegação pública enxuta do TFT Insight.
-
-    As rotas técnicas/legadas continuam no código, mas não aparecem para o
-    jogador durante a fase de pré-produção.
-    """
+    """Navegação pública enxuta do TFT Insight."""
 
     def __init__(
         self,
@@ -48,17 +45,41 @@ class NavigationCatalog:
                     icon="⚙",
                     group="Principal",
                 ),
+                NavigationItem(
+                    page="Admin",
+                    label="Admin",
+                    icon="▣",
+                    group="Principal",
+                    admin_only=True,
+                ),
             )
+        )
+
+    def visible_items(
+        self,
+        group: str,
+        *,
+        is_admin: bool = False,
+    ) -> tuple[NavigationItem, ...]:
+        return tuple(
+            item
+            for item in self.items
+            if item.group == group
+            and (not item.admin_only or is_admin)
         )
 
     def labels_for(
         self,
         group: str,
+        *,
+        is_admin: bool = False,
     ) -> tuple[str, ...]:
         return tuple(
             item.display_label
-            for item in self.items
-            if item.group == group
+            for item in self.visible_items(
+                group,
+                is_admin=is_admin,
+            )
         )
 
     def page_from_label(

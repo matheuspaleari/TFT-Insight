@@ -15,6 +15,7 @@ class PlatformRouter:
 
     def render(self) -> None:
         from partner_platform.pages import (
+            admin_page,
             analytics_page,
             benchmark_page,
             home_page,
@@ -67,11 +68,12 @@ class PlatformRouter:
             "Settings": lambda: settings_page.render(
                 context=self.context,
             ),
+            "Admin": lambda: admin_page.render(
+                context=self.context,
+            ),
         }
 
-        route = routes.get(
-            self.context.page
-        )
+        route = routes.get(self.context.page)
 
         if route is None:
             st.error(

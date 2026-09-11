@@ -185,6 +185,16 @@ class AuthService:
 
         return user
 
+    def require_admin(self, token: str) -> UserRecord:
+        user = self.user_from_token(token)
+        if user.role != "admin":
+            raise AuthError("Acesso restrito a administradores.")
+        return user
+
+    def list_users_for_admin(self, token: str) -> list[UserRecord]:
+        self.require_admin(token)
+        return self.repository.list_users()
+
 
 @lru_cache(maxsize=1)
 def get_auth_service() -> AuthService:

@@ -80,3 +80,11 @@ def me(token: str) -> dict:
         "/auth/me",
         headers={"Authorization": f"Bearer {token}"},
     )
+
+
+def admin_users(token: str) -> dict:
+    return _request(
+        "GET",
+        "/auth/admin/users",
+        headers={"Authorization": f"Bearer {token}"},
+    )

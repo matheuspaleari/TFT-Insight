@@ -107,3 +107,29 @@ def me(token: Annotated[str, Depends(_bearer_token)]) -> dict:
         ) from exc
 
     return {"user": user.public_dict()}
+
+
+@router.get("/admin/users")
+def admin_users(
+    token: Annotated[str, Depends(_bearer_token)],
+) -> dict:
+    service = get_auth_service()
+
+    try:
+        users = service.list_users_for_admin(token)
+    except AuthError as exc:
+        message = str(exc)
+        code = (
+            status.HTTP_403_FORBIDDEN
+            if "administradores" in message
+            else status.HTTP_401_UNAUTHORIZED
+        )
+        raise HTTPException(
+            status_code=code,
+            detail=message,
+        ) from exc
+
+    return {
+        "users": [user.public_dict() for user in users],
+        "total": len(users),
+    }
