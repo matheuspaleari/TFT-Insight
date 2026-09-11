@@ -12,9 +12,11 @@ load_dotenv(PROJECT_ROOT / ".env")
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
+
 from partner_platform.auth.login_page import render_auth_page
 from partner_platform.auth.session import (
     auth_enabled,
+    authenticated,
     clear_session,
     current_user,
     require_auth,
@@ -30,12 +32,59 @@ from partner_platform.services import (
 from partner_platform.theme import apply_theme
 
 
+has_local_session = authenticated()
+
 st.set_page_config(
     page_title="TFT Insight",
     page_icon="◈",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state=(
+        "expanded"
+        if has_local_session
+        else "collapsed"
+    ),
 )
+
+
+st.markdown(
+    """
+    <style>
+    [data-testid="stSidebarNav"],
+    [data-testid="stSidebarNavItems"] {
+        display: none !important;
+    }
+
+    body.tft-auth-pending [data-testid="stSidebar"],
+    body.tft-auth-pending [data-testid="stSidebarCollapsedControl"] {
+        display: none !important;
+    }
+
+    html,
+    body,
+    [data-testid="stAppViewContainer"],
+    [data-testid="stApp"] {
+        background: #0E1117 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+if auth_enabled() and not has_local_session:
+    st.markdown(
+        """
+        <script>
+        try {
+            window.parent.document.body.classList.add(
+                "tft-auth-pending"
+            );
+        } catch (e) {}
+        </script>
+        """,
+        unsafe_allow_html=True,
+    )
+
 
 apply_theme()
 
@@ -45,20 +94,19 @@ if auth_enabled() and not require_auth():
     st.stop()
 
 
-# Esconde a navegação automática gerada pela pasta pages/ do Streamlit.
-# As páginas antigas continuam no projeto para desenvolvimento/compatibilidade,
-# mas deixam de ser expostas ao jogador.
-st.markdown(
-    '''
-    <style>
-    [data-testid="stSidebarNav"],
-    [data-testid="stSidebarNavItems"] {
-        display: none !important;
-    }
-    </style>
-    ''',
-    unsafe_allow_html=True,
-)
+if auth_enabled():
+    st.markdown(
+        """
+        <script>
+        try {
+            window.parent.document.body.classList.remove(
+                "tft-auth-pending"
+            );
+        } catch (e) {}
+        </script>
+        """,
+        unsafe_allow_html=True,
+    )
 
 
 context = PlatformContext.from_sidebar()
@@ -67,11 +115,20 @@ context = PlatformContext.from_sidebar()
 if auth_enabled():
     with st.sidebar:
         user = current_user() or {}
-        display_name = str(user.get("display_name", "")).strip()
-        email = str(user.get("email", "")).strip()
+
+        display_name = str(
+            user.get("display_name", "")
+        ).strip()
+
+        email = str(
+            user.get("email", "")
+        ).strip()
 
         if display_name:
-            st.caption(f"Conectado como **{display_name}**")
+            st.caption(
+                f"Conectado como **{display_name}**"
+            )
+
         if email:
             st.caption(email)
 
@@ -90,16 +147,22 @@ api_client = DashboardApiClient(
 )
 
 
-# O status técnico fica discretamente na lateral.
 with st.sidebar:
     st.markdown("#### Sistema")
+
     try:
         api_client.health()
+
         st.success("● API online")
-        st.caption("TFT Insight conectado ao backend.")
+        st.caption(
+            "TFT Insight conectado ao backend."
+        )
+
     except Exception:
         st.error("● API offline")
-        st.caption("Inicie a API para analisar jogadores.")
+        st.caption(
+            "Inicie a API para analisar jogadores."
+        )
 
 
 analytics = DashboardAnalyticsService()
