@@ -77,3 +77,92 @@ SHELL + ANALYSIS ENTRY + RESULT HIERARCHY
         font-size: 1rem;
     }
 }
+
+/* ==========================================================================
+   TFT Insight — Mission Card
+   Destaque visual da missão atual do jogador
+   ========================================================================== */
+
+.st-key-tft_training_mission [data-testid="stVerticalBlockBorderWrapper"] {
+    border: 1px solid rgba(92, 149, 255, 0.72) !important;
+    border-radius: 18px !important;
+
+    background: linear-gradient(
+        145deg,
+        rgba(28, 48, 82, 0.48),
+        rgba(13, 24, 43, 0.38)
+    ) !important;
+
+    box-shadow:
+        0 14px 40px rgba(0, 0, 0, 0.30),
+        0 0 0 1px rgba(92, 149, 255, 0.10),
+        0 0 30px rgba(92, 149, 255, 0.14) !important;
+}
+
+.st-key-tft_training_mission [data-testid="stVerticalBlockBorderWrapper"]:hover {
+    border-color: rgba(105, 163, 255, 0.92) !important;
+
+    box-shadow:
+        0 16px 44px rgba(0, 0, 0, 0.34),
+        0 0 0 1px rgba(92, 149, 255, 0.16),
+        0 0 36px rgba(92, 149, 255, 0.20) !important;
+}
+
+
+/* ==========================================================================
+   TFT Insight — Mission Card V2
+   ========================================================================== */
+
+.st-key-tft_training_mission {
+    border: 1px solid rgba(92, 149, 255, 0.55) !important;
+    border-radius: 18px !important;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(29, 48, 80, 0.42),
+            rgba(14, 25, 44, 0.30)
+        ) !important;
+
+    box-shadow:
+        0 12px 35px rgba(0, 0, 0, 0.28),
+        0 0 0 1px rgba(92, 149, 255, 0.08),
+        0 0 24px rgba(92, 149, 255, 0.10) !important;
+
+    padding: 22px 22px 18px 22px !important;
+    margin-top: 12px !important;
+    margin-bottom: 28px !important;
+}
+
+.st-key-tft_training_mission:hover {
+    border-color: rgba(105, 163, 255, 0.78) !important;
+
+    box-shadow:
+        0 14px 40px rgba(0, 0, 0, 0.32),
+        0 0 0 1px rgba(92, 149, 255, 0.12),
+        0 0 30px rgba(92, 149, 255, 0.14) !important;
+}
+
+
+/* ==========================================================================
+   TFT Insight - Player Diagnostic
+   ========================================================================== */
+
+.st-key-tft_player_diagnostic {
+    padding: 14px 18px 15px 18px !important;
+    margin-bottom: 18px !important;
+
+    border-left: 3px solid rgba(92, 149, 255, 0.72) !important;
+    border-radius: 0 12px 12px 0 !important;
+
+    background: linear-gradient(
+        90deg,
+        rgba(92, 149, 255, 0.085),
+        rgba(92, 149, 255, 0.025) 72%,
+        transparent
+    ) !important;
+}
+
+.st-key-tft_player_diagnostic [data-testid="stCaptionContainer"] {
+    color: rgba(205, 216, 232, 0.88) !important;
+}

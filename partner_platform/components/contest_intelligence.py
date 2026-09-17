@@ -109,38 +109,30 @@ def render_contest_intelligence(
         "Evidências do histórico"
     )
 
+    # 29.2B — os KPIs precisam contar uma história.
+    # O índice médio continua disponível no payload, mas deixa de ocupar
+    # um card principal porque o número isolado não orienta o jogador.
     columns = st.columns(
-        4
+        3
     )
 
     values = (
         (
-            "Contestação média",
-            f"{float(summary.get('average_score', 0.0) or 0.0):.1f}",
-            str(
-                summary.get(
-                    "level",
-                    "-",
-                )
-            ),
-            "◎",
-        ),
-        (
             "Alta contestação",
             f"{float(summary.get('high_contest_rate', 0.0) or 0.0):.1f}%",
-            "Partidas acima de 60",
+            "Partidas com disputa alta",
             "↗",
         ),
         (
             "Carry contestado",
             f"{float(summary.get('carry_contest_rate', 0.0) or 0.0):.1f}%",
-            "Frequência no histórico",
+            "Partidas em que seu carry foi disputado",
             "◆",
         ),
         (
             "Rivais no carry",
             f"{float(summary.get('average_opponents_contesting_carry', 0.0) or 0.0):.2f}",
-            "Média por partida",
+            "Média de adversários disputando seu carry",
             "◇",
         ),
     )
@@ -161,6 +153,14 @@ def render_contest_intelligence(
                 caption=caption,
                 icon=icon,
             )
+
+    average_score = float(summary.get("average_score", 0.0) or 0.0)
+    level = friendly_public_text(str(summary.get("level", "") or "")).strip()
+    if average_score > 0:
+        context = f"No histórico analisado, seu índice médio de contestação foi {average_score:.1f}"
+        if level and level != "-":
+            context += f" ({level})"
+        st.caption(context + ". Use esse valor como contexto; os sinais acima mostram onde a disputa foi mais relevante.")
 
     latest = payload.get(
         "latest",
@@ -335,44 +335,4 @@ def render_contest_intelligence(
                     friendly_public_text(
                         str(item)
                     )
-                )
-
-    with st.expander(
-        "Como interpretar esta análise",
-        expanded=False,
-    ):
-        seen = set()
-
-        for item in (
-            list(
-                coach.get(
-                    "guardrails",
-                    [],
-                )
-                or []
-            )
-            + list(
-                payload.get(
-                    "limitations",
-                    [],
-                )
-                or []
-            )
-        ):
-            normalized = str(
-                item
-            ).strip()
-
-            if (
-                normalized
-                and normalized
-                not in seen
-            ):
-                seen.add(
-                    normalized
-                )
-
-                st.write(
-                    "• "
-                    + friendly_public_text(normalized)
                 )

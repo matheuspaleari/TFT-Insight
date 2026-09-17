@@ -227,3 +227,11 @@ HOME — CTA FINAL + RESPONSIVIDADE + ACABAMENTO
         transition: none !important;
     }
 }
+
+/* ==========================================================================
+   TFT Insight - Sidebar top spacing
+   ========================================================================== */
+
+[data-testid="stSidebar"] > div:first-child {
+    padding-top: 0.35rem !important;
+}

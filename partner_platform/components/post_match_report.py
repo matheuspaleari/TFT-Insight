@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import ast
-
 import streamlit as st
 
 from partner_platform.components import (
@@ -98,54 +96,6 @@ def _render_next_match_plan(report: dict) -> None:
                 else:
                     st.write(str(item))
 
-    preserve_raw = plan.get("preserve")
-
-    # Compatibilidade:
-    # - formato ideal: dict estruturado;
-    # - formato legado: string contendo a representação de um dict.
-    if isinstance(preserve_raw, str):
-        preserve_raw = preserve_raw.strip()
-
-        if preserve_raw.startswith("{") and preserve_raw.endswith("}"):
-            try:
-                parsed_preserve = ast.literal_eval(preserve_raw)
-
-                if isinstance(parsed_preserve, dict):
-                    preserve_raw = parsed_preserve
-
-            except (ValueError, SyntaxError):
-                pass
-
-    if isinstance(preserve_raw, dict):
-        preserve_title = str(
-            preserve_raw.get("skill_label")
-            or preserve_raw.get("title")
-            or "Ponto forte"
-        ).strip()
-
-        preserve_description = str(
-            preserve_raw.get("description")
-            or "Mantenha este ponto forte enquanto treina a prioridade principal."
-        ).strip()
-
-    elif preserve_raw:
-        preserve_title = str(preserve_raw).strip()
-        preserve_description = (
-            "Mantenha este ponto forte enquanto treina a prioridade principal."
-        )
-
-    else:
-        preserve_title = ""
-        preserve_description = ""
-
-    if preserve_title:
-        insight_banner(
-            eyebrow="Preserve",
-            title=preserve_title,
-            description=preserve_description,
-            tone="neutral",
-        )
-
     reminder = str(plan.get("coach_reminder", "") or "").strip()
     if reminder:
         st.caption("Lembrete do Coach")
@@ -173,7 +123,11 @@ def render_post_match_report(report: dict | None) -> None:
         tone="neutral",
     )
 
-    columns = st.columns(4)
+    # 29.2B:
+    # Exibimos somente sinais confiáveis e úteis para a leitura da partida.
+    # `total_damage_to_players` foi removido temporariamente da UX porque
+    # a telemetria recebida da Riot não está confiável para essa interpretação.
+    columns = st.columns(3)
 
     values = (
         (
@@ -193,12 +147,6 @@ def render_post_match_report(report: dict | None) -> None:
             str(match.get("gold_left", "-")),
             "Fim da partida",
             "◈",
-        ),
-        (
-            "Dano ao lobby",
-            str(match.get("total_damage_to_players", "-")),
-            "Pressão observada",
-            "◎",
         ),
     )
 
@@ -243,30 +191,3 @@ def render_post_match_report(report: dict | None) -> None:
             expanded=False,
         ):
             st.write(missing)
-
-    with st.expander(
-        "Detalhes técnicos da análise",
-        expanded=False,
-    ):
-        internal = report.get("internal", {}) or {}
-        protections = report.get("protections", {}) or {}
-
-        st.caption(
-            "Esses dados ajudam a auditar a leitura, "
-            "mas não são necessários para usar o Coach."
-        )
-
-        st.json(
-            {
-                "verdict": internal.get("verdict"),
-                "evidence_summary": internal.get(
-                    "evidence_summary",
-                    {},
-                ),
-                "historical_signals": internal.get(
-                    "historical_signals",
-                    [],
-                ),
-                "protections": protections,
-            }
-        )

@@ -214,7 +214,7 @@ def _public_strength_description(strength: dict | None) -> str:
     "prioridade de correção" ao jogador.
     """
     if not isinstance(strength, dict):
-        return "Preserve este padrão enquanto trabalha o foco principal."
+        return "Continue usando este fundamento como apoio enquanto trabalha sua missão."
 
     skill_label = _public_coach_text(
         str(strength.get("skill_label") or "este fundamento")
@@ -240,9 +240,7 @@ def _public_strength_description(strength: dict | None) -> str:
 
     return (
         f"Você vem mostrando um padrão positivo em {skill_label}. "
-        "Esse fundamento não precisa ser o foco principal de correção agora. "
-        "Preserve o que já está funcionando enquanto direciona sua atenção "
-        "à prioridade principal do treino."
+        "Continue usando esse ponto forte como apoio enquanto trabalha sua missão."
     )
 
 
@@ -3101,82 +3099,69 @@ def _render_compact_training(
     remaining = summary["remaining"]
     checklist = summary["checklist"]
 
-    section_title = (
-        f"Seu foco nas próximas {target} partidas"
-        if target > 0
-        else "Seu foco de treino"
-    )
-
-    section_header(
-        section_title,
-        subtitle=(
-            "Uma missão por ciclo: pratique o mesmo fundamento e deixe "
-            "o TFT Insight acompanhar a evolução antes de trocar o foco."
-        ),
-    )
-
-    columns = st.columns([1.2, 1, 1])
-
-    with columns[0]:
-        executive_card(
-            title="Foco",
-            value=skill_name,
-            caption=mission_title,
-            icon="",
+    with st.container(
+        border=True,
+        key="tft_training_mission",
+    ):
+        section_header(
+            "Missão",
+            subtitle=(
+                "Pratique o mesmo fundamento por algumas partidas e acompanhe "
+                "a evolução antes de trocar o foco."
+            ),
         )
 
-    with columns[1]:
-        executive_card(
-            title="Progresso",
-            value=f"{completed}/{target}",
-            caption="Partidas concluídas",
-            icon="",
-        )
+        mission_cols = st.columns([2.2, 1])
 
-    with columns[2]:
-        executive_card(
-            title="Restam",
-            value=str(remaining),
-            caption="Partidas neste ciclo",
-            icon="",
-        )
+        with mission_cols[0]:
+            st.markdown(f"### {mission_title}")
+            st.caption(f"Foco de treino: {skill_name}")
 
-    if objective:
-        insight_banner(
-            eyebrow="Missão do ciclo",
-            title=mission_title,
-            description=objective,
-            tone="neutral",
-        )
-
-    if target > 0:
-        progress_value = max(
-            0.0,
-            min(float(completed) / float(target), 1.0),
-        )
-        st.progress(progress_value)
-
-        if completed >= target:
-            st.caption(
-                "Ciclo concluído. O TFT Insight já pode avaliar o resultado "
-                "e preparar a próxima transição de treino."
+        with mission_cols[1]:
+            progress_label = (
+                f"{completed}/{target} partidas"
+                if target > 0
+                else f"{completed} partidas"
             )
-        elif completed <= 0:
-            st.caption(
-                "O ciclo começou agora. Somente partidas novas contam para "
-                "este progresso."
-            )
-        else:
-            st.caption(
-                f"Faltam {remaining} partida(s) para concluir este ciclo e "
-                "avaliar a evolução do fundamento."
+            st.markdown(f"**{progress_label}**")
+            if target > 0 and remaining > 0:
+                st.caption(f"Faltam {remaining} para concluir o ciclo")
+            elif target > 0:
+                st.caption("Ciclo concluído")
+
+        if objective:
+            insight_banner(
+                eyebrow="Missão do ciclo",
+                title=mission_title,
+                description=objective,
+                tone="neutral",
             )
 
-    if checklist and completed < target:
-        with st.expander(
-            "Como praticar nesta partida",
-            expanded=False,
-        ):
+        if target > 0:
+            progress_value = max(
+                0.0,
+                min(float(completed) / float(target), 1.0),
+            )
+            st.progress(progress_value)
+
+            if completed >= target:
+                st.caption(
+                    "Ciclo concluído. O TFT Insight já pode avaliar o resultado "
+                    "e preparar a próxima transição de treino."
+                )
+            elif completed <= 0:
+                st.caption(
+                    "O ciclo começou agora. Somente partidas novas contam para "
+                    "este progresso."
+                )
+            else:
+                st.caption(
+                    f"Faltam {remaining} partida(s) para concluir este ciclo e "
+                    "avaliar a evolução do fundamento."
+                )
+
+        if checklist and completed < target:
+            st.markdown("#### Durante a partida")
             for item in checklist:
                 if isinstance(item, dict):
                     item_text = (
@@ -3189,7 +3174,6 @@ def _render_compact_training(
 
                 if item_text:
                     st.write("• " + str(item_text))
-
 
 def _render_training_details(
     training: dict | None,
@@ -4119,6 +4103,147 @@ def _render_carry_item_intelligence_integration(
         )
 
 
+
+def _render_first_value_experience(
+    *,
+    comparison: dict,
+    player_name: str,
+) -> None:
+    """
+    ROADMAP 29.2A — First Value Experience.
+
+    Não calcula nenhuma métrica nova.
+
+    A camada apenas resume sinais que já foram autorizados
+    pelo Coach/benchmark para que o jogador enxergue primeiro:
+
+    1. o principal foco;
+    2. por que esse foco merece atenção;
+    3. a próxima missão prática.
+
+    O relatório completo continua abaixo.
+    """
+
+    fusion = comparison.get("coach_fusion")
+    training = comparison.get("training")
+
+    problem = (
+        fusion.get("problem_observed", {})
+        if isinstance(fusion, dict)
+        else {}
+    ) or {}
+
+    focus = (
+        fusion.get("training_focus", {})
+        if isinstance(fusion, dict)
+        else {}
+    ) or {}
+
+    training_summary = _coach_training_summary(
+        training
+        if isinstance(training, dict)
+        else None
+    )
+
+    focus_title = _public_coach_text(
+        str(
+            problem.get("title")
+            or problem.get("skill_label")
+            or training_summary.get("skill_name")
+            or "Seu foco principal"
+        )
+    )
+
+    if problem:
+        focus_description = _public_priority_description(
+            problem
+        )
+    else:
+        focus_description = (
+            "O Coach ainda não encontrou um único sinal forte "
+            "o suficiente para virar prioridade isolada. "
+            "Use a leitura completa abaixo para acompanhar "
+            "o conjunto de evidências disponíveis."
+        )
+
+    mission_title = _public_coach_text(
+        str(
+            focus.get("mission_title")
+            or training_summary.get("title")
+            or "O que colocar em prática"
+        )
+    )
+
+    next_action = _public_coach_text(
+        str(
+            focus.get("next_action")
+            or focus.get("training_focus")
+            or focus.get("objective")
+            or training_summary.get("objective")
+            or ""
+        )
+    )
+
+    player_label = (
+        player_name.strip()
+        if isinstance(player_name, str)
+        else ""
+    )
+
+    subtitle = (
+        f"{player_label}, comece pelo ponto que mais merece "
+        "sua atenção agora."
+        if player_label
+        else (
+            "Comece pelo ponto que mais merece "
+            "sua atenção agora."
+        )
+    )
+
+    section_header(
+        "Seu foco agora",
+        subtitle=subtitle,
+    )
+
+    with st.container(
+        border=True,
+        key="tft_first_value_experience",
+    ):
+        insight_banner(
+            eyebrow="SEU FOCO PRINCIPAL",
+            title=focus_title,
+            description=focus_description,
+            tone=(
+                "warning"
+                if problem
+                else "neutral"
+            ),
+        )
+
+        if next_action:
+            st.markdown("#### Sua missão")
+
+            st.markdown(
+                f"**{mission_title}**"
+            )
+
+            st.write(next_action)
+
+        else:
+            st.markdown("#### Próxima partida")
+
+            st.write(
+                "Use a prioridade acima como ponto de atenção "
+                "e confirme o padrão nas próximas partidas."
+            )
+
+        st.caption(
+            "Esta leitura não cria uma nova nota. "
+            "Ela resume a prioridade e a missão já produzidas "
+            "pelo Coach. A análise completa continua abaixo."
+        )
+
+
 def _render_roadmap22_priority(
     *,
     comparison: dict,
@@ -4153,7 +4278,7 @@ def _render_roadmap22_priority(
     )
 
     section_header(
-        "Prioridade do Coach",
+        "Dica do Coach",
         subtitle=(
             "O ponto mais importante para levar à próxima partida, "
             "antes de entrar nos detalhes da análise."
@@ -4573,6 +4698,8 @@ def render(
                 "tft_show_analysis_form"
             ] = False
 
+            st.rerun()
+
         except Exception as error:
             friendly_exception(
                 error,
@@ -4694,56 +4821,38 @@ def render(
         if isinstance(raw_set_number, int):
             analysis_set_number = raw_set_number
 
+
+    # ------------------------------------------------------------------
+    # ROADMAP 29.2A — FIRST VALUE EXPERIENCE
+    # ------------------------------------------------------------------
+
     # ------------------------------------------------------------------
     # ROADMAP 22 — RESUMO DO JOGADOR
     # ------------------------------------------------------------------
-    section_header(
-        "Seu diagnóstico",
-        subtitle=(
-            "Contexto essencial primeiro. Os detalhes continuam disponíveis "
-            "mais abaixo para quando você quiser aprofundar."
-        ),
-    )
-
-    player_cols = st.columns(4)
-
-    with player_cols[0]:
-        executive_card(
-            title="Jogador",
-            value=active_game_name,
-            caption=f"#{active_tag_line}",
-            icon="◆",
+    with st.container(
+        key="tft_player_diagnostic",
+    ):
+        section_header(
+            "Seu diagnóstico",
+            subtitle=(
+                "Contexto essencial primeiro. Os detalhes continuam disponíveis "
+                "mais abaixo para quando você quiser aprofundar."
+            ),
         )
 
-    with player_cols[1]:
-        executive_card(
-            title="Elo atual",
-            value=rank_label,
-            caption="RANKED TFT",
-            icon="◇",
-        )
-
-    with player_cols[2]:
-        executive_card(
-            title="Grupo competitivo",
-            value=benchmark_name,
-            caption=f"Estágio {stage_label}",
-            icon="↗",
-        )
-
-    with player_cols[3]:
-        history_caption = "partidas analisadas"
-
+        history_label = f"{actual_match_count} partidas"
         if analysis_set_number is not None:
-            history_caption += (
-                f" · Set {analysis_set_number}"
-            )
+            history_label += f" · Set {analysis_set_number}"
 
-        executive_card(
-            title="Histórico",
-            value=str(actual_match_count),
-            caption=history_caption,
-            icon="◉",
+        st.caption(
+            " · ".join(
+                (
+                    f"{active_game_name} #{active_tag_line}",
+                    rank_label,
+                    benchmark_name,
+                    history_label,
+                )
+            )
         )
 
     if (
@@ -4766,14 +4875,20 @@ def render(
     # ------------------------------------------------------------------
     # ROADMAP 22 — COACH PRIMEIRO
     # ------------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # ROADMAP 29.2B — MISSÃO PRINCIPAL
+    # ------------------------------------------------------------------
+    _render_compact_training(
+        comparison.get("training")
+    )
+
+    # ------------------------------------------------------------------
+    # ROADMAP 29.2B — DICA DO COACH
+    # ------------------------------------------------------------------
     _render_roadmap22_priority(
         comparison=comparison,
         benchmark_name=benchmark_name,
         spectrum=spectrum,
-    )
-
-    _render_compact_training(
-        comparison.get("training")
     )
 
     compare_items = comparison.get(
@@ -4916,64 +5031,6 @@ def render(
     # ------------------------------------------------------------------
     # CONTEXTO COMPETITIVO — AGORA SECUNDÁRIO
     # ------------------------------------------------------------------
-    with st.expander(
-        "Entender seu contexto competitivo",
-        expanded=False,
-    ):
-        profile_cols = st.columns(3)
-
-        with profile_cols[0]:
-            executive_card(
-                title="Seu elo atual",
-                value=rank_label,
-                caption="RANKED_TFT",
-                icon="◇",
-            )
-
-        with profile_cols[1]:
-            executive_card(
-                title="Próximo grupo de desenvolvimento",
-                value=target_label,
-                caption=f"Grupo atual: {stage_label}",
-                icon="↗",
-            )
-
-        with profile_cols[2]:
-            executive_card(
-                title="Grupo competitivo",
-                value=benchmark_name,
-                caption="Definido pelo seu elo",
-                icon="◆",
-            )
-
-        insight_banner(
-            eyebrow="Entenda seu grupo competitivo",
-            title=(
-                f"{benchmark_name} · "
-                f"estágio atual {stage_label}"
-            ),
-            description=_benchmark_context_description(
-                rank_label=rank_label,
-                stage_label=stage_label,
-                target_label=target_label,
-                benchmark_name=benchmark_name,
-            ),
-            tone="neutral",
-        )
-
-        _render_spectrum_bar(
-            spectrum=spectrum,
-            rank_label=rank_label,
-            benchmark_name=benchmark_name,
-        )
-
-        if profile_rows:
-            st.dataframe(
-                pd.DataFrame(profile_rows),
-                width="stretch",
-                hide_index=True,
-            )
-
     # ------------------------------------------------------------------
     # NÚMEROS / GRÁFICOS
     # ------------------------------------------------------------------
@@ -5170,13 +5227,6 @@ def render(
         spectrum=spectrum,
     )
 
-    _render_pre_match_coach_integration(
-        api_client=api_client,
-        game_name=active_game_name,
-        tag_line=active_tag_line,
-        comparison=comparison,
-    )
-
     _render_composition_intelligence_integration(
         api_client=api_client,
         game_name=active_game_name,
@@ -5252,4 +5302,3 @@ def render(
         )
 
     page.end()
-
